@@ -1,0 +1,15 @@
+Degree Flowchart Builder
+Copyright (c) 2026 Juan Gastelum. All rights reserved.
+
+Permission is granted to advisors and students to use this tool, unmodified, to plan
+degrees and to share pack files made with it.
+
+Without written permission from the author you may not: sell or rebrand this tool or a
+copy of it, remove or change the author notices in the file or its printouts, or present
+the work as your own.
+
+The tool is provided "as is", without warranty. Its output is an unofficial planning aid.
+Always confirm requirements with the university.
+
+Bundled third-party software keeps its own licenses: jsPDF (MIT), pdf.js (Apache-2.0),
+Nunito Sans and Tinos fonts (SIL Open Font License / Apache-2.0).

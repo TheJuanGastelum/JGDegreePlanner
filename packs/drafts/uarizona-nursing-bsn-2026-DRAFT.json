@@ -1,0 +1,1234 @@
+{
+ "format": "degree-pack/1",
+ "createdWith": "Degree Flowchart Builder v5.2 by Juan Gastelum (build 21c1378a62)",
+ "id": "uarizona/nursing/bsn/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-30",
+ "owner": "",
+ "program": {
+  "name": "Nursing",
+  "college": "College of Nursing",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science in Nursing"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C"
+ },
+ "meta": {
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified",
+  "srcKind": "catalog",
+  "srcDate": "2026-08-01",
+  "note": "Made from the public catalog.arizona.edu program printout and a college program guide (BSN-CONV 2025-2026), not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it."
+ },
+ "lists": {
+  "pool14": [
+   "MATH 112",
+   "MATH 113",
+   "MATH 116",
+   "MATH 119A",
+   "MATH 120R",
+   "MATH 122B",
+   "MATH 125",
+   "MATH 129"
+  ],
+  "pool15": [
+   "CHEM 130",
+   "CHEM 142",
+   "CHEM 152",
+   "CHEM 162",
+   "CHEM 182"
+  ],
+  "pool16": [
+   "CHEM 130L",
+   "CHEM 146",
+   "CHEM 152",
+   "CHEM 164",
+   "CHEM 182"
+  ],
+  "pool21": [
+   "NSC 170C1",
+   "NSC 310"
+  ],
+  "pool22": [
+   "AAE 239",
+   "BIOS 376",
+   "HECL 201",
+   "ISTA 116",
+   "MATH 163",
+   "MATH 263",
+   "PSY 230",
+   "SBS 200"
+  ],
+  "pool23": [
+   "EDP 200",
+   "HDFS 117",
+   "HDFS 200",
+   "PSY 200"
+  ]
+ },
+ "tracks": {
+  "T1": {
+   "name": "Conventional",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box columns follow the sample program guide BSN-CONV 2025-2026 where a class is named in it; the rest is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-NURSBSN-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "col": 1,
+     "row": 0,
+     "code": "MCB 181R"
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Microbiology",
+     "col": 3,
+     "row": 0,
+     "code": "MIC 205A"
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology I                             AND",
+     "col": 2,
+     "row": 0,
+     "code": "PSIO 201"
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology II",
+     "col": 3,
+     "row": 1,
+     "code": "PSIO 202"
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "NURS 475C",
+     "col": 6,
+     "row": 0,
+     "code": "NURS 475C"
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "NURS 362",
+     "col": 4,
+     "row": 0,
+     "code": "NURS 362"
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "NURS 474",
+     "col": 7,
+     "row": 0,
+     "code": "NURS 474"
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "NURS 481",
+     "col": 6,
+     "row": 1,
+     "code": "NURS 481"
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "NURS 482",
+     "col": 7,
+     "row": 1,
+     "code": "NURS 482"
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Pharmacology I",
+     "col": 6,
+     "row": 2,
+     "code": "NURS 475A"
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Pharmacology II",
+     "col": 7,
+     "row": 2,
+     "code": "NURS 475B"
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "NURS 363",
+     "col": 5,
+     "row": 0,
+     "code": "NURS 363"
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "NURS 364",
+     "col": 4,
+     "row": 1,
+     "code": "NURS 364"
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "NURS 472",
+     "col": 6,
+     "row": 3,
+     "code": "NURS 472"
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "NURS 484",
+     "col": 7,
+     "row": 3,
+     "code": "NURS 484"
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Pathophysiology",
+     "col": 5,
+     "row": 1,
+     "code": "NURS 352"
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Foundations of Nursing Care",
+     "col": 4,
+     "row": 2,
+     "code": "NURS 353"
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Introduction to Professional Nursing Competencies",
+     "col": 5,
+     "row": 2,
+     "code": "NURS 354"
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Scholarly Inquiry in Evidence-Based Practice",
+     "col": 4,
+     "row": 3,
+     "code": "NURS 355"
+    },
+    {
+     "id": "d20",
+     "type": "te",
+     "label": "Supporting Math",
+     "col": 0,
+     "row": 0,
+     "list": "pool14"
+    },
+    {
+     "id": "d21",
+     "type": "te",
+     "label": "Chemistry Lecture",
+     "col": 0,
+     "row": 1,
+     "list": "pool15"
+    },
+    {
+     "id": "d22",
+     "type": "te",
+     "label": "Chemistry Lab",
+     "col": 0,
+     "row": 2,
+     "list": "pool16"
+    },
+    {
+     "id": "d23",
+     "type": "te",
+     "label": "Nutrition",
+     "col": 0,
+     "row": 3,
+     "list": "pool21"
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "Statistics",
+     "col": 2,
+     "row": 1,
+     "list": "pool22"
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "Human Development",
+     "col": 1,
+     "row": 1,
+     "list": "pool23"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r16",
+     "name": "Introductory Biology",
+     "units": 3,
+     "list": "MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "Microbiology",
+     "units": 3,
+     "list": "MIC 205A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Anatomy and Physiology I",
+     "units": 3,
+     "list": "PSIO 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Anatomy and Physiology II",
+     "units": 3,
+     "list": "PSIO 202",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r23",
+     "name": "Core",
+     "units": 21,
+     "list": "NURS 475C,NURS 362,NURS 474,NURS 481,NURS 482,NURS 475A,NURS 475B",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r24",
+     "name": "Conventional Course Requirements",
+     "units": 24,
+     "list": "NURS 363,NURS 364,NURS 472,NURS 484,NURS 352,NURS 353,NURS 354,NURS 355",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "Supporting Math",
+     "units": 3,
+     "list": "@pool14",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Chemistry Lecture",
+     "units": 3,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "Chemistry Lab",
+     "units": 3,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p20",
+     "name": "Nutrition",
+     "units": 3,
+     "list": "@pool21",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "Statistics",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "Human Development",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T2": {
+   "name": "Integrative Health",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-NURSBSN-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "col": 0,
+     "row": 0,
+     "code": "MCB 181R"
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Microbiology",
+     "col": 2,
+     "row": 0,
+     "code": "MIC 205A"
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology I                             AND",
+     "col": 3,
+     "row": 0,
+     "code": "PSIO 201"
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology II",
+     "col": 2,
+     "row": 1,
+     "code": "PSIO 202"
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "NURS 475C",
+     "col": 6,
+     "row": 0,
+     "code": "NURS 475C"
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "NURS 362",
+     "col": 4,
+     "row": 0,
+     "code": "NURS 362"
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "NURS 474",
+     "col": 7,
+     "row": 0,
+     "code": "NURS 474"
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "NURS 481",
+     "col": 6,
+     "row": 1,
+     "code": "NURS 481"
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "NURS 482",
+     "col": 7,
+     "row": 1,
+     "code": "NURS 482"
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Pharmacology I",
+     "col": 6,
+     "row": 2,
+     "code": "NURS 475A"
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Pharmacology II",
+     "col": 7,
+     "row": 2,
+     "code": "NURS 475B"
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "NURS 352B",
+     "col": 5,
+     "row": 0,
+     "code": "NURS 352B"
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "NURS 352C",
+     "col": 4,
+     "row": 1,
+     "code": "NURS 352C"
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "NURS 475",
+     "col": 6,
+     "row": 3,
+     "code": "NURS 475"
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "NURS 476",
+     "col": 7,
+     "row": 3,
+     "code": "NURS 476"
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "NURS 477",
+     "col": 6,
+     "row": 4,
+     "code": "NURS 477"
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "NURS 484",
+     "col": 7,
+     "row": 4,
+     "code": "NURS 484"
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Foundational Integrative Health Assessment",
+     "col": 5,
+     "row": 1,
+     "code": "NURS 351"
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Nursing Pathophysiology I",
+     "col": 4,
+     "row": 2,
+     "code": "NURS 352A"
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Foundations of Nursing Care I",
+     "col": 5,
+     "row": 2,
+     "code": "NURS 357"
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Foundations of Integrative Inquiry in Evidence-Based Practice",
+     "col": 4,
+     "row": 3,
+     "code": "NURS 358"
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "Well Child/Well Adult in the Community",
+     "col": 5,
+     "row": 3,
+     "code": "NURS 360"
+    },
+    {
+     "id": "d23",
+     "type": "te",
+     "label": "Supporting Math",
+     "col": 4,
+     "row": 4,
+     "list": "pool14"
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "Chemistry Lecture",
+     "col": 5,
+     "row": 4,
+     "list": "pool15"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r16",
+     "name": "Introductory Biology",
+     "units": 3,
+     "list": "MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "Microbiology",
+     "units": 3,
+     "list": "MIC 205A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Anatomy and Physiology I",
+     "units": 3,
+     "list": "PSIO 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Anatomy and Physiology II",
+     "units": 3,
+     "list": "PSIO 202",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r23",
+     "name": "Core",
+     "units": 21,
+     "list": "NURS 475C,NURS 362,NURS 474,NURS 481,NURS 482,NURS 475A,NURS 475B",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r29",
+     "name": "Integrative Health Course Requirements",
+     "units": 33,
+     "list": "NURS 352B,NURS 352C,NURS 475,NURS 476,NURS 477,NURS 484,NURS 351,NURS 352A,NURS 357,NURS 358,NURS 360",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "Supporting Math",
+     "units": 3,
+     "list": "@pool14",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Chemistry Lecture",
+     "units": 3,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "Chemistry Lab",
+     "units": 3,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p20",
+     "name": "Nutrition",
+     "units": 3,
+     "list": "@pool21",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "Statistics",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "Human Development",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "AAE 239": {
+   "t": "Introduction to Statistics and Data Analysis",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "BIOS 376": {
+   "t": "Introduction to Biostatistics",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 130": {
+   "t": "Chemistry for Allied & Public Health",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 130L": {
+   "t": "Laboratory in General Chemistry",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 142": {
+   "t": "General Chemistry Lecture II: Quantitative Approach",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 146": {
+   "t": "Quantitative Chemistry Laboratory II",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 162": {
+   "t": "Honors Chemical Thinking II",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 164": {
+   "t": "Honors Fundamental Techniques of Chemistry II",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 182": {
+   "t": "Majors General Chemistry II",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "EDP 200": {
+   "t": "Evolution and Human Development",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "HDFS 117": {
+   "t": "Lifespan Human Development",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "HDFS 200": {
+   "t": "Evolution and Human Development",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "HECL 201": {
+   "t": "Introduction to Statistics",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ISTA 116": {
+   "t": "Statistical Foundations for the Information Age",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MATH 112": {
+   "t": "College Algebra Concepts and Applications",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MATH 113": {
+   "t": "Elements of Calculus",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MATH 116": {
+   "t": "Calculus Concepts for Business",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MATH 119A": {
+   "t": "Mathematics of Biological Systems: a calculus based approach",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MATH 120R": {
+   "t": "Calculus Preparation",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MATH 122B": {
+   "t": "Calculus I (B)",
+   "u": 2,
+   "src": "chart"
+  },
+  "MATH 125": {
+   "t": "Calculus I",
+   "u": 3,
+   "src": "chart"
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "pre": [
+    "MATH 122B|MATH 125"
+   ],
+   "src": "chart"
+  },
+  "MATH 163": {
+   "t": "Basic Statistics",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MATH 263": {
+   "t": "Introduction to Statistics and Biostatistics",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MCB 181R": {
+   "t": "Introduction to Molecular and Cellular Biology",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MIC 205A": {
+   "t": "General Microbiology",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NSC 170C1": {
+   "t": "Nutrition, Food, and You",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NSC 310": {
+   "t": "Human Nutrition in the Prevention and Treatment of Disease",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 351": {
+   "t": "Foundational Integrative Health Assessment",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 352": {
+   "t": "Pathophysiology",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 352A": {
+   "t": "Nursing Pathophysiology I",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 352B": {
+   "t": "NURS 352B",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 352C": {
+   "t": "NURS 352C",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 353": {
+   "t": "Foundations of Nursing Care",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 354": {
+   "t": "Introduction to Professional Nursing Competencies",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 355": {
+   "t": "Scholarly Inquiry in Evidence-Based Practice",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 357": {
+   "t": "Foundations of Nursing Care I",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 358": {
+   "t": "Foundations of Integrative Inquiry in Evidence-Based Practice",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 360": {
+   "t": "Well Child/Well Adult in the Community",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 362": {
+   "t": "NURS 362",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 363": {
+   "t": "NURS 363",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 364": {
+   "t": "NURS 364",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 472": {
+   "t": "NURS 472",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 474": {
+   "t": "NURS 474",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 475": {
+   "t": "NURS 475",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 475A": {
+   "t": "Pharmacology I",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 475B": {
+   "t": "Pharmacology II",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 475C": {
+   "t": "NURS 475C",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 476": {
+   "t": "NURS 476",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 477": {
+   "t": "NURS 477",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 481": {
+   "t": "NURS 481",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 482": {
+   "t": "NURS 482",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "NURS 484": {
+   "t": "NURS 484",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSIO 201": {
+   "t": "Human Anatomy and Physiology I                             AND",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSIO 202": {
+   "t": "Human Anatomy and Physiology II",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 200": {
+   "t": "Evolution and Human Development",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 230": {
+   "t": "Psychological Measurement and Statistics",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "SBS 200": {
+   "t": "Introduction to Statistics for the Social Sciences",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  }
+ },
+ "draft": true,
+ "note": "Made from the public catalog.arizona.edu program printout and a college program guide (BSN-CONV 2025-2026), not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it."
+}
