@@ -19,7 +19,7 @@ Keep the file name exactly `JGDegreePlanner.html`. A copy with another name stil
 
 ---
 
-<details open>
+<details>
 <summary><b>First 5 minutes</b></summary>
 
 1. **Pick a major** at the top (University, College, Major, Track). Electrical & Computer Engineering is built in. Or skip this and load your advisement report: a matching major is chosen for you.
@@ -149,7 +149,7 @@ Two buttons at the top right open the side panel:
 | **Rules** | Majors (packs), the packs folder, the optional pack library, the course catalog (edit prerequisites, offerings, units), advisor approval and the draft builder. |
 | **Help** | The guide, FAQ and contact links inside the app. |
 
-**Every section in the side panels folds up** when you click its title. The first section of a tab starts open, and the app remembers what you open or close.
+**Every section in the side panels folds up** when you click its title. Every section starts folded, and the app remembers what you open or close.
 
 <p align="center"><img src="docs/print-tab.png" alt="The Print & Export tab" width="420"> <img src="docs/checks.png" alt="The Checks tab" width="420"></p>
 </details>
@@ -262,7 +262,7 @@ The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow 
 <details>
 <summary><b>Updates</b></summary>
 
-Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.13"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
+Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.14"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
 </details>
 
 <details>
