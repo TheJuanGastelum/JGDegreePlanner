@@ -15,7 +15,7 @@
 
 Keep the file name exactly `JGDegreePlanner.html`. A copy with another name still works but shows a notice at the top (see the FAQ).
 
-> Click any section below to open it. Every section is also in the app: gear menu, **Help**.
+> Click any section below to open it. Every section is also in the app: **Tools**, then **Help**.
 
 ---
 
@@ -26,10 +26,10 @@ Keep the file name exactly `JGDegreePlanner.html`. A copy with another name stil
 2. **Load your plan:** gear menu, **Load file** (an advisement report PDF or a saved student file), or just drag the file onto the page.
 3. **Look at the chart.** Each column is a semester and each box is a class.
 4. **Drag classes** to other semesters. Click a class to see its details and its prerequisite arrows.
-5. Open **Checks** (gear menu) to see problems: a class before its prerequisite, a class in a semester it may not be offered, a heavy semester.
-6. **Print** (top right) to save a PDF, or **Student, Save this student** to keep your plan for next time.
+5. Open **Tools**, then **Checks**, to see problems: a class before its prerequisite, a class in a semester it may not be offered, a heavy semester.
+6. **Print & Export** (top right) to save a PDF or Excel file, or **Save my plan** (also in Print & Export) to keep your plan for next time.
 
-**Your plan is not saved automatically.** Use Student, Save this student to download a student file, and Load file to open it again.
+**Your plan is not saved automatically.** Use **Print & Export, Save my plan** to download a student file, and Load file to open it again.
 
 Want to look around first? Gear menu, **Load example plan (John Doe)** loads a made-up student.
 </details>
@@ -53,7 +53,7 @@ If a PDF will not read, paste its text into **Student, Load courses**.
 <details>
 <summary><b>Saving your plan: JSON file or Excel file</b></summary>
 
-Open the **Student** tab and use **Save this student**:
+Open **Print & Export** and use **Save my plan**:
 
 | | **Save student file (JSON)** | **Save as Excel (.xlsx)** |
 |---|---|---|
@@ -133,18 +133,25 @@ The same rule runs when you load a report. A class from a report keeps the semes
 </details>
 
 <details>
-<summary><b>The tabs: Print, Requirements, Checks, Student, Rules, Help</b></summary>
+<summary><b>Print & Export, and the Tools tabs</b></summary>
+
+Two buttons at the top right open the side panel:
+
+- **Print & Export** opens it on the print and export tab. Sections: *Print* (layout, color, the "needs" line, PDF paper size, Save PDF), *Pictures* (PNG, SVG), *Save my plan* (student file or Excel) and *Preview*.
+- **Tools** opens it on the tab you used last (Checks the first time). A dot on **Tools** means there are problems to look at.
 
 | Tab | What it is for |
 |---|---|
-| **Print** | Choose Standard flowchart, My order (a semester sheet) or Graduation requirements; color or black and white; the "needs" line; PDF paper size. Save PDF, PNG or SVG. |
+| **Print & Export** | Printing, pictures, and saving your plan (see above). |
 | **Requirements** | GPA, units and major requirements, from a loaded report or estimated from your chart. |
-| **Checks** | A list of problems and notes. Click one to jump to the class. A dot on the gear means there are problems. |
-| **Student** | Name, student ID, catalog year, current semester, first semester (Year 1), the AGEC box, pasting report text, transfer credit, the What-if tool and **Save this student** (JSON or Excel). |
+| **Checks** | A list of problems and notes. Click one to jump to the class. |
+| **Student** | Name, student ID, catalog year, current semester, first semester (Year 1), the AGEC box, pasting report text and transfer credit. |
 | **Rules** | Majors (packs), the packs folder, the optional pack library, the course catalog (edit prerequisites, offerings, units), advisor approval and the draft builder. |
 | **Help** | The guide, FAQ and contact links inside the app. |
 
-<p align="center"><img src="docs/student.png" alt="The Student tab" width="420"> <img src="docs/checks.png" alt="The Checks tab" width="420"></p>
+**Every section in the side panels folds up** when you click its title. The first section of a tab starts open, and the app remembers what you open or close.
+
+<p align="center"><img src="docs/print-tab.png" alt="The Print & Export tab" width="420"> <img src="docs/checks.png" alt="The Checks tab" width="420"></p>
 </details>
 
 <details>
@@ -157,20 +164,22 @@ The same rule runs when you load a report. A class from a report keeps the semes
 - **Make your own draft:** load your advisement report or a catalog program printout, review it in **Rules, Build a draft pack**, then **Save pack**.
 - **Packs:** import and export packs in Rules. Imported packs stay in this browser, so export the ones you want to keep, or connect a **packs folder** (Chrome or Edge) and they load and save there automatically.
 - **Advisor approval:** an advisor can approve a pack with a code the author issued (request one with the Contact links below). The app then shows the advisor's ID code (never a name) and the date, and printouts say "Major requirements updated: DDMMMYY (ID)". This is a check the author runs on who reviewed the pack. It is **not** an official approval by any university. Before an approval, printouts say "not advisor reviewed". If a pack is edited after approval, the approval stops counting.
-- **What-if:** Student tab, *What if I switch majors?* copies your classes into another loaded major to try it, and keeps your real plan. Printouts are marked WHAT-IF. Use Back to return.
+- **Try another major (what-if):** the **Try another major** button above the chart copies your classes into another loaded major to try it, and keeps your real plan. Printouts are marked WHAT-IF. Use Back to return.
+
+<p align="center"><img src="docs/whatif.png" alt="Try another major" width="620"></p>
 </details>
 
 <details>
-<summary><b>Printing and saving</b></summary>
+<summary><b>Print & Export</b></summary>
 
 <p align="center"><img src="docs/printout.png" alt="A color printout" width="460"> <img src="docs/printout-bw.png" alt="A black and white printout" width="460"></p>
 
-- Open the **Print** tab, pick the layout and **Color** or **Black and white**, then **Save PDF**, **Save PNG** or **Save SVG**. The viewer cannot open the print dialog directly, so save a file and print that.
+- Open **Print & Export**, pick the layout and **Color** or **Black and white**, then **Save PDF** (or **Save PNG** / **Save SVG** under *Pictures*). The viewer cannot open the print dialog directly, so save a file and print that.
 - The PDF is **US Letter landscape** by default, fitted to one page, with margins and a small footer. Choose **Legal** or **Tabloid (11 x 17)** under *PDF paper*.
 - Letter makes the small text small (box titles about 6 pt). **Tabloid is the easiest to read.** The *My order* semester sheet is larger too.
 - Black and white keeps every semester distinct by its line pattern.
 - Tick **Add a "needs" line** to list each class's prerequisites under its box.
-- **Student, Save this student** downloads your plan as a file (JSON) or as an Excel workbook; **Load file** opens either.
+- **Save my plan** downloads your plan as a file (JSON) or as an Excel workbook; **Load file** opens either.
 
 Every printout says it is unofficial and shows the app version, the major's version and date, and "Major requirements updated: DDMMMYY".
 </details>
@@ -180,11 +189,10 @@ Every printout says it is unofficial and shows the app version, the major's vers
 
 <p align="center"><img src="docs/menu.png" alt="The gear menu" width="520"></p>
 
-- **Load file / Replace loaded file:** open a report, student file, pack or catalog.
+- **Load file / Replace loaded file:** open a report, student file, Excel file, pack or catalog.
 - **Load example plan (John Doe):** a made-up student to explore with.
 - **Guided tour:** replay the walkthrough.
 - **Start over (clear plan):** clear the plan (asks first).
-- **Student & transfer credit, Checks, Rules, Help:** open those tabs.
 - **Theme:** Auto, Light or Dark. Exports are always white.
 - The bottom line shows the author, the version and the build id.
 </details>
@@ -194,7 +202,7 @@ Every printout says it is unofficial and shows the app version, the major's vers
 
 <p align="center"><img src="docs/tour.png" alt="The guided tour" width="460"> <img src="docs/help.png" alt="The Help page" width="460"></p>
 
-The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow keys work too). It starts the first time you open the app and any time from **gear menu, Guided tour**. **Help** is the same guide as collapsible sections, plus a FAQ.
+The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow keys work too). It starts the first time you open the app and any time from **gear menu, Guided tour**. The gear menu is for files and the app; the other tabs are under **Tools**. **Help** is the same guide as collapsible sections, plus a FAQ.
 </details>
 
 <details>
@@ -219,7 +227,7 @@ The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow 
 
 **Is my information sent anywhere?** No. The app is one file that runs on your computer. There are no accounts, tracking or servers. The only time it goes online is if you type a Pack library address in Rules and press Load; it then downloads packs from that address and uploads nothing.
 
-**Where is my plan kept? I closed the tab.** Your plan lives only in the open page and is not saved automatically. Use *Student, Save this student* to download a file and *Load file* to open it again. Majors you import, the course catalog and your print choices are kept in this browser.
+**Where is my plan kept? I closed the tab.** Your plan lives only in the open page and is not saved automatically. Use *Print & Export, Save my plan* to download a file and *Load file* to open it again. Majors you import, the course catalog and your print choices are kept in this browser.
 
 **How do I put classes back where they started?** Press **Reset layout** above the chart and confirm. To clear everything, use **Start over** in the gear menu.
 
@@ -254,7 +262,7 @@ The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow 
 <details>
 <summary><b>Updates</b></summary>
 
-Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.12"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
+Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.13"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
 </details>
 
 <details>
