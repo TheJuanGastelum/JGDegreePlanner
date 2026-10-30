@@ -23,7 +23,7 @@ Keep the file name exactly `JGDegreePlanner.html`. A copy with another name stil
 <summary><b>First 5 minutes</b></summary>
 
 1. **Pick a major** at the top (University, College, Major, Track). Electrical & Computer Engineering is built in. Or skip this and load your advisement report: a matching major is chosen for you.
-2. **Load your plan:** gear menu, **Load file** (an advisement report PDF or a saved student file), or just drag the file onto the page.
+2. **Load your plan:** gear menu, **Load file** (an advisement report PDF or a saved student file), or just drag the file onto the page. Need the report? UAccess, Advising, Advisement Report, View Report as PDF, Download (details below).
 3. **Look at the chart.** Each column is a semester and each box is a class.
 4. **Drag classes** to other semesters. Click a class to see its details and its prerequisite arrows.
 5. Open **Tools**, then **Checks**, to see problems: a class before its prerequisite, a class in a semester it may not be offered, a heavy semester.
@@ -32,6 +32,17 @@ Keep the file name exactly `JGDegreePlanner.html`. A copy with another name stil
 **Your plan is not saved automatically.** Use **Print & Export, Save my plan** to download a student file, and Load file to open it again.
 
 Want to look around first? Gear menu, **Load example plan (John Doe)** loads a made-up student.
+</details>
+
+<details>
+<summary><b>Get your advisement report (University of Arizona)</b></summary>
+
+1. Sign in to **UAccess** (Student Center).
+2. Open the **Advising** menu, then **Advisement Report**.
+3. Choose **View Report as PDF**, then **Download**.
+4. In JGDegreePlanner: gear menu, **Load file**, and pick that PDF (or drag it onto the page).
+
+**Major not built in?** Loading your report builds a temporary draft plan from it. You can also get the official requirements yourself: go to [catalog.arizona.edu/programs](https://catalog.arizona.edu/programs), find your major, open it, and download or print it as a PDF. Load that PDF the same way and a draft pack is built, with no student needed. Drafts show an UNVERIFIED banner until an advisor approves them.
 </details>
 
 <details>
@@ -262,7 +273,7 @@ The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow 
 <details>
 <summary><b>Updates</b></summary>
 
-Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.14"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
+Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.15"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
 </details>
 
 <details>
