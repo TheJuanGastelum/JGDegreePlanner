@@ -22,7 +22,7 @@ Keep the file name exactly `JGDegreePlanner.html`. A copy with another name stil
 <details>
 <summary><b>First 5 minutes</b></summary>
 
-1. **Pick a major** at the top (University, College, Major, Track). Electrical & Computer Engineering is built in. Or skip this and load your advisement report: a matching major is chosen for you.
+1. **Start here.** The app opens empty: faded stand-in boxes (Class A, Class B, made-up codes) show the layout. Load your advisement report (step 2) and the chart is built from it. Or pick a ready-made major at the top (University, College / School, Major, Track); Electrical & Computer Engineering is one.
 2. **Load your plan:** gear menu, **Load file** (an advisement report PDF or a saved student file), or just drag the file onto the page. Need the report? UAccess, Advising, Advisement Report, View Report as PDF, Download (details below).
 3. **Look at the chart.** Each column is a semester and each box is a class.
 4. **Drag classes** to other semesters. Click a class to see its details and its prerequisite arrows.
@@ -273,7 +273,7 @@ The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow 
 <details>
 <summary><b>Updates</b></summary>
 
-Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.16"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
+Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.17"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
 </details>
 
 <details>

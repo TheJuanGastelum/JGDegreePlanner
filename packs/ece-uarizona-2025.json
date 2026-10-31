@@ -1,0 +1,2849 @@
+{
+ "format": "degree-pack/1",
+ "createdWith": "Degree Flowchart Builder v5.17 by Juan Gastelum (build 9a65762034)",
+ "id": "uarizona/engineering/ece/2025",
+ "version": "1.0.0",
+ "date": "2026-10-28",
+ "owner": "Degree Flowchart Builder (built-in)",
+ "program": {
+  "name": "Electrical & Computer Engineering",
+  "college": "College of Engineering",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science, Electrical and Computer Engineering"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 128,
+  "maxLoad": 17,
+  "minGrade": "C"
+ },
+ "meta": {
+  "catalog": "Catalogs beginning Fall 2025 (flowcharts \"Revised 2025\")",
+  "audit": "",
+  "courses": "ECSE courses page checked 2026-10-28 (prerequisites only; the page lists no offerings or units)"
+ },
+ "lists": {
+  "computerII": [
+   "CSC 337",
+   "CSC 372",
+   "CSC 474A",
+   "CYBR 473",
+   "ECE 304C",
+   "ECE 413",
+   "ECE 462",
+   "ECE 466",
+   "ECE 467",
+   "ECE 471",
+   "ECE 473",
+   "ECE 474A",
+   "ECE 478",
+   "ECE 479"
+  ],
+  "electricalII": [
+   "ECE 3TR",
+   "ECE 304A",
+   "ECE 304C",
+   "ECE 330B",
+   "ECE 369A",
+   "ECE 370",
+   "ECE 373",
+   "ECE 401C",
+   "ECE 402C",
+   "ECE 403A",
+   "ECE 403C",
+   "ECE 404",
+   "ECE 405C",
+   "ECE 406C",
+   "ECE 407",
+   "ECE 408",
+   "ECE 411",
+   "ECE 413",
+   "ECE 414A",
+   "ECE 415",
+   "ECE 417",
+   "ECE 421",
+   "ECE 425",
+   "ECE 429",
+   "ECE 430",
+   "ECE 434",
+   "ECE 435A",
+   "ECE 441A",
+   "ECE 442",
+   "ECE 446",
+   "ECE 447A",
+   "ECE 450",
+   "ECE 451A",
+   "ECE 455",
+   "ECE 456",
+   "ECE 459",
+   "ECE 462",
+   "ECE 463C",
+   "ECE 465",
+   "ECE 466",
+   "ECE 467",
+   "ECE 471",
+   "ECE 472",
+   "ECE 473",
+   "ECE 474A",
+   "ECE 478",
+   "ECE 479",
+   "ECE 484",
+   "ECE 486",
+   "ECE 488"
+  ],
+  "teI": [
+   "ECE 3TR",
+   "ECE 304A",
+   "ECE 304C",
+   "ECE 330B",
+   "ECE 352",
+   "ECE 369A",
+   "ECE 370",
+   "ECE 373",
+   "ECE 381A",
+   "ECE 401C",
+   "ECE 402C",
+   "ECE 403A",
+   "ECE 403C",
+   "ECE 404",
+   "ECE 405C",
+   "ECE 406C",
+   "ECE 407",
+   "ECE 408",
+   "ECE 411",
+   "ECE 413",
+   "ECE 414A",
+   "ECE 415",
+   "ECE 417",
+   "ECE 421",
+   "ECE 425",
+   "ECE 429",
+   "ECE 430",
+   "ECE 434",
+   "ECE 435A",
+   "ECE 441A",
+   "ECE 442",
+   "ECE 446",
+   "ECE 447A",
+   "ECE 450",
+   "ECE 451A",
+   "ECE 455",
+   "ECE 456",
+   "ECE 459",
+   "ECE 462",
+   "ECE 463C",
+   "ECE 465",
+   "ECE 466",
+   "ECE 467",
+   "ECE 471",
+   "ECE 472",
+   "ECE 473",
+   "ECE 474A",
+   "ECE 478",
+   "ECE 479",
+   "ECE 484",
+   "ECE 486",
+   "ECE 488"
+  ],
+  "teII": [
+   "AME 300",
+   "AME 301",
+   "AME 302",
+   "AME 313",
+   "AME 313B",
+   "AME 313C",
+   "AME 320",
+   "AME 321",
+   "AME 323",
+   "AME 324A",
+   "AME 324B",
+   "AME 324C",
+   "AME 324L",
+   "AME 331",
+   "AME 331R",
+   "AME 352",
+   "AME 400A",
+   "AME 400B",
+   "AME 401",
+   "AME 407",
+   "AME 410",
+   "AME 420",
+   "AME 422",
+   "AME 423",
+   "AME 424",
+   "AME 425",
+   "AME 426",
+   "AME 427",
+   "AME 429",
+   "AME 430",
+   "AME 431",
+   "AME 432",
+   "AME 433",
+   "AME 434",
+   "AME 437",
+   "AME 442A",
+   "AME 442B",
+   "AME 444",
+   "AME 445",
+   "AME 446",
+   "AME 447",
+   "AME 451",
+   "AME 452",
+   "AME 454",
+   "AME 455",
+   "AME 457",
+   "AME 460",
+   "AME 462",
+   "AME 463",
+   "AME 466",
+   "AME 469",
+   "AME 472",
+   "AME 480",
+   "AME 483",
+   "AME 487",
+   "AME 488",
+   "AME 489A",
+   "BAT 413",
+   "BAT 485",
+   "BE 334",
+   "BE 385",
+   "BE 413",
+   "BE 422",
+   "BE 423",
+   "BE 426",
+   "BE 427",
+   "BE 428",
+   "BE 447",
+   "BE 452",
+   "BE 455",
+   "BE 456",
+   "BE 458",
+   "BE 459",
+   "BE 475A",
+   "BE 479",
+   "BE 481A",
+   "BE 481B",
+   "BE 482",
+   "BE 483",
+   "BE 485",
+   "BE 486",
+   "BE 487",
+   "BE 488",
+   "BE 489A",
+   "BIOC 384",
+   "BIOC 385",
+   "BIOC 427",
+   "BIOC 434",
+   "BIOC 443",
+   "BIOC 448A",
+   "BIOC 462A",
+   "BIOC 462B",
+   "BIOC 463A",
+   "BIOC 466",
+   "BIOC 470",
+   "BIOC 471",
+   "BIOC 472",
+   "BME 302",
+   "BME 310",
+   "BME 330",
+   "BME 331",
+   "BME 376",
+   "BME 416",
+   "BME 417",
+   "BME 420",
+   "BME 447",
+   "BME 461",
+   "BME 466",
+   "BME 477",
+   "BME 480",
+   "BME 481A",
+   "BME 481B",
+   "BME 483",
+   "BME 484",
+   "BME 485",
+   "BME 486",
+   "BME 487",
+   "BME 488",
+   "CE 301",
+   "CE 303",
+   "CE 310",
+   "CE 323",
+   "CE 329",
+   "CE 333",
+   "CE 334",
+   "CE 335",
+   "CE 343",
+   "CE 349",
+   "CE 363",
+   "CE 370L",
+   "CE 381",
+   "CE 389",
+   "CE 402",
+   "CE 408A",
+   "CE 408B",
+   "CE 410",
+   "CE 422",
+   "CE 423",
+   "CE 424",
+   "CE 426",
+   "CE 427",
+   "CE 429",
+   "CE 431",
+   "CE 432",
+   "CE 433",
+   "CE 434",
+   "CE 435",
+   "CE 437",
+   "CE 438",
+   "CE 440",
+   "CE 441",
+   "CE 442",
+   "CE 444",
+   "CE 445",
+   "CE 446",
+   "CE 448",
+   "CE 449",
+   "CE 455",
+   "CE 456",
+   "CE 458",
+   "CE 460",
+   "CE 461A",
+   "CE 462",
+   "CE 462A",
+   "CE 463",
+   "CE 464A",
+   "CE 465",
+   "CE 466",
+   "CE 467",
+   "CE 468",
+   "CE 469",
+   "CE 473",
+   "CE 475",
+   "CE 476",
+   "CE 478",
+   "CE 482",
+   "CE 483",
+   "CE 485",
+   "CHEE 300",
+   "CHEE 301A",
+   "CHEE 301B",
+   "CHEE 302",
+   "CHEE 303",
+   "CHEE 305",
+   "CHEE 326",
+   "CHEE 330",
+   "CHEE 331",
+   "CHEE 336",
+   "CHEE 370L",
+   "CHEE 375",
+   "CHEE 377",
+   "CHEE 400A",
+   "CHEE 400B",
+   "CHEE 400R",
+   "CHEE 401A",
+   "CHEE 401B",
+   "CHEE 402",
+   "CHEE 413",
+   "CHEE 415",
+   "CHEE 416",
+   "CHEE 420",
+   "CHEE 432",
+   "CHEE 435",
+   "CHEE 436",
+   "CHEE 437",
+   "CHEE 438",
+   "CHEE 442",
+   "CHEE 443",
+   "CHEE 473",
+   "CHEE 475",
+   "CHEE 476",
+   "CHEE 477R",
+   "CHEE 478",
+   "CHEE 481A",
+   "CHEE 481B",
+   "CHEE 482",
+   "CHEE 483",
+   "CHEE 485",
+   "CHEE 487",
+   "CHEE 489",
+   "CHEM 302A",
+   "CHEM 310",
+   "CHEM 325",
+   "CHEM 326",
+   "CHEM 328",
+   "CHEM 330L",
+   "CHEM 346",
+   "CHEM 356L",
+   "CHEM 365",
+   "CHEM 380",
+   "CHEM 385",
+   "CHEM 400A",
+   "CHEM 400B",
+   "CHEM 401A",
+   "CHEM 404A",
+   "CHEM 405A",
+   "CHEM 405B",
+   "CHEM 405C",
+   "CHEM 410",
+   "CHEM 412",
+   "CHEM 418",
+   "CHEM 423A",
+   "CHEM 427",
+   "CHEM 428",
+   "CHEM 435A",
+   "CHEM 436",
+   "CHEM 437",
+   "CHEM 439A",
+   "CHEM 442B",
+   "CHEM 446",
+   "CHEM 447",
+   "CHEM 448",
+   "CHEM 448A",
+   "CHEM 449A",
+   "CHEM 450",
+   "CHEM 480",
+   "CHEM 480A",
+   "CHEM 480B",
+   "CHEM 481",
+   "CHEM 482",
+   "CHEM 487",
+   "CSC 317",
+   "CSC 337",
+   "CSC 343",
+   "CSC 346",
+   "CSC 350",
+   "CSC 352",
+   "CSC 355",
+   "CSC 372",
+   "CSC 380",
+   "CSC 382",
+   "CSC 385",
+   "CSC 401A",
+   "CSC 401B",
+   "CSC 422",
+   "CSC 425",
+   "CSC 433",
+   "CSC 436",
+   "CSC 437",
+   "CSC 438",
+   "CSC 439",
+   "CSC 444",
+   "CSC 447",
+   "CSC 450",
+   "CSC 455",
+   "CSC 460",
+   "CSC 465",
+   "CSC 466",
+   "CSC 474A",
+   "CSC 477",
+   "CSC 480",
+   "CSC 483",
+   "CYBR 385",
+   "CYBR 388",
+   "CYBR 400",
+   "CYBR 454",
+   "CYBR 472",
+   "CYBR 473",
+   "CYBR 479",
+   "CYBR 480",
+   "ECE 304A",
+   "ECE 304C",
+   "ECE 330B",
+   "ECE 352",
+   "ECE 369A",
+   "ECE 370",
+   "ECE 373",
+   "ECE 381A",
+   "ECE 401C",
+   "ECE 402C",
+   "ECE 403A",
+   "ECE 403C",
+   "ECE 404",
+   "ECE 405C",
+   "ECE 406C",
+   "ECE 407",
+   "ECE 408",
+   "ECE 411",
+   "ECE 413",
+   "ECE 414A",
+   "ECE 415",
+   "ECE 417",
+   "ECE 421",
+   "ECE 425",
+   "ECE 429",
+   "ECE 430",
+   "ECE 434",
+   "ECE 435A",
+   "ECE 441A",
+   "ECE 442",
+   "ECE 446",
+   "ECE 447A",
+   "ECE 450",
+   "ECE 451A",
+   "ECE 455",
+   "ECE 456",
+   "ECE 459",
+   "ECE 462",
+   "ECE 463C",
+   "ECE 465",
+   "ECE 466",
+   "ECE 467",
+   "ECE 471",
+   "ECE 472",
+   "ECE 473",
+   "ECE 474A",
+   "ECE 478",
+   "ECE 479",
+   "ECE 484",
+   "ECE 486",
+   "ECE 488",
+   "ECOL 302",
+   "ECOL 310",
+   "ECOL 320",
+   "ECOL 320H",
+   "ECOL 321",
+   "ECOL 323",
+   "ECOL 326",
+   "ECOL 329A",
+   "ECOL 330",
+   "ECOL 335",
+   "ECOL 340",
+   "ECOL 345",
+   "ECOL 346",
+   "ECOL 350",
+   "ECOL 360",
+   "ECOL 379",
+   "ECOL 386",
+   "ECOL 388",
+   "ECOL 401",
+   "ECOL 403L",
+   "ECOL 403R",
+   "ECOL 404F",
+   "ECOL 404R",
+   "ECOL 405",
+   "ECOL 406L",
+   "ECOL 406R",
+   "ECOL 407",
+   "ECOL 408L",
+   "ECOL 409",
+   "ECOL 410",
+   "ECOL 412A",
+   "ECOL 412B",
+   "ECOL 414",
+   "ECOL 415R",
+   "ECOL 418",
+   "ECOL 419",
+   "ECOL 420",
+   "ECOL 421",
+   "ECOL 423",
+   "ECOL 426",
+   "ECOL 427",
+   "ECOL 428L",
+   "ECOL 428R",
+   "ECOL 430",
+   "ECOL 431",
+   "ECOL 432",
+   "ECOL 433",
+   "ECOL 437",
+   "ECOL 440",
+   "ECOL 442",
+   "ECOL 447",
+   "ECOL 448A",
+   "ECOL 449A",
+   "ECOL 449B",
+   "ECOL 450",
+   "ECOL 451",
+   "ECOL 452",
+   "ECOL 453",
+   "ECOL 453L",
+   "ECOL 454",
+   "ECOL 457",
+   "ECOL 463",
+   "ECOL 464",
+   "ECOL 465",
+   "ECOL 467",
+   "ECOL 472",
+   "ECOL 473",
+   "ECOL 474",
+   "ECOL 479",
+   "ECOL 480",
+   "ECOL 482",
+   "ECOL 483",
+   "ECOL 484",
+   "ECOL 485",
+   "ECOL 487L",
+   "ECOL 487R",
+   "ECOL 488",
+   "ENGR 452",
+   "ENTO 413",
+   "GAME 451",
+   "HWRS 427",
+   "ISTA 421",
+   "ISTA 457",
+   "MATH 302E",
+   "MATH 306",
+   "MATH 313",
+   "MATH 315",
+   "MATH 322",
+   "MATH 323",
+   "MATH 330",
+   "MATH 362",
+   "MATH 363",
+   "MATH 401A",
+   "MATH 401B",
+   "MATH 402",
+   "MATH 404",
+   "MATH 406A",
+   "MATH 406B",
+   "MATH 407",
+   "MATH 412",
+   "MATH 413",
+   "MATH 415A",
+   "MATH 415B",
+   "MATH 422",
+   "MATH 424",
+   "MATH 425A",
+   "MATH 425B",
+   "MATH 432",
+   "MATH 443",
+   "MATH 445",
+   "MATH 446",
+   "MATH 447",
+   "MATH 454",
+   "MATH 456",
+   "MATH 462",
+   "MATH 464",
+   "MATH 466",
+   "MATH 468",
+   "MATH 475A",
+   "MATH 481",
+   "MATH 485",
+   "MATH 488",
+   "MCB 304",
+   "MCB 305",
+   "MCB 306",
+   "MCB 310",
+   "MCB 315",
+   "MCB 325",
+   "MCB 330",
+   "MCB 340",
+   "MCB 360",
+   "MCB 361",
+   "MCB 404",
+   "MCB 410",
+   "MCB 411",
+   "MCB 413",
+   "MCB 416A",
+   "MCB 422",
+   "MCB 424L",
+   "MCB 425",
+   "MCB 432",
+   "MCB 433",
+   "MCB 437",
+   "MCB 440",
+   "MCB 442",
+   "MCB 446",
+   "MCB 447",
+   "MCB 448A",
+   "MCB 449A",
+   "MCB 473",
+   "MCB 479",
+   "MCB 480",
+   "MCB 482",
+   "MCB 484",
+   "MCB 489",
+   "MIC 305",
+   "MIC 310",
+   "MIC 320",
+   "MIC 328L",
+   "MIC 328R",
+   "MIC 329A",
+   "MIC 340",
+   "MIC 350",
+   "MIC 403L",
+   "MIC 403R",
+   "MIC 419",
+   "MIC 420",
+   "MIC 421B",
+   "MIC 423",
+   "MIC 424",
+   "MIC 425",
+   "MIC 426",
+   "MIC 427L",
+   "MIC 427R",
+   "MIC 428L",
+   "MIC 428R",
+   "MIC 430",
+   "MIC 430L",
+   "MIC 432",
+   "MIC 433",
+   "MIC 438",
+   "MIC 440",
+   "MIC 443",
+   "MIC 446",
+   "MIC 450",
+   "MIC 452",
+   "MIC 454",
+   "MIC 456",
+   "MNE 402",
+   "MNE 404G",
+   "MNE 404H",
+   "MNE 407",
+   "MNE 411",
+   "MNE 411L",
+   "MNE 414",
+   "MNE 415",
+   "MNE 417",
+   "MNE 417L",
+   "MNE 418",
+   "MNE 419",
+   "MNE 420",
+   "MNE 422",
+   "MNE 423",
+   "MNE 424",
+   "MNE 425",
+   "MNE 426",
+   "MNE 427",
+   "MNE 428",
+   "MNE 430",
+   "MNE 436",
+   "MNE 438",
+   "MNE 439",
+   "MNE 441",
+   "MNE 442",
+   "MNE 444",
+   "MNE 447",
+   "MNE 450",
+   "MNE 459",
+   "MNE 465",
+   "MNE 475",
+   "MNE 476",
+   "MNE 484",
+   "MSE 300",
+   "MSE 301",
+   "MSE 302",
+   "MSE 303",
+   "MSE 304",
+   "MSE 330",
+   "MSE 331R",
+   "MSE 345",
+   "MSE 360L",
+   "MSE 365",
+   "MSE 370",
+   "MSE 400",
+   "MSE 401",
+   "MSE 404",
+   "MSE 405",
+   "MSE 405A",
+   "MSE 406",
+   "MSE 407",
+   "MSE 411",
+   "MSE 412",
+   "MSE 414",
+   "MSE 415",
+   "MSE 424",
+   "MSE 425",
+   "MSE 431",
+   "MSE 432",
+   "MSE 434",
+   "MSE 435",
+   "MSE 437",
+   "MSE 440",
+   "MSE 446",
+   "MSE 447L",
+   "MSE 450",
+   "MSE 455",
+   "MSE 460",
+   "MSE 461",
+   "MSE 462",
+   "MSE 464",
+   "MSE 465",
+   "MSE 468",
+   "MSE 470",
+   "MSE 471",
+   "MSE 471L",
+   "MSE 480",
+   "MSE 488",
+   "MSE 489",
+   "OPTI 300",
+   "OPTI 306",
+   "OPTI 330",
+   "OPTI 336",
+   "OPTI 340",
+   "OPTI 340A",
+   "OPTI 341",
+   "OPTI 345",
+   "OPTI 370",
+   "OPTI 380A",
+   "OPTI 380B",
+   "OPTI 403A",
+   "OPTI 404",
+   "OPTI 414",
+   "OPTI 414A",
+   "OPTI 415",
+   "OPTI 415L",
+   "OPTI 416",
+   "OPTI 420",
+   "OPTI 421",
+   "OPTI 421L",
+   "OPTI 423",
+   "OPTI 423L",
+   "OPTI 424A",
+   "OPTI 425",
+   "OPTI 428",
+   "OPTI 429",
+   "OPTI 430",
+   "OPTI 431",
+   "OPTI 434",
+   "OPTI 435",
+   "OPTI 439A",
+   "OPTI 441",
+   "OPTI 447",
+   "OPTI 468",
+   "OPTI 469L",
+   "OPTI 471A",
+   "OPTI 471B",
+   "OPTI 475",
+   "OPTI 481A",
+   "OPTI 484",
+   "OPTI 485",
+   "OPTI 489",
+   "OPTI 489A",
+   "PHYS 305",
+   "PHYS 320",
+   "PHYS 321",
+   "PHYS 331",
+   "PHYS 332",
+   "PHYS 371",
+   "PHYS 381",
+   "PHYS 382",
+   "PHYS 403",
+   "PHYS 405",
+   "PHYS 422",
+   "PHYS 426",
+   "PHYS 427",
+   "PHYS 431",
+   "PHYS 439",
+   "PHYS 440",
+   "PHYS 450",
+   "PHYS 460",
+   "PHYS 468",
+   "PHYS 469",
+   "PHYS 472",
+   "PHYS 473",
+   "PHYS 476",
+   "PHYS 483",
+   "PHYS 484",
+   "PLS 475A",
+   "PLS 479",
+   "PLS 483",
+   "PSIO 303",
+   "PSIO 305",
+   "PSIO 380",
+   "PSIO 401",
+   "PSIO 404",
+   "PSIO 411",
+   "PSIO 420",
+   "PSIO 425",
+   "PSIO 426",
+   "PSIO 427",
+   "PSIO 429",
+   "PSIO 431",
+   "PSIO 441",
+   "PSIO 442",
+   "PSIO 450",
+   "PSIO 452",
+   "PSIO 465",
+   "PSIO 467",
+   "PSIO 469",
+   "PSIO 472",
+   "PSIO 478",
+   "PSIO 484",
+   "PSIO 485",
+   "PSIO 487",
+   "PSIO 489",
+   "RNR 413",
+   "SFWE 301",
+   "SFWE 401",
+   "SFWE 402",
+   "SIE 321",
+   "SIE 330R",
+   "SIE 340",
+   "SIE 367",
+   "SIE 377",
+   "SIE 383",
+   "SIE 406",
+   "SIE 408",
+   "SIE 410A",
+   "SIE 411",
+   "SIE 413",
+   "SIE 414",
+   "SIE 415",
+   "SIE 422",
+   "SIE 430",
+   "SIE 431",
+   "SIE 432",
+   "SIE 433",
+   "SIE 440",
+   "SIE 443",
+   "SIE 449",
+   "SIE 452",
+   "SIE 454A",
+   "SIE 455",
+   "SIE 456",
+   "SIE 457",
+   "SIE 458",
+   "SIE 459",
+   "SIE 462",
+   "SIE 463",
+   "SIE 465",
+   "SIE 466",
+   "SIE 471",
+   "SIE 472",
+   "SIE 473",
+   "SIE 477",
+   "SIE 481",
+   "SIE 482",
+   "SIE 483",
+   "SIE 484",
+   "SIE 487",
+   "WRIT 308",
+   "WSM 426"
+  ]
+ },
+ "tracks": {
+  "EE": {
+   "name": "Electrical Engineering",
+   "sub": "Electrical Engineering Option (Catalogs starting Fall 2025)",
+   "rev": "Revised 2025",
+   "bullets": [
+    "Students must earn a grade of C or higher in all required ECE courses. These courses are noted with a \"*\" symbol.",
+    "EE students must complete 8 Technical Electives. A minimum of 5 Technical Electives must be ECE courses. Remaining Technical Electives can be upper-division courses related to your major (e.g., math, physics, engineering, technology) or ECE courses.",
+    "Students must declare advanced standing status between their sophomore and junior semesters in order to take 300/400-level engineering courses. Students must maintain a minimum of 2.5 GPA within their engineering coursework."
+   ],
+   "blocks": [
+    {
+     "id": "univ101",
+     "type": "fixed",
+     "label": "Intro Gen Ed Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": -0.66
+    },
+    {
+     "id": "calc1",
+     "type": "choice",
+     "label": "Calculus I",
+     "options": [
+      {
+       "l": "MATH 122A/B",
+       "codes": [
+        "MATH 122A",
+        "MATH 122B"
+       ],
+       "u": 5
+      },
+      {
+       "l": "MATH 125",
+       "codes": [
+        "MATH 125"
+       ],
+       "u": 3
+      }
+     ],
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "engr102",
+     "type": "choice",
+     "label": "Intro to Engineering",
+     "options": [
+      {
+       "l": "ENGR 102",
+       "codes": [
+        "ENGR 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGR 102A/B",
+       "codes": [
+        "ENGR 102A",
+        "ENGR 102B"
+       ],
+       "u": 3
+      }
+     ],
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "chem151",
+     "type": "fixed",
+     "label": "Chemical Thinking I",
+     "code": "CHEM 151",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "engl101",
+     "type": "fixed",
+     "label": "1st Year Composition",
+     "code": "ENGL 101",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "artist",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "math129",
+     "type": "fixed",
+     "label": "Calculus II",
+     "code": "MATH 129",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "phys141",
+     "type": "fixed",
+     "label": "Intro Mech",
+     "code": "PHYS 141",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "ece101",
+     "type": "fixed",
+     "label": "Programming I",
+     "code": "ECE 101",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "engl102",
+     "type": "fixed",
+     "label": "1st Year Composition",
+     "code": "ENGL 102",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "humanist",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "math223",
+     "type": "fixed",
+     "label": "Vect Calc",
+     "code": "MATH 223",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "phys241",
+     "type": "fixed",
+     "label": "Electr & Magn",
+     "code": "PHYS 241",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "ece201",
+     "type": "fixed",
+     "label": "Programming II",
+     "code": "ECE 201",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "ece274a",
+     "type": "fixed",
+     "label": "Digital Logic",
+     "code": "ECE 274A",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "social",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "math243",
+     "type": "fixed",
+     "label": "Discrete Math",
+     "code": "MATH 243",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "math254",
+     "type": "fixed",
+     "label": "Diff Eqn",
+     "code": "MATH 254",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "ece220",
+     "type": "fixed",
+     "label": "Basic Circuits",
+     "code": "ECE 220",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "phys143",
+     "type": "fixed",
+     "label": "Optics & Thermo",
+     "code": "PHYS 143",
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "bc1",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "ece310",
+     "type": "fixed",
+     "label": "Appl. Engr Math",
+     "code": "ECE 310",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "ece320a",
+     "type": "fixed",
+     "label": "Circuit Theory",
+     "code": "ECE 320A",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "ece340a",
+     "type": "fixed",
+     "label": "Intro to Comm.",
+     "code": "ECE 340A",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "ece351c",
+     "type": "fixed",
+     "label": "Electronic Circuits",
+     "code": "ECE 351C",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "ece372a",
+     "type": "fixed",
+     "label": "Microprocessor Org.",
+     "code": "ECE 372A",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "ece311",
+     "type": "fixed",
+     "label": "Engr Ethics",
+     "code": "ECE 311",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "eng498a",
+     "type": "fixed",
+     "label": "Interdiscpl Design",
+     "code": "ENGR 498A",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "eng498b",
+     "type": "fixed",
+     "label": "Interdiscpl Design",
+     "code": "ENGR 498B",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "univ301",
+     "type": "fixed",
+     "label": "General Ed Portfolio",
+     "code": "UNIV 301",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "ece381a",
+     "type": "fixed",
+     "label": "Intro Electromag",
+     "code": "ECE 381A",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "ece352",
+     "type": "fixed",
+     "label": "Device Electronics",
+     "code": "ECE 352",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "ee_te1",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "bc2",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "ee_te2",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "ee_te3",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "ee_te4",
+     "type": "te",
+     "label": "Technical Elective†",
+     "list": "teI",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "ee_te5",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "ee_te6",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "ee_te7",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "bc3",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 7,
+     "row": 4
+    }
+   ],
+   "buckets": [
+    {
+     "id": "core1",
+     "name": "ECE Core I",
+     "units": 19,
+     "list": "ECE 311,ECE 320A,ECE 372A,ECE 310,ECE 340A,ECE 351C",
+     "claim": false,
+     "minC": true
+    },
+    {
+     "id": "eng498",
+     "name": "ENGR 498A & 498B",
+     "units": 6,
+     "list": "ENGR 498A,ENGR 498B",
+     "claim": false
+    },
+    {
+     "id": "eei",
+     "name": "Electrical Engineering Courses I (Track)",
+     "units": 7,
+     "list": "ECE 381A,ECE 352",
+     "claim": true,
+     "minC": true
+    },
+    {
+     "id": "eeii",
+     "name": "Electrical Engineering Courses II (Track)",
+     "units": 3,
+     "list": "@electricalII",
+     "claim": true,
+     "minC": true
+    },
+    {
+     "id": "tei",
+     "name": "Technical Electives I (ECE 300/400)",
+     "units": 12,
+     "list": "@teI",
+     "claim": true,
+     "unique": true
+    },
+    {
+     "id": "teii",
+     "name": "Technical Electives II (may be non-ECE)",
+     "units": 6,
+     "list": "@teII",
+     "claim": true,
+     "unique": true
+    }
+   ]
+  },
+  "CE": {
+   "name": "Computer Engineering",
+   "sub": "Computer Engineering Option (Catalogs beginning Fall 2025)",
+   "rev": "Revised 2025",
+   "bullets": [
+    "Students must earn a grade of C or higher in all required ECE courses. These courses are noted with a \"*\" symbol.",
+    "CE students must complete 8 Technical Electives. A minimum of 5 Technical Electives must be ECE courses. Remaining Technical Electives can be upper-division courses related to your major (e.g., math, physics, engineering, technology) or ECE courses. One technical elective must meet Computer Course Requirement.",
+    "Students must declare advanced standing status between their sophomore and junior semesters in order to take 300/400-level engineering courses. Students must maintain a minimum of 2.5 GPA within their engineering coursework."
+   ],
+   "blocks": [
+    {
+     "id": "univ101",
+     "type": "fixed",
+     "label": "Intro Gen Ed Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": -0.66
+    },
+    {
+     "id": "calc1",
+     "type": "choice",
+     "label": "Calculus I",
+     "options": [
+      {
+       "l": "MATH 122A/B",
+       "codes": [
+        "MATH 122A",
+        "MATH 122B"
+       ],
+       "u": 5
+      },
+      {
+       "l": "MATH 125",
+       "codes": [
+        "MATH 125"
+       ],
+       "u": 3
+      }
+     ],
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "engr102",
+     "type": "choice",
+     "label": "Intro to Engineering",
+     "options": [
+      {
+       "l": "ENGR 102",
+       "codes": [
+        "ENGR 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGR 102A/B",
+       "codes": [
+        "ENGR 102A",
+        "ENGR 102B"
+       ],
+       "u": 3
+      }
+     ],
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "chem151",
+     "type": "fixed",
+     "label": "Chemical Thinking I",
+     "code": "CHEM 151",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "engl101",
+     "type": "fixed",
+     "label": "1st Year Composition",
+     "code": "ENGL 101",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "artist",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "math129",
+     "type": "fixed",
+     "label": "Calculus II",
+     "code": "MATH 129",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "phys141",
+     "type": "fixed",
+     "label": "Intro Mech",
+     "code": "PHYS 141",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "ece101",
+     "type": "fixed",
+     "label": "Programming I",
+     "code": "ECE 101",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "engl102",
+     "type": "fixed",
+     "label": "1st Year Composition",
+     "code": "ENGL 102",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "humanist",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "math223",
+     "type": "fixed",
+     "label": "Vect Calc",
+     "code": "MATH 223",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "phys241",
+     "type": "fixed",
+     "label": "Electr & Magn",
+     "code": "PHYS 241",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "ece201",
+     "type": "fixed",
+     "label": "Programming II",
+     "code": "ECE 201",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "ece274a",
+     "type": "fixed",
+     "label": "Digital Logic",
+     "code": "ECE 274A",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "social",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "math243",
+     "type": "fixed",
+     "label": "Discrete Math",
+     "code": "MATH 243",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "math254",
+     "type": "fixed",
+     "label": "Diff Eqn",
+     "code": "MATH 254",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "ece220",
+     "type": "fixed",
+     "label": "Basic Circuits",
+     "code": "ECE 220",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "phys143",
+     "type": "fixed",
+     "label": "Optics & Thermo",
+     "code": "PHYS 143",
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "bc1",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "ece310",
+     "type": "fixed",
+     "label": "Appl. Engr Math",
+     "code": "ECE 310",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "ece320a",
+     "type": "fixed",
+     "label": "Circuit Theory",
+     "code": "ECE 320A",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "ece340a",
+     "type": "fixed",
+     "label": "Intro to Comm.",
+     "code": "ECE 340A",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "ece351c",
+     "type": "fixed",
+     "label": "Electronic Circuits",
+     "code": "ECE 351C",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "ece372a",
+     "type": "fixed",
+     "label": "Microprocessor Org.",
+     "code": "ECE 372A",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "ece311",
+     "type": "fixed",
+     "label": "Engr Ethics",
+     "code": "ECE 311",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "eng498a",
+     "type": "fixed",
+     "label": "Interdiscpl Design",
+     "code": "ENGR 498A",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "eng498b",
+     "type": "fixed",
+     "label": "Interdiscpl Design",
+     "code": "ENGR 498B",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "univ301",
+     "type": "fixed",
+     "label": "General Ed Portfolio",
+     "code": "UNIV 301",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "ece369a",
+     "type": "fixed",
+     "label": "Computer Architecture",
+     "code": "ECE 369A",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "ece373",
+     "type": "fixed",
+     "label": "Obj Oriented Software",
+     "code": "ECE 373",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "ce_te1",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "bc2",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "ce_rcc",
+     "type": "rcc",
+     "label": "Required Computer Course",
+     "list": "computerII",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "ce_te2",
+     "type": "te",
+     "label": "Technical Elective†",
+     "list": "teI",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "ce_te3",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "ce_te4",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "ce_te5",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "ce_te6",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "bc3",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 7,
+     "row": 4
+    }
+   ],
+   "buckets": [
+    {
+     "id": "core1",
+     "name": "ECE Core I",
+     "units": 19,
+     "list": "ECE 311,ECE 320A,ECE 372A,ECE 310,ECE 340A,ECE 351C",
+     "claim": false,
+     "minC": true
+    },
+    {
+     "id": "eng498",
+     "name": "ENGR 498A & 498B",
+     "units": 6,
+     "list": "ENGR 498A,ENGR 498B",
+     "claim": false
+    },
+    {
+     "id": "cei",
+     "name": "Computer Engineering Courses I (Track)",
+     "units": 7,
+     "list": "ECE 369A,ECE 373",
+     "claim": true,
+     "minC": true
+    },
+    {
+     "id": "ceii",
+     "name": "Computer Engineering Courses II (Track)",
+     "units": 3,
+     "list": "@computerII",
+     "claim": true,
+     "minC": true
+    },
+    {
+     "id": "tei",
+     "name": "Technical Electives I (ECE 300/400)",
+     "units": 12,
+     "list": "@teI",
+     "claim": true,
+     "unique": true
+    },
+    {
+     "id": "teii",
+     "name": "Technical Electives II (may be non-ECE)",
+     "units": 6,
+     "list": "@teII",
+     "claim": true,
+     "unique": true
+    }
+   ]
+  },
+  "COMBINED": {
+   "name": "Combined CE + EE",
+   "sub": "Combined Computer and Electrical Engineering (self-created; not an official UA option)",
+   "rev": "",
+   "bullets": [
+    "Students must earn a grade of C or higher in all required ECE courses. These courses are noted with a \"*\" symbol.",
+    "Combined students complete every required course from both the Computer and Electrical Engineering options. ECE 352 and ECE 381A (EE option) fall into Technical Electives I; Required Computer Course covers Computer Courses II.",
+    "Students must declare advanced standing status between their sophomore and junior semesters in order to take 300/400-level engineering courses. Students must maintain a minimum of 2.5 GPA within their engineering coursework."
+   ],
+   "blocks": [
+    {
+     "id": "univ101",
+     "type": "fixed",
+     "label": "Intro Gen Ed Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": -0.66
+    },
+    {
+     "id": "calc1",
+     "type": "choice",
+     "label": "Calculus I",
+     "options": [
+      {
+       "l": "MATH 122A/B",
+       "codes": [
+        "MATH 122A",
+        "MATH 122B"
+       ],
+       "u": 5
+      },
+      {
+       "l": "MATH 125",
+       "codes": [
+        "MATH 125"
+       ],
+       "u": 3
+      }
+     ],
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "engr102",
+     "type": "choice",
+     "label": "Intro to Engineering",
+     "options": [
+      {
+       "l": "ENGR 102",
+       "codes": [
+        "ENGR 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGR 102A/B",
+       "codes": [
+        "ENGR 102A",
+        "ENGR 102B"
+       ],
+       "u": 3
+      }
+     ],
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "chem151",
+     "type": "fixed",
+     "label": "Chemical Thinking I",
+     "code": "CHEM 151",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "engl101",
+     "type": "fixed",
+     "label": "1st Year Composition",
+     "code": "ENGL 101",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "artist",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "math129",
+     "type": "fixed",
+     "label": "Calculus II",
+     "code": "MATH 129",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "phys141",
+     "type": "fixed",
+     "label": "Intro Mech",
+     "code": "PHYS 141",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "ece101",
+     "type": "fixed",
+     "label": "Programming I",
+     "code": "ECE 101",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "engl102",
+     "type": "fixed",
+     "label": "1st Year Composition",
+     "code": "ENGL 102",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "humanist",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "math223",
+     "type": "fixed",
+     "label": "Vect Calc",
+     "code": "MATH 223",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "phys241",
+     "type": "fixed",
+     "label": "Electr & Magn",
+     "code": "PHYS 241",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "ece201",
+     "type": "fixed",
+     "label": "Programming II",
+     "code": "ECE 201",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "ece274a",
+     "type": "fixed",
+     "label": "Digital Logic",
+     "code": "ECE 274A",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "social",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "math243",
+     "type": "fixed",
+     "label": "Discrete Math",
+     "code": "MATH 243",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "math254",
+     "type": "fixed",
+     "label": "Diff Eqn",
+     "code": "MATH 254",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "ece220",
+     "type": "fixed",
+     "label": "Basic Circuits",
+     "code": "ECE 220",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "phys143",
+     "type": "fixed",
+     "label": "Optics & Thermo",
+     "code": "PHYS 143",
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "bc1",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "ece310",
+     "type": "fixed",
+     "label": "Appl. Engr Math",
+     "code": "ECE 310",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "ece320a",
+     "type": "fixed",
+     "label": "Circuit Theory",
+     "code": "ECE 320A",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "ece340a",
+     "type": "fixed",
+     "label": "Intro to Comm.",
+     "code": "ECE 340A",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "ece351c",
+     "type": "fixed",
+     "label": "Electronic Circuits",
+     "code": "ECE 351C",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "ece372a",
+     "type": "fixed",
+     "label": "Microprocessor Org.",
+     "code": "ECE 372A",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "ece311",
+     "type": "fixed",
+     "label": "Engr Ethics",
+     "code": "ECE 311",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "eng498a",
+     "type": "fixed",
+     "label": "Interdiscpl Design",
+     "code": "ENGR 498A",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "eng498b",
+     "type": "fixed",
+     "label": "Interdiscpl Design",
+     "code": "ENGR 498B",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "univ301",
+     "type": "fixed",
+     "label": "General Ed Portfolio",
+     "code": "UNIV 301",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "ece369a",
+     "type": "fixed",
+     "label": "Computer Architecture",
+     "code": "ECE 369A",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "ece373",
+     "type": "fixed",
+     "label": "Obj Oriented Software",
+     "code": "ECE 373",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "ece352",
+     "type": "fixed",
+     "label": "Device Electronics",
+     "code": "ECE 352",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "ece381a",
+     "type": "fixed",
+     "label": "Intro Electromag",
+     "code": "ECE 381A",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "bc2",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "cb_rcc",
+     "type": "rcc",
+     "label": "Required Computer Course",
+     "list": "computerII",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "cb_te1",
+     "type": "te",
+     "label": "Technical Elective†",
+     "list": "teI",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "cb_te2",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "cb_te3",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "cb_te4",
+     "type": "te",
+     "label": "Technical Elective",
+     "list": "teI",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "bc3",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 7,
+     "row": 4
+    }
+   ],
+   "buckets": [
+    {
+     "id": "core1",
+     "name": "ECE Core I",
+     "units": 19,
+     "list": "ECE 311,ECE 320A,ECE 372A,ECE 310,ECE 340A,ECE 351C",
+     "claim": false,
+     "minC": true
+    },
+    {
+     "id": "eng498",
+     "name": "ENGR 498A & 498B",
+     "units": 6,
+     "list": "ENGR 498A,ENGR 498B",
+     "claim": false
+    },
+    {
+     "id": "cei",
+     "name": "Computer Engineering Courses I (Track)",
+     "units": 7,
+     "list": "ECE 369A,ECE 373",
+     "claim": true,
+     "minC": true
+    },
+    {
+     "id": "ceii",
+     "name": "Computer Engineering Courses II (Track)",
+     "units": 3,
+     "list": "@computerII",
+     "claim": true,
+     "minC": true
+    },
+    {
+     "id": "tei",
+     "name": "Technical Electives I (ECE 300/400)",
+     "units": 12,
+     "list": "@teI",
+     "claim": true,
+     "unique": true
+    },
+    {
+     "id": "teii",
+     "name": "Technical Electives II (may be non-ECE)",
+     "units": 6,
+     "list": "@teII",
+     "claim": true,
+     "unique": true
+    }
+   ]
+  }
+ },
+ "courses": {
+  "CHEM 151": {
+   "t": "Chemical Thinking I",
+   "u": 4
+  },
+  "ECE 101": {
+   "t": "Programming I",
+   "u": 4,
+   "star": 1
+  },
+  "ECE 201": {
+   "t": "Programming II",
+   "u": 3,
+   "star": 1,
+   "pre": [
+    "ECE 101"
+   ],
+   "src": "chart"
+  },
+  "ECE 220": {
+   "t": "Basic Circuits",
+   "u": 5,
+   "star": 1,
+   "pre": [
+    "MATH 129",
+    "PHYS 241|PHYS 251|PHYS 261H"
+   ],
+   "src": "ecse"
+  },
+  "ECE 274A": {
+   "t": "Digital Logic",
+   "u": 4,
+   "star": 1,
+   "pre": [
+    "ECE 101",
+    "MATH 129"
+   ],
+   "co": [
+    "MATH 129"
+   ],
+   "src": "ecse"
+  },
+  "ECE 304A": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 351C"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 304C": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 201"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 310": {
+   "t": "Applications of Engineering Mathematics",
+   "u": 4,
+   "star": 1,
+   "pre": [
+    "ECE 101",
+    "MATH 254"
+   ],
+   "src": "ecse"
+  },
+  "ECE 311": {
+   "t": "Engineering Ethics",
+   "u": 1,
+   "star": 1
+  },
+  "ECE 320A": {
+   "t": "Circuit Theory",
+   "u": 3,
+   "star": 1,
+   "pre": [
+    "MATH 254",
+    "ECE 220"
+   ],
+   "src": "ecse"
+  },
+  "ECE 330B": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "MATH 223",
+    "MATH 254",
+    "PHYS 143",
+    "PHYS 241",
+    "ECE 101"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 340A": {
+   "t": "Introduction to Communications",
+   "u": 3,
+   "star": 1,
+   "pre": [
+    "ECE 320A"
+   ],
+   "off": "springOdd",
+   "src": "ecse; offering from ECE Arizona Online table",
+   "uv": [
+    "off"
+   ]
+  },
+  "ECE 351C": {
+   "t": "Electronic Circuits",
+   "u": 4,
+   "star": 1,
+   "pre": [
+    "ECE 320A"
+   ],
+   "src": "ecse"
+  },
+  "ECE 352": {
+   "t": "Device Electronics",
+   "u": 3,
+   "star": 1,
+   "pre": [
+    "ECE 351C"
+   ],
+   "co": [
+    "ECE 351C"
+   ],
+   "off": "spring",
+   "src": "ecse",
+   "uv": [
+    "off"
+   ]
+  },
+  "ECE 369A": {
+   "t": "Computer Organization",
+   "u": 4,
+   "star": 1,
+   "pre": [
+    "ECE 101",
+    "ECE 274A"
+   ],
+   "off": "fall",
+   "src": "ecse",
+   "uv": [
+    "off"
+   ]
+  },
+  "ECE 372A": {
+   "t": "Microprocessor Organization",
+   "u": 4,
+   "star": 1,
+   "pre": [
+    "ECE 201",
+    "ECE 220|ECE 207",
+    "ECE 274A"
+   ],
+   "co": [
+    "ECE 201"
+   ],
+   "src": "ecse"
+  },
+  "ECE 373": {
+   "t": "Object-Oriented Software",
+   "u": 3,
+   "star": 1,
+   "pre": [
+    "ECE 201"
+   ],
+   "off": "fall",
+   "src": "ecse",
+   "uv": [
+    "off"
+   ]
+  },
+  "ECE 381A": {
+   "t": "Introductory Electromagnetics",
+   "u": 4,
+   "star": 1,
+   "pre": [
+    "MATH 223",
+    "ECE 220"
+   ],
+   "off": "spring",
+   "src": "ecse",
+   "uv": [
+    "off"
+   ]
+  },
+  "ECE 401C": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 201",
+    "CSC 355"
+   ],
+   "src": "ecse (units assumed 3)",
+   "co": [
+    "CSC 355"
+   ],
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 402C": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 201"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 403C": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 201",
+    "CSC 355"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 405C": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 201",
+    "ECE 401C"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 406C": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 201",
+    "ECE 304C"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 407": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 274A",
+    "ECE 351C"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 413": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 201"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 425": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 201",
+    "ECE 310",
+    "MATH 122B|MATH 125"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 429": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 340A"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 435A": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 340A"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 441A": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 320A"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 442": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 320A"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 450": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 351C"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 451A": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 381A"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 455": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "MATH 254",
+    "ECE 275",
+    "ECE 207|ECE 220",
+    "ECE 310"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 456": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 381A"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 459": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 381A"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 462": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 369A"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 463C": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 201",
+    "ECE 310"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 471": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 201",
+    "ECE 310"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 473": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 373"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 474A": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 201",
+    "ECE 274A"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 478": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 201",
+    "ECE 310"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 479": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 373"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 484": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 381A"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 486": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 381A"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ECE 488": {
+   "t": "",
+   "u": 3,
+   "pre": [
+    "ECE 486"
+   ],
+   "src": "ecse (units assumed 3)",
+   "uv": [
+    "units"
+   ]
+  },
+  "ENGL 101": {
+   "t": "First-Year Composition",
+   "u": 3
+  },
+  "ENGL 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "pre": [
+    "ENGL 101"
+   ],
+   "src": "chart"
+  },
+  "ENGR 102": {
+   "t": "Intro to Engineering",
+   "u": 3
+  },
+  "ENGR 102A": {
+   "t": "Intro to Engineering (A)",
+   "u": 1
+  },
+  "ENGR 102B": {
+   "t": "Intro to Engineering (B)",
+   "u": 2
+  },
+  "ENGR 498A": {
+   "t": "Interdisciplinary Design",
+   "u": 3,
+   "off": "fall",
+   "uv": [
+    "off"
+   ]
+  },
+  "ENGR 498B": {
+   "t": "Interdisciplinary Design",
+   "u": 3,
+   "off": "spring",
+   "pre": [
+    "ENGR 498A"
+   ],
+   "src": "chart",
+   "uv": [
+    "off"
+   ]
+  },
+  "MATH 122A": {
+   "t": "Calculus I (A)",
+   "u": 3,
+   "src": "chart"
+  },
+  "MATH 122B": {
+   "t": "Calculus I (B)",
+   "u": 2,
+   "src": "chart"
+  },
+  "MATH 125": {
+   "t": "Calculus I",
+   "u": 3,
+   "src": "chart"
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "pre": [
+    "MATH 122B|MATH 125"
+   ],
+   "src": "chart"
+  },
+  "MATH 223": {
+   "t": "Vector Calculus",
+   "u": 4,
+   "pre": [
+    "MATH 129"
+   ],
+   "src": "chart"
+  },
+  "MATH 243": {
+   "t": "Discrete Math",
+   "u": 3,
+   "pre": [
+    "MATH 129"
+   ],
+   "src": "chart"
+  },
+  "MATH 254": {
+   "t": "Differential Equations",
+   "u": 3,
+   "pre": [
+    "MATH 223"
+   ],
+   "src": "chart"
+  },
+  "MNE 484": {
+   "t": "Fundamentals of Industrial and Environmental Health",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PHYS 141": {
+   "t": "Introductory Mechanics",
+   "u": 4,
+   "pre": [
+    "MATH 122B|MATH 125"
+   ],
+   "co": [
+    "MATH 122B|MATH 125"
+   ],
+   "src": "chart"
+  },
+  "PHYS 143": {
+   "t": "Optics & Thermodynamics",
+   "u": 2,
+   "pre": [
+    "PHYS 241",
+    "MATH 223"
+   ],
+   "src": "chart"
+  },
+  "PHYS 241": {
+   "t": "Electricity & Magnetism",
+   "u": 4,
+   "pre": [
+    "PHYS 141",
+    "MATH 129"
+   ],
+   "co": [
+    "MATH 129"
+   ],
+   "src": "chart"
+  },
+  "PSIO 380": {
+   "t": "Fundamentals of Human Physiology",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "UNIV 101": {
+   "t": "Intro to General Ed Experience",
+   "u": 1
+  },
+  "UNIV 301": {
+   "t": "General Ed Portfolio",
+   "u": 1
+  },
+  "WRIT 308": {
+   "t": "Technical Writing",
+   "u": 3,
+   "src": "draft from catalog printout",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  }
+ }
+}
