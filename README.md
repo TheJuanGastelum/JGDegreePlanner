@@ -273,7 +273,7 @@ The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow 
 <details>
 <summary><b>Updates</b></summary>
 
-Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.15"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
+Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.16"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
 </details>
 
 <details>
