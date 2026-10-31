@@ -1,0 +1,1553 @@
+{
+ "format": "degree-pack/1",
+ "createdWith": "Degree Flowchart Builder v5.19 by Juan Gastelum (build d9e04007be)",
+ "id": "uarizona/engineering/architectural-engineering/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "program": {
+  "name": "Architectural Engineering",
+  "college": "College of Engineering",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science in Architectural Engineering"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 128,
+  "maxLoad": 17,
+  "minGrade": "C"
+ },
+ "meta": {
+  "catalog": "DRAFT from the college four-year plan, catalog year 2026-27",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified except as printed in the plan"
+ },
+ "lists": {
+  "te_technical-elective": []
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Architectural Engineering",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026-27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "choice",
+     "label": "MATH 122A/B",
+     "col": 0,
+     "row": 0,
+     "options": [
+      {
+       "l": "MATH 122A/B",
+       "codes": [
+        "MATH 122A",
+        "MATH 122B"
+       ],
+       "u": 5
+      },
+      {
+       "l": "MATH 125",
+       "codes": [
+        "MATH 125"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_2",
+     "type": "choice",
+     "label": "Chemical Thinking I",
+     "col": 0,
+     "row": 1,
+     "options": [
+      {
+       "l": "CHEM 151",
+       "codes": [
+        "CHEM 151"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 161/163",
+       "codes": [
+        "CHEM 161",
+        "CHEM 163"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MSE 109",
+       "codes": [
+        "MSE 109"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p1_3",
+     "type": "choice",
+     "label": "WRIT 101",
+     "col": 0,
+     "row": 2,
+     "options": [
+      {
+       "l": "WRIT 101",
+       "codes": [
+        "WRIT 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 107",
+       "codes": [
+        "WRIT 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 109H",
+       "codes": [
+        "WRIT 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_4",
+     "type": "choice",
+     "label": "Introduction to Engineering",
+     "col": 0,
+     "row": 3,
+     "options": [
+      {
+       "l": "ENGR 102A/102B",
+       "codes": [
+        "ENGR 102A",
+        "ENGR 102B"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGR 102",
+       "codes": [
+        "ENGR 102"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_5",
+     "type": "fixed",
+     "label": "Intro to the General Education Experience",
+     "col": 0,
+     "row": 4,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p2_1",
+     "type": "fixed",
+     "label": "Calculus II",
+     "col": 1,
+     "row": 0,
+     "code": "MATH 129"
+    },
+    {
+     "id": "p2_2",
+     "type": "choice",
+     "label": "WRIT 102",
+     "col": 1,
+     "row": 1,
+     "options": [
+      {
+       "l": "WRIT 102",
+       "codes": [
+        "WRIT 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 108",
+       "codes": [
+        "WRIT 108"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_3",
+     "type": "choice",
+     "label": "Introductory Mechanics",
+     "col": 1,
+     "row": 2,
+     "options": [
+      {
+       "l": "PHYS 141",
+       "codes": [
+        "PHYS 141"
+       ],
+       "u": 4
+      },
+      {
+       "l": "PHYS 161H",
+       "codes": [
+        "PHYS 161H"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_4",
+     "type": "free",
+     "label": "Exploring Perspectives (Artist)",
+     "col": 1,
+     "row": 3,
+     "units": 3
+    },
+    {
+     "id": "p2_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Humanist)",
+     "col": 1,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p2_6",
+     "type": "fixed",
+     "label": "Introduction to Architectural Engineering",
+     "col": 1,
+     "row": 5,
+     "code": "ARCE 295"
+    },
+    {
+     "id": "p3_1",
+     "type": "fixed",
+     "label": "Statics",
+     "col": 2,
+     "row": 0,
+     "code": "CE 214"
+    },
+    {
+     "id": "p3_2",
+     "type": "fixed",
+     "label": "Vector Calculus",
+     "col": 2,
+     "row": 1,
+     "code": "MATH 223"
+    },
+    {
+     "id": "p3_3",
+     "type": "choice",
+     "label": "Introductory Electricity and Magnetism",
+     "col": 2,
+     "row": 2,
+     "options": [
+      {
+       "l": "PHYS 241",
+       "codes": [
+        "PHYS 241"
+       ],
+       "u": 4
+      },
+      {
+       "l": "PHYS 261H",
+       "codes": [
+        "PHYS 261H"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p3_4",
+     "type": "fixed",
+     "label": "History of Applied Building Technology",
+     "col": 2,
+     "row": 3,
+     "code": "ARC 220"
+    },
+    {
+     "id": "p3_5",
+     "type": "fixed",
+     "label": "Materials and Methods in Architecture",
+     "col": 2,
+     "row": 4,
+     "code": "ARCE 201"
+    },
+    {
+     "id": "p4_1",
+     "type": "fixed",
+     "label": "Mechanics of Solids",
+     "col": 3,
+     "row": 0,
+     "code": "CE 215"
+    },
+    {
+     "id": "p4_2",
+     "type": "fixed",
+     "label": "Introduction to Ordinary Differential Equations",
+     "col": 3,
+     "row": 1,
+     "code": "MATH 254"
+    },
+    {
+     "id": "p4_3",
+     "type": "fixed",
+     "label": "Building Information Modeling for Engineers",
+     "col": 3,
+     "row": 2,
+     "code": "ARCE 210"
+    },
+    {
+     "id": "p4_4",
+     "type": "choice",
+     "label": "ARCE 222",
+     "col": 3,
+     "row": 3,
+     "options": [
+      {
+       "l": "ARCE 222",
+       "codes": [
+        "ARCE 222"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ARCE 223",
+       "codes": [
+        "ARCE 223"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p4_5",
+     "type": "fixed",
+     "label": "Thermodynamics",
+     "col": 3,
+     "row": 4,
+     "code": "AME 230"
+    },
+    {
+     "id": "p4_6",
+     "type": "fixed",
+     "label": "Mechanics of Fluids",
+     "col": 3,
+     "row": 5,
+     "code": "CE 218"
+    },
+    {
+     "id": "p5_1",
+     "type": "free",
+     "label": "Exploring Perspectives (Social Scientist)",
+     "col": 4,
+     "row": 0,
+     "units": 3
+    },
+    {
+     "id": "p5_2",
+     "type": "fixed",
+     "label": "Engineering Communications",
+     "col": 4,
+     "row": 1,
+     "code": "CE 301"
+    },
+    {
+     "id": "p5_3",
+     "type": "fixed",
+     "label": "Probability and Statistics in Civil Engineering",
+     "col": 4,
+     "row": 2,
+     "code": "CE 310"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": "Elementary Structural Analysis",
+     "col": 4,
+     "row": 3,
+     "code": "CE 333"
+    },
+    {
+     "id": "p5_5",
+     "type": "fixed",
+     "label": "Intro. to Mechanical Systems in Building Design",
+     "col": 4,
+     "row": 4,
+     "code": "ARCE 340"
+    },
+    {
+     "id": "p5_6",
+     "type": "fixed",
+     "label": "Engineering Science Module - Circuits",
+     "col": 4,
+     "row": 5,
+     "code": "ENGR 211M"
+    },
+    {
+     "id": "p6_1",
+     "type": "fixed",
+     "label": "Structural Design in Concrete",
+     "col": 5,
+     "row": 0,
+     "code": "CE 335"
+    },
+    {
+     "id": "p6_2",
+     "type": "fixed",
+     "label": "Construction Engineering Management",
+     "col": 5,
+     "row": 1,
+     "code": "CE 381"
+    },
+    {
+     "id": "p6_3",
+     "type": "fixed",
+     "label": "Power Systems Engineering",
+     "col": 5,
+     "row": 2,
+     "code": "ARCE 320"
+    },
+    {
+     "id": "p6_4",
+     "type": "fixed",
+     "label": "On Light and Lighting",
+     "col": 5,
+     "row": 3,
+     "code": "ARCE 330"
+    },
+    {
+     "id": "p6_5",
+     "type": "fixed",
+     "label": "Materials Testing Laboratory",
+     "col": 5,
+     "row": 4,
+     "code": "CE 389"
+    },
+    {
+     "id": "p6_6",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 5,
+     "row": 5,
+     "units": 3
+    },
+    {
+     "id": "p7_1",
+     "type": "fixed",
+     "label": "Senior Engineering Design Studio",
+     "col": 6,
+     "row": 0,
+     "code": "ARC 400A"
+    },
+    {
+     "id": "p7_2",
+     "type": "fixed",
+     "label": "Issue in Professional Practice",
+     "col": 6,
+     "row": 1,
+     "code": "ARCE 408A"
+    },
+    {
+     "id": "p7_3",
+     "type": "fixed",
+     "label": "Structural Design in Steel",
+     "col": 6,
+     "row": 2,
+     "code": "CE 334"
+    },
+    {
+     "id": "p7_4",
+     "type": "fixed",
+     "label": "Engr. Science Module - Engineering Economics",
+     "col": 6,
+     "row": 3,
+     "code": "ENGR 211P"
+    },
+    {
+     "id": "p7_5",
+     "type": "fixed",
+     "label": "Engr. Science Module - Dynamics",
+     "col": 6,
+     "row": 4,
+     "code": "ENGR 211I"
+    },
+    {
+     "id": "p7_6",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 6,
+     "row": 5,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p8_1",
+     "type": "fixed",
+     "label": "Senior Engineering Design",
+     "col": 7,
+     "row": 0,
+     "code": "ARCE 400B"
+    },
+    {
+     "id": "p8_2",
+     "type": "fixed",
+     "label": "Issues in Professional Practice II",
+     "col": 7,
+     "row": 1,
+     "code": "ARCE 408B"
+    },
+    {
+     "id": "p8_3",
+     "type": "fixed",
+     "label": "Behavioral and Design of Structural Systems",
+     "col": 7,
+     "row": 2,
+     "code": "CE 438"
+    },
+    {
+     "id": "p8_4",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 7,
+     "row": 3,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p8_5",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 7,
+     "row": 4,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p8_6",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 7,
+     "row": 5,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p8_7",
+     "type": "fixed",
+     "label": "– General Education Portfolio",
+     "col": 7,
+     "row": 6,
+     "code": "UNIV 301"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "MATH 122A/B",
+     "units": 5,
+     "list": "MATH 122A,MATH 122B,MATH 125",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "Chemical Thinking I",
+     "units": 4,
+     "list": "CHEM 151,CHEM 161,CHEM 163,MSE 109",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_3",
+     "name": "WRIT 101",
+     "units": 3,
+     "list": "WRIT 101,WRIT 107,WRIT 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_4",
+     "name": "Introduction to Engineering",
+     "units": 3,
+     "list": "ENGR 102A,ENGR 102B,ENGR 102",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_5",
+     "name": "Intro to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_2",
+     "name": "WRIT 102",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_3",
+     "name": "Introductory Mechanics",
+     "units": 4,
+     "list": "PHYS 141,PHYS 161H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_6",
+     "name": "Introduction to Architectural Engineering",
+     "units": 1,
+     "list": "ARCE 295",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_1",
+     "name": "Statics",
+     "units": 3,
+     "list": "CE 214",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_2",
+     "name": "Vector Calculus",
+     "units": 4,
+     "list": "MATH 223",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_3",
+     "name": "Introductory Electricity and Magnetism",
+     "units": 4,
+     "list": "PHYS 241,PHYS 261H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_4",
+     "name": "History of Applied Building Technology",
+     "units": 3,
+     "list": "ARC 220",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_5",
+     "name": "Materials and Methods in Architecture",
+     "units": 3,
+     "list": "ARCE 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_1",
+     "name": "Mechanics of Solids",
+     "units": 3,
+     "list": "CE 215",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_2",
+     "name": "Introduction to Ordinary Differential Equations",
+     "units": 3,
+     "list": "MATH 254",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_3",
+     "name": "Building Information Modeling for Engineers",
+     "units": 3,
+     "list": "ARCE 210",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_4",
+     "name": "ARCE 222",
+     "units": 3,
+     "list": "ARCE 222,ARCE 223",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_5",
+     "name": "Thermodynamics",
+     "units": 3,
+     "list": "AME 230",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_6",
+     "name": "Mechanics of Fluids",
+     "units": 3,
+     "list": "CE 218",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_2",
+     "name": "Engineering Communications",
+     "units": 3,
+     "list": "CE 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": "Probability and Statistics in Civil Engineering",
+     "units": 3,
+     "list": "CE 310",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": "Elementary Structural Analysis",
+     "units": 3,
+     "list": "CE 333",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_5",
+     "name": "Intro. to Mechanical Systems in Building Design",
+     "units": 3,
+     "list": "ARCE 340",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_6",
+     "name": "Engineering Science Module - Circuits",
+     "units": 1,
+     "list": "ENGR 211M",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_1",
+     "name": "Structural Design in Concrete",
+     "units": 3,
+     "list": "CE 335",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_2",
+     "name": "Construction Engineering Management",
+     "units": 3,
+     "list": "CE 381",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_3",
+     "name": "Power Systems Engineering",
+     "units": 3,
+     "list": "ARCE 320",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_4",
+     "name": "On Light and Lighting",
+     "units": 3,
+     "list": "ARCE 330",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_5",
+     "name": "Materials Testing Laboratory",
+     "units": 1,
+     "list": "CE 389",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": "Senior Engineering Design Studio",
+     "units": 6,
+     "list": "ARC 400A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_2",
+     "name": "Issue in Professional Practice",
+     "units": 1,
+     "list": "ARCE 408A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_3",
+     "name": "Structural Design in Steel",
+     "units": 3,
+     "list": "CE 334",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_4",
+     "name": "Engr. Science Module - Engineering Economics",
+     "units": 1,
+     "list": "ENGR 211P",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_5",
+     "name": "Engr. Science Module - Dynamics",
+     "units": 1,
+     "list": "ENGR 211I",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": "Senior Engineering Design",
+     "units": 3,
+     "list": "ARCE 400B",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_2",
+     "name": "Issues in Professional Practice II",
+     "units": 1,
+     "list": "ARCE 408B",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_3",
+     "name": "Behavioral and Design of Structural Systems",
+     "units": 3,
+     "list": "CE 438",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_7",
+     "name": "– General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_technical-elective",
+     "name": "Technical Elective",
+     "units": 12,
+     "list": "@te_technical-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "AME 230": {
+   "t": "Thermodynamics",
+   "u": 3,
+   "pre": [
+    "PHYS 141|PHYS 161H"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "ARC 220": {
+   "t": "History of Applied Building Technology",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "ARC 220"
+   ]
+  },
+  "ARC 400A": {
+   "t": "Senior Engineering Design Studio",
+   "u": 6,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ARCE 201": {
+   "t": "Materials and Methods in Architecture",
+   "u": 3,
+   "pre": [
+    "MATH 120R|MATH 122B|MATH 125"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "ARCE 210": {
+   "t": "Building Information Modeling for Engineers",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ARCE 222": {
+   "t": "Building Technologies I",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ARCE 223": {
+   "t": "Building Technology III, EAS I",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ARCE 295": {
+   "t": "Introduction to Architectural Engineering",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122A|MATH 124|MATH 125"
+   ]
+  },
+  "ARCE 320": {
+   "t": "Power Systems Engineering",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "ENGR 211M"
+   ]
+  },
+  "ARCE 330": {
+   "t": "On Light and Lighting",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ARCE 340": {
+   "t": "Intro. to Mechanical Systems in Building Design",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "ARCE 210",
+    "ARCE 295"
+   ]
+  },
+  "ARCE 400B": {
+   "t": "Senior Engineering Design",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ARCE 408A": {
+   "t": "Issue in Professional Practice",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "ARCE 320",
+    "ARCE 340",
+    "CE 333",
+    "CE 381",
+    "CE 301",
+    "ARC 400A"
+   ]
+  },
+  "ARCE 408B": {
+   "t": "Issues in Professional Practice II",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CE 301",
+    "ARC 400A",
+    "ARCE 408A",
+    "ARCE 320",
+    "ACRE 340",
+    "CE 333",
+    "CE 381"
+   ]
+  },
+  "CE 214": {
+   "t": "Statics",
+   "u": 3,
+   "pre": [
+    "PHYS 141|PHYS 161H",
+    "MATH 129|MATH 250B"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "CE 215": {
+   "t": "Mechanics of Solids",
+   "u": 3,
+   "pre": [
+    "CE 214"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "CE 218": {
+   "t": "Mechanics of Fluids",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CE 301": {
+   "t": "Engineering Communications",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "ENGL 102|ENGL 108|ENGL 109H"
+   ]
+  },
+  "CE 310": {
+   "t": "Probability and Statistics in Civil Engineering",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 129"
+   ]
+  },
+  "CE 333": {
+   "t": "Elementary Structural Analysis",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CE 215"
+   ]
+  },
+  "CE 334": {
+   "t": "Structural Design in Steel",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CE 333"
+   ]
+  },
+  "CE 335": {
+   "t": "Structural Design in Concrete",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CE 333"
+   ]
+  },
+  "CE 381": {
+   "t": "Construction Engineering Management",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CE 389": {
+   "t": "Materials Testing Laboratory",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CE 215"
+   ]
+  },
+  "CE 438": {
+   "t": "Behavioral and Design of Structural Systems",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CE 333",
+    "CE 334",
+    "CE 335"
+   ]
+  },
+  "CHEM 151": {
+   "t": "Chemical Thinking I",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 610|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223",
+    "CHEM 105A|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 161": {
+   "t": "Honors Chemical Thinking I",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 730",
+    "CHEM 141|CHEM 151"
+   ]
+  },
+  "CHEM 163": {
+   "t": "Honors Fundamental Techniques of Chemistry I",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CHEM 161",
+    "CHEM 141|CHEM 151"
+   ],
+   "co": [
+    "CHEM 161"
+   ]
+  },
+  "ENGR 102": {
+   "t": "Introduction to Engineering",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ENGR 102A": {
+   "t": "Introduction to Engineering",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 112|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223|MATH 254",
+    "ENGR 102"
+   ],
+   "co": [
+    "MATH 112",
+    "MATH 120R",
+    "MATH 122B",
+    "MATH 125",
+    "MATH 129",
+    "MATH 223",
+    "MATH 254"
+   ]
+  },
+  "ENGR 102B": {
+   "t": "Introduction to Engineering",
+   "u": 2,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 112|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223|MATH 254",
+    "ENGR 102"
+   ],
+   "co": [
+    "MATH 112",
+    "MATH 120R",
+    "MATH 122B",
+    "MATH 125",
+    "MATH 129",
+    "MATH 223",
+    "MATH 254"
+   ]
+  },
+  "ENGR 211I": {
+   "t": "Engr. Science Module - Dynamics",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CE 214",
+    "MATH 254"
+   ]
+  },
+  "ENGR 211M": {
+   "t": "Engineering Science Module - Circuits",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 241"
+   ]
+  },
+  "ENGR 211P": {
+   "t": "Engr. Science Module - Engineering Economics",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MATH 122A": {
+   "t": "Functions for Calculus",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 660|MATH 120R",
+    "MATH 100",
+    "MATH 112",
+    "MATH 120R"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I with Applications",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 730"
+   ]
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "pre": [
+    "MATH 122B|MATH 125"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MATH 223": {
+   "t": "Vector Calculus",
+   "u": 4,
+   "pre": [
+    "MATH 129"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MATH 254": {
+   "t": "Intro to Ordinary Differential Equations",
+   "u": 3,
+   "pre": [
+    "MATH 129|MATH 223"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MSE 109": {
+   "t": "Foundations of Materials Chemistry for Applications",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 610|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223"
+   ]
+  },
+  "PHYS 141": {
+   "t": "Introductory Mechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "PHYS 161H": {
+   "t": "Accelerated Introductory Mechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "PHYS 241": {
+   "t": "Introductory Electricity and Magnetism",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ]
+  },
+  "PHYS 261H": {
+   "t": "Accelerated Introductory Electricity and Magnetism",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ]
+  },
+  "UNIV 101": {
+   "t": "Intro to the General Education Experience",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "OF 101"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107"
+   ]
+  },
+  "WRIT 108": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "WRIT 109H": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  }
+ },
+ "draft": true
+}

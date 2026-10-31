@@ -1,0 +1,1302 @@
+{
+ "format": "degree-pack/1",
+ "createdWith": "Degree Flowchart Builder v5.19 by Juan Gastelum (build d9e04007be)",
+ "id": "uarizona/engineering/materials-science-and-engineering/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "program": {
+  "name": "Materials Science and Engineering",
+  "college": "College of Engineering",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science in Materials Science and Engineering"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 122,
+  "maxLoad": 17,
+  "minGrade": "C"
+ },
+ "meta": {
+  "catalog": "DRAFT from the college four-year plan, catalog year 2026-27",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified except as printed in the plan"
+ },
+ "lists": {
+  "te_mse-technical-elective": [],
+  "te_math-elective": [],
+  "te_advanced-science-elective": [],
+  "te_technical-elective": []
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Materials Science and Engineering",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026-27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "choice",
+     "label": "A/B",
+     "col": 0,
+     "row": 0,
+     "options": [
+      {
+       "l": "MATH 122",
+       "codes": [
+        "MATH 122"
+       ],
+       "u": 3
+      },
+      {
+       "l": "MATH 125",
+       "codes": [
+        "MATH 125"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_2",
+     "type": "choice",
+     "label": "– Foundations of Materials Chemistry for Applications orCHEM 151 Chemical Thinking I",
+     "col": 0,
+     "row": 1,
+     "options": [
+      {
+       "l": "MSE 109",
+       "codes": [
+        "MSE 109"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 161/163",
+       "codes": [
+        "CHEM 161",
+        "CHEM 163"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p1_3",
+     "type": "choice",
+     "label": "WRIT 101",
+     "col": 0,
+     "row": 2,
+     "options": [
+      {
+       "l": "WRIT 101",
+       "codes": [
+        "WRIT 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 107",
+       "codes": [
+        "WRIT 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 109H",
+       "codes": [
+        "WRIT 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_4",
+     "type": "choice",
+     "label": "Introduction to Engineering",
+     "col": 0,
+     "row": 3,
+     "options": [
+      {
+       "l": "ENGR 102A/B",
+       "codes": [
+        "ENGR 102A",
+        "ENGR 102B"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGR 102",
+       "codes": [
+        "ENGR 102"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_5",
+     "type": "fixed",
+     "label": "Intro to the General Education Experience",
+     "col": 0,
+     "row": 4,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p2_1",
+     "type": "fixed",
+     "label": "Calculus II",
+     "col": 1,
+     "row": 0,
+     "code": "MATH 129"
+    },
+    {
+     "id": "p2_2",
+     "type": "fixed",
+     "label": "Solid State Chemistry",
+     "col": 1,
+     "row": 1,
+     "code": "MSE 110"
+    },
+    {
+     "id": "p2_3",
+     "type": "choice",
+     "label": "Introductory Mechanics",
+     "col": 1,
+     "row": 2,
+     "options": [
+      {
+       "l": "PHYS 141",
+       "codes": [
+        "PHYS 141"
+       ],
+       "u": 4
+      },
+      {
+       "l": "PHYS 161H",
+       "codes": [
+        "PHYS 161H"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_4",
+     "type": "choice",
+     "label": "WRIT 102",
+     "col": 1,
+     "row": 3,
+     "options": [
+      {
+       "l": "WRIT 102",
+       "codes": [
+        "WRIT 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 108",
+       "codes": [
+        "WRIT 108"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Humanist)",
+     "col": 1,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p3_1",
+     "type": "fixed",
+     "label": "Introduction to Materials Science and Engineering I – Fall Only",
+     "col": 2,
+     "row": 0,
+     "code": "MSE 222"
+    },
+    {
+     "id": "p3_2",
+     "type": "fixed",
+     "label": "Vector Calculus",
+     "col": 2,
+     "row": 1,
+     "code": "MATH 223"
+    },
+    {
+     "id": "p3_3",
+     "type": "choice",
+     "label": "Introductory Electricity and Magnetism",
+     "col": 2,
+     "row": 2,
+     "options": [
+      {
+       "l": "PHYS 241",
+       "codes": [
+        "PHYS 241"
+       ],
+       "u": 4
+      },
+      {
+       "l": "PHYS 261H",
+       "codes": [
+        "PHYS 261H"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p3_4",
+     "type": "fixed",
+     "label": "Introduction to Computer Methods in MSE – Fall Only",
+     "col": 2,
+     "row": 3,
+     "code": "MSE 280"
+    },
+    {
+     "id": "p3_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Social Scientist)",
+     "col": 2,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p4_1",
+     "type": "fixed",
+     "label": "Intro to Materials Science and Engineering II - Spring Only",
+     "col": 3,
+     "row": 0,
+     "code": "MSE 223R"
+    },
+    {
+     "id": "p4_2",
+     "type": "fixed",
+     "label": "Materials Processing Laboratory - Spring Only",
+     "col": 3,
+     "row": 1,
+     "code": "MSE 223L"
+    },
+    {
+     "id": "p4_3",
+     "type": "fixed",
+     "label": "Thermodynamics - Spring Only",
+     "col": 3,
+     "row": 2,
+     "code": "MSE 345"
+    },
+    {
+     "id": "p4_4",
+     "type": "fixed",
+     "label": "Intro to Ordinary Differential Equations",
+     "col": 3,
+     "row": 3,
+     "code": "MATH 254"
+    },
+    {
+     "id": "p4_5",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 3,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p5_1",
+     "type": "te",
+     "label": "MSE Technical Elective",
+     "col": 4,
+     "row": 0,
+     "list": "te_mse-technical-elective"
+    },
+    {
+     "id": "p5_2",
+     "type": "te",
+     "label": "Math Elective",
+     "col": 4,
+     "row": 1,
+     "list": "te_math-elective"
+    },
+    {
+     "id": "p5_3",
+     "type": "fixed",
+     "label": "Mechanical Behavior of Materials – Fall Only",
+     "col": 4,
+     "row": 2,
+     "code": "MSE 370"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": "Elements of Electrical Engineering",
+     "col": 4,
+     "row": 3,
+     "code": "ECE 207"
+    },
+    {
+     "id": "p5_5",
+     "type": "fixed",
+     "label": "Physical Properties of Materials – Fall Only",
+     "col": 4,
+     "row": 4,
+     "code": "MSE 365"
+    },
+    {
+     "id": "p6_1",
+     "type": "fixed",
+     "label": "Materials Lab – Spring Only",
+     "col": 5,
+     "row": 0,
+     "code": "MSE 360L"
+    },
+    {
+     "id": "p6_2",
+     "type": "te",
+     "label": "MSE Technical Elective",
+     "col": 5,
+     "row": 1,
+     "list": "te_mse-technical-elective"
+    },
+    {
+     "id": "p6_3",
+     "type": "fixed",
+     "label": "Advanced Characterization Methods in MSE – Spring Only",
+     "col": 5,
+     "row": 2,
+     "code": "MSE 480"
+    },
+    {
+     "id": "p6_4",
+     "type": "fixed",
+     "label": "Transport Phenomena & Kinetics in Materials Processing – Spring Only",
+     "col": 5,
+     "row": 3,
+     "code": "MSE 415"
+    },
+    {
+     "id": "p6_5",
+     "type": "te",
+     "label": "Advanced Science Elective",
+     "col": 5,
+     "row": 4,
+     "list": "te_advanced-science-elective"
+    },
+    {
+     "id": "p6_6",
+     "type": "free",
+     "label": "Exploring Perspectives (Artist)",
+     "col": 5,
+     "row": 5,
+     "units": 3
+    },
+    {
+     "id": "p7_1",
+     "type": "choice",
+     "label": "Interdisciplinary Capstone",
+     "col": 6,
+     "row": 0,
+     "options": [
+      {
+       "l": "ENGR 498A",
+       "codes": [
+        "ENGR 498A"
+       ],
+       "u": 3
+      },
+      {
+       "l": "MSE 498",
+       "codes": [
+        "MSE 498"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p7_2",
+     "type": "te",
+     "label": "MSE Technical Elective",
+     "col": 6,
+     "row": 1,
+     "list": "te_mse-technical-elective"
+    },
+    {
+     "id": "p7_3",
+     "type": "free",
+     "label": "Technical Elective -*CE 301 – Engineering Communications",
+     "col": 6,
+     "row": 2,
+     "units": 3
+    },
+    {
+     "id": "p7_4",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 6,
+     "row": 3,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p8_1",
+     "type": "choice",
+     "label": "Interdisciplinary Capstone",
+     "col": 7,
+     "row": 0,
+     "options": [
+      {
+       "l": "ENGR 498B",
+       "codes": [
+        "ENGR 498B"
+       ],
+       "u": 3
+      },
+      {
+       "l": "MSE 498",
+       "codes": [
+        "MSE 498"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p8_2",
+     "type": "te",
+     "label": "MSE Technical Elective",
+     "col": 7,
+     "row": 1,
+     "list": "te_mse-technical-elective"
+    },
+    {
+     "id": "p8_3",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 7,
+     "row": 2,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p8_4",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 7,
+     "row": 3,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p8_5",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 7,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p8_6",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "col": 7,
+     "row": 5,
+     "code": "UNIV 301"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "A/B",
+     "units": 5,
+     "list": "MATH 122,MATH 125",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "– Foundations of Materials Chemistry for Applications orCHEM 151 Chemical Thinking I",
+     "units": 4,
+     "list": "MSE 109,CHEM 161,CHEM 163",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_3",
+     "name": "WRIT 101",
+     "units": 3,
+     "list": "WRIT 101,WRIT 107,WRIT 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_4",
+     "name": "Introduction to Engineering",
+     "units": 3,
+     "list": "ENGR 102A,ENGR 102B,ENGR 102",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_5",
+     "name": "Intro to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_2",
+     "name": "Solid State Chemistry",
+     "units": 4,
+     "list": "MSE 110",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_3",
+     "name": "Introductory Mechanics",
+     "units": 4,
+     "list": "PHYS 141,PHYS 161H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_4",
+     "name": "WRIT 102",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_1",
+     "name": "Introduction to Materials Science and Engineering I – Fall Only",
+     "units": 3,
+     "list": "MSE 222",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_2",
+     "name": "Vector Calculus",
+     "units": 4,
+     "list": "MATH 223",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_3",
+     "name": "Introductory Electricity and Magnetism",
+     "units": 4,
+     "list": "PHYS 241,PHYS 261H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_4",
+     "name": "Introduction to Computer Methods in MSE – Fall Only",
+     "units": 2,
+     "list": "MSE 280",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_1",
+     "name": "Intro to Materials Science and Engineering II - Spring Only",
+     "units": 3,
+     "list": "MSE 223R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_2",
+     "name": "Materials Processing Laboratory - Spring Only",
+     "units": 2,
+     "list": "MSE 223L",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_3",
+     "name": "Thermodynamics - Spring Only",
+     "units": 4,
+     "list": "MSE 345",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_4",
+     "name": "Intro to Ordinary Differential Equations",
+     "units": 3,
+     "list": "MATH 254",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": "Mechanical Behavior of Materials – Fall Only",
+     "units": 3,
+     "list": "MSE 370",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": "Elements of Electrical Engineering",
+     "units": 3,
+     "list": "ECE 207",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_5",
+     "name": "Physical Properties of Materials – Fall Only",
+     "units": 3,
+     "list": "MSE 365",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_1",
+     "name": "Materials Lab – Spring Only",
+     "units": 1,
+     "list": "MSE 360L",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_3",
+     "name": "Advanced Characterization Methods in MSE – Spring Only",
+     "units": 3,
+     "list": "MSE 480",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_4",
+     "name": "Transport Phenomena & Kinetics in Materials Processing – Spring Only",
+     "units": 4,
+     "list": "MSE 415",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": "Interdisciplinary Capstone",
+     "units": 3,
+     "list": "ENGR 498A,MSE 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": "Interdisciplinary Capstone",
+     "units": 3,
+     "list": "ENGR 498B,MSE 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_6",
+     "name": "General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_mse-technical-elective",
+     "name": "MSE Technical Elective",
+     "units": 12,
+     "list": "@te_mse-technical-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_math-elective",
+     "name": "Math Elective",
+     "units": 3,
+     "list": "@te_math-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_advanced-science-elective",
+     "name": "Advanced Science Elective",
+     "units": 3,
+     "list": "@te_advanced-science-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_technical-elective",
+     "name": "Technical Elective",
+     "units": 9,
+     "list": "@te_technical-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "AME 300": {
+   "t": "Instrumentation Laboratory",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "AME 313": {
+   "t": "Aerospace/Mechanical Engineering Laboratory",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "AME 320": {
+   "t": "Aerodynamics",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 151": {
+   "t": "Chemical Thinking I",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 610|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223",
+    "CHEM 105A|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 161": {
+   "t": "Honors Chemical Thinking I",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 730",
+    "CHEM 141|CHEM 151"
+   ]
+  },
+  "CHEM 163": {
+   "t": "Honors Fundamental Techniques of Chemistry I",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CHEM 161",
+    "CHEM 141|CHEM 151"
+   ],
+   "co": [
+    "CHEM 161"
+   ]
+  },
+  "ECE 207": {
+   "t": ": Elements of Electrical Engineering",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 241|PHYS 261H"
+   ]
+  },
+  "ENGR 102": {
+   "t": "Introduction to Engineering",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ENGR 102A": {
+   "t": "Introduction to Engineering",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 112|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223|MATH 254",
+    "ENGR 102"
+   ],
+   "co": [
+    "MATH 112",
+    "MATH 120R",
+    "MATH 122B",
+    "MATH 125",
+    "MATH 129",
+    "MATH 223",
+    "MATH 254"
+   ]
+  },
+  "ENGR 102B": {
+   "t": "Introduction to Engineering",
+   "u": 2,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 112|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223|MATH 254",
+    "ENGR 102"
+   ],
+   "co": [
+    "MATH 112",
+    "MATH 120R",
+    "MATH 122B",
+    "MATH 125",
+    "MATH 129",
+    "MATH 223",
+    "MATH 254"
+   ]
+  },
+  "ENGR 498A": {
+   "t": "Interdisciplinary Capstone",
+   "u": 3,
+   "pre": [
+    "AME 300",
+    "AME 313",
+    "AME 320"
+   ],
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "off"
+   ]
+  },
+  "ENGR 498B": {
+   "t": "Interdisciplinary Capstone",
+   "u": 3,
+   "pre": [
+    "ENGR 498A"
+   ],
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "off"
+   ]
+  },
+  "MATH 122": {
+   "t": "A/B",
+   "u": 0,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off",
+    "units"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I with Applications",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 730"
+   ]
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "pre": [
+    "MATH 122B|MATH 125"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MATH 223": {
+   "t": "Vector Calculus",
+   "u": 4,
+   "pre": [
+    "MATH 129"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MATH 254": {
+   "t": "Intro to Ordinary Differential Equations",
+   "u": 3,
+   "pre": [
+    "MATH 129|MATH 223"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MSE 109": {
+   "t": "Foundations of Materials Chemistry for Applications",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 610|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223"
+   ]
+  },
+  "MSE 110": {
+   "t": "Solid State Chemistry",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MSE 222": {
+   "t": "Introduction to Materials Science and Engineering I – Fall Only",
+   "u": 3,
+   "pre": [
+    "CHEM 151",
+    "MSE 110|CHEM 152",
+    "MATH 122B|MATH 125"
+   ],
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "off"
+   ]
+  },
+  "MSE 223L": {
+   "t": "Materials Processing Laboratory - Spring Only",
+   "u": 2,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MSE 223R": {
+   "t": "Intro to Materials Science and Engineering II - Spring Only",
+   "u": 3,
+   "pre": [
+    "MSE 222|MSE 331R"
+   ],
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "off"
+   ]
+  },
+  "MSE 280": {
+   "t": "Introduction to Computer Methods in MSE – Fall Only",
+   "u": 2,
+   "pre": [
+    "MSE 110",
+    "MATH 129"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MSE 331R": {
+   "t": "Fundamentals of Materials for Engineers",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MSE 345": {
+   "t": "Thermodynamics - Spring Only",
+   "u": 4,
+   "pre": [
+    "MATH 129",
+    "CHEM 151"
+   ],
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "off"
+   ]
+  },
+  "MSE 360L": {
+   "t": "Materials Lab – Spring Only",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MSE 365": {
+   "t": "Physical Properties of Materials – Fall Only",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MSE 370": {
+   "t": "Mechanical Behavior of Materials – Fall Only",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSE 222",
+    "MSE 223R"
+   ]
+  },
+  "MSE 415": {
+   "t": "Transport Phenomena & Kinetics in Materials Processing – Spring Only",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MSE 480": {
+   "t": "Advanced Characterization Methods in MSE – Spring Only",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MSE 498": {
+   "t": "Senior Capstone",
+   "u": 0,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off",
+    "units"
+   ]
+  },
+  "PHYS 141": {
+   "t": "Introductory Mechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "PHYS 161H": {
+   "t": "Accelerated Introductory Mechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "PHYS 241": {
+   "t": "Introductory Electricity and Magnetism",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ]
+  },
+  "PHYS 261H": {
+   "t": "Accelerated Introductory Electricity and Magnetism",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ]
+  },
+  "UNIV 101": {
+   "t": "Intro to the General Education Experience",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "OF 101"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107"
+   ]
+  },
+  "WRIT 108": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "WRIT 109H": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  }
+ },
+ "draft": true
+}

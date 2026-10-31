@@ -1,0 +1,1336 @@
+{
+ "format": "degree-pack/1",
+ "createdWith": "Degree Flowchart Builder v5.19 by Juan Gastelum (build d9e04007be)",
+ "id": "uarizona/engineering/software-engineering/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "program": {
+  "name": "Software Engineering",
+  "college": "College of Engineering",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science in Software Engineering"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C"
+ },
+ "meta": {
+  "catalog": "DRAFT from the college four-year plan, catalog year 2026-27",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified except as printed in the plan"
+ },
+ "lists": {
+  "te_math-stat-elective-consult-with-faculty-advisor": [],
+  "te_technical-elective": []
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Software Engineering",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026-27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "choice",
+     "label": "MATH 122A/B",
+     "col": 0,
+     "row": 0,
+     "options": [
+      {
+       "l": "MATH 122A/B",
+       "codes": [
+        "MATH 122A",
+        "MATH 122B"
+       ],
+       "u": 5
+      },
+      {
+       "l": "MATH 125",
+       "codes": [
+        "MATH 125"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_2",
+     "type": "choice",
+     "label": "Chemical Thinking I",
+     "col": 0,
+     "row": 1,
+     "options": [
+      {
+       "l": "CHEM 151",
+       "codes": [
+        "CHEM 151"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 161/163",
+       "codes": [
+        "CHEM 161",
+        "CHEM 163"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p1_3",
+     "type": "choice",
+     "label": "WRIT 101",
+     "col": 0,
+     "row": 2,
+     "options": [
+      {
+       "l": "WRIT 101",
+       "codes": [
+        "WRIT 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 107",
+       "codes": [
+        "WRIT 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 109H",
+       "codes": [
+        "WRIT 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_4",
+     "type": "free",
+     "label": "ENGR102A/B Introduction to Engineering or ENGR 102",
+     "col": 0,
+     "row": 3,
+     "units": 3
+    },
+    {
+     "id": "p1_5",
+     "type": "fixed",
+     "label": "Intro to the General Education Experience",
+     "col": 0,
+     "row": 4,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p2_1",
+     "type": "fixed",
+     "label": "Calculus II",
+     "col": 1,
+     "row": 0,
+     "code": "MATH 129"
+    },
+    {
+     "id": "p2_2",
+     "type": "choice",
+     "label": "Introductory Mechanics",
+     "col": 1,
+     "row": 1,
+     "options": [
+      {
+       "l": "PHYS 141",
+       "codes": [
+        "PHYS 141"
+       ],
+       "u": 4
+      },
+      {
+       "l": "PHYS 161H",
+       "codes": [
+        "PHYS 161H"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_3",
+     "type": "fixed",
+     "label": "Programming 1",
+     "col": 1,
+     "row": 2,
+     "code": "ECE 101"
+    },
+    {
+     "id": "p2_4",
+     "type": "choice",
+     "label": "WRIT 102",
+     "col": 1,
+     "row": 3,
+     "options": [
+      {
+       "l": "WRIT 102",
+       "codes": [
+        "WRIT 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 108",
+       "codes": [
+        "WRIT 108"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_5",
+     "type": "choice",
+     "label": "Chemical Thinking II",
+     "col": 1,
+     "row": 4,
+     "options": [
+      {
+       "l": "CHEM 152",
+       "codes": [
+        "CHEM 152"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 162/164",
+       "codes": [
+        "CHEM 162",
+        "CHEM 164"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MSE 110",
+       "codes": [
+        "MSE 110"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MCB 181R/L",
+       "codes": [
+        "MCB 181R",
+        "MCB 181L"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p3_1",
+     "type": "fixed",
+     "label": "Discrete Mathematics in Computer Science",
+     "col": 2,
+     "row": 0,
+     "code": "MATH 243"
+    },
+    {
+     "id": "p3_2",
+     "type": "fixed",
+     "label": "Introduction to Software Engineering",
+     "col": 2,
+     "row": 1,
+     "code": "SFWE 101"
+    },
+    {
+     "id": "p3_3",
+     "type": "fixed",
+     "label": "Programming 2",
+     "col": 2,
+     "row": 2,
+     "code": "ECE 201"
+    },
+    {
+     "id": "p3_4",
+     "type": "choice",
+     "label": "Introductory Electricity and Magnetism",
+     "col": 2,
+     "row": 3,
+     "options": [
+      {
+       "l": "PHYS 241",
+       "codes": [
+        "PHYS 241"
+       ],
+       "u": 4
+      },
+      {
+       "l": "PHYS 261H",
+       "codes": [
+        "PHYS 261H"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p3_5",
+     "type": "fixed",
+     "label": "Digital Logic",
+     "col": 2,
+     "row": 4,
+     "code": "ECE 274A"
+    },
+    {
+     "id": "p4_1",
+     "type": "fixed",
+     "label": "Object-Oriented Modeling and Design",
+     "col": 3,
+     "row": 0,
+     "code": "SIE 277"
+    },
+    {
+     "id": "p4_2",
+     "type": "free",
+     "label": "Exploring Perspectives (Humanist)",
+     "col": 3,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p4_3",
+     "type": "fixed",
+     "label": "Software Engineering Sophomore Colloquium",
+     "col": 3,
+     "row": 2,
+     "code": "SFWE 201"
+    },
+    {
+     "id": "p4_4",
+     "type": "free",
+     "label": "Exploring Perspectives (Artist)",
+     "col": 3,
+     "row": 3,
+     "units": 3
+    },
+    {
+     "id": "p4_5",
+     "type": "te",
+     "label": "MATH/STAT Elective - Consult with faculty advisor",
+     "col": 3,
+     "row": 4,
+     "list": "te_math-stat-elective-consult-with-faculty-advisor"
+    },
+    {
+     "id": "p5_1",
+     "type": "fixed",
+     "label": "Introduction to Engineering Probability and Statistics",
+     "col": 4,
+     "row": 0,
+     "code": "SIE 305"
+    },
+    {
+     "id": "p5_2",
+     "type": "fixed",
+     "label": "Software Requirements Analysis and Test",
+     "col": 4,
+     "row": 1,
+     "code": "SFWE 301"
+    },
+    {
+     "id": "p5_3",
+     "type": "fixed",
+     "label": "Data Persistence",
+     "col": 4,
+     "row": 2,
+     "code": "SFWE 303"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": "Fundamentals of Computer Organization",
+     "col": 4,
+     "row": 3,
+     "code": "ECE 369A"
+    },
+    {
+     "id": "p5_5",
+     "type": "fixed",
+     "label": "Engineering Ethics and Contemporary Issues",
+     "col": 4,
+     "row": 4,
+     "code": "ECE 311"
+    },
+    {
+     "id": "p6_1",
+     "type": "fixed",
+     "label": "Software Architecture and Design",
+     "col": 5,
+     "row": 0,
+     "code": "SFWE 405"
+    },
+    {
+     "id": "p6_2",
+     "type": "fixed",
+     "label": "Software Assurance and Security",
+     "col": 5,
+     "row": 1,
+     "code": "SFWE 401"
+    },
+    {
+     "id": "p6_3",
+     "type": "fixed",
+     "label": "Discrete Structures and Basic Algorithms",
+     "col": 5,
+     "row": 2,
+     "code": "CSC 355"
+    },
+    {
+     "id": "p6_4",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 5,
+     "row": 3,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p6_5",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 5,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p7_1",
+     "type": "fixed",
+     "label": "Software Project Management",
+     "col": 6,
+     "row": 0,
+     "code": "SFWE 403"
+    },
+    {
+     "id": "p7_2",
+     "type": "fixed",
+     "label": "Interdisciplinary Capstone",
+     "col": 6,
+     "row": 1,
+     "code": "ENGR 498A"
+    },
+    {
+     "id": "p7_3",
+     "type": "free",
+     "label": "Exploring Perspectives (Social Scientist)",
+     "col": 6,
+     "row": 2,
+     "units": 3
+    },
+    {
+     "id": "p7_4",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 6,
+     "row": 3,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p7_5",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 6,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p8_1",
+     "type": "fixed",
+     "label": "DevOps",
+     "col": 7,
+     "row": 0,
+     "code": "SFWE 402"
+    },
+    {
+     "id": "p8_2",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 7,
+     "row": 1,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p8_3",
+     "type": "fixed",
+     "label": "Interdisciplinary Capstone",
+     "col": 7,
+     "row": 2,
+     "code": "ENGR 498B"
+    },
+    {
+     "id": "p8_4",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 7,
+     "row": 3,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p8_5",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 7,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p8_6",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "col": 7,
+     "row": 5,
+     "code": "UNIV 301"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "MATH 122A/B",
+     "units": 5,
+     "list": "MATH 122A,MATH 122B,MATH 125",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "Chemical Thinking I",
+     "units": 4,
+     "list": "CHEM 151,CHEM 161,CHEM 163",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_3",
+     "name": "WRIT 101",
+     "units": 3,
+     "list": "WRIT 101,WRIT 107,WRIT 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_5",
+     "name": "Intro to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_2",
+     "name": "Introductory Mechanics",
+     "units": 4,
+     "list": "PHYS 141,PHYS 161H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_3",
+     "name": "Programming 1",
+     "units": 4,
+     "list": "ECE 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_4",
+     "name": "WRIT 102",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_5",
+     "name": "Chemical Thinking II",
+     "units": 4,
+     "list": "CHEM 152,CHEM 162,CHEM 164,MSE 110,MCB 181R,MCB 181L",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_1",
+     "name": "Discrete Mathematics in Computer Science",
+     "units": 3,
+     "list": "MATH 243",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_2",
+     "name": "Introduction to Software Engineering",
+     "units": 3,
+     "list": "SFWE 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_3",
+     "name": "Programming 2",
+     "units": 3,
+     "list": "ECE 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_4",
+     "name": "Introductory Electricity and Magnetism",
+     "units": 4,
+     "list": "PHYS 241,PHYS 261H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_5",
+     "name": "Digital Logic",
+     "units": 4,
+     "list": "ECE 274A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_1",
+     "name": "Object-Oriented Modeling and Design",
+     "units": 3,
+     "list": "SIE 277",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_3",
+     "name": "Software Engineering Sophomore Colloquium",
+     "units": 1,
+     "list": "SFWE 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_1",
+     "name": "Introduction to Engineering Probability and Statistics",
+     "units": 3,
+     "list": "SIE 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_2",
+     "name": "Software Requirements Analysis and Test",
+     "units": 3,
+     "list": "SFWE 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": "Data Persistence",
+     "units": 3,
+     "list": "SFWE 303",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": "Fundamentals of Computer Organization",
+     "units": 4,
+     "list": "ECE 369A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_5",
+     "name": "Engineering Ethics and Contemporary Issues",
+     "units": 1,
+     "list": "ECE 311",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_1",
+     "name": "Software Architecture and Design",
+     "units": 3,
+     "list": "SFWE 405",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_2",
+     "name": "Software Assurance and Security",
+     "units": 3,
+     "list": "SFWE 401",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_3",
+     "name": "Discrete Structures and Basic Algorithms",
+     "units": 3,
+     "list": "CSC 355",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": "Software Project Management",
+     "units": 3,
+     "list": "SFWE 403",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_2",
+     "name": "Interdisciplinary Capstone",
+     "units": 3,
+     "list": "ENGR 498A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": "DevOps",
+     "units": 3,
+     "list": "SFWE 402",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_3",
+     "name": "Interdisciplinary Capstone",
+     "units": 3,
+     "list": "ENGR 498B",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_6",
+     "name": "General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_math-stat-elective-consult-with-faculty-advisor",
+     "name": "MATH/STAT Elective - Consult with faculty advisor",
+     "units": 3,
+     "list": "@te_math-stat-elective-consult-with-faculty-advisor",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_technical-elective",
+     "name": "Technical Elective",
+     "units": 12,
+     "list": "@te_technical-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "AME 300": {
+   "t": "Instrumentation Laboratory",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "AME 313": {
+   "t": "Aerospace/Mechanical Engineering Laboratory",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "AME 320": {
+   "t": "Aerodynamics",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 151": {
+   "t": "Chemical Thinking I",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 610|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223",
+    "CHEM 105A|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 161": {
+   "t": "Honors Chemical Thinking I",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 730",
+    "CHEM 141|CHEM 151"
+   ]
+  },
+  "CHEM 162": {
+   "t": "Honors Chemical Thinking II",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 163": {
+   "t": "Honors Fundamental Techniques of Chemistry I",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CHEM 161",
+    "CHEM 141|CHEM 151"
+   ],
+   "co": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 164": {
+   "t": "Honors Fundamental Techniques of Chemistry II",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CSC 110": {
+   "t": "Intro to Computer Programming I",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CSC 355": {
+   "t": "Discrete Structures and Basic Algorithms (for Engr)",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "ECE 201",
+    "MATH 243",
+    "CSC 345"
+   ]
+  },
+  "ECE 101": {
+   "t": "Programming 1",
+   "u": 4,
+   "off": "fall",
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre"
+   ],
+   "pre": [
+    "MATH 120R|MATH 122B|MATH 125|MATH 129"
+   ],
+   "co": [
+    "MATH 120R",
+    "MATH 122B",
+    "MATH 125",
+    "MATH 129"
+   ]
+  },
+  "ECE 201": {
+   "t": "Programming 2",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "ECE 101"
+   ]
+  },
+  "ECE 274A": {
+   "t": "Digital Logic",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "ECE 101",
+    "MATH 129"
+   ],
+   "co": [
+    "MATH 129"
+   ]
+  },
+  "ECE 311": {
+   "t": "Engineering Ethics and Contemporary Issues",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ECE 369A": {
+   "t": "Fundamental of Computer Organization",
+   "u": 4,
+   "pre": [
+    "ECE 101",
+    "ECE 274A"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "ENGR 498A": {
+   "t": "Interdisciplinary Capstone",
+   "u": 3,
+   "pre": [
+    "AME 300",
+    "AME 313",
+    "AME 320"
+   ],
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "off"
+   ]
+  },
+  "ENGR 498B": {
+   "t": "Interdisciplinary Capstone",
+   "u": 3,
+   "pre": [
+    "ENGR 498A"
+   ],
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "off"
+   ]
+  },
+  "MATH 122A": {
+   "t": "Functions for Calculus",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 660|MATH 120R",
+    "MATH 100",
+    "MATH 112",
+    "MATH 120R"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I with Applications",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 730"
+   ]
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "pre": [
+    "MATH 122B|MATH 125"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MATH 243": {
+   "t": "Discrete Mathematics",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125|MATH 129"
+   ]
+  },
+  "MCB 181L": {
+   "t": "Introductory Biology I",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MCB 181R": {
+   "t": "Introductory Biology I",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 560|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 124|MATH 122B|MATH 125|MATH 129|MATH 223"
+   ]
+  },
+  "MSE 110": {
+   "t": "Solid State Chemistry",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PHYS 141": {
+   "t": "Introductory Mechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "PHYS 161H": {
+   "t": "Accelerated Introductory Mechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "PHYS 241": {
+   "t": "Introductory Electricity and Magnetism",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ]
+  },
+  "PHYS 261H": {
+   "t": "Accelerated Introductory Electricity and Magnetism",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ]
+  },
+  "SFWE 101": {
+   "t": "Introduction to Software Engineering",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "SFWE 201": {
+   "t": "Software Engineering Sophomore Colloquium",
+   "u": 1,
+   "pre": [
+    "SFWE 101|ECE 101"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "SFWE 301": {
+   "t": "Software Requirements Analysis and Test",
+   "u": 3,
+   "off": "fall",
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre"
+   ],
+   "pre": [
+    "ECE 201|ECE 275"
+   ]
+  },
+  "SFWE 303": {
+   "t": "Data Persistence",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "ECE 275|ECE 201"
+   ]
+  },
+  "SFWE 401": {
+   "t": "Software Assurance and Security",
+   "u": 3,
+   "off": "spring",
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre"
+   ],
+   "pre": [
+    "ECE 201"
+   ]
+  },
+  "SFWE 402": {
+   "t": "Software DevSecOps",
+   "u": 3,
+   "pre": [
+    "ECE 201|ECE 275"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "SFWE 403": {
+   "t": "Software Project Management",
+   "u": 3,
+   "off": "fall",
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre"
+   ],
+   "pre": [
+    "SFWE 301"
+   ]
+  },
+  "SFWE 405": {
+   "t": "Software Architecture and Design",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "ECE 401C",
+    "CSC 355"
+   ]
+  },
+  "SIE 277": {
+   "t": "Object-Oriented Modeling and Design",
+   "u": 3,
+   "pre": [
+    "ECE 101|ECE 175|CSC 110"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "SIE 305": {
+   "t": "Introduction to Engineering Probability and Statistics",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 129"
+   ]
+  },
+  "UNIV 101": {
+   "t": "Intro to the General Education Experience",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "OF 101"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107"
+   ]
+  },
+  "WRIT 108": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "WRIT 109H": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  }
+ },
+ "draft": true
+}

@@ -1,0 +1,1285 @@
+{
+ "format": "degree-pack/1",
+ "createdWith": "Degree Flowchart Builder v5.19 by Juan Gastelum (build d9e04007be)",
+ "id": "uarizona/engineering/integrated-business-and-engineering/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "program": {
+  "name": "Integrated Business and Engineering",
+  "college": "College of Engineering",
+  "university": "University of Arizona",
+  "degree": "Integrated Business and Engineering"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C"
+ },
+ "meta": {
+  "catalog": "DRAFT from the college four-year plan, catalog year 2026-27",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified except as printed in the plan"
+ },
+ "lists": {
+  "te_second-language-requirement": [],
+  "te_one-of-remaining-general-education-courses": []
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Integrated Business and Engineering",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026-27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "fixed",
+     "label": ": Introduction to Integrated Business and Engineering Design",
+     "col": 0,
+     "row": 0,
+     "code": "IBE 101"
+    },
+    {
+     "id": "p1_2",
+     "type": "fixed",
+     "label": ": Computers and Internetworked Society",
+     "col": 0,
+     "row": 1,
+     "code": "MIS 111"
+    },
+    {
+     "id": "p1_3",
+     "type": "fixed",
+     "label": ": Computers and Internetworked Society Lab",
+     "col": 0,
+     "row": 2,
+     "code": "MIS 112"
+    },
+    {
+     "id": "p1_4",
+     "type": "fixed",
+     "label": ": Foundations of Materials Chemistry for Applications orCHEM 151: Chemical Thinking I",
+     "col": 0,
+     "row": 3,
+     "code": "MSE 109"
+    },
+    {
+     "id": "p1_5",
+     "type": "choice",
+     "label": ": First Year Composition",
+     "col": 0,
+     "row": 4,
+     "options": [
+      {
+       "l": "WRIT 101/107/109H",
+       "codes": [
+        "WRIT 101",
+        "WRIT 107",
+        "WRIT 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_6",
+     "type": "fixed",
+     "label": "&B: First Semester Calculus",
+     "col": 0,
+     "row": 5,
+     "code": "MATH 122A"
+    },
+    {
+     "id": "p2_1",
+     "type": "fixed",
+     "label": ": Engineering Design and Business Plan Development",
+     "col": 1,
+     "row": 0,
+     "code": "IBE 102"
+    },
+    {
+     "id": "p2_2",
+     "type": "choice",
+     "label": ": Introduction to Software Engineering",
+     "col": 1,
+     "row": 1,
+     "options": [
+      {
+       "l": "SWFE 101",
+       "codes": [
+        "SWFE 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ECE 101",
+       "codes": [
+        "ECE 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "CSC 110",
+       "codes": [
+        "CSC 110"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_3",
+     "type": "fixed",
+     "label": ": Introduction to the General Education Experience",
+     "col": 1,
+     "row": 2,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p2_4",
+     "type": "choice",
+     "label": ": Solid State Chemistry",
+     "col": 1,
+     "row": 3,
+     "options": [
+      {
+       "l": "MSE 110",
+       "codes": [
+        "MSE 110"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 152",
+       "codes": [
+        "CHEM 152"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_5",
+     "type": "choice",
+     "label": ": First Year Composition",
+     "col": 1,
+     "row": 4,
+     "options": [
+      {
+       "l": "WRIT 102/108/109H",
+       "codes": [
+        "WRIT 102",
+        "WRIT 108",
+        "WRIT 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_6",
+     "type": "fixed",
+     "label": ": Calculus II",
+     "col": 1,
+     "row": 5,
+     "code": "MATH 129"
+    },
+    {
+     "id": "p3_1",
+     "type": "fixed",
+     "label": ": Introduction to Engineering Entrepreneurship",
+     "col": 2,
+     "row": 0,
+     "code": "ENTR 287"
+    },
+    {
+     "id": "p3_2",
+     "type": "fixed",
+     "label": ": Information for Business Decisions",
+     "col": 2,
+     "row": 1,
+     "code": "ACCT 250"
+    },
+    {
+     "id": "p3_3",
+     "type": "fixed",
+     "label": ": Basic Economics Issues",
+     "col": 2,
+     "row": 2,
+     "code": "ECON 200"
+    },
+    {
+     "id": "p3_4",
+     "type": "fixed",
+     "label": ": Introductory Mechanics",
+     "col": 2,
+     "row": 3,
+     "code": "PHYS 141"
+    },
+    {
+     "id": "p3_5",
+     "type": "te",
+     "label": "Second Language Requirement",
+     "col": 2,
+     "row": 4,
+     "list": "te_second-language-requirement"
+    },
+    {
+     "id": "p4_1",
+     "type": "fixed",
+     "label": ": Projects in the Community",
+     "col": 3,
+     "row": 0,
+     "code": "IBE 201"
+    },
+    {
+     "id": "p4_2",
+     "type": "fixed",
+     "label": ": Statics",
+     "col": 3,
+     "row": 1,
+     "code": "CE 214"
+    },
+    {
+     "id": "p4_3",
+     "type": "fixed",
+     "label": ": Engineering Economy",
+     "col": 3,
+     "row": 2,
+     "code": "SIE 265"
+    },
+    {
+     "id": "p4_4",
+     "type": "fixed",
+     "label": ": Electricity and Magnetism",
+     "col": 3,
+     "row": 3,
+     "code": "PHYS 241"
+    },
+    {
+     "id": "p4_5",
+     "type": "te",
+     "label": "Second Language Requirement",
+     "col": 3,
+     "row": 4,
+     "list": "te_second-language-requirement"
+    },
+    {
+     "id": "p5_1",
+     "type": "fixed",
+     "label": ": Junior Seminar I",
+     "col": 4,
+     "row": 0,
+     "code": "IBE 300A"
+    },
+    {
+     "id": "p5_2",
+     "type": "fixed",
+     "label": ": Global and Financial Economics and Strategies",
+     "col": 4,
+     "row": 1,
+     "code": "BNAD 303"
+    },
+    {
+     "id": "p5_3",
+     "type": "fixed",
+     "label": ": Engineering Probability and Statistics",
+     "col": 4,
+     "row": 2,
+     "code": "SIE 305"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": ": Thermodynamics",
+     "col": 4,
+     "row": 3,
+     "code": "AME 230"
+    },
+    {
+     "id": "p5_5",
+     "type": "fixed",
+     "label": ": Technical Communications",
+     "col": 4,
+     "row": 4,
+     "code": "CE 301"
+    },
+    {
+     "id": "p5_6",
+     "type": "te",
+     "label": "One of Remaining General Education Courses",
+     "col": 4,
+     "row": 5,
+     "list": "te_one-of-remaining-general-education-courses"
+    },
+    {
+     "id": "p6_1",
+     "type": "fixed",
+     "label": ": Junior Seminar II",
+     "col": 5,
+     "row": 0,
+     "code": "IBE 300B"
+    },
+    {
+     "id": "p6_2",
+     "type": "choice",
+     "label": "BNAD 301",
+     "col": 5,
+     "row": 1,
+     "options": [
+      {
+       "l": "BNAD 301",
+       "codes": [
+        "BNAD 301"
+       ],
+       "u": 3
+      },
+      {
+       "l": "BNAD 304",
+       "codes": [
+        "BNAD 304"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p6_3",
+     "type": "fixed",
+     "label": ": Project Management",
+     "col": 5,
+     "row": 2,
+     "code": "SIE 457"
+    },
+    {
+     "id": "p6_4",
+     "type": "fixed",
+     "label": ": Elements of Electrical Engineering",
+     "col": 5,
+     "row": 3,
+     "code": "ECE 207"
+    },
+    {
+     "id": "p6_5",
+     "type": "te",
+     "label": "One of Remaining General Education Courses",
+     "col": 5,
+     "row": 4,
+     "list": "te_one-of-remaining-general-education-courses"
+    },
+    {
+     "id": "p7_1",
+     "type": "fixed",
+     "label": ": Innovation and New Venture Development Capstone I",
+     "col": 6,
+     "row": 0,
+     "code": "IBE 498A"
+    },
+    {
+     "id": "p7_2",
+     "type": "fixed",
+     "label": ": Finance for New Ventures",
+     "col": 6,
+     "row": 1,
+     "code": "FIN 480"
+    },
+    {
+     "id": "p7_3",
+     "type": "fixed",
+     "label": ": Marketing Research for Entrepreneurs",
+     "col": 6,
+     "row": 2,
+     "code": "MKTG 480"
+    },
+    {
+     "id": "p7_4",
+     "type": "fixed",
+     "label": ": General Education Portfolio",
+     "col": 6,
+     "row": 3,
+     "code": "UNIV 301"
+    },
+    {
+     "id": "p7_5",
+     "type": "te",
+     "label": "One of Remaining General Education Courses",
+     "col": 6,
+     "row": 4,
+     "list": "te_one-of-remaining-general-education-courses"
+    },
+    {
+     "id": "p8_1",
+     "type": "fixed",
+     "label": ": Innovation and New Venture Development Capstone II",
+     "col": 7,
+     "row": 0,
+     "code": "IBE 498B"
+    },
+    {
+     "id": "p8_2",
+     "type": "fixed",
+     "label": ": Human Side of Organizations",
+     "col": 7,
+     "row": 1,
+     "code": "BNAD 302"
+    },
+    {
+     "id": "p8_3",
+     "type": "fixed",
+     "label": ": Law for Engineers and Scientists",
+     "col": 7,
+     "row": 2,
+     "code": "SIE 414"
+    },
+    {
+     "id": "p8_4",
+     "type": "te",
+     "label": "One of Remaining General Education Courses",
+     "col": 7,
+     "row": 3,
+     "list": "te_one-of-remaining-general-education-courses"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": ": Introduction to Integrated Business and Engineering Design",
+     "units": 1,
+     "list": "IBE 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": ": Computers and Internetworked Society",
+     "units": 3,
+     "list": "MIS 111",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_3",
+     "name": ": Computers and Internetworked Society Lab",
+     "units": 1,
+     "list": "MIS 112",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_4",
+     "name": ": Foundations of Materials Chemistry for Applications orCHEM 151: Chemical Thinking I",
+     "units": 4,
+     "list": "MSE 109",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_5",
+     "name": ": First Year Composition",
+     "units": 3,
+     "list": "WRIT 101,WRIT 107,WRIT 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_6",
+     "name": "&B: First Semester Calculus",
+     "units": 5,
+     "list": "MATH 122A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": ": Engineering Design and Business Plan Development",
+     "units": 2,
+     "list": "IBE 102",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_2",
+     "name": ": Introduction to Software Engineering",
+     "units": 4,
+     "list": "SWFE 101,ECE 101,CSC 110",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_3",
+     "name": ": Introduction to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_4",
+     "name": ": Solid State Chemistry",
+     "units": 4,
+     "list": "MSE 110,CHEM 152",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_5",
+     "name": ": First Year Composition",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108,WRIT 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_6",
+     "name": ": Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_1",
+     "name": ": Introduction to Engineering Entrepreneurship",
+     "units": 3,
+     "list": "ENTR 287",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_2",
+     "name": ": Information for Business Decisions",
+     "units": 3,
+     "list": "ACCT 250",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_3",
+     "name": ": Basic Economics Issues",
+     "units": 3,
+     "list": "ECON 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_4",
+     "name": ": Introductory Mechanics",
+     "units": 4,
+     "list": "PHYS 141",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_1",
+     "name": ": Projects in the Community",
+     "units": 3,
+     "list": "IBE 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_2",
+     "name": ": Statics",
+     "units": 3,
+     "list": "CE 214",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_3",
+     "name": ": Engineering Economy",
+     "units": 3,
+     "list": "SIE 265",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_4",
+     "name": ": Electricity and Magnetism",
+     "units": 4,
+     "list": "PHYS 241",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_1",
+     "name": ": Junior Seminar I",
+     "units": 1,
+     "list": "IBE 300A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_2",
+     "name": ": Global and Financial Economics and Strategies",
+     "units": 3,
+     "list": "BNAD 303",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": ": Engineering Probability and Statistics",
+     "units": 3,
+     "list": "SIE 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": ": Thermodynamics",
+     "units": 3,
+     "list": "AME 230",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_5",
+     "name": ": Technical Communications",
+     "units": 3,
+     "list": "CE 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_1",
+     "name": ": Junior Seminar II",
+     "units": 2,
+     "list": "IBE 300B",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_2",
+     "name": "BNAD 301",
+     "units": 3,
+     "list": "BNAD 301,BNAD 304",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_3",
+     "name": ": Project Management",
+     "units": 3,
+     "list": "SIE 457",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_4",
+     "name": ": Elements of Electrical Engineering",
+     "units": 3,
+     "list": "ECE 207",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": ": Innovation and New Venture Development Capstone I",
+     "units": 3,
+     "list": "IBE 498A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_2",
+     "name": ": Finance for New Ventures",
+     "units": 3,
+     "list": "FIN 480",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_3",
+     "name": ": Marketing Research for Entrepreneurs",
+     "units": 3,
+     "list": "MKTG 480",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_4",
+     "name": ": General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": ": Innovation and New Venture Development Capstone II",
+     "units": 3,
+     "list": "IBE 498B",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_2",
+     "name": ": Human Side of Organizations",
+     "units": 3,
+     "list": "BNAD 302",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_3",
+     "name": ": Law for Engineers and Scientists",
+     "units": 3,
+     "list": "SIE 414",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-requirement",
+     "name": "Second Language Requirement",
+     "units": 8,
+     "list": "@te_second-language-requirement",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_one-of-remaining-general-education-courses",
+     "name": "One of Remaining General Education Courses",
+     "units": 12,
+     "list": "@te_one-of-remaining-general-education-courses",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "ACCT 250": {
+   "t": ": Information for Business Decisions",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "AME 230": {
+   "t": "Thermodynamics",
+   "u": 3,
+   "pre": [
+    "PHYS 141|PHYS 161H"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "BNAD 301": {
+   "t": "Global and Financial Economics and Strategies",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "BNAD 302": {
+   "t": ": Human Side of Organizations",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "BNAD 303": {
+   "t": ": Global and Financial Economics and Strategies",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "BNAD 304": {
+   "t": "Survey of Finance",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CE 214": {
+   "t": "Statics",
+   "u": 3,
+   "pre": [
+    "PHYS 141|PHYS 161H",
+    "MATH 129|MATH 250B"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "CE 301": {
+   "t": "Engineering Communications",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "ENGL 102|ENGL 108|ENGL 109H"
+   ]
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CSC 110": {
+   "t": "Intro to Computer Programming I",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ECE 101": {
+   "t": "Programming 1",
+   "u": 4,
+   "off": "fall",
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre"
+   ],
+   "pre": [
+    "MATH 120R|MATH 122B|MATH 125|MATH 129"
+   ],
+   "co": [
+    "MATH 120R",
+    "MATH 122B",
+    "MATH 125",
+    "MATH 129"
+   ]
+  },
+  "ECE 207": {
+   "t": ": Elements of Electrical Engineering",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 241|PHYS 261H"
+   ]
+  },
+  "ECON 200": {
+   "t": ": Basic Economics Issues",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ENTR 287": {
+   "t": ": Introduction to Engineering Entrepreneurship",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "FIN 480": {
+   "t": ": Finance for New Ventures",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "IBE 101": {
+   "t": ": Introduction to Integrated Business and Engineering Design",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "IBE 102": {
+   "t": ": Engineering Design and Business Plan Development",
+   "u": 2,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "IBE 101"
+   ]
+  },
+  "IBE 201": {
+   "t": ": Projects in the Community",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "IBE 300A": {
+   "t": ": Junior Seminar I",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "IBE 300B": {
+   "t": ": Junior Seminar II",
+   "u": 2,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "IBE 498A": {
+   "t": ": Innovation and New Venture Development Capstone I",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "IBE 498B": {
+   "t": ": Innovation and New Venture Development Capstone II",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MATH 122A": {
+   "t": "Functions for Calculus",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 660|MATH 120R",
+    "MATH 100",
+    "MATH 112",
+    "MATH 120R"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I with Applications",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 730"
+   ]
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "pre": [
+    "MATH 122B|MATH 125"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MIS 111": {
+   "t": ": Computers and Internetworked Society",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MIS 112": {
+   "t": ": Computers and Internetworked Society Lab",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MKTG 480": {
+   "t": ": Marketing Research for Entrepreneurs",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MSE 109": {
+   "t": "Foundations of Materials Chemistry for Applications",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 610|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223"
+   ]
+  },
+  "MSE 110": {
+   "t": "Solid State Chemistry",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PHYS 141": {
+   "t": "Introductory Mechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "PHYS 161H": {
+   "t": "Accelerated Introductory Mechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "PHYS 241": {
+   "t": "Introductory Electricity and Magnetism",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ]
+  },
+  "SIE 265": {
+   "t": "Engineering Management I",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "SIE 305": {
+   "t": "Introduction to Engineering Probability and Statistics",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 129"
+   ]
+  },
+  "SIE 414": {
+   "t": ": Law for Engineers and Scientists",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "SIE 457": {
+   "t": ": Project Management",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "SWFE 101": {
+   "t": ": Introduction to Software Engineering",
+   "u": 0,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off",
+    "units"
+   ]
+  },
+  "UNIV 101": {
+   "t": "Intro to the General Education Experience",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "OF 101"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107"
+   ]
+  },
+  "WRIT 108": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "WRIT 109H": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  }
+ },
+ "draft": true
+}

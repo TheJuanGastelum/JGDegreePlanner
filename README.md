@@ -46,6 +46,35 @@ Want to look around first? Gear menu, **Load example plan (John Doe)** loads a m
 </details>
 
 <details>
+<summary><b>Four-year plan PDFs (College of Engineering and others)</b></summary>
+
+Colleges publish a four-year plan (an advised sequence of classes). The College of Engineering has one PDF per major and catalog year at [engineering.arizona.edu/current/4-year-degree](https://engineering.arizona.edu/current/4-year-degree).
+
+1. Download your major's PDF and load it (gear menu, **Load file**). It must be the PDF: the app reads each column by its position on the page.
+2. The app checks every semester against the printed "Semester Total". A semester that does not add up gets a warning with the numbers. Nothing is guessed.
+3. You get a draft chart: semesters, units, UNIV 101 and 301, general education boxes, electives, Fall only / Spring only, and options as tracks.
+4. Prerequisites are only the ones the plan prints. Click a class to type the rest, or press **Paste a course description** and paste the text from catalog.arizona.edu.
+5. Load your advisement report. Your classes are placed into the chart (either order works).
+6. Load the catalog printout of the same major (catalog.arizona.edu/programs, **Download as PDF**) to add the college, total units and class titles.
+
+Ready-made drafts for Engineering and a few other majors are already built in. They stay marked **draft** until an advisor approves them.
+</details>
+
+<details>
+<summary><b>For advisors</b></summary>
+
+Checking one major once gives every student after that a trusted chart.
+
+1. Pick the major, or load its four-year plan PDF.
+2. Compare each box with the official catalog: class, units, semester, prerequisites, offering.
+3. Fix boxes in **Rules, Boxes**, or click a class to edit its prerequisites.
+4. In **Rules, Advisor approval**, enter your approval code, tick the box and press **Approve**. The banner clears and printouts show your advisor ID and the date.
+5. Save the pack and share the pack file.
+
+To get a code, email jgasteluminc@gmail.com with the subject "JGDegreePlanner advisor code request" and be ready to show your role. Nothing is sent from the app and nothing is stored about students.
+</details>
+
+<details>
 <summary><b>Loading files</b></summary>
 
 Use the gear menu, **Load file**, or drag files onto the page (several at once is fine). The app works out what each file is:
@@ -273,7 +302,7 @@ The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow 
 <details>
 <summary><b>Updates</b></summary>
 
-Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.17"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
+Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.19"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
 </details>
 
 <details>

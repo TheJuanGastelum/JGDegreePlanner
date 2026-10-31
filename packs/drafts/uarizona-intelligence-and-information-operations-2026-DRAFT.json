@@ -1,0 +1,2474 @@
+{
+ "format": "degree-pack/1",
+ "createdWith": "Degree Flowchart Builder v5.19 by Juan Gastelum (build d9e04007be)",
+ "id": "uarizona/intelligence/intelligence-and-information-operations/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "program": {
+  "name": "Intelligence and Information Operations",
+  "college": "",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Applied Science in Intelligence and Information Operations"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 121,
+  "maxLoad": 17,
+  "minGrade": "C"
+ },
+ "meta": {
+  "catalog": "DRAFT from the college four-year plan, catalog year 2026–27",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified except as printed in the plan"
+ },
+ "lists": {
+  "te_general-education-foundation-mathematics": [],
+  "te_general-education-exploring-perspectives": [],
+  "te_general-elective": [],
+  "te_second-language-1st-semester": [],
+  "te_second-language-2nd-semester": [],
+  "te_major-emphasis-required-course": [],
+  "te_major-emphasis-required-elective-course": []
+ },
+ "tracks": {
+  "OPERATIONALI": {
+   "name": "Operational Intelligence",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026–27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "col": 0,
+     "row": 0,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p1_2",
+     "type": "choice",
+     "label": "WRIT 101",
+     "col": 0,
+     "row": 1,
+     "options": [
+      {
+       "l": "WRIT 101",
+       "codes": [
+        "WRIT 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 107",
+       "codes": [
+        "WRIT 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 109H",
+       "codes": [
+        "WRIT 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_3",
+     "type": "te",
+     "label": "General Education Foundation Mathematics",
+     "col": 0,
+     "row": 2,
+     "list": "te_general-education-foundation-mathematics"
+    },
+    {
+     "id": "p1_4",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 0,
+     "row": 3,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p1_5",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 0,
+     "row": 4,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p1_6",
+     "type": "te",
+     "label": "General Elective",
+     "col": 0,
+     "row": 5,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p2_1",
+     "type": "choice",
+     "label": "WRIT 102",
+     "col": 1,
+     "row": 0,
+     "options": [
+      {
+       "l": "WRIT 102",
+       "codes": [
+        "WRIT 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 108",
+       "codes": [
+        "WRIT 108"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_2",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 1,
+     "row": 1,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p2_3",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 1,
+     "row": 2,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p2_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 1,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p2_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 1,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p3_1",
+     "type": "te",
+     "label": "Second Language: 1st Semester",
+     "col": 2,
+     "row": 0,
+     "list": "te_second-language-1st-semester"
+    },
+    {
+     "id": "p3_2",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 2,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p3_3",
+     "type": "free",
+     "label": "Civics & Institutions",
+     "col": 2,
+     "row": 2,
+     "units": 3
+    },
+    {
+     "id": "p3_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 2,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p3_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 2,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p4_1",
+     "type": "te",
+     "label": "Second Language: 2nd Semester",
+     "col": 3,
+     "row": 0,
+     "list": "te_second-language-2nd-semester"
+    },
+    {
+     "id": "p4_2",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 3,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p4_3",
+     "type": "te",
+     "label": "General Elective",
+     "col": 3,
+     "row": 2,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p4_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 3,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p4_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 3,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p5_1",
+     "type": "fixed",
+     "label": "Introduction to Intelligence & Information Operations",
+     "col": 4,
+     "row": 0,
+     "code": "INTV 305"
+    },
+    {
+     "id": "p5_2",
+     "type": "fixed",
+     "label": "Ethical & Legal Foundations",
+     "col": 4,
+     "row": 1,
+     "code": "INTV 322"
+    },
+    {
+     "id": "p5_3",
+     "type": "fixed",
+     "label": "Agentic AI for Intelligence",
+     "col": 4,
+     "row": 2,
+     "code": "INTV 330"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": "Intelligence Collection",
+     "col": 4,
+     "row": 3,
+     "code": "INTV 350"
+    },
+    {
+     "id": "p5_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 4,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p6_1",
+     "type": "te",
+     "label": "Major Emphasis Required Course",
+     "col": 5,
+     "row": 0,
+     "list": "te_major-emphasis-required-course"
+    },
+    {
+     "id": "p6_2",
+     "type": "te",
+     "label": "Major Emphasis Required Elective Course",
+     "col": 5,
+     "row": 1,
+     "list": "te_major-emphasis-required-elective-course"
+    },
+    {
+     "id": "p6_3",
+     "type": "te",
+     "label": "General Elective",
+     "col": 5,
+     "row": 2,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p6_4",
+     "type": "fixed",
+     "label": "Data Literacy",
+     "col": 5,
+     "row": 3,
+     "code": "INTV 335"
+    },
+    {
+     "id": "p6_5",
+     "type": "fixed",
+     "label": "Introductory Methods of Intelligence Analysis",
+     "col": 5,
+     "row": 4,
+     "code": "INTV 326"
+    },
+    {
+     "id": "p7_1",
+     "type": "fixed",
+     "label": "ISR Synchronization",
+     "col": 6,
+     "row": 0,
+     "code": "INTV 459"
+    },
+    {
+     "id": "p7_2",
+     "type": "fixed",
+     "label": "Advanced Sensing",
+     "col": 6,
+     "row": 1,
+     "code": "INTV 458"
+    },
+    {
+     "id": "p7_3",
+     "type": "fixed",
+     "label": "Information Warfare",
+     "col": 6,
+     "row": 2,
+     "code": "INTV 450"
+    },
+    {
+     "id": "p7_4",
+     "type": "te",
+     "label": "Major Emphasis Required Course",
+     "col": 6,
+     "row": 3,
+     "list": "te_major-emphasis-required-course"
+    },
+    {
+     "id": "p7_5",
+     "type": "te",
+     "label": "Major Emphasis Required Elective Course",
+     "col": 6,
+     "row": 4,
+     "list": "te_major-emphasis-required-elective-course"
+    },
+    {
+     "id": "p8_1",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "col": 7,
+     "row": 0,
+     "code": "INTV 498"
+    },
+    {
+     "id": "p8_2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "col": 7,
+     "row": 1,
+     "code": "UNIV 301"
+    },
+    {
+     "id": "p8_3",
+     "type": "te",
+     "label": "General Elective",
+     "col": 7,
+     "row": 2,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p8_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 7,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p8_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 7,
+     "row": 4,
+     "list": "te_general-elective"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "Introduction to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "WRIT 101",
+     "units": 3,
+     "list": "WRIT 101,WRIT 107,WRIT 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "WRIT 102",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_1",
+     "name": "Introduction to Intelligence & Information Operations",
+     "units": 3,
+     "list": "INTV 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_2",
+     "name": "Ethical & Legal Foundations",
+     "units": 3,
+     "list": "INTV 322",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": "Agentic AI for Intelligence",
+     "units": 3,
+     "list": "INTV 330",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": "Intelligence Collection",
+     "units": 3,
+     "list": "INTV 350",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_4",
+     "name": "Data Literacy",
+     "units": 3,
+     "list": "INTV 335",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_5",
+     "name": "Introductory Methods of Intelligence Analysis",
+     "units": 3,
+     "list": "INTV 326",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": "ISR Synchronization",
+     "units": 3,
+     "list": "INTV 459",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_2",
+     "name": "Advanced Sensing",
+     "units": 3,
+     "list": "INTV 458",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_3",
+     "name": "Information Warfare",
+     "units": 3,
+     "list": "INTV 450",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": "Senior Capstone",
+     "units": 3,
+     "list": "INTV 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_2",
+     "name": "General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_general-education-foundation-mathematics",
+     "name": "General Education Foundation Mathematics",
+     "units": 3,
+     "list": "@te_general-education-foundation-mathematics",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_general-education-exploring-perspectives",
+     "name": "General Education – Exploring Perspectives",
+     "units": 12,
+     "list": "@te_general-education-exploring-perspectives",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_general-elective",
+     "name": "General Elective",
+     "units": 39,
+     "list": "@te_general-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-1st-semester",
+     "name": "Second Language: 1st Semester",
+     "units": 4,
+     "list": "@te_second-language-1st-semester",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-2nd-semester",
+     "name": "Second Language: 2nd Semester",
+     "units": 4,
+     "list": "@te_second-language-2nd-semester",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_major-emphasis-required-course",
+     "name": "Major Emphasis Required Course",
+     "units": 6,
+     "list": "@te_major-emphasis-required-course",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_major-emphasis-required-elective-course",
+     "name": "Major Emphasis Required Elective Course",
+     "units": 6,
+     "list": "@te_major-emphasis-required-elective-course",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "INFORMATIONW": {
+   "name": "Information Warfare",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026–27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "col": 0,
+     "row": 0,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p1_2",
+     "type": "choice",
+     "label": "WRIT 101",
+     "col": 0,
+     "row": 1,
+     "options": [
+      {
+       "l": "WRIT 101",
+       "codes": [
+        "WRIT 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 107",
+       "codes": [
+        "WRIT 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 109H",
+       "codes": [
+        "WRIT 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_3",
+     "type": "te",
+     "label": "General Education Foundation Mathematics",
+     "col": 0,
+     "row": 2,
+     "list": "te_general-education-foundation-mathematics"
+    },
+    {
+     "id": "p1_4",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 0,
+     "row": 3,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p1_5",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 0,
+     "row": 4,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p1_6",
+     "type": "te",
+     "label": "General Elective",
+     "col": 0,
+     "row": 5,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p2_1",
+     "type": "choice",
+     "label": "WRIT 102",
+     "col": 1,
+     "row": 0,
+     "options": [
+      {
+       "l": "WRIT 102",
+       "codes": [
+        "WRIT 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 108",
+       "codes": [
+        "WRIT 108"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_2",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 1,
+     "row": 1,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p2_3",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 1,
+     "row": 2,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p2_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 1,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p2_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 1,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p3_1",
+     "type": "te",
+     "label": "Second Language: 1st Semester",
+     "col": 2,
+     "row": 0,
+     "list": "te_second-language-1st-semester"
+    },
+    {
+     "id": "p3_2",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 2,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p3_3",
+     "type": "free",
+     "label": "Civics & Institutions",
+     "col": 2,
+     "row": 2,
+     "units": 3
+    },
+    {
+     "id": "p3_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 2,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p3_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 2,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p4_1",
+     "type": "te",
+     "label": "Second Language: 2nd Semester",
+     "col": 3,
+     "row": 0,
+     "list": "te_second-language-2nd-semester"
+    },
+    {
+     "id": "p4_2",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 3,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p4_3",
+     "type": "te",
+     "label": "General Elective",
+     "col": 3,
+     "row": 2,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p4_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 3,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p4_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 3,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p5_1",
+     "type": "fixed",
+     "label": "Introduction to Intelligence & Information Operations",
+     "col": 4,
+     "row": 0,
+     "code": "INTV 305"
+    },
+    {
+     "id": "p5_2",
+     "type": "fixed",
+     "label": "Ethical & Legal Foundations",
+     "col": 4,
+     "row": 1,
+     "code": "INTV 322"
+    },
+    {
+     "id": "p5_3",
+     "type": "fixed",
+     "label": "Agentic AI for Intelligence",
+     "col": 4,
+     "row": 2,
+     "code": "INTV 330"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": "Intelligence Collection",
+     "col": 4,
+     "row": 3,
+     "code": "INTV 350"
+    },
+    {
+     "id": "p5_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 4,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p6_1",
+     "type": "te",
+     "label": "Major Emphasis Required Course",
+     "col": 5,
+     "row": 0,
+     "list": "te_major-emphasis-required-course"
+    },
+    {
+     "id": "p6_2",
+     "type": "te",
+     "label": "Major Emphasis Required Elective Course",
+     "col": 5,
+     "row": 1,
+     "list": "te_major-emphasis-required-elective-course"
+    },
+    {
+     "id": "p6_3",
+     "type": "te",
+     "label": "General Elective",
+     "col": 5,
+     "row": 2,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p6_4",
+     "type": "fixed",
+     "label": "Data Literacy",
+     "col": 5,
+     "row": 3,
+     "code": "INTV 335"
+    },
+    {
+     "id": "p6_5",
+     "type": "fixed",
+     "label": "Introductory Methods of Intelligence Analysis",
+     "col": 5,
+     "row": 4,
+     "code": "INTV 326"
+    },
+    {
+     "id": "p7_1",
+     "type": "fixed",
+     "label": "ISR Synchronization",
+     "col": 6,
+     "row": 0,
+     "code": "INTV 459"
+    },
+    {
+     "id": "p7_2",
+     "type": "fixed",
+     "label": "Advanced Sensing",
+     "col": 6,
+     "row": 1,
+     "code": "INTV 458"
+    },
+    {
+     "id": "p7_3",
+     "type": "fixed",
+     "label": "Information Warfare",
+     "col": 6,
+     "row": 2,
+     "code": "INTV 450"
+    },
+    {
+     "id": "p7_4",
+     "type": "te",
+     "label": "Major Emphasis Required Course",
+     "col": 6,
+     "row": 3,
+     "list": "te_major-emphasis-required-course"
+    },
+    {
+     "id": "p7_5",
+     "type": "te",
+     "label": "Major Emphasis Required Elective Course",
+     "col": 6,
+     "row": 4,
+     "list": "te_major-emphasis-required-elective-course"
+    },
+    {
+     "id": "p8_1",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "col": 7,
+     "row": 0,
+     "code": "INTV 498"
+    },
+    {
+     "id": "p8_2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "col": 7,
+     "row": 1,
+     "code": "UNIV 301"
+    },
+    {
+     "id": "p8_3",
+     "type": "te",
+     "label": "General Elective",
+     "col": 7,
+     "row": 2,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p8_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 7,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p8_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 7,
+     "row": 4,
+     "list": "te_general-elective"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "Introduction to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "WRIT 101",
+     "units": 3,
+     "list": "WRIT 101,WRIT 107,WRIT 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "WRIT 102",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_1",
+     "name": "Introduction to Intelligence & Information Operations",
+     "units": 3,
+     "list": "INTV 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_2",
+     "name": "Ethical & Legal Foundations",
+     "units": 3,
+     "list": "INTV 322",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": "Agentic AI for Intelligence",
+     "units": 3,
+     "list": "INTV 330",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": "Intelligence Collection",
+     "units": 3,
+     "list": "INTV 350",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_4",
+     "name": "Data Literacy",
+     "units": 3,
+     "list": "INTV 335",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_5",
+     "name": "Introductory Methods of Intelligence Analysis",
+     "units": 3,
+     "list": "INTV 326",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": "ISR Synchronization",
+     "units": 3,
+     "list": "INTV 459",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_2",
+     "name": "Advanced Sensing",
+     "units": 3,
+     "list": "INTV 458",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_3",
+     "name": "Information Warfare",
+     "units": 3,
+     "list": "INTV 450",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": "Senior Capstone",
+     "units": 3,
+     "list": "INTV 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_2",
+     "name": "General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_general-education-foundation-mathematics",
+     "name": "General Education Foundation Mathematics",
+     "units": 3,
+     "list": "@te_general-education-foundation-mathematics",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_general-education-exploring-perspectives",
+     "name": "General Education – Exploring Perspectives",
+     "units": 12,
+     "list": "@te_general-education-exploring-perspectives",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_general-elective",
+     "name": "General Elective",
+     "units": 39,
+     "list": "@te_general-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-1st-semester",
+     "name": "Second Language: 1st Semester",
+     "units": 4,
+     "list": "@te_second-language-1st-semester",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-2nd-semester",
+     "name": "Second Language: 2nd Semester",
+     "units": 4,
+     "list": "@te_second-language-2nd-semester",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_major-emphasis-required-course",
+     "name": "Major Emphasis Required Course",
+     "units": 6,
+     "list": "@te_major-emphasis-required-course",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_major-emphasis-required-elective-course",
+     "name": "Major Emphasis Required Elective Course",
+     "units": 6,
+     "list": "@te_major-emphasis-required-elective-course",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "LAWENFORCEME": {
+   "name": "Law Enforcement Intelligence",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026–27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "col": 0,
+     "row": 0,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p1_2",
+     "type": "choice",
+     "label": "WRIT 101",
+     "col": 0,
+     "row": 1,
+     "options": [
+      {
+       "l": "WRIT 101",
+       "codes": [
+        "WRIT 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 107",
+       "codes": [
+        "WRIT 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 109H",
+       "codes": [
+        "WRIT 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_3",
+     "type": "te",
+     "label": "General Education Foundation Mathematics",
+     "col": 0,
+     "row": 2,
+     "list": "te_general-education-foundation-mathematics"
+    },
+    {
+     "id": "p1_4",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 0,
+     "row": 3,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p1_5",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 0,
+     "row": 4,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p1_6",
+     "type": "te",
+     "label": "General Elective",
+     "col": 0,
+     "row": 5,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p2_1",
+     "type": "choice",
+     "label": "WRIT 102",
+     "col": 1,
+     "row": 0,
+     "options": [
+      {
+       "l": "WRIT 102",
+       "codes": [
+        "WRIT 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 108",
+       "codes": [
+        "WRIT 108"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_2",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 1,
+     "row": 1,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p2_3",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 1,
+     "row": 2,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p2_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 1,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p2_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 1,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p3_1",
+     "type": "te",
+     "label": "Second Language: 1st Semester",
+     "col": 2,
+     "row": 0,
+     "list": "te_second-language-1st-semester"
+    },
+    {
+     "id": "p3_2",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 2,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p3_3",
+     "type": "free",
+     "label": "Civics & Institutions",
+     "col": 2,
+     "row": 2,
+     "units": 3
+    },
+    {
+     "id": "p3_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 2,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p3_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 2,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p4_1",
+     "type": "te",
+     "label": "Second Language: 2nd Semester",
+     "col": 3,
+     "row": 0,
+     "list": "te_second-language-2nd-semester"
+    },
+    {
+     "id": "p4_2",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 3,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p4_3",
+     "type": "te",
+     "label": "General Elective",
+     "col": 3,
+     "row": 2,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p4_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 3,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p4_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 3,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p5_1",
+     "type": "fixed",
+     "label": "Introduction to Intelligence & Information Operations",
+     "col": 4,
+     "row": 0,
+     "code": "INTV 305"
+    },
+    {
+     "id": "p5_2",
+     "type": "fixed",
+     "label": "Ethical & Legal Foundations",
+     "col": 4,
+     "row": 1,
+     "code": "INTV 322"
+    },
+    {
+     "id": "p5_3",
+     "type": "fixed",
+     "label": "Agentic AI for Intelligence",
+     "col": 4,
+     "row": 2,
+     "code": "INTV 330"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": "Intelligence Collection",
+     "col": 4,
+     "row": 3,
+     "code": "INTV 350"
+    },
+    {
+     "id": "p5_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 4,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p6_1",
+     "type": "te",
+     "label": "Major Emphasis Required Course",
+     "col": 5,
+     "row": 0,
+     "list": "te_major-emphasis-required-course"
+    },
+    {
+     "id": "p6_2",
+     "type": "te",
+     "label": "Major Emphasis Required Elective Course",
+     "col": 5,
+     "row": 1,
+     "list": "te_major-emphasis-required-elective-course"
+    },
+    {
+     "id": "p6_3",
+     "type": "te",
+     "label": "General Elective",
+     "col": 5,
+     "row": 2,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p6_4",
+     "type": "fixed",
+     "label": "Data Literacy",
+     "col": 5,
+     "row": 3,
+     "code": "INTV 335"
+    },
+    {
+     "id": "p6_5",
+     "type": "fixed",
+     "label": "Introductory Methods of Intelligence Analysis",
+     "col": 5,
+     "row": 4,
+     "code": "INTV 326"
+    },
+    {
+     "id": "p7_1",
+     "type": "fixed",
+     "label": "ISR Synchronization",
+     "col": 6,
+     "row": 0,
+     "code": "INTV 459"
+    },
+    {
+     "id": "p7_2",
+     "type": "fixed",
+     "label": "Advanced Sensing",
+     "col": 6,
+     "row": 1,
+     "code": "INTV 458"
+    },
+    {
+     "id": "p7_3",
+     "type": "fixed",
+     "label": "Information Warfare",
+     "col": 6,
+     "row": 2,
+     "code": "INTV 450"
+    },
+    {
+     "id": "p7_4",
+     "type": "te",
+     "label": "Major Emphasis Required Course",
+     "col": 6,
+     "row": 3,
+     "list": "te_major-emphasis-required-course"
+    },
+    {
+     "id": "p7_5",
+     "type": "te",
+     "label": "Major Emphasis Required Elective Course",
+     "col": 6,
+     "row": 4,
+     "list": "te_major-emphasis-required-elective-course"
+    },
+    {
+     "id": "p8_1",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "col": 7,
+     "row": 0,
+     "code": "INTV 498"
+    },
+    {
+     "id": "p8_2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "col": 7,
+     "row": 1,
+     "code": "UNIV 301"
+    },
+    {
+     "id": "p8_3",
+     "type": "te",
+     "label": "General Elective",
+     "col": 7,
+     "row": 2,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p8_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 7,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p8_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 7,
+     "row": 4,
+     "list": "te_general-elective"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "Introduction to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "WRIT 101",
+     "units": 3,
+     "list": "WRIT 101,WRIT 107,WRIT 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "WRIT 102",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_1",
+     "name": "Introduction to Intelligence & Information Operations",
+     "units": 3,
+     "list": "INTV 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_2",
+     "name": "Ethical & Legal Foundations",
+     "units": 3,
+     "list": "INTV 322",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": "Agentic AI for Intelligence",
+     "units": 3,
+     "list": "INTV 330",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": "Intelligence Collection",
+     "units": 3,
+     "list": "INTV 350",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_4",
+     "name": "Data Literacy",
+     "units": 3,
+     "list": "INTV 335",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_5",
+     "name": "Introductory Methods of Intelligence Analysis",
+     "units": 3,
+     "list": "INTV 326",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": "ISR Synchronization",
+     "units": 3,
+     "list": "INTV 459",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_2",
+     "name": "Advanced Sensing",
+     "units": 3,
+     "list": "INTV 458",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_3",
+     "name": "Information Warfare",
+     "units": 3,
+     "list": "INTV 450",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": "Senior Capstone",
+     "units": 3,
+     "list": "INTV 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_2",
+     "name": "General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_general-education-foundation-mathematics",
+     "name": "General Education Foundation Mathematics",
+     "units": 3,
+     "list": "@te_general-education-foundation-mathematics",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_general-education-exploring-perspectives",
+     "name": "General Education – Exploring Perspectives",
+     "units": 12,
+     "list": "@te_general-education-exploring-perspectives",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_general-elective",
+     "name": "General Elective",
+     "units": 39,
+     "list": "@te_general-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-1st-semester",
+     "name": "Second Language: 1st Semester",
+     "units": 4,
+     "list": "@te_second-language-1st-semester",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-2nd-semester",
+     "name": "Second Language: 2nd Semester",
+     "units": 4,
+     "list": "@te_second-language-2nd-semester",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_major-emphasis-required-course",
+     "name": "Major Emphasis Required Course",
+     "units": 6,
+     "list": "@te_major-emphasis-required-course",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_major-emphasis-required-elective-course",
+     "name": "Major Emphasis Required Elective Course",
+     "units": 6,
+     "list": "@te_major-emphasis-required-elective-course",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "SIGNALSINTEL": {
+   "name": "Signals Intelligence & Electronic Warfare",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026–27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "col": 0,
+     "row": 0,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p1_2",
+     "type": "choice",
+     "label": "WRIT 101",
+     "col": 0,
+     "row": 1,
+     "options": [
+      {
+       "l": "WRIT 101",
+       "codes": [
+        "WRIT 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 107",
+       "codes": [
+        "WRIT 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 109H",
+       "codes": [
+        "WRIT 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_3",
+     "type": "te",
+     "label": "General Education Foundation Mathematics",
+     "col": 0,
+     "row": 2,
+     "list": "te_general-education-foundation-mathematics"
+    },
+    {
+     "id": "p1_4",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 0,
+     "row": 3,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p1_5",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 0,
+     "row": 4,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p1_6",
+     "type": "te",
+     "label": "General Elective",
+     "col": 0,
+     "row": 5,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p2_1",
+     "type": "choice",
+     "label": "WRIT 102",
+     "col": 1,
+     "row": 0,
+     "options": [
+      {
+       "l": "WRIT 102",
+       "codes": [
+        "WRIT 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 108",
+       "codes": [
+        "WRIT 108"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_2",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 1,
+     "row": 1,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p2_3",
+     "type": "te",
+     "label": "General Education – Exploring Perspectives",
+     "col": 1,
+     "row": 2,
+     "list": "te_general-education-exploring-perspectives"
+    },
+    {
+     "id": "p2_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 1,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p2_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 1,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p3_1",
+     "type": "te",
+     "label": "Second Language: 1st Semester",
+     "col": 2,
+     "row": 0,
+     "list": "te_second-language-1st-semester"
+    },
+    {
+     "id": "p3_2",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 2,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p3_3",
+     "type": "free",
+     "label": "Civics & Institutions",
+     "col": 2,
+     "row": 2,
+     "units": 3
+    },
+    {
+     "id": "p3_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 2,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p3_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 2,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p4_1",
+     "type": "te",
+     "label": "Second Language: 2nd Semester",
+     "col": 3,
+     "row": 0,
+     "list": "te_second-language-2nd-semester"
+    },
+    {
+     "id": "p4_2",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 3,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p4_3",
+     "type": "te",
+     "label": "General Elective",
+     "col": 3,
+     "row": 2,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p4_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 3,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p4_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 3,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p5_1",
+     "type": "fixed",
+     "label": "Introduction to Intelligence & Information Operations",
+     "col": 4,
+     "row": 0,
+     "code": "INTV 305"
+    },
+    {
+     "id": "p5_2",
+     "type": "fixed",
+     "label": "Ethical & Legal Foundations",
+     "col": 4,
+     "row": 1,
+     "code": "INTV 322"
+    },
+    {
+     "id": "p5_3",
+     "type": "fixed",
+     "label": "Agentic AI for Intelligence",
+     "col": 4,
+     "row": 2,
+     "code": "INTV 330"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": "Intelligence Collection",
+     "col": 4,
+     "row": 3,
+     "code": "INTV 350"
+    },
+    {
+     "id": "p5_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 4,
+     "row": 4,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p6_1",
+     "type": "te",
+     "label": "Major Emphasis Required Course",
+     "col": 5,
+     "row": 0,
+     "list": "te_major-emphasis-required-course"
+    },
+    {
+     "id": "p6_2",
+     "type": "te",
+     "label": "Major Emphasis Required Elective Course",
+     "col": 5,
+     "row": 1,
+     "list": "te_major-emphasis-required-elective-course"
+    },
+    {
+     "id": "p6_3",
+     "type": "te",
+     "label": "General Elective",
+     "col": 5,
+     "row": 2,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p6_4",
+     "type": "fixed",
+     "label": "Data Literacy",
+     "col": 5,
+     "row": 3,
+     "code": "INTV 335"
+    },
+    {
+     "id": "p6_5",
+     "type": "fixed",
+     "label": "Introductory Methods of Intelligence Analysis",
+     "col": 5,
+     "row": 4,
+     "code": "INTV 326"
+    },
+    {
+     "id": "p7_1",
+     "type": "fixed",
+     "label": "ISR Synchronization",
+     "col": 6,
+     "row": 0,
+     "code": "INTV 459"
+    },
+    {
+     "id": "p7_2",
+     "type": "fixed",
+     "label": "Advanced Sensing",
+     "col": 6,
+     "row": 1,
+     "code": "INTV 458"
+    },
+    {
+     "id": "p7_3",
+     "type": "fixed",
+     "label": "Information Warfare",
+     "col": 6,
+     "row": 2,
+     "code": "INTV 450"
+    },
+    {
+     "id": "p7_4",
+     "type": "te",
+     "label": "Major Emphasis Required Course",
+     "col": 6,
+     "row": 3,
+     "list": "te_major-emphasis-required-course"
+    },
+    {
+     "id": "p7_5",
+     "type": "te",
+     "label": "Major Emphasis Required Elective Course",
+     "col": 6,
+     "row": 4,
+     "list": "te_major-emphasis-required-elective-course"
+    },
+    {
+     "id": "p8_1",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "col": 7,
+     "row": 0,
+     "code": "INTV 498"
+    },
+    {
+     "id": "p8_2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "col": 7,
+     "row": 1,
+     "code": "UNIV 301"
+    },
+    {
+     "id": "p8_3",
+     "type": "te",
+     "label": "General Elective",
+     "col": 7,
+     "row": 2,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p8_4",
+     "type": "te",
+     "label": "General Elective",
+     "col": 7,
+     "row": 3,
+     "list": "te_general-elective"
+    },
+    {
+     "id": "p8_5",
+     "type": "te",
+     "label": "General Elective",
+     "col": 7,
+     "row": 4,
+     "list": "te_general-elective"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "Introduction to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "WRIT 101",
+     "units": 3,
+     "list": "WRIT 101,WRIT 107,WRIT 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "WRIT 102",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_1",
+     "name": "Introduction to Intelligence & Information Operations",
+     "units": 3,
+     "list": "INTV 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_2",
+     "name": "Ethical & Legal Foundations",
+     "units": 3,
+     "list": "INTV 322",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": "Agentic AI for Intelligence",
+     "units": 3,
+     "list": "INTV 330",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": "Intelligence Collection",
+     "units": 3,
+     "list": "INTV 350",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_4",
+     "name": "Data Literacy",
+     "units": 3,
+     "list": "INTV 335",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_5",
+     "name": "Introductory Methods of Intelligence Analysis",
+     "units": 3,
+     "list": "INTV 326",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": "ISR Synchronization",
+     "units": 3,
+     "list": "INTV 459",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_2",
+     "name": "Advanced Sensing",
+     "units": 3,
+     "list": "INTV 458",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_3",
+     "name": "Information Warfare",
+     "units": 3,
+     "list": "INTV 450",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": "Senior Capstone",
+     "units": 3,
+     "list": "INTV 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_2",
+     "name": "General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_general-education-foundation-mathematics",
+     "name": "General Education Foundation Mathematics",
+     "units": 3,
+     "list": "@te_general-education-foundation-mathematics",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_general-education-exploring-perspectives",
+     "name": "General Education – Exploring Perspectives",
+     "units": 12,
+     "list": "@te_general-education-exploring-perspectives",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_general-elective",
+     "name": "General Elective",
+     "units": 39,
+     "list": "@te_general-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-1st-semester",
+     "name": "Second Language: 1st Semester",
+     "units": 4,
+     "list": "@te_second-language-1st-semester",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-2nd-semester",
+     "name": "Second Language: 2nd Semester",
+     "units": 4,
+     "list": "@te_second-language-2nd-semester",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_major-emphasis-required-course",
+     "name": "Major Emphasis Required Course",
+     "units": 6,
+     "list": "@te_major-emphasis-required-course",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_major-emphasis-required-elective-course",
+     "name": "Major Emphasis Required Elective Course",
+     "units": 6,
+     "list": "@te_major-emphasis-required-elective-course",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "INTV 305": {
+   "t": "Introduction to Intelligence & Information Operations",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "INTV 322": {
+   "t": "Ethical & Legal Foundations",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "INTV 326": {
+   "t": "Introductory Methods of Intelligence Analysis",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "INTV 330": {
+   "t": "Agentic AI for Intelligence",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "INTV 305"
+   ]
+  },
+  "INTV 335": {
+   "t": "Data Literacy",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "INTV 350": {
+   "t": "Intelligence Collection",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "INTV 450": {
+   "t": "Information Warfare",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "INTV 458": {
+   "t": "Advanced Sensing",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "INTV 459": {
+   "t": "ISR Synchronization",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "INTV 498": {
+   "t": "Senior Capstone",
+   "u": 3,
+   "pre": [
+    "INTV 459"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "UNIV 101": {
+   "t": "Intro to the General Education Experience",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "OF 101"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107"
+   ]
+  },
+  "WRIT 108": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "WRIT 109H": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  }
+ },
+ "draft": true
+}

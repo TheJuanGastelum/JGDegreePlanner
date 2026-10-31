@@ -1,0 +1,1636 @@
+{
+ "format": "degree-pack/1",
+ "createdWith": "Degree Flowchart Builder v5.19 by Juan Gastelum (build d9e04007be)",
+ "id": "uarizona/engineering/industrial-engineering/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "program": {
+  "name": "Industrial Engineering",
+  "college": "College of Engineering",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science in Industrial Engineering"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 126,
+  "maxLoad": 17,
+  "minGrade": "C"
+ },
+ "meta": {
+  "catalog": "DRAFT from the college four-year plan, catalog year 2026-27",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified except as printed in the plan"
+ },
+ "lists": {
+  "te_only-general-education-exploring-perspectives": [],
+  "te_technical-elective": [],
+  "te_social-science-requirement": [],
+  "te_free-elective": []
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Industrial Engineering",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026-27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "choice",
+     "label": "MATH 122A/B",
+     "col": 0,
+     "row": 0,
+     "options": [
+      {
+       "l": "MATH 122A/B",
+       "codes": [
+        "MATH 122A",
+        "MATH 122B"
+       ],
+       "u": 5
+      },
+      {
+       "l": "MATH 125",
+       "codes": [
+        "MATH 125"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_2",
+     "type": "choice",
+     "label": "Chemical Thinking I",
+     "col": 0,
+     "row": 1,
+     "options": [
+      {
+       "l": "CHEM 151",
+       "codes": [
+        "CHEM 151"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 161/163",
+       "codes": [
+        "CHEM 161",
+        "CHEM 163"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MSE 109",
+       "codes": [
+        "MSE 109"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p1_3",
+     "type": "choice",
+     "label": "WRIT 101",
+     "col": 0,
+     "row": 2,
+     "options": [
+      {
+       "l": "WRIT 101",
+       "codes": [
+        "WRIT 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 107",
+       "codes": [
+        "WRIT 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 109H",
+       "codes": [
+        "WRIT 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_4",
+     "type": "choice",
+     "label": "Introduction to Engineering",
+     "col": 0,
+     "row": 3,
+     "options": [
+      {
+       "l": "ENGR 102A/B",
+       "codes": [
+        "ENGR 102A",
+        "ENGR 102B"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGR 102",
+       "codes": [
+        "ENGR 102"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_5",
+     "type": "fixed",
+     "label": "Intro to the General Education Experience",
+     "col": 0,
+     "row": 4,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p2_1",
+     "type": "fixed",
+     "label": "Calculus II",
+     "col": 1,
+     "row": 0,
+     "code": "MATH 129"
+    },
+    {
+     "id": "p2_2",
+     "type": "choice",
+     "label": "Chemical Thinking II",
+     "col": 1,
+     "row": 1,
+     "options": [
+      {
+       "l": "CHEM 152",
+       "codes": [
+        "CHEM 152"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 162/164",
+       "codes": [
+        "CHEM 162",
+        "CHEM 164"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MSE 110",
+       "codes": [
+        "MSE 110"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MCB 181R/L",
+       "codes": [
+        "MCB 181R",
+        "MCB 181L"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_3",
+     "type": "choice",
+     "label": "Programming 1",
+     "col": 1,
+     "row": 2,
+     "options": [
+      {
+       "l": "ECE 101",
+       "codes": [
+        "ECE 101"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CSC 110",
+       "codes": [
+        "CSC 110"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_4",
+     "type": "choice",
+     "label": "WRIT 102",
+     "col": 1,
+     "row": 3,
+     "options": [
+      {
+       "l": "WRIT 102",
+       "codes": [
+        "WRIT 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 108",
+       "codes": [
+        "WRIT 108"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_5",
+     "type": "choice",
+     "label": "Introductory Mechanics",
+     "col": 1,
+     "row": 4,
+     "options": [
+      {
+       "l": "PHYS 141",
+       "codes": [
+        "PHYS 141"
+       ],
+       "u": 4
+      },
+      {
+       "l": "PHYS 161H",
+       "codes": [
+        "PHYS 161H"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p3_1",
+     "type": "fixed",
+     "label": "Introduction to Systems and Industrial Engineering",
+     "col": 2,
+     "row": 0,
+     "code": "SIE 250"
+    },
+    {
+     "id": "p3_2",
+     "type": "choice",
+     "label": "Vector Calculus",
+     "col": 2,
+     "row": 1,
+     "options": [
+      {
+       "l": "MATH 223",
+       "codes": [
+        "MATH 223"
+       ],
+       "u": 3
+      },
+      {
+       "l": "MATH 313",
+       "codes": [
+        "MATH 313"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p3_3",
+     "type": "choice",
+     "label": "Introductory Electricity and Magnetism",
+     "col": 2,
+     "row": 2,
+     "options": [
+      {
+       "l": "PHYS 241",
+       "codes": [
+        "PHYS 241"
+       ],
+       "u": 4
+      },
+      {
+       "l": "PHYS 261H",
+       "codes": [
+        "PHYS 261H"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p3_4",
+     "type": "fixed",
+     "label": "Object-Oriented Modeling and Design",
+     "col": 2,
+     "row": 3,
+     "code": "SIE 277"
+    },
+    {
+     "id": "p3_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Humanist)",
+     "col": 2,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p4_1",
+     "type": "fixed",
+     "label": "Engineering Management I",
+     "col": 3,
+     "row": 0,
+     "code": "SIE 265"
+    },
+    {
+     "id": "p4_2",
+     "type": "fixed",
+     "label": "Mathematical Foundations of SIE",
+     "col": 3,
+     "row": 1,
+     "code": "SIE 270"
+    },
+    {
+     "id": "p4_3",
+     "type": "fixed",
+     "label": "Systems and Industrial Engineering Sophomore Colloquium ECE 207 Elements of Electrical Engineering or",
+     "col": 3,
+     "row": 2,
+     "code": "SIE 295S"
+    },
+    {
+     "id": "p4_4",
+     "type": "choice",
+     "label": "Basic Circuits",
+     "col": 3,
+     "row": 3,
+     "options": [
+      {
+       "l": "ECE 220",
+       "codes": [
+        "ECE 220"
+       ],
+       "u": 3
+      },
+      {
+       "l": "AME 230",
+       "codes": [
+        "AME 230"
+       ],
+       "u": 3
+      },
+      {
+       "l": "BE 284",
+       "codes": [
+        "BE 284"
+       ],
+       "u": 3
+      },
+      {
+       "l": "CE 214",
+       "codes": [
+        "CE 214"
+       ],
+       "u": 3
+      },
+      {
+       "l": "CHEE 201",
+       "codes": [
+        "CHEE 201"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p4_5",
+     "type": "te",
+     "label": "Only) General Education: Exploring Perspectives",
+     "col": 3,
+     "row": 4,
+     "list": "te_only-general-education-exploring-perspectives"
+    },
+    {
+     "id": "p4_6",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 3,
+     "row": 5,
+     "units": 3
+    },
+    {
+     "id": "p5_1",
+     "type": "fixed",
+     "label": "Introduction to Engineering Probability and Statistics",
+     "col": 4,
+     "row": 0,
+     "code": "SIE 305"
+    },
+    {
+     "id": "p5_2",
+     "type": "fixed",
+     "label": "Deterministic Operations Research",
+     "col": 4,
+     "row": 1,
+     "code": "SIE 340"
+    },
+    {
+     "id": "p5_3",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 4,
+     "row": 2,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": "Software for Engineers",
+     "col": 4,
+     "row": 3,
+     "code": "SIE 377"
+    },
+    {
+     "id": "p5_5",
+     "type": "choice",
+     "label": "Human Factors & Ergonomics in Design",
+     "col": 4,
+     "row": 4,
+     "options": [
+      {
+       "l": "SIE 410A",
+       "codes": [
+        "SIE 410A"
+       ],
+       "u": 3
+      },
+      {
+       "l": "SIE 411",
+       "codes": [
+        "SIE 411"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p6_1",
+     "type": "fixed",
+     "label": "Probabilistic Models in Operations Research",
+     "col": 5,
+     "row": 0,
+     "code": "SIE 321"
+    },
+    {
+     "id": "p6_2",
+     "type": "fixed",
+     "label": "Integrated Manufacturing Systems",
+     "col": 5,
+     "row": 1,
+     "code": "SIE 383"
+    },
+    {
+     "id": "p6_3",
+     "type": "fixed",
+     "label": "Embedded Computer Systems",
+     "col": 5,
+     "row": 2,
+     "code": "SIE 370"
+    },
+    {
+     "id": "p6_4",
+     "type": "fixed",
+     "label": "Engineering Experiment Design",
+     "col": 5,
+     "row": 3,
+     "code": "SIE 330R"
+    },
+    {
+     "id": "p6_5",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 5,
+     "row": 4,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p7_1",
+     "type": "fixed",
+     "label": "Simulation Modeling and Analysis",
+     "col": 6,
+     "row": 0,
+     "code": "SIE 431"
+    },
+    {
+     "id": "p7_2",
+     "type": "fixed",
+     "label": "Interdisciplinary Capstone",
+     "col": 6,
+     "row": 1,
+     "code": "ENGR 498A"
+    },
+    {
+     "id": "p7_3",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 6,
+     "row": 2,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p7_4",
+     "type": "free",
+     "label": "Technical Writing: CE 301 or ENGL 306 or 307 or 308 or SIE 415",
+     "col": 6,
+     "row": 3,
+     "units": 3
+    },
+    {
+     "id": "p7_5",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 6,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p8_1",
+     "type": "fixed",
+     "label": "Interdisciplinary Capstone",
+     "col": 7,
+     "row": 0,
+     "code": "ENGR 498B"
+    },
+    {
+     "id": "p8_2",
+     "type": "fixed",
+     "label": "Production Systems Analysis",
+     "col": 7,
+     "row": 1,
+     "code": "SIE 462"
+    },
+    {
+     "id": "p8_3",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 7,
+     "row": 2,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p8_4",
+     "type": "te",
+     "label": "Social Science Requirement",
+     "col": 7,
+     "row": 3,
+     "list": "te_social-science-requirement"
+    },
+    {
+     "id": "p8_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Social Scientist)",
+     "col": 7,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p8_6",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "col": 7,
+     "row": 5,
+     "code": "UNIV 301"
+    },
+    {
+     "id": "p8_7",
+     "type": "te",
+     "label": "Free Elective",
+     "col": 7,
+     "row": 6,
+     "list": "te_free-elective"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "MATH 122A/B",
+     "units": 5,
+     "list": "MATH 122A,MATH 122B,MATH 125",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "Chemical Thinking I",
+     "units": 4,
+     "list": "CHEM 151,CHEM 161,CHEM 163,MSE 109",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_3",
+     "name": "WRIT 101",
+     "units": 3,
+     "list": "WRIT 101,WRIT 107,WRIT 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_4",
+     "name": "Introduction to Engineering",
+     "units": 3,
+     "list": "ENGR 102A,ENGR 102B,ENGR 102",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_5",
+     "name": "Intro to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_2",
+     "name": "Chemical Thinking II",
+     "units": 4,
+     "list": "CHEM 152,CHEM 162,CHEM 164,MSE 110,MCB 181R,MCB 181L",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_3",
+     "name": "Programming 1",
+     "units": 4,
+     "list": "ECE 101,CSC 110",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_4",
+     "name": "WRIT 102",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_5",
+     "name": "Introductory Mechanics",
+     "units": 4,
+     "list": "PHYS 141,PHYS 161H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_1",
+     "name": "Introduction to Systems and Industrial Engineering",
+     "units": 3,
+     "list": "SIE 250",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_2",
+     "name": "Vector Calculus",
+     "units": 4,
+     "list": "MATH 223,MATH 313",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_3",
+     "name": "Introductory Electricity and Magnetism",
+     "units": 4,
+     "list": "PHYS 241,PHYS 261H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_4",
+     "name": "Object-Oriented Modeling and Design",
+     "units": 3,
+     "list": "SIE 277",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_1",
+     "name": "Engineering Management I",
+     "units": 3,
+     "list": "SIE 265",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_2",
+     "name": "Mathematical Foundations of SIE",
+     "units": 3,
+     "list": "SIE 270",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_3",
+     "name": "Systems and Industrial Engineering Sophomore Colloquium ECE 207 Elements of Electrical Engineering or",
+     "units": 1,
+     "list": "SIE 295S",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_4",
+     "name": "Basic Circuits",
+     "units": 3,
+     "list": "ECE 220,AME 230,BE 284,CE 214,CHEE 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_1",
+     "name": "Introduction to Engineering Probability and Statistics",
+     "units": 3,
+     "list": "SIE 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_2",
+     "name": "Deterministic Operations Research",
+     "units": 3,
+     "list": "SIE 340",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": "Software for Engineers",
+     "units": 3,
+     "list": "SIE 377",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_5",
+     "name": "Human Factors & Ergonomics in Design",
+     "units": 3,
+     "list": "SIE 410A,SIE 411",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_1",
+     "name": "Probabilistic Models in Operations Research",
+     "units": 3,
+     "list": "SIE 321",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_2",
+     "name": "Integrated Manufacturing Systems",
+     "units": 3,
+     "list": "SIE 383",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_3",
+     "name": "Embedded Computer Systems",
+     "units": 4,
+     "list": "SIE 370",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_4",
+     "name": "Engineering Experiment Design",
+     "units": 3,
+     "list": "SIE 330R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": "Simulation Modeling and Analysis",
+     "units": 3,
+     "list": "SIE 431",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_2",
+     "name": "Interdisciplinary Capstone",
+     "units": 3,
+     "list": "ENGR 498A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": "Interdisciplinary Capstone",
+     "units": 3,
+     "list": "ENGR 498B",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_2",
+     "name": "Production Systems Analysis",
+     "units": 3,
+     "list": "SIE 462",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_6",
+     "name": "General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_only-general-education-exploring-perspectives",
+     "name": "Only) General Education: Exploring Perspectives",
+     "units": 3,
+     "list": "@te_only-general-education-exploring-perspectives",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_technical-elective",
+     "name": "Technical Elective",
+     "units": 12,
+     "list": "@te_technical-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_social-science-requirement",
+     "name": "Social Science Requirement",
+     "units": 3,
+     "list": "@te_social-science-requirement",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_free-elective",
+     "name": "Free Elective",
+     "units": 1,
+     "list": "@te_free-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "AME 230": {
+   "t": "Thermodynamics",
+   "u": 3,
+   "pre": [
+    "PHYS 141|PHYS 161H"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "AME 300": {
+   "t": "Instrumentation Laboratory",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "AME 313": {
+   "t": "Aerospace/Mechanical Engineering Laboratory",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "AME 320": {
+   "t": "Aerodynamics",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "BE 284": {
+   "t": "Biosystems Thermal Engineering",
+   "u": 3,
+   "pre": [
+    "MATH 129",
+    "PHYS 141"
+   ],
+   "off": "fall",
+   "src": "draft from the college four-year plan",
+   "uv": []
+  },
+  "CE 214": {
+   "t": "Statics",
+   "u": 3,
+   "pre": [
+    "PHYS 141|PHYS 161H",
+    "MATH 129|MATH 250B"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "CHEE 201": {
+   "t": "Elements of Chemical and Environmental Engineering I",
+   "u": 3,
+   "off": "fall",
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre"
+   ]
+  },
+  "CHEM 151": {
+   "t": "Chemical Thinking I",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 610|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223",
+    "CHEM 105A|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 161": {
+   "t": "Honors Chemical Thinking I",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 730",
+    "CHEM 141|CHEM 151"
+   ]
+  },
+  "CHEM 162": {
+   "t": "Honors Chemical Thinking II",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 163": {
+   "t": "Honors Fundamental Techniques of Chemistry I",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CHEM 161",
+    "CHEM 141|CHEM 151"
+   ],
+   "co": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 164": {
+   "t": "Honors Fundamental Techniques of Chemistry II",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CSC 110": {
+   "t": "Intro to Computer Programming I",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ECE 101": {
+   "t": "Programming 1",
+   "u": 4,
+   "off": "fall",
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre"
+   ],
+   "pre": [
+    "MATH 120R|MATH 122B|MATH 125|MATH 129"
+   ],
+   "co": [
+    "MATH 120R",
+    "MATH 122B",
+    "MATH 125",
+    "MATH 129"
+   ]
+  },
+  "ECE 220": {
+   "t": "Basic Circuits",
+   "u": 5,
+   "pre": [
+    "MATH 129",
+    "PHYS 241|PHYS 251|PHYS 261H"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "ENGR 102": {
+   "t": "Introduction to Engineering",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ENGR 102A": {
+   "t": "Introduction to Engineering",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 112|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223|MATH 254",
+    "ENGR 102"
+   ],
+   "co": [
+    "MATH 112",
+    "MATH 120R",
+    "MATH 122B",
+    "MATH 125",
+    "MATH 129",
+    "MATH 223",
+    "MATH 254"
+   ]
+  },
+  "ENGR 102B": {
+   "t": "Introduction to Engineering",
+   "u": 2,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 112|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223|MATH 254",
+    "ENGR 102"
+   ],
+   "co": [
+    "MATH 112",
+    "MATH 120R",
+    "MATH 122B",
+    "MATH 125",
+    "MATH 129",
+    "MATH 223",
+    "MATH 254"
+   ]
+  },
+  "ENGR 498A": {
+   "t": "Interdisciplinary Capstone",
+   "u": 3,
+   "pre": [
+    "AME 300",
+    "AME 313",
+    "AME 320"
+   ],
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "off"
+   ]
+  },
+  "ENGR 498B": {
+   "t": "Interdisciplinary Capstone",
+   "u": 3,
+   "pre": [
+    "ENGR 498A"
+   ],
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "off"
+   ]
+  },
+  "MATH 122A": {
+   "t": "Functions for Calculus",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 660|MATH 120R",
+    "MATH 100",
+    "MATH 112",
+    "MATH 120R"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I with Applications",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 730"
+   ]
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "pre": [
+    "MATH 122B|MATH 125"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MATH 223": {
+   "t": "Vector Calculus",
+   "u": 4,
+   "pre": [
+    "MATH 129"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MATH 313": {
+   "t": "Linear Algebra",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MCB 181L": {
+   "t": "Introductory Biology I",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MCB 181R": {
+   "t": "Introductory Biology I",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 560|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 124|MATH 122B|MATH 125|MATH 129|MATH 223"
+   ]
+  },
+  "MSE 109": {
+   "t": "Foundations of Materials Chemistry for Applications",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 610|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223"
+   ]
+  },
+  "MSE 110": {
+   "t": "Solid State Chemistry",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PHYS 141": {
+   "t": "Introductory Mechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "PHYS 161H": {
+   "t": "Accelerated Introductory Mechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "PHYS 241": {
+   "t": "Introductory Electricity and Magnetism",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ]
+  },
+  "PHYS 261H": {
+   "t": "Accelerated Introductory Electricity and Magnetism",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ]
+  },
+  "SIE 250": {
+   "t": "Introduction to Systems and Industrial Engineering",
+   "u": 3,
+   "pre": [
+    "MATH 129"
+   ],
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "off"
+   ]
+  },
+  "SIE 265": {
+   "t": "Engineering Management I",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "SIE 270": {
+   "t": "Mathematical Foundations of SIE",
+   "u": 3,
+   "pre": [
+    "ECE 101|ECE 175|CSC 110",
+    "MATH 129",
+    "PHYS 141"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "SIE 277": {
+   "t": "Object-Oriented Modeling and Design",
+   "u": 3,
+   "pre": [
+    "ECE 101|ECE 175|CSC 110"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "SIE 295S": {
+   "t": "Systems and Industrial Engineering Sophomore Colloquium ECE 207 Elements of Electrical Engineering or",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "SIE 250|SIE 265"
+   ],
+   "co": [
+    "SIE 250",
+    "SIE 265"
+   ]
+  },
+  "SIE 305": {
+   "t": "Introduction to Engineering Probability and Statistics",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 129"
+   ]
+  },
+  "SIE 321": {
+   "t": "Probabilistic Models in Operations Research",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "SIE 305"
+   ]
+  },
+  "SIE 330R": {
+   "t": "Engineering Experiment Design",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "SIE 305"
+   ]
+  },
+  "SIE 340": {
+   "t": "Deterministic Operations Research",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "SIE 270"
+   ]
+  },
+  "SIE 370": {
+   "t": "Embedded Computer Systems",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "PHYS 241"
+   ]
+  },
+  "SIE 377": {
+   "t": "Software for Engineers",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "ECE 175|ECE 101|CSC 110"
+   ]
+  },
+  "SIE 383": {
+   "t": "Integrated Manufacturing Systems",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "SIE 410A": {
+   "t": "Human Factors & Ergonomics in Design",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "SIE 305"
+   ]
+  },
+  "SIE 411": {
+   "t": "Human Machine Interactions",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "SIE 431": {
+   "t": "Simulation Modeling and Analysis",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "SIE 305"
+   ]
+  },
+  "SIE 462": {
+   "t": "Production Systems Analysis",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "SIE 305",
+    "SIE 340"
+   ]
+  },
+  "UNIV 101": {
+   "t": "Intro to the General Education Experience",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "OF 101"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107"
+   ]
+  },
+  "WRIT 108": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "WRIT 109H": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  }
+ },
+ "draft": true
+}

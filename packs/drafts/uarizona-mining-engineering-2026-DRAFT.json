@@ -1,0 +1,4315 @@
+{
+ "format": "degree-pack/1",
+ "createdWith": "Degree Flowchart Builder v5.19 by Juan Gastelum (build d9e04007be)",
+ "id": "uarizona/engineering/mining-engineering/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "program": {
+  "name": "Mining Engineering",
+  "college": "College of Engineering",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science in Mining Engineering"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 127,
+  "maxLoad": 17,
+  "minGrade": "C"
+ },
+ "meta": {
+  "catalog": "DRAFT from the college four-year plan, catalog year 2026-27",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified except as printed in the plan"
+ },
+ "lists": {
+  "te_technical-elective": [],
+  "te_elective": []
+ },
+ "tracks": {
+  "MINEOPERATIO": {
+   "name": "Mine Operations",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026-27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "choice",
+     "label": "MATH 122A/B",
+     "col": 0,
+     "row": 0,
+     "options": [
+      {
+       "l": "MATH 122A/B",
+       "codes": [
+        "MATH 122A",
+        "MATH 122B"
+       ],
+       "u": 5
+      },
+      {
+       "l": "MATH 125",
+       "codes": [
+        "MATH 125"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_2",
+     "type": "choice",
+     "label": "Chemical Thinking I",
+     "col": 0,
+     "row": 1,
+     "options": [
+      {
+       "l": "CHEM 151",
+       "codes": [
+        "CHEM 151"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 161/163",
+       "codes": [
+        "CHEM 161",
+        "CHEM 163"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MSE 109",
+       "codes": [
+        "MSE 109"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p1_3",
+     "type": "choice",
+     "label": "WRIT 101",
+     "col": 0,
+     "row": 2,
+     "options": [
+      {
+       "l": "WRIT 101",
+       "codes": [
+        "WRIT 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGL 107",
+       "codes": [
+        "ENGL 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGL 109H",
+       "codes": [
+        "ENGL 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_4",
+     "type": "choice",
+     "label": "Introduction to Engineering",
+     "col": 0,
+     "row": 3,
+     "options": [
+      {
+       "l": "ENGR 102A/B",
+       "codes": [
+        "ENGR 102A",
+        "ENGR 102B"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGR 102",
+       "codes": [
+        "ENGR 102"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_5",
+     "type": "fixed",
+     "label": "Intro to the General Education Experience",
+     "col": 0,
+     "row": 4,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p2_1",
+     "type": "fixed",
+     "label": "Calculus II",
+     "col": 1,
+     "row": 0,
+     "code": "MATH 129"
+    },
+    {
+     "id": "p2_2",
+     "type": "choice",
+     "label": "Chemical Thinking II",
+     "col": 1,
+     "row": 1,
+     "options": [
+      {
+       "l": "CHEM 152",
+       "codes": [
+        "CHEM 152"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 162/164",
+       "codes": [
+        "CHEM 162",
+        "CHEM 164"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MSE 110",
+       "codes": [
+        "MSE 110"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_3",
+     "type": "choice",
+     "label": "WRIT 102",
+     "col": 1,
+     "row": 2,
+     "options": [
+      {
+       "l": "WRIT 102",
+       "codes": [
+        "WRIT 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 108",
+       "codes": [
+        "WRIT 108"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_4",
+     "type": "choice",
+     "label": "Introductory Mechanics",
+     "col": 1,
+     "row": 3,
+     "options": [
+      {
+       "l": "PHYS 141",
+       "codes": [
+        "PHYS 141"
+       ],
+       "u": 4
+      },
+      {
+       "l": "PHYS 161H",
+       "codes": [
+        "PHYS 161H"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Artist)",
+     "col": 1,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p3_1",
+     "type": "fixed",
+     "label": "Statics",
+     "col": 2,
+     "row": 0,
+     "code": "CE 214"
+    },
+    {
+     "id": "p3_2",
+     "type": "fixed",
+     "label": "Physical Geology",
+     "col": 2,
+     "row": 1,
+     "code": "GEOS 251"
+    },
+    {
+     "id": "p3_3",
+     "type": "fixed",
+     "label": "Vector Calculus",
+     "col": 2,
+     "row": 2,
+     "code": "MATH 223"
+    },
+    {
+     "id": "p3_4",
+     "type": "fixed",
+     "label": "Introduction to Mining Engineering",
+     "col": 2,
+     "row": 3,
+     "code": "MNE 205"
+    },
+    {
+     "id": "p3_5",
+     "type": "fixed",
+     "label": "Mineral Resource Engineering Topics",
+     "col": 2,
+     "row": 4,
+     "code": "MNE 296A"
+    },
+    {
+     "id": "p3_6",
+     "type": "fixed",
+     "label": "Underground Mine Safety (offered as a 7-week 1 course)",
+     "col": 2,
+     "row": 5,
+     "code": "MNE 297A"
+    },
+    {
+     "id": "p3_7",
+     "type": "free",
+     "label": "Exploring Perspectives (Humanist)",
+     "col": 2,
+     "row": 6,
+     "units": 3
+    },
+    {
+     "id": "p4_1",
+     "type": "fixed",
+     "label": "Mechanics of Solids",
+     "col": 3,
+     "row": 0,
+     "code": "CE 215"
+    },
+    {
+     "id": "p4_2",
+     "type": "fixed",
+     "label": "Intro to Ordinary Differential Equations",
+     "col": 3,
+     "row": 1,
+     "code": "MATH 254"
+    },
+    {
+     "id": "p4_3",
+     "type": "fixed",
+     "label": "Mineralogy and Petrology for Engineers",
+     "col": 3,
+     "row": 2,
+     "code": "MNE 210"
+    },
+    {
+     "id": "p4_4",
+     "type": "fixed",
+     "label": "Introduction to Electric Circuits & Mine Power Systems",
+     "col": 3,
+     "row": 3,
+     "code": "MNE 204"
+    },
+    {
+     "id": "p4_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Social Scientist)",
+     "col": 3,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p5_1",
+     "type": "fixed",
+     "label": "Mechanics of Fluids",
+     "col": 4,
+     "row": 0,
+     "code": "CE 218"
+    },
+    {
+     "id": "p5_2",
+     "type": "fixed",
+     "label": "Engineering Sustainable Development",
+     "col": 4,
+     "row": 1,
+     "code": "MNE 422"
+    },
+    {
+     "id": "p5_3",
+     "type": "fixed",
+     "label": "Health & Safety in Mining",
+     "col": 4,
+     "row": 2,
+     "code": "MNE 426"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": "Geomechanics",
+     "col": 4,
+     "row": 3,
+     "code": "MNE 427"
+    },
+    {
+     "id": "p5_5",
+     "type": "fixed",
+     "label": "Mine Examination and Valuation",
+     "col": 4,
+     "row": 4,
+     "code": "MNE 430"
+    },
+    {
+     "id": "p5_6",
+     "type": "fixed",
+     "label": "Geopositioning for Mining Applications",
+     "col": 4,
+     "row": 5,
+     "code": "MNE 444"
+    },
+    {
+     "id": "p6_1",
+     "type": "fixed",
+     "label": "Technical Trends in Mineral Resource Engineering",
+     "col": 5,
+     "row": 0,
+     "code": "MNE 396A"
+    },
+    {
+     "id": "p6_2",
+     "type": "fixed",
+     "label": "Mine Planning Software (Winter Session Course)",
+     "col": 5,
+     "row": 1,
+     "code": "MNE 419"
+    },
+    {
+     "id": "p6_3",
+     "type": "fixed",
+     "label": "Surface Mine Planning and Design",
+     "col": 5,
+     "row": 2,
+     "code": "MNE 436"
+    },
+    {
+     "id": "p6_4",
+     "type": "fixed",
+     "label": "Underground Mine Planning Design",
+     "col": 5,
+     "row": 3,
+     "code": "MNE 438"
+    },
+    {
+     "id": "p6_5",
+     "type": "fixed",
+     "label": "Mine Ventilation",
+     "col": 5,
+     "row": 4,
+     "code": "MNE 476"
+    },
+    {
+     "id": "p6_6",
+     "type": "choice",
+     "label": "Probability and Statistical Concepts in Geologic Media",
+     "col": 5,
+     "row": 5,
+     "options": [
+      {
+       "l": "MNE 402",
+       "codes": [
+        "MNE 402"
+       ],
+       "u": 3
+      },
+      {
+       "l": "SIE 305",
+       "codes": [
+        "SIE 305"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p7_1",
+     "type": "fixed",
+     "label": "Mineral Processing",
+     "col": 6,
+     "row": 0,
+     "code": "MNE 411"
+    },
+    {
+     "id": "p7_2",
+     "type": "fixed",
+     "label": "Rock Excavation",
+     "col": 6,
+     "row": 1,
+     "code": "MNE 415"
+    },
+    {
+     "id": "p7_3",
+     "type": "fixed",
+     "label": "Equipment Operations Technology",
+     "col": 6,
+     "row": 2,
+     "code": "MNE 407"
+    },
+    {
+     "id": "p7_4",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "col": 6,
+     "row": 3,
+     "code": "MNE 498"
+    },
+    {
+     "id": "p7_5",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 6,
+     "row": 4,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p7_6",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 6,
+     "row": 5,
+     "units": 3
+    },
+    {
+     "id": "p8_1",
+     "type": "fixed",
+     "label": "Underground Construction Geomechanics",
+     "col": 7,
+     "row": 0,
+     "code": "MNE 447"
+    },
+    {
+     "id": "p8_2",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "col": 7,
+     "row": 1,
+     "code": "MNE 498"
+    },
+    {
+     "id": "p8_3",
+     "type": "fixed",
+     "label": "Structural Geology",
+     "col": 7,
+     "row": 2,
+     "code": "GEOS 304"
+    },
+    {
+     "id": "p8_4",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 7,
+     "row": 3,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p8_5",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 7,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p8_6",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "col": 7,
+     "row": 5,
+     "code": "UNIV 301"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "MATH 122A/B",
+     "units": 5,
+     "list": "MATH 122A,MATH 122B,MATH 125",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "Chemical Thinking I",
+     "units": 4,
+     "list": "CHEM 151,CHEM 161,CHEM 163,MSE 109",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_3",
+     "name": "WRIT 101",
+     "units": 3,
+     "list": "WRIT 101,ENGL 107,ENGL 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_4",
+     "name": "Introduction to Engineering",
+     "units": 3,
+     "list": "ENGR 102A,ENGR 102B,ENGR 102",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_5",
+     "name": "Intro to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_2",
+     "name": "Chemical Thinking II",
+     "units": 4,
+     "list": "CHEM 152,CHEM 162,CHEM 164,MSE 110",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_3",
+     "name": "WRIT 102",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_4",
+     "name": "Introductory Mechanics",
+     "units": 4,
+     "list": "PHYS 141,PHYS 161H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_1",
+     "name": "Statics",
+     "units": 3,
+     "list": "CE 214",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_2",
+     "name": "Physical Geology",
+     "units": 4,
+     "list": "GEOS 251",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_3",
+     "name": "Vector Calculus",
+     "units": 4,
+     "list": "MATH 223",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_4",
+     "name": "Introduction to Mining Engineering",
+     "units": 3,
+     "list": "MNE 205",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_5",
+     "name": "Mineral Resource Engineering Topics",
+     "units": 1,
+     "list": "MNE 296A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_6",
+     "name": "Underground Mine Safety (offered as a 7-week 1 course)",
+     "units": 1,
+     "list": "MNE 297A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_1",
+     "name": "Mechanics of Solids",
+     "units": 3,
+     "list": "CE 215",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_2",
+     "name": "Intro to Ordinary Differential Equations",
+     "units": 3,
+     "list": "MATH 254",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_3",
+     "name": "Mineralogy and Petrology for Engineers",
+     "units": 3,
+     "list": "MNE 210",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_4",
+     "name": "Introduction to Electric Circuits & Mine Power Systems",
+     "units": 3,
+     "list": "MNE 204",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_1",
+     "name": "Mechanics of Fluids",
+     "units": 3,
+     "list": "CE 218",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_2",
+     "name": "Engineering Sustainable Development",
+     "units": 3,
+     "list": "MNE 422",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": "Health & Safety in Mining",
+     "units": 1,
+     "list": "MNE 426",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": "Geomechanics",
+     "units": 4,
+     "list": "MNE 427",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_5",
+     "name": "Mine Examination and Valuation",
+     "units": 3,
+     "list": "MNE 430",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_6",
+     "name": "Geopositioning for Mining Applications",
+     "units": 3,
+     "list": "MNE 444",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_1",
+     "name": "Technical Trends in Mineral Resource Engineering",
+     "units": 1,
+     "list": "MNE 396A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_2",
+     "name": "Mine Planning Software (Winter Session Course)",
+     "units": 1,
+     "list": "MNE 419",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_3",
+     "name": "Surface Mine Planning and Design",
+     "units": 3,
+     "list": "MNE 436",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_4",
+     "name": "Underground Mine Planning Design",
+     "units": 2,
+     "list": "MNE 438",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_5",
+     "name": "Mine Ventilation",
+     "units": 4,
+     "list": "MNE 476",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_6",
+     "name": "Probability and Statistical Concepts in Geologic Media",
+     "units": 3,
+     "list": "MNE 402,SIE 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": "Mineral Processing",
+     "units": 3,
+     "list": "MNE 411",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_2",
+     "name": "Rock Excavation",
+     "units": 3,
+     "list": "MNE 415",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_3",
+     "name": "Equipment Operations Technology",
+     "units": 3,
+     "list": "MNE 407",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_4",
+     "name": "Senior Capstone",
+     "units": 1,
+     "list": "MNE 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": "Underground Construction Geomechanics",
+     "units": 3,
+     "list": "MNE 447",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_2",
+     "name": "Senior Capstone",
+     "units": 2,
+     "list": "MNE 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_3",
+     "name": "Structural Geology",
+     "units": 4,
+     "list": "GEOS 304",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_6",
+     "name": "General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_technical-elective",
+     "name": "Technical Elective",
+     "units": 6,
+     "list": "@te_technical-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "GEOMECHANICS": {
+   "name": "Geomechanics",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026-27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "choice",
+     "label": "MATH 122A/B",
+     "col": 0,
+     "row": 0,
+     "options": [
+      {
+       "l": "MATH 122A/B",
+       "codes": [
+        "MATH 122A",
+        "MATH 122B"
+       ],
+       "u": 5
+      },
+      {
+       "l": "MATH 125",
+       "codes": [
+        "MATH 125"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_2",
+     "type": "choice",
+     "label": "Chemical Thinking I",
+     "col": 0,
+     "row": 1,
+     "options": [
+      {
+       "l": "CHEM 151",
+       "codes": [
+        "CHEM 151"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 161/163",
+       "codes": [
+        "CHEM 161",
+        "CHEM 163"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MSE 109",
+       "codes": [
+        "MSE 109"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p1_3",
+     "type": "choice",
+     "label": "WRIT 101",
+     "col": 0,
+     "row": 2,
+     "options": [
+      {
+       "l": "WRIT 101",
+       "codes": [
+        "WRIT 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGL 107",
+       "codes": [
+        "ENGL 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGL 109H",
+       "codes": [
+        "ENGL 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_4",
+     "type": "choice",
+     "label": "Introduction to Engineering",
+     "col": 0,
+     "row": 3,
+     "options": [
+      {
+       "l": "ENGR 102A/B",
+       "codes": [
+        "ENGR 102A",
+        "ENGR 102B"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGR 102",
+       "codes": [
+        "ENGR 102"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_5",
+     "type": "fixed",
+     "label": "Intro to the General Education Experience",
+     "col": 0,
+     "row": 4,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p2_1",
+     "type": "fixed",
+     "label": "Calculus II",
+     "col": 1,
+     "row": 0,
+     "code": "MATH 129"
+    },
+    {
+     "id": "p2_2",
+     "type": "choice",
+     "label": "Chemical Thinking II",
+     "col": 1,
+     "row": 1,
+     "options": [
+      {
+       "l": "CHEM 152",
+       "codes": [
+        "CHEM 152"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 162/164",
+       "codes": [
+        "CHEM 162",
+        "CHEM 164"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MSE 110",
+       "codes": [
+        "MSE 110"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_3",
+     "type": "choice",
+     "label": "WRIT 102",
+     "col": 1,
+     "row": 2,
+     "options": [
+      {
+       "l": "WRIT 102",
+       "codes": [
+        "WRIT 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 108",
+       "codes": [
+        "WRIT 108"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_4",
+     "type": "choice",
+     "label": "Introductory Mechanics",
+     "col": 1,
+     "row": 3,
+     "options": [
+      {
+       "l": "PHYS 141",
+       "codes": [
+        "PHYS 141"
+       ],
+       "u": 4
+      },
+      {
+       "l": "PHYS 161H",
+       "codes": [
+        "PHYS 161H"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Artist)",
+     "col": 1,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p3_1",
+     "type": "fixed",
+     "label": "Statics",
+     "col": 2,
+     "row": 0,
+     "code": "CE 214"
+    },
+    {
+     "id": "p3_2",
+     "type": "fixed",
+     "label": "Physical Geology",
+     "col": 2,
+     "row": 1,
+     "code": "GEOS 251"
+    },
+    {
+     "id": "p3_3",
+     "type": "fixed",
+     "label": "Vector Calculus",
+     "col": 2,
+     "row": 2,
+     "code": "MATH 223"
+    },
+    {
+     "id": "p3_4",
+     "type": "fixed",
+     "label": "Introduction to Mining Engineering",
+     "col": 2,
+     "row": 3,
+     "code": "MNE 205"
+    },
+    {
+     "id": "p3_5",
+     "type": "fixed",
+     "label": "Mineral Resource Engineering Topics",
+     "col": 2,
+     "row": 4,
+     "code": "MNE 296A"
+    },
+    {
+     "id": "p3_6",
+     "type": "fixed",
+     "label": "Underground Mine Safety (offered as a 7-week 1 course)",
+     "col": 2,
+     "row": 5,
+     "code": "MNE 297A"
+    },
+    {
+     "id": "p3_7",
+     "type": "free",
+     "label": "Exploring Perspectives (Humanist)",
+     "col": 2,
+     "row": 6,
+     "units": 3
+    },
+    {
+     "id": "p4_1",
+     "type": "fixed",
+     "label": "Mechanics of Solids",
+     "col": 3,
+     "row": 0,
+     "code": "CE 215"
+    },
+    {
+     "id": "p4_2",
+     "type": "fixed",
+     "label": "Intro to Ordinary Differential Equations",
+     "col": 3,
+     "row": 1,
+     "code": "MATH 254"
+    },
+    {
+     "id": "p4_3",
+     "type": "fixed",
+     "label": "Mineralogy and Petrology for Engineers",
+     "col": 3,
+     "row": 2,
+     "code": "MNE 210"
+    },
+    {
+     "id": "p4_4",
+     "type": "fixed",
+     "label": "Introduction to Electric Circuits & Mine Power Systems",
+     "col": 3,
+     "row": 3,
+     "code": "MNE 204"
+    },
+    {
+     "id": "p4_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Social Scientist)",
+     "col": 3,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p5_1",
+     "type": "fixed",
+     "label": "Mechanics of Fluids",
+     "col": 4,
+     "row": 0,
+     "code": "CE 218"
+    },
+    {
+     "id": "p5_2",
+     "type": "fixed",
+     "label": "Engineering Sustainable Development",
+     "col": 4,
+     "row": 1,
+     "code": "MNE 422"
+    },
+    {
+     "id": "p5_3",
+     "type": "fixed",
+     "label": "Health & Safety in Mining",
+     "col": 4,
+     "row": 2,
+     "code": "MNE 426"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": "Geomechanics",
+     "col": 4,
+     "row": 3,
+     "code": "MNE 427"
+    },
+    {
+     "id": "p5_5",
+     "type": "fixed",
+     "label": "Mine Examination and Valuation",
+     "col": 4,
+     "row": 4,
+     "code": "MNE 430"
+    },
+    {
+     "id": "p5_6",
+     "type": "fixed",
+     "label": "Geopositioning for Mining Applications",
+     "col": 4,
+     "row": 5,
+     "code": "MNE 444"
+    },
+    {
+     "id": "p6_1",
+     "type": "fixed",
+     "label": "Technical Trends in Mineral Resource Engineering",
+     "col": 5,
+     "row": 0,
+     "code": "MNE 396A"
+    },
+    {
+     "id": "p6_2",
+     "type": "fixed",
+     "label": "Mine Planning Software (Winter Session Course)",
+     "col": 5,
+     "row": 1,
+     "code": "MNE 419"
+    },
+    {
+     "id": "p6_3",
+     "type": "fixed",
+     "label": "Surface Mine Planning and Design",
+     "col": 5,
+     "row": 2,
+     "code": "MNE 436"
+    },
+    {
+     "id": "p6_4",
+     "type": "fixed",
+     "label": "Underground Mine Design",
+     "col": 5,
+     "row": 3,
+     "code": "MNE 438"
+    },
+    {
+     "id": "p6_5",
+     "type": "fixed",
+     "label": "Mine Ventilation",
+     "col": 5,
+     "row": 4,
+     "code": "MNE 476"
+    },
+    {
+     "id": "p6_6",
+     "type": "choice",
+     "label": "Probability and Statistical Concepts in Geologic Media",
+     "col": 5,
+     "row": 5,
+     "options": [
+      {
+       "l": "MNE 402",
+       "codes": [
+        "MNE 402"
+       ],
+       "u": 3
+      },
+      {
+       "l": "SIE 305",
+       "codes": [
+        "SIE 305"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p7_1",
+     "type": "fixed",
+     "label": "Equipment Operations Technology",
+     "col": 6,
+     "row": 0,
+     "code": "MNE 407"
+    },
+    {
+     "id": "p7_2",
+     "type": "fixed",
+     "label": "Rock Excavation",
+     "col": 6,
+     "row": 1,
+     "code": "MNE 415"
+    },
+    {
+     "id": "p7_3",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "col": 6,
+     "row": 2,
+     "code": "MNE 498"
+    },
+    {
+     "id": "p7_4",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 6,
+     "row": 3,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p7_5",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 6,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p8_1",
+     "type": "fixed",
+     "label": "Underground Construction Geomechanics",
+     "col": 7,
+     "row": 0,
+     "code": "MNE 447"
+    },
+    {
+     "id": "p8_2",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "col": 7,
+     "row": 1,
+     "code": "MNE 498"
+    },
+    {
+     "id": "p8_3",
+     "type": "choice",
+     "label": "Tailings Storage Facility Design (Planning, Design & Analysis)",
+     "col": 7,
+     "row": 2,
+     "options": [
+      {
+       "l": "MNE 417",
+       "codes": [
+        "MNE 417"
+       ],
+       "u": 3
+      },
+      {
+       "l": "CE 343",
+       "codes": [
+        "CE 343"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p8_4",
+     "type": "choice",
+     "label": "L Tailings Lab for Mining Engineers",
+     "col": 7,
+     "row": 3,
+     "options": [
+      {
+       "l": "MNE 417",
+       "codes": [
+        "MNE 417"
+       ],
+       "u": 1
+      },
+      {
+       "l": "CE 349",
+       "codes": [
+        "CE 349"
+       ],
+       "u": 1
+      }
+     ]
+    },
+    {
+     "id": "p8_5",
+     "type": "fixed",
+     "label": "Structural Geology",
+     "col": 7,
+     "row": 4,
+     "code": "GEOS 304"
+    },
+    {
+     "id": "p8_6",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 7,
+     "row": 5,
+     "units": 3
+    },
+    {
+     "id": "p8_7",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "col": 7,
+     "row": 6,
+     "code": "UNIV 301"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "MATH 122A/B",
+     "units": 5,
+     "list": "MATH 122A,MATH 122B,MATH 125",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "Chemical Thinking I",
+     "units": 4,
+     "list": "CHEM 151,CHEM 161,CHEM 163,MSE 109",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_3",
+     "name": "WRIT 101",
+     "units": 3,
+     "list": "WRIT 101,ENGL 107,ENGL 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_4",
+     "name": "Introduction to Engineering",
+     "units": 3,
+     "list": "ENGR 102A,ENGR 102B,ENGR 102",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_5",
+     "name": "Intro to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_2",
+     "name": "Chemical Thinking II",
+     "units": 4,
+     "list": "CHEM 152,CHEM 162,CHEM 164,MSE 110",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_3",
+     "name": "WRIT 102",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_4",
+     "name": "Introductory Mechanics",
+     "units": 4,
+     "list": "PHYS 141,PHYS 161H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_1",
+     "name": "Statics",
+     "units": 3,
+     "list": "CE 214",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_2",
+     "name": "Physical Geology",
+     "units": 4,
+     "list": "GEOS 251",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_3",
+     "name": "Vector Calculus",
+     "units": 4,
+     "list": "MATH 223",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_4",
+     "name": "Introduction to Mining Engineering",
+     "units": 3,
+     "list": "MNE 205",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_5",
+     "name": "Mineral Resource Engineering Topics",
+     "units": 1,
+     "list": "MNE 296A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_6",
+     "name": "Underground Mine Safety (offered as a 7-week 1 course)",
+     "units": 1,
+     "list": "MNE 297A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_1",
+     "name": "Mechanics of Solids",
+     "units": 3,
+     "list": "CE 215",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_2",
+     "name": "Intro to Ordinary Differential Equations",
+     "units": 3,
+     "list": "MATH 254",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_3",
+     "name": "Mineralogy and Petrology for Engineers",
+     "units": 3,
+     "list": "MNE 210",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_4",
+     "name": "Introduction to Electric Circuits & Mine Power Systems",
+     "units": 3,
+     "list": "MNE 204",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_1",
+     "name": "Mechanics of Fluids",
+     "units": 3,
+     "list": "CE 218",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_2",
+     "name": "Engineering Sustainable Development",
+     "units": 3,
+     "list": "MNE 422",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": "Health & Safety in Mining",
+     "units": 1,
+     "list": "MNE 426",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": "Geomechanics",
+     "units": 4,
+     "list": "MNE 427",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_5",
+     "name": "Mine Examination and Valuation",
+     "units": 3,
+     "list": "MNE 430",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_6",
+     "name": "Geopositioning for Mining Applications",
+     "units": 3,
+     "list": "MNE 444",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_1",
+     "name": "Technical Trends in Mineral Resource Engineering",
+     "units": 1,
+     "list": "MNE 396A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_2",
+     "name": "Mine Planning Software (Winter Session Course)",
+     "units": 1,
+     "list": "MNE 419",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_3",
+     "name": "Surface Mine Planning and Design",
+     "units": 3,
+     "list": "MNE 436",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_4",
+     "name": "Underground Mine Design",
+     "units": 2,
+     "list": "MNE 438",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_5",
+     "name": "Mine Ventilation",
+     "units": 4,
+     "list": "MNE 476",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_6",
+     "name": "Probability and Statistical Concepts in Geologic Media",
+     "units": 3,
+     "list": "MNE 402,SIE 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": "Equipment Operations Technology",
+     "units": 3,
+     "list": "MNE 407",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_2",
+     "name": "Rock Excavation",
+     "units": 3,
+     "list": "MNE 415",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_3",
+     "name": "Senior Capstone",
+     "units": 1,
+     "list": "MNE 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": "Underground Construction Geomechanics",
+     "units": 3,
+     "list": "MNE 447",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_2",
+     "name": "Senior Capstone",
+     "units": 2,
+     "list": "MNE 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_3",
+     "name": "Tailings Storage Facility Design (Planning, Design & Analysis)",
+     "units": 3,
+     "list": "MNE 417,CE 343",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_4",
+     "name": "L Tailings Lab for Mining Engineers",
+     "units": 1,
+     "list": "MNE 417,CE 349",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_5",
+     "name": "Structural Geology",
+     "units": 4,
+     "list": "GEOS 304",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_7",
+     "name": "General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_technical-elective",
+     "name": "Technical Elective",
+     "units": 5,
+     "list": "@te_technical-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "SUSTAINABLER": {
+   "name": "Sustainable Resource Development",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026-27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "choice",
+     "label": "MATH 122A/B",
+     "col": 0,
+     "row": 0,
+     "options": [
+      {
+       "l": "MATH 122A/B",
+       "codes": [
+        "MATH 122A",
+        "MATH 122B"
+       ],
+       "u": 5
+      },
+      {
+       "l": "MATH 125",
+       "codes": [
+        "MATH 125"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_2",
+     "type": "choice",
+     "label": "Chemical Thinking I",
+     "col": 0,
+     "row": 1,
+     "options": [
+      {
+       "l": "CHEM 151",
+       "codes": [
+        "CHEM 151"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 161/163",
+       "codes": [
+        "CHEM 161",
+        "CHEM 163"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MSE 109",
+       "codes": [
+        "MSE 109"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p1_3",
+     "type": "choice",
+     "label": "WRIT 101",
+     "col": 0,
+     "row": 2,
+     "options": [
+      {
+       "l": "WRIT 101",
+       "codes": [
+        "WRIT 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGL 107",
+       "codes": [
+        "ENGL 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGL 109H",
+       "codes": [
+        "ENGL 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_4",
+     "type": "choice",
+     "label": "Introduction to Engineering",
+     "col": 0,
+     "row": 3,
+     "options": [
+      {
+       "l": "ENGR 102A/B",
+       "codes": [
+        "ENGR 102A",
+        "ENGR 102B"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGR 102",
+       "codes": [
+        "ENGR 102"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_5",
+     "type": "fixed",
+     "label": "Intro to the General Education Experience",
+     "col": 0,
+     "row": 4,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p2_1",
+     "type": "fixed",
+     "label": "Calculus II",
+     "col": 1,
+     "row": 0,
+     "code": "MATH 129"
+    },
+    {
+     "id": "p2_2",
+     "type": "choice",
+     "label": "Chemical Thinking II",
+     "col": 1,
+     "row": 1,
+     "options": [
+      {
+       "l": "CHEM 152",
+       "codes": [
+        "CHEM 152"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 162/164",
+       "codes": [
+        "CHEM 162",
+        "CHEM 164"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MSE 110",
+       "codes": [
+        "MSE 110"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_3",
+     "type": "choice",
+     "label": "WRIT 102",
+     "col": 1,
+     "row": 2,
+     "options": [
+      {
+       "l": "WRIT 102",
+       "codes": [
+        "WRIT 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 108",
+       "codes": [
+        "WRIT 108"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_4",
+     "type": "choice",
+     "label": "Introductory Mechanics",
+     "col": 1,
+     "row": 3,
+     "options": [
+      {
+       "l": "PHYS 141",
+       "codes": [
+        "PHYS 141"
+       ],
+       "u": 4
+      },
+      {
+       "l": "PHYS 161H",
+       "codes": [
+        "PHYS 161H"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Artist)",
+     "col": 1,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p3_1",
+     "type": "fixed",
+     "label": "Statics",
+     "col": 2,
+     "row": 0,
+     "code": "CE 214"
+    },
+    {
+     "id": "p3_2",
+     "type": "fixed",
+     "label": "Physical Geology",
+     "col": 2,
+     "row": 1,
+     "code": "GEOS 251"
+    },
+    {
+     "id": "p3_3",
+     "type": "fixed",
+     "label": "Vector Calculus",
+     "col": 2,
+     "row": 2,
+     "code": "MATH 223"
+    },
+    {
+     "id": "p3_4",
+     "type": "fixed",
+     "label": "Introduction to Mining Engineering",
+     "col": 2,
+     "row": 3,
+     "code": "MNE 205"
+    },
+    {
+     "id": "p3_5",
+     "type": "fixed",
+     "label": "Mineral Resource Engineering Topics",
+     "col": 2,
+     "row": 4,
+     "code": "MNE 296A"
+    },
+    {
+     "id": "p3_6",
+     "type": "fixed",
+     "label": "Underground Mine Safety (offered as a 7-week 1 course)",
+     "col": 2,
+     "row": 5,
+     "code": "MNE 297A"
+    },
+    {
+     "id": "p3_7",
+     "type": "free",
+     "label": "Exploring Perspectives (Humanist)",
+     "col": 2,
+     "row": 6,
+     "units": 3
+    },
+    {
+     "id": "p4_1",
+     "type": "fixed",
+     "label": "Mechanics of Solids",
+     "col": 3,
+     "row": 0,
+     "code": "CE 215"
+    },
+    {
+     "id": "p4_2",
+     "type": "fixed",
+     "label": "Intro to Ordinary Differential Equations",
+     "col": 3,
+     "row": 1,
+     "code": "MATH 254"
+    },
+    {
+     "id": "p4_3",
+     "type": "fixed",
+     "label": "Mineralogy and Petrology for Engineers",
+     "col": 3,
+     "row": 2,
+     "code": "MNE 210"
+    },
+    {
+     "id": "p4_4",
+     "type": "fixed",
+     "label": "Introduction to Electric Circuits & Mine Power Systems",
+     "col": 3,
+     "row": 3,
+     "code": "MNE 204"
+    },
+    {
+     "id": "p4_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Social Scientist)",
+     "col": 3,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p5_1",
+     "type": "fixed",
+     "label": "Mechanics of Fluids",
+     "col": 4,
+     "row": 0,
+     "code": "CE 218"
+    },
+    {
+     "id": "p5_2",
+     "type": "fixed",
+     "label": "Engineering Sustainable Development",
+     "col": 4,
+     "row": 1,
+     "code": "MNE 422"
+    },
+    {
+     "id": "p5_3",
+     "type": "fixed",
+     "label": "Health & Safety in Mining",
+     "col": 4,
+     "row": 2,
+     "code": "MNE 426"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": "Geomechanics",
+     "col": 4,
+     "row": 3,
+     "code": "MNE 427"
+    },
+    {
+     "id": "p5_5",
+     "type": "fixed",
+     "label": "Mine Examination and Valuation",
+     "col": 4,
+     "row": 4,
+     "code": "MNE 430"
+    },
+    {
+     "id": "p5_6",
+     "type": "fixed",
+     "label": "Geopositioning for Mining Applications",
+     "col": 4,
+     "row": 5,
+     "code": "MNE 444"
+    },
+    {
+     "id": "p6_1",
+     "type": "fixed",
+     "label": "Technical Trends in Mineral Resource Engineering",
+     "col": 5,
+     "row": 0,
+     "code": "MNE 396A"
+    },
+    {
+     "id": "p6_2",
+     "type": "fixed",
+     "label": "Mine Planning Software (Winter Session Course)",
+     "col": 5,
+     "row": 1,
+     "code": "MNE 419"
+    },
+    {
+     "id": "p6_3",
+     "type": "fixed",
+     "label": "Surface Mine Planning and Design",
+     "col": 5,
+     "row": 2,
+     "code": "MNE 436"
+    },
+    {
+     "id": "p6_4",
+     "type": "fixed",
+     "label": "Underground Mine Design",
+     "col": 5,
+     "row": 3,
+     "code": "MNE 438"
+    },
+    {
+     "id": "p6_5",
+     "type": "fixed",
+     "label": "Mine Ventilation",
+     "col": 5,
+     "row": 4,
+     "code": "MNE 476"
+    },
+    {
+     "id": "p6_6",
+     "type": "choice",
+     "label": "Probability and Statistical Concepts in Geologic Media",
+     "col": 5,
+     "row": 5,
+     "options": [
+      {
+       "l": "MNE 402",
+       "codes": [
+        "MNE 402"
+       ],
+       "u": 3
+      },
+      {
+       "l": "SIE 305",
+       "codes": [
+        "SIE 305"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p7_1",
+     "type": "fixed",
+     "label": "Mineral Processing",
+     "col": 6,
+     "row": 0,
+     "code": "MNE 411"
+    },
+    {
+     "id": "p7_2",
+     "type": "fixed",
+     "label": "Equipment Operations Technology",
+     "col": 6,
+     "row": 1,
+     "code": "MNE 407"
+    },
+    {
+     "id": "p7_3",
+     "type": "fixed",
+     "label": "Fundamentals of Industrial and Environmental Health",
+     "col": 6,
+     "row": 2,
+     "code": "MNE 484"
+    },
+    {
+     "id": "p7_4",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "col": 6,
+     "row": 3,
+     "code": "MNE 498"
+    },
+    {
+     "id": "p7_5",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 6,
+     "row": 4,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p7_6",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 6,
+     "row": 5,
+     "units": 3
+    },
+    {
+     "id": "p8_1",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "col": 7,
+     "row": 0,
+     "code": "MNE 498"
+    },
+    {
+     "id": "p8_2",
+     "type": "te",
+     "label": "Technical Elective",
+     "col": 7,
+     "row": 1,
+     "list": "te_technical-elective"
+    },
+    {
+     "id": "p8_3",
+     "type": "fixed",
+     "label": "Structural Geology",
+     "col": 7,
+     "row": 2,
+     "code": "GEOS 304"
+    },
+    {
+     "id": "p8_4",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 7,
+     "row": 3,
+     "units": 3
+    },
+    {
+     "id": "p8_5",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "col": 7,
+     "row": 4,
+     "code": "UNIV 301"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "MATH 122A/B",
+     "units": 5,
+     "list": "MATH 122A,MATH 122B,MATH 125",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "Chemical Thinking I",
+     "units": 4,
+     "list": "CHEM 151,CHEM 161,CHEM 163,MSE 109",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_3",
+     "name": "WRIT 101",
+     "units": 3,
+     "list": "WRIT 101,ENGL 107,ENGL 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_4",
+     "name": "Introduction to Engineering",
+     "units": 3,
+     "list": "ENGR 102A,ENGR 102B,ENGR 102",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_5",
+     "name": "Intro to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_2",
+     "name": "Chemical Thinking II",
+     "units": 4,
+     "list": "CHEM 152,CHEM 162,CHEM 164,MSE 110",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_3",
+     "name": "WRIT 102",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_4",
+     "name": "Introductory Mechanics",
+     "units": 4,
+     "list": "PHYS 141,PHYS 161H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_1",
+     "name": "Statics",
+     "units": 3,
+     "list": "CE 214",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_2",
+     "name": "Physical Geology",
+     "units": 4,
+     "list": "GEOS 251",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_3",
+     "name": "Vector Calculus",
+     "units": 4,
+     "list": "MATH 223",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_4",
+     "name": "Introduction to Mining Engineering",
+     "units": 3,
+     "list": "MNE 205",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_5",
+     "name": "Mineral Resource Engineering Topics",
+     "units": 1,
+     "list": "MNE 296A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_6",
+     "name": "Underground Mine Safety (offered as a 7-week 1 course)",
+     "units": 1,
+     "list": "MNE 297A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_1",
+     "name": "Mechanics of Solids",
+     "units": 3,
+     "list": "CE 215",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_2",
+     "name": "Intro to Ordinary Differential Equations",
+     "units": 3,
+     "list": "MATH 254",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_3",
+     "name": "Mineralogy and Petrology for Engineers",
+     "units": 3,
+     "list": "MNE 210",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_4",
+     "name": "Introduction to Electric Circuits & Mine Power Systems",
+     "units": 3,
+     "list": "MNE 204",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_1",
+     "name": "Mechanics of Fluids",
+     "units": 3,
+     "list": "CE 218",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_2",
+     "name": "Engineering Sustainable Development",
+     "units": 3,
+     "list": "MNE 422",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": "Health & Safety in Mining",
+     "units": 1,
+     "list": "MNE 426",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": "Geomechanics",
+     "units": 4,
+     "list": "MNE 427",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_5",
+     "name": "Mine Examination and Valuation",
+     "units": 3,
+     "list": "MNE 430",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_6",
+     "name": "Geopositioning for Mining Applications",
+     "units": 3,
+     "list": "MNE 444",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_1",
+     "name": "Technical Trends in Mineral Resource Engineering",
+     "units": 1,
+     "list": "MNE 396A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_2",
+     "name": "Mine Planning Software (Winter Session Course)",
+     "units": 1,
+     "list": "MNE 419",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_3",
+     "name": "Surface Mine Planning and Design",
+     "units": 3,
+     "list": "MNE 436",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_4",
+     "name": "Underground Mine Design",
+     "units": 2,
+     "list": "MNE 438",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_5",
+     "name": "Mine Ventilation",
+     "units": 4,
+     "list": "MNE 476",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_6",
+     "name": "Probability and Statistical Concepts in Geologic Media",
+     "units": 3,
+     "list": "MNE 402,SIE 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": "Mineral Processing",
+     "units": 3,
+     "list": "MNE 411",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_2",
+     "name": "Equipment Operations Technology",
+     "units": 3,
+     "list": "MNE 407",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_3",
+     "name": "Fundamentals of Industrial and Environmental Health",
+     "units": 3,
+     "list": "MNE 484",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_4",
+     "name": "Senior Capstone",
+     "units": 1,
+     "list": "MNE 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": "Senior Capstone",
+     "units": 2,
+     "list": "MNE 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_3",
+     "name": "Structural Geology",
+     "units": 4,
+     "list": "GEOS 304",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_5",
+     "name": "General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_technical-elective",
+     "name": "Technical Elective",
+     "units": 9,
+     "list": "@te_technical-elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "MINERALPROCE": {
+   "name": "Mineral Processing",
+   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026-27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "choice",
+     "label": "MATH 122A/B",
+     "col": 0,
+     "row": 0,
+     "options": [
+      {
+       "l": "MATH 122A/B",
+       "codes": [
+        "MATH 122A",
+        "MATH 122B"
+       ],
+       "u": 5
+      },
+      {
+       "l": "MATH 125",
+       "codes": [
+        "MATH 125"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_2",
+     "type": "choice",
+     "label": "Chemical Thinking I",
+     "col": 0,
+     "row": 1,
+     "options": [
+      {
+       "l": "CHEM 151",
+       "codes": [
+        "CHEM 151"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 161/163",
+       "codes": [
+        "CHEM 161",
+        "CHEM 163"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MSE 109",
+       "codes": [
+        "MSE 109"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p1_3",
+     "type": "choice",
+     "label": "WRIT 101",
+     "col": 0,
+     "row": 2,
+     "options": [
+      {
+       "l": "WRIT 101",
+       "codes": [
+        "WRIT 101"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGL 107",
+       "codes": [
+        "ENGL 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGL 109H",
+       "codes": [
+        "ENGL 109H"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_4",
+     "type": "choice",
+     "label": "Introduction to Engineering",
+     "col": 0,
+     "row": 3,
+     "options": [
+      {
+       "l": "ENGR 102A/B",
+       "codes": [
+        "ENGR 102A",
+        "ENGR 102B"
+       ],
+       "u": 3
+      },
+      {
+       "l": "ENGR 102",
+       "codes": [
+        "ENGR 102"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_5",
+     "type": "fixed",
+     "label": "Intro to the General Education Experience",
+     "col": 0,
+     "row": 4,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p2_1",
+     "type": "fixed",
+     "label": "Calculus II",
+     "col": 1,
+     "row": 0,
+     "code": "MATH 129"
+    },
+    {
+     "id": "p2_2",
+     "type": "choice",
+     "label": "Chemical Thinking II",
+     "col": 1,
+     "row": 1,
+     "options": [
+      {
+       "l": "CHEM 152",
+       "codes": [
+        "CHEM 152"
+       ],
+       "u": 4
+      },
+      {
+       "l": "CHEM 162/164",
+       "codes": [
+        "CHEM 162",
+        "CHEM 164"
+       ],
+       "u": 4
+      },
+      {
+       "l": "MSE 110",
+       "codes": [
+        "MSE 110"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_3",
+     "type": "choice",
+     "label": "WRIT 102",
+     "col": 1,
+     "row": 2,
+     "options": [
+      {
+       "l": "WRIT 102",
+       "codes": [
+        "WRIT 102"
+       ],
+       "u": 3
+      },
+      {
+       "l": "WRIT 108",
+       "codes": [
+        "WRIT 108"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p2_4",
+     "type": "choice",
+     "label": "Introductory Mechanics",
+     "col": 1,
+     "row": 3,
+     "options": [
+      {
+       "l": "PHYS 141",
+       "codes": [
+        "PHYS 141"
+       ],
+       "u": 4
+      },
+      {
+       "l": "PHYS 161H",
+       "codes": [
+        "PHYS 161H"
+       ],
+       "u": 4
+      }
+     ]
+    },
+    {
+     "id": "p2_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Artist)",
+     "col": 1,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p3_1",
+     "type": "fixed",
+     "label": "Statics",
+     "col": 2,
+     "row": 0,
+     "code": "CE 214"
+    },
+    {
+     "id": "p3_2",
+     "type": "fixed",
+     "label": "Physical Geology",
+     "col": 2,
+     "row": 1,
+     "code": "GEOS 251"
+    },
+    {
+     "id": "p3_3",
+     "type": "fixed",
+     "label": "Vector Calculus",
+     "col": 2,
+     "row": 2,
+     "code": "MATH 223"
+    },
+    {
+     "id": "p3_4",
+     "type": "fixed",
+     "label": "Introduction to Mining Engineering",
+     "col": 2,
+     "row": 3,
+     "code": "MNE 205"
+    },
+    {
+     "id": "p3_5",
+     "type": "fixed",
+     "label": "Mineral Resource Engineering Topics",
+     "col": 2,
+     "row": 4,
+     "code": "MNE 296A"
+    },
+    {
+     "id": "p3_6",
+     "type": "fixed",
+     "label": "Underground Mine Safety (offered as a 7-week 1 course)",
+     "col": 2,
+     "row": 5,
+     "code": "MNE 297A"
+    },
+    {
+     "id": "p3_7",
+     "type": "free",
+     "label": "Exploring Perspectives (Humanist)",
+     "col": 2,
+     "row": 6,
+     "units": 3
+    },
+    {
+     "id": "p4_1",
+     "type": "fixed",
+     "label": "Mechanics of Solids",
+     "col": 3,
+     "row": 0,
+     "code": "CE 215"
+    },
+    {
+     "id": "p4_2",
+     "type": "fixed",
+     "label": "Intro to Ordinary Differential Equations",
+     "col": 3,
+     "row": 1,
+     "code": "MATH 254"
+    },
+    {
+     "id": "p4_3",
+     "type": "fixed",
+     "label": "Mineralogy and Petrology for Engineers",
+     "col": 3,
+     "row": 2,
+     "code": "MNE 210"
+    },
+    {
+     "id": "p4_4",
+     "type": "fixed",
+     "label": "Introduction to Electric Circuits & Mine Power Systems",
+     "col": 3,
+     "row": 3,
+     "code": "MNE 204"
+    },
+    {
+     "id": "p4_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Social Scientist)",
+     "col": 3,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p5_1",
+     "type": "fixed",
+     "label": "Mechanics of Fluids",
+     "col": 4,
+     "row": 0,
+     "code": "CE 218"
+    },
+    {
+     "id": "p5_2",
+     "type": "fixed",
+     "label": "Mineral Processing",
+     "col": 4,
+     "row": 1,
+     "code": "MNE 411"
+    },
+    {
+     "id": "p5_3",
+     "type": "fixed",
+     "label": "Geomechanics",
+     "col": 4,
+     "row": 2,
+     "code": "MNE 427"
+    },
+    {
+     "id": "p5_4",
+     "type": "fixed",
+     "label": "Health & Safety in Mining",
+     "col": 4,
+     "row": 3,
+     "code": "MNE 426"
+    },
+    {
+     "id": "p5_5",
+     "type": "fixed",
+     "label": "Mine Examination and Valuation",
+     "col": 4,
+     "row": 4,
+     "code": "MNE 430"
+    },
+    {
+     "id": "p5_6",
+     "type": "fixed",
+     "label": "Geopositioning for Mining Applications",
+     "col": 4,
+     "row": 5,
+     "code": "MNE 444"
+    },
+    {
+     "id": "p6_1",
+     "type": "fixed",
+     "label": "Technical Trends in Mineral Resource Engineering",
+     "col": 5,
+     "row": 0,
+     "code": "MNE 396A"
+    },
+    {
+     "id": "p6_2",
+     "type": "fixed",
+     "label": "Mine Planning Software (Winter Session Course)",
+     "col": 5,
+     "row": 1,
+     "code": "MNE 419"
+    },
+    {
+     "id": "p6_3",
+     "type": "fixed",
+     "label": "Surface Mine Planning and Design",
+     "col": 5,
+     "row": 2,
+     "code": "MNE 436"
+    },
+    {
+     "id": "p6_4",
+     "type": "fixed",
+     "label": "Underground Mine Design",
+     "col": 5,
+     "row": 3,
+     "code": "MNE 438"
+    },
+    {
+     "id": "p6_5",
+     "type": "fixed",
+     "label": "Mine Ventilation",
+     "col": 5,
+     "row": 4,
+     "code": "MNE 476"
+    },
+    {
+     "id": "p6_6",
+     "type": "fixed",
+     "label": "Mineral Processing Lab",
+     "col": 5,
+     "row": 5,
+     "code": "MNE 411L"
+    },
+    {
+     "id": "p6_7",
+     "type": "choice",
+     "label": "Probability and Statistical Concepts in Geologic Media",
+     "col": 5,
+     "row": 6,
+     "options": [
+      {
+       "l": "MNE 402",
+       "codes": [
+        "MNE 402"
+       ],
+       "u": 3
+      },
+      {
+       "l": "SIE 305",
+       "codes": [
+        "SIE 305"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p7_1",
+     "type": "fixed",
+     "label": "Equipment Operations Technology",
+     "col": 6,
+     "row": 0,
+     "code": "MNE 407"
+    },
+    {
+     "id": "p7_2",
+     "type": "fixed",
+     "label": "Engineering Sustainable Development",
+     "col": 6,
+     "row": 1,
+     "code": "MNE 422"
+    },
+    {
+     "id": "p7_3",
+     "type": "fixed",
+     "label": "Hydrometallurgy",
+     "col": 6,
+     "row": 2,
+     "code": "MNE 465"
+    },
+    {
+     "id": "p7_4",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "col": 6,
+     "row": 3,
+     "code": "MNE 498"
+    },
+    {
+     "id": "p7_5",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 6,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p8_1",
+     "type": "fixed",
+     "label": "Surface Chemistry of Flotation",
+     "col": 7,
+     "row": 0,
+     "code": "MNE 439"
+    },
+    {
+     "id": "p8_2",
+     "type": "fixed",
+     "label": "Elements of Solution Mining",
+     "col": 7,
+     "row": 1,
+     "code": "MNE 450"
+    },
+    {
+     "id": "p8_3",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "col": 7,
+     "row": 2,
+     "code": "MNE 498"
+    },
+    {
+     "id": "p8_4",
+     "type": "fixed",
+     "label": "Structural Geology",
+     "col": 7,
+     "row": 3,
+     "code": "GEOS 304"
+    },
+    {
+     "id": "p8_5",
+     "type": "te",
+     "label": "Elective",
+     "col": 7,
+     "row": 4,
+     "list": "te_elective"
+    },
+    {
+     "id": "p8_6",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 7,
+     "row": 5,
+     "units": 3
+    },
+    {
+     "id": "p8_7",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "col": 7,
+     "row": 6,
+     "code": "UNIV 301"
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "MATH 122A/B",
+     "units": 5,
+     "list": "MATH 122A,MATH 122B,MATH 125",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "Chemical Thinking I",
+     "units": 4,
+     "list": "CHEM 151,CHEM 161,CHEM 163,MSE 109",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_3",
+     "name": "WRIT 101",
+     "units": 3,
+     "list": "WRIT 101,ENGL 107,ENGL 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_4",
+     "name": "Introduction to Engineering",
+     "units": 3,
+     "list": "ENGR 102A,ENGR 102B,ENGR 102",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_5",
+     "name": "Intro to the General Education Experience",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_2",
+     "name": "Chemical Thinking II",
+     "units": 4,
+     "list": "CHEM 152,CHEM 162,CHEM 164,MSE 110",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_3",
+     "name": "WRIT 102",
+     "units": 3,
+     "list": "WRIT 102,WRIT 108",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_4",
+     "name": "Introductory Mechanics",
+     "units": 4,
+     "list": "PHYS 141,PHYS 161H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_1",
+     "name": "Statics",
+     "units": 3,
+     "list": "CE 214",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_2",
+     "name": "Physical Geology",
+     "units": 4,
+     "list": "GEOS 251",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_3",
+     "name": "Vector Calculus",
+     "units": 4,
+     "list": "MATH 223",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_4",
+     "name": "Introduction to Mining Engineering",
+     "units": 3,
+     "list": "MNE 205",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_5",
+     "name": "Mineral Resource Engineering Topics",
+     "units": 1,
+     "list": "MNE 296A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_6",
+     "name": "Underground Mine Safety (offered as a 7-week 1 course)",
+     "units": 1,
+     "list": "MNE 297A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_1",
+     "name": "Mechanics of Solids",
+     "units": 3,
+     "list": "CE 215",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_2",
+     "name": "Intro to Ordinary Differential Equations",
+     "units": 3,
+     "list": "MATH 254",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_3",
+     "name": "Mineralogy and Petrology for Engineers",
+     "units": 3,
+     "list": "MNE 210",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_4",
+     "name": "Introduction to Electric Circuits & Mine Power Systems",
+     "units": 3,
+     "list": "MNE 204",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_1",
+     "name": "Mechanics of Fluids",
+     "units": 3,
+     "list": "CE 218",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_2",
+     "name": "Mineral Processing",
+     "units": 3,
+     "list": "MNE 411",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": "Geomechanics",
+     "units": 4,
+     "list": "MNE 427",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_4",
+     "name": "Health & Safety in Mining",
+     "units": 1,
+     "list": "MNE 426",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_5",
+     "name": "Mine Examination and Valuation",
+     "units": 3,
+     "list": "MNE 430",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_6",
+     "name": "Geopositioning for Mining Applications",
+     "units": 3,
+     "list": "MNE 444",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_1",
+     "name": "Technical Trends in Mineral Resource Engineering",
+     "units": 1,
+     "list": "MNE 396A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_2",
+     "name": "Mine Planning Software (Winter Session Course)",
+     "units": 1,
+     "list": "MNE 419",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_3",
+     "name": "Surface Mine Planning and Design",
+     "units": 3,
+     "list": "MNE 436",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_4",
+     "name": "Underground Mine Design",
+     "units": 2,
+     "list": "MNE 438",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_5",
+     "name": "Mine Ventilation",
+     "units": 4,
+     "list": "MNE 476",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_6",
+     "name": "Mineral Processing Lab",
+     "units": 2,
+     "list": "MNE 411L",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_7",
+     "name": "Probability and Statistical Concepts in Geologic Media",
+     "units": 3,
+     "list": "MNE 402,SIE 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_1",
+     "name": "Equipment Operations Technology",
+     "units": 3,
+     "list": "MNE 407",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_2",
+     "name": "Engineering Sustainable Development",
+     "units": 3,
+     "list": "MNE 422",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_3",
+     "name": "Hydrometallurgy",
+     "units": 3,
+     "list": "MNE 465",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp7_4",
+     "name": "Senior Capstone",
+     "units": 1,
+     "list": "MNE 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_1",
+     "name": "Surface Chemistry of Flotation",
+     "units": 3,
+     "list": "MNE 439",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_2",
+     "name": "Elements of Solution Mining",
+     "units": 3,
+     "list": "MNE 450",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_3",
+     "name": "Senior Capstone",
+     "units": 2,
+     "list": "MNE 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_4",
+     "name": "Structural Geology",
+     "units": 4,
+     "list": "GEOS 304",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp8_7",
+     "name": "General Education Portfolio",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_elective",
+     "name": "Elective",
+     "units": 1,
+     "list": "@te_elective",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "CE 214": {
+   "t": "Statics",
+   "u": 3,
+   "pre": [
+    "PHYS 141|PHYS 161H",
+    "MATH 129|MATH 250B"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "CE 215": {
+   "t": "Mechanics of Solids",
+   "u": 3,
+   "pre": [
+    "CE 214"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "CE 218": {
+   "t": "Mechanics of Fluids",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CE 343": {
+   "t": "Soil Mechanics",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CE 215"
+   ]
+  },
+  "CE 349": {
+   "t": "Soils Laboratory",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 151": {
+   "t": "Chemical Thinking I",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 610|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223",
+    "CHEM 105A|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "CHEM 161": {
+   "t": "Honors Chemical Thinking I",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 730",
+    "CHEM 141|CHEM 151"
+   ]
+  },
+  "CHEM 162": {
+   "t": "Honors Chemical Thinking II",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 163": {
+   "t": "Honors Fundamental Techniques of Chemistry I",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CHEM 161",
+    "CHEM 141|CHEM 151"
+   ],
+   "co": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 164": {
+   "t": "Honors Fundamental Techniques of Chemistry II",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ENGL 107": {
+   "t": "",
+   "u": 0,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off",
+    "units"
+   ]
+  },
+  "ENGL 109H": {
+   "t": "First-Year Composition",
+   "u": 0,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off",
+    "units"
+   ]
+  },
+  "ENGR 102": {
+   "t": "Introduction to Engineering",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "ENGR 102A": {
+   "t": "Introduction to Engineering",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 112|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223|MATH 254",
+    "ENGR 102"
+   ],
+   "co": [
+    "MATH 112",
+    "MATH 120R",
+    "MATH 122B",
+    "MATH 125",
+    "MATH 129",
+    "MATH 223",
+    "MATH 254"
+   ]
+  },
+  "ENGR 102B": {
+   "t": "Introduction to Engineering",
+   "u": 2,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 112|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223|MATH 254",
+    "ENGR 102"
+   ],
+   "co": [
+    "MATH 112",
+    "MATH 120R",
+    "MATH 122B",
+    "MATH 125",
+    "MATH 129",
+    "MATH 223",
+    "MATH 254"
+   ]
+  },
+  "GEOS 251": {
+   "t": "Physical Geology",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "GEOS 304": {
+   "t": "Structural Geology",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "GEOS 251",
+    "PHYS 102|PHYS 110|PHYS 141|PHYS 161H"
+   ]
+  },
+  "MATH 122A": {
+   "t": "Functions for Calculus",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 660|MATH 120R",
+    "MATH 100",
+    "MATH 112",
+    "MATH 120R"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I with Applications",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 730"
+   ]
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "pre": [
+    "MATH 122B|MATH 125"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MATH 223": {
+   "t": "Vector Calculus",
+   "u": 4,
+   "pre": [
+    "MATH 129"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MATH 254": {
+   "t": "Intro to Ordinary Differential Equations",
+   "u": 3,
+   "pre": [
+    "MATH 129|MATH 223"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "off",
+    "pre"
+   ]
+  },
+  "MNE 204": {
+   "t": "Introduction to Electric Circuits & Mine Power Systems",
+   "u": 3,
+   "pre": [
+    "PHYS 141|PHYS 161H"
+   ],
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "off"
+   ]
+  },
+  "MNE 205": {
+   "t": "Introduction to Mining Engineering",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 210": {
+   "t": "Mineralogy and Petrology for Engineers",
+   "u": 3,
+   "pre": [
+    "GEOS 251"
+   ],
+   "off": "spring",
+   "src": "draft from the college four-year plan",
+   "uv": []
+  },
+  "MNE 296A": {
+   "t": "Mineral Resource Engineering Topics",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 297A": {
+   "t": "Underground Mine Safety (offered as a 7-week 1 course)",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MNE 205"
+   ],
+   "co": [
+    "MNE 205"
+   ]
+  },
+  "MNE 396A": {
+   "t": "Technical Trends in Mineral Resource Engineering",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 402": {
+   "t": "Probability and Statistical Concepts in Geologic Media",
+   "u": 0,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off",
+    "units"
+   ]
+  },
+  "MNE 407": {
+   "t": "Equipment Operations Technology",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 411": {
+   "t": "Mineral Processing",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CHEM 152|MSE 110"
+   ]
+  },
+  "MNE 411L": {
+   "t": "Mineral Processing Lab",
+   "u": 2,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MNE 411"
+   ]
+  },
+  "MNE 415": {
+   "t": "Rock Excavation",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 417": {
+   "t": "Tailings Storage Facility Design (Planning, Design & Analysis)",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CE 343|MNE 427"
+   ]
+  },
+  "MNE 419": {
+   "t": "Mine Planning Software (Winter Session Course)",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MNE 205"
+   ]
+  },
+  "MNE 422": {
+   "t": "Engineering Sustainable Development",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 426": {
+   "t": "Health & Safety in Mining",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 427": {
+   "t": "Geomechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "CE 215"
+   ],
+   "co": [
+    "CE 215"
+   ]
+  },
+  "MNE 430": {
+   "t": "Mine Examination and Valuation",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 436": {
+   "t": "Surface Mine Planning and Design",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MNE 205",
+    "MNE 419"
+   ],
+   "co": [
+    "MNE 419"
+   ]
+  },
+  "MNE 438": {
+   "t": "Underground Mine Planning Design",
+   "u": 2,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 439": {
+   "t": "Surface Chemistry of Flotation",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 444": {
+   "t": "Geopositioning for Mining Applications",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 447": {
+   "t": "Underground Construction Geomechanics",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 450": {
+   "t": "Elements of Solution Mining",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 465": {
+   "t": "Hydrometallurgy",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 476": {
+   "t": "Mine Ventilation",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 484": {
+   "t": "Fundamentals of Industrial and Environmental Health",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "MNE 498": {
+   "t": "Senior Capstone",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MNE 436",
+    "MNE 438"
+   ]
+  },
+  "MSE 109": {
+   "t": "Foundations of Materials Chemistry for Applications",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MSS 610|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223"
+   ]
+  },
+  "MSE 110": {
+   "t": "Solid State Chemistry",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PHYS 141": {
+   "t": "Introductory Mechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "PHYS 161H": {
+   "t": "Accelerated Introductory Mechanics",
+   "u": 4,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ]
+  },
+  "SIE 305": {
+   "t": "Introduction to Engineering Probability and Statistics",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 129"
+   ]
+  },
+  "UNIV 101": {
+   "t": "Intro to the General Education Experience",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "OF 101"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "WRIT 108": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  }
+ },
+ "draft": true
+}
