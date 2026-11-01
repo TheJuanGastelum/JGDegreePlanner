@@ -125,14 +125,15 @@ Open **Print & Export** and use **Save my plan**:
 </details>
 
 <details>
-<summary><b>Moving classes (dragging), Reset layout and Start over</b></summary>
+<summary><b>Moving classes (dragging), hiding classes, Reset layout and Start over</b></summary>
 
 <p align="center"><img src="docs/drag.png" alt="Dragging a class" width="760"></p>
 
-- **Drag:** just press on a box, hold and drag. If you are in Standard layout the view switches to **My plan** by itself as soon as you start dragging. Press on a box, hold, and drag it to another semester. A ghost copy follows the mouse and a line shows where it will land. Let go to drop it. Near the edge of the chart it scrolls for you.
+- **Drag:** just press on a box, hold and drag. You can drag in either view: in Standard layout the class moves inside the premade chart and you stay there (transfer credit and added classes are moved in My plan). A button in the Standard layout note groups transfer credit into Transfer Yr columns. Press on a box, hold, and drag it to another semester. A ghost copy follows the mouse and a line shows where it will land. Let go to drop it. Near the edge of the chart it scrolls for you.
 - **Not scheduled:** drop a box in the "Not scheduled" column on the right to take it off your plan, and drag it back when you want it.
+- **Hide classes** (for example from an earlier degree): click a box, then **Hide this class**. Or open the Student tab and press **Hide classes** to hide every added class that does not count toward this major. Hidden classes leave the chart and every printout (printouts say how many are hidden), stay in your saved file, and still count in your total units, but not toward the major's requirements. Press **Hidden classes** above the chart, then **Show again**, to bring them back.
 - **Touch screens:** dragging is off. Tap a box, then use the **Earlier semester / Later semester** buttons in the bar at the bottom.
-- **Click a box** (without dragging) to open the bar at the bottom: change the semester, status, grade and units, mark it as transfer or test credit, unschedule it or reset the box.
+- **Click a box** (without dragging) to open the card at the bottom: change the semester, status, grade and units, mark it as transfer or test credit, unschedule it or reset the box.
 - **Column headers** let you rename a semester, change its color, mark it as a Gap, or remove it.
 
 **Reset layout** (button above the chart): puts the classes you moved back in their standard semesters. You are asked to confirm. Finished and in-progress classes keep their real semesters; grades and statuses are not touched.
@@ -302,7 +303,7 @@ The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow 
 <details>
 <summary><b>Updates</b></summary>
 
-Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.26"); the App tab and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
+Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.32"); the App tab and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
 </details>
 
 <details>
