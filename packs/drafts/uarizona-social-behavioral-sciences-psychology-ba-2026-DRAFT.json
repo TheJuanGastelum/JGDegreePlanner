@@ -1,0 +1,798 @@
+{
+ "format": "degree-pack/1",
+ "createdWith": "Degree Flowchart Builder v5.25 by Juan Gastelum (build ee4431da62)",
+ "id": "uarizona/social-behavioral-sciences/psychology-ba/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-11-01",
+ "owner": "",
+ "program": {
+  "name": "Psychology",
+  "college": "College of Social & Behavioral Sciences",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Arts in Psychology"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 121,
+  "maxLoad": 17,
+  "minGrade": "C"
+ },
+ "meta": {
+  "catalog": "DRAFT from the college four-year plan, catalog year 2026-27",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified except as printed in the plan"
+ },
+ "lists": {
+  "te_second-language-first-semester": [],
+  "te_second-language-second-semester": [],
+  "te_second-language-third-semester": [],
+  "te_second-language-fourth-semester": [],
+  "te_minor-course": [],
+  "te_psy-writing-emphasis-course": []
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Psychology",
+   "sub": "UNVERIFIED DRAFT from the college four-year plan (2026-27).",
+   "rev": "",
+   "bullets": [
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it.",
+    "Semesters, units and class names are as printed. Prerequisites come from the plan and the catalog text and are unverified. Elective lists are empty until you add or load them."
+   ],
+   "blocks": [
+    {
+     "id": "p1_1",
+     "type": "fixed",
+     "label": "Psychology Exploration Program",
+     "col": 0,
+     "row": 0,
+     "code": "PSY 197A"
+    },
+    {
+     "id": "p1_2",
+     "type": "fixed",
+     "label": "Intro to Psychology",
+     "col": 0,
+     "row": 1,
+     "code": "PSY 101"
+    },
+    {
+     "id": "p1_3",
+     "type": "choice",
+     "label": "Exploring and Understanding Data",
+     "col": 0,
+     "row": 2,
+     "options": [
+      {
+       "l": "MATH 107",
+       "codes": [
+        "MATH 107"
+       ],
+       "u": 3
+      },
+      {
+       "l": "MATH 112",
+       "codes": [
+        "MATH 112"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p1_4",
+     "type": "fixed",
+     "label": "First Year Composition",
+     "col": 0,
+     "row": 3,
+     "code": "WRIT 101"
+    },
+    {
+     "id": "p1_5",
+     "type": "te",
+     "label": "Second Language First Semester",
+     "col": 0,
+     "row": 4,
+     "list": "te_second-language-first-semester"
+    },
+    {
+     "id": "p1_6",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "col": 0,
+     "row": 5,
+     "code": "UNIV 101"
+    },
+    {
+     "id": "p2_1",
+     "type": "fixed",
+     "label": "First Year Composition",
+     "col": 1,
+     "row": 0,
+     "code": "WRIT 102"
+    },
+    {
+     "id": "p2_2",
+     "type": "te",
+     "label": "Second Language Second Semester",
+     "col": 1,
+     "row": 1,
+     "list": "te_second-language-second-semester"
+    },
+    {
+     "id": "p2_3",
+     "type": "fixed",
+     "label": "Measurement & Statistics",
+     "col": 1,
+     "row": 2,
+     "code": "PSY 230"
+    },
+    {
+     "id": "p2_4",
+     "type": "free",
+     "label": "Exploring Perspectives (Humanist)",
+     "col": 1,
+     "row": 3,
+     "units": 3
+    },
+    {
+     "id": "p2_5",
+     "type": "free",
+     "label": "Exploring Perspectives (Artist)",
+     "col": 1,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p3_1",
+     "type": "fixed",
+     "label": "Research Methods",
+     "col": 2,
+     "row": 0,
+     "code": "PSY 290A"
+    },
+    {
+     "id": "p3_2",
+     "type": "choice",
+     "label": "Personality",
+     "col": 2,
+     "row": 1,
+     "options": [
+      {
+       "l": "PSY 352",
+       "codes": [
+        "PSY 352"
+       ],
+       "u": 3
+      },
+      {
+       "l": "PSY 360",
+       "codes": [
+        "PSY 360"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p3_3",
+     "type": "te",
+     "label": "Second Language Third Semester",
+     "col": 2,
+     "row": 2,
+     "list": "te_second-language-third-semester"
+    },
+    {
+     "id": "p3_4",
+     "type": "free",
+     "label": "Exploring Perspectives (Natural Scientist)",
+     "col": 2,
+     "row": 3,
+     "units": 3
+    },
+    {
+     "id": "p3_5",
+     "type": "fixed",
+     "label": "Gaining Psychology Experience",
+     "col": 2,
+     "row": 4,
+     "code": "PSY 296A"
+    },
+    {
+     "id": "p4_1",
+     "type": "free",
+     "label": "PSY 300-499 level elective of choice",
+     "col": 3,
+     "row": 0,
+     "units": 3
+    },
+    {
+     "id": "p4_2",
+     "type": "choice",
+     "label": "Abnormal",
+     "col": 3,
+     "row": 1,
+     "options": [
+      {
+       "l": "PSY 381",
+       "codes": [
+        "PSY 381"
+       ],
+       "u": 3
+      },
+      {
+       "l": "PSY 383",
+       "codes": [
+        "PSY 383"
+       ],
+       "u": 3
+      }
+     ]
+    },
+    {
+     "id": "p4_3",
+     "type": "te",
+     "label": "Second Language Fourth Semester",
+     "col": 3,
+     "row": 2,
+     "list": "te_second-language-fourth-semester"
+    },
+    {
+     "id": "p4_4",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 3,
+     "row": 3,
+     "units": 3
+    },
+    {
+     "id": "p4_5",
+     "type": "free",
+     "label": "Building Connections",
+     "col": 3,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p5_1",
+     "type": "fixed",
+     "label": "Cognitive Neuroscience",
+     "col": 4,
+     "row": 0,
+     "code": "PSY 300"
+    },
+    {
+     "id": "p5_2",
+     "type": "free",
+     "label": "PSY 300-499 level elective of choice",
+     "col": 4,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p5_3",
+     "type": "choice",
+     "label": "Grad School Prep",
+     "col": 4,
+     "row": 2,
+     "options": [
+      {
+       "l": "PSY 396C",
+       "codes": [
+        "PSY 396C"
+       ],
+       "u": 2
+      },
+      {
+       "l": "PSY 397A",
+       "codes": [
+        "PSY 397A"
+       ],
+       "u": 2
+      }
+     ]
+    },
+    {
+     "id": "p5_4",
+     "type": "te",
+     "label": "Minor Course",
+     "col": 4,
+     "row": 3,
+     "list": "te_minor-course"
+    },
+    {
+     "id": "p5_5",
+     "type": "free",
+     "label": "Civic Institutions",
+     "col": 4,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p6_1",
+     "type": "te",
+     "label": "PSY Writing Emphasis Course",
+     "col": 5,
+     "row": 0,
+     "list": "te_psy-writing-emphasis-course"
+    },
+    {
+     "id": "p6_2",
+     "type": "free",
+     "label": "PSY 300-499 level elective of choice",
+     "col": 5,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p6_3",
+     "type": "free",
+     "label": "General Elective: Any subject 100-499 level elective of choice",
+     "col": 5,
+     "row": 2,
+     "units": 3
+    },
+    {
+     "id": "p6_4",
+     "type": "te",
+     "label": "Minor Course",
+     "col": 5,
+     "row": 3,
+     "list": "te_minor-course"
+    },
+    {
+     "id": "p6_5",
+     "type": "te",
+     "label": "Minor Course",
+     "col": 5,
+     "row": 4,
+     "list": "te_minor-course"
+    },
+    {
+     "id": "p6_6",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "col": 5,
+     "row": 5,
+     "code": "UNIV 301"
+    },
+    {
+     "id": "p7_1",
+     "type": "free",
+     "label": "General Elective: Any subject 300-499 level elective of choice",
+     "col": 6,
+     "row": 0,
+     "units": 3
+    },
+    {
+     "id": "p7_2",
+     "type": "free",
+     "label": "General Elective: Any subject 300-499 level elective of choice",
+     "col": 6,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p7_3",
+     "type": "te",
+     "label": "Minor Course",
+     "col": 6,
+     "row": 2,
+     "list": "te_minor-course"
+    },
+    {
+     "id": "p7_4",
+     "type": "te",
+     "label": "Minor Course",
+     "col": 6,
+     "row": 3,
+     "list": "te_minor-course"
+    },
+    {
+     "id": "p7_5",
+     "type": "free",
+     "label": "General Elective: Any subject 100-499 level elective of choice",
+     "col": 6,
+     "row": 4,
+     "units": 3
+    },
+    {
+     "id": "p8_1",
+     "type": "te",
+     "label": "Minor Course",
+     "col": 7,
+     "row": 0,
+     "list": "te_minor-course"
+    },
+    {
+     "id": "p8_2",
+     "type": "free",
+     "label": "General Elective: Any subject 300-499 level elective of choice",
+     "col": 7,
+     "row": 1,
+     "units": 3
+    },
+    {
+     "id": "p8_3",
+     "type": "free",
+     "label": "General Elective: Any subject 100-499 level elective of choice",
+     "col": 7,
+     "row": 2,
+     "units": 3
+    },
+    {
+     "id": "p8_4",
+     "type": "free",
+     "label": "General Elective: Any subject 100-499 level elective of choice",
+     "col": 7,
+     "row": 3,
+     "units": 3
+    },
+    {
+     "id": "p8_5",
+     "type": "free",
+     "label": "General Elective: Any subject 100-499 level elective of choice",
+     "col": 7,
+     "row": 4,
+     "units": 1
+    }
+   ],
+   "buckets": [
+    {
+     "id": "bp1_1",
+     "name": "Psychology Exploration Program",
+     "units": 1,
+     "list": "PSY 197A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_2",
+     "name": "Intro to Psychology",
+     "units": 4,
+     "list": "PSY 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_3",
+     "name": "Exploring and Understanding Data",
+     "units": 3,
+     "list": "MATH 107,MATH 112",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_4",
+     "name": "First Year Composition",
+     "units": 3,
+     "list": "WRIT 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp1_6",
+     "name": "UNIV 101",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_1",
+     "name": "First Year Composition",
+     "units": 3,
+     "list": "WRIT 102",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp2_3",
+     "name": "Measurement & Statistics",
+     "units": 3,
+     "list": "PSY 230",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_1",
+     "name": "Research Methods",
+     "units": 3,
+     "list": "PSY 290A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_2",
+     "name": "Personality",
+     "units": 3,
+     "list": "PSY 352,PSY 360",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp3_5",
+     "name": "Gaining Psychology Experience",
+     "units": 2,
+     "list": "PSY 296A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp4_2",
+     "name": "Abnormal",
+     "units": 3,
+     "list": "PSY 381,PSY 383",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_1",
+     "name": "Cognitive Neuroscience",
+     "units": 3,
+     "list": "PSY 300",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp5_3",
+     "name": "Grad School Prep",
+     "units": 2,
+     "list": "PSY 396C,PSY 397A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "bp6_6",
+     "name": "UNIV 301",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-first-semester",
+     "name": "Second Language First Semester",
+     "units": 4,
+     "list": "@te_second-language-first-semester",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-second-semester",
+     "name": "Second Language Second Semester",
+     "units": 4,
+     "list": "@te_second-language-second-semester",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-third-semester",
+     "name": "Second Language Third Semester",
+     "units": 4,
+     "list": "@te_second-language-third-semester",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_second-language-fourth-semester",
+     "name": "Second Language Fourth Semester",
+     "units": 4,
+     "list": "@te_second-language-fourth-semester",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_minor-course",
+     "name": "Minor Course",
+     "units": 18,
+     "list": "@te_minor-course",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "b_te_psy-writing-emphasis-course",
+     "name": "PSY Writing Emphasis Course",
+     "units": 3,
+     "list": "@te_psy-writing-emphasis-course",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "MATH 107": {
+   "t": "Exploring and Understanding Data",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 100"
+   ]
+  },
+  "MATH 112": {
+   "t": "College Algebra",
+   "u": 3,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "MATH 100"
+   ]
+  },
+  "PSY 101": {
+   "t": "Intro to Psychology",
+   "u": 4,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 197A": {
+   "t": "Psychology Exploration Program",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 230": {
+   "t": "Measurement & Statistics",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 290A": {
+   "t": "Research Methods",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 296A": {
+   "t": "Gaining Psychology Experience",
+   "u": 2,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 300": {
+   "t": "Cognitive Neuroscience",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 352": {
+   "t": "Personality",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 360": {
+   "t": "Social Psy.",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 381": {
+   "t": "Abnormal",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 383": {
+   "t": "Health Psy",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 396C": {
+   "t": "Grad School Prep",
+   "u": 2,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "PSY 397A": {
+   "t": "Careers in Psychology",
+   "u": 2,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "WRIT 101": {
+   "t": "First Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First Year Composition",
+   "u": 3,
+   "src": "draft from the college four-year plan",
+   "uv": [
+    "pre",
+    "off"
+   ]
+  }
+ },
+ "draft": true
+}
