@@ -1,0 +1,4844 @@
+{
+ "format": "degree-pack/1",
+ "id": "uarizona/science/data-science/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "draft": true,
+ "program": {
+  "name": "Data Science",
+  "college": "College of Science",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C",
+  "majorUnits": 54,
+  "majorUpper": 26
+ },
+ "meta": {
+  "srcKind": "catalog",
+  "srcDate": "2026-08-01",
+  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
+ },
+ "lists": {
+  "pool1": [
+   "ENGL 1EIB",
+   "WRIT 101",
+   "WRIT 101A",
+   "WRIT 102",
+   "WRIT 106",
+   "WRIT 107",
+   "WRIT 108"
+  ],
+  "pool13": [
+   "HIST 150C3",
+   "POL 201"
+  ],
+  "pool14": [
+   "CHEM 141",
+   "CHEM 143",
+   "CHEM 145",
+   "CHEM 151",
+   "CHEM 161",
+   "CHEM 163",
+   "CHEM 181"
+  ],
+  "pool15": [
+   "CHEM 142",
+   "CHEM 144",
+   "CHEM 146",
+   "CHEM 152",
+   "CHEM 162",
+   "CHEM 164",
+   "CHEM 182"
+  ],
+  "pool18": [
+   "GEOS 255",
+   "GEOS 302",
+   "GEOS 304",
+   "GEOS 308",
+   "GEOS 322"
+  ],
+  "pool24": [
+   "PHYS 141",
+   "PHYS 102",
+   "PHYS 110",
+   "PHYS 139",
+   "PHYS 140",
+   "PHYS 161H",
+   "PHYS 181"
+  ],
+  "pool25": [
+   "PHYS 142",
+   "PHYS 162H"
+  ],
+  "pool26": [
+   "PHYS 241",
+   "PHYS 103",
+   "PHYS 111",
+   "PHYS 182",
+   "PHYS 239",
+   "PHYS 240",
+   "PHYS 261H"
+  ],
+  "pool28": [
+   "CSC 110",
+   "ISTA 130"
+  ],
+  "pool29": [
+   "CSC 120",
+   "ISTA 131"
+  ],
+  "pool30": [
+   "MATH 122B",
+   "MATH 125"
+  ],
+  "pool33": [
+   "MATH 215",
+   "MATH 313"
+  ],
+  "pool36": [
+   "DATA 363",
+   "DATA 375",
+   "DATA 467",
+   "DATA 474",
+   "MATH 363"
+  ],
+  "pool37": [
+   "DATA 195M",
+   "DATA 391",
+   "DATA 393",
+   "DATA 395M",
+   "DATA 491",
+   "DATA 493",
+   "MATH 195M",
+   "MATH 395M"
+  ],
+  "pool38": [
+   "CSC 460",
+   "ISTA 322"
+  ],
+  "pool39": [],
+  "pool45": [
+   "DATA 363",
+   "DATA 375",
+   "DATA 467",
+   "DATA 474",
+   "DATA 498D",
+   "MATH 223",
+   "MATH 363",
+   "MATH 464",
+   "MATH 466"
+  ],
+  "pool46": [
+   "CSC 460",
+   "ISTA 322"
+  ],
+  "pool47": [
+   "DATA 367",
+   "DATA 396T",
+   "DATA 412",
+   "DATA 462",
+   "DATA 468",
+   "DATA 496T",
+   "DATA 498H",
+   "MATH 323",
+   "MATH 412",
+   "MATH 462",
+   "MATH 468",
+   "SIE 440"
+  ],
+  "pool52": [
+   "CSC 144",
+   "MATH 243"
+  ],
+  "pool54": [
+   "CSC 380",
+   "DATA 363",
+   "MATH 363"
+  ],
+  "pool60": [
+   "DATA 363",
+   "DATA 375",
+   "DATA 467",
+   "DATA 474",
+   "DATA 498D",
+   "MATH 223",
+   "MATH 363",
+   "MATH 464",
+   "MATH 466"
+  ],
+  "pool68": [
+   "DATA 363",
+   "DATA 375",
+   "MATH 363",
+   "MCB 330",
+   "MCB 404",
+   "MCB 416A",
+   "MCB 447"
+  ],
+  "pool69": [
+   "MCB 410",
+   "MCB 411"
+  ],
+  "pool70": [
+   "MCB 480",
+   "MCB 489"
+  ],
+  "pool71": [
+   "CSC 460",
+   "ISTA 322"
+  ]
+ },
+ "tracks": {
+  "T1": {
+   "name": "Applied Statistics",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-DSCBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 54 units in the major, 26 upper-division units."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Introduction to Soil Science",
+     "code": "ENVS 200",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Soils Laboratory",
+     "code": "ENVS 201",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Physical Geology",
+     "code": "GEOS 251",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Principles of Hydrology",
+     "code": "HWRS 350",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Introductory Biology II Lab",
+     "code": "ECOL 182L",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Introductory Biology II",
+     "code": "ECOL 182R",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology I",
+     "code": "PSIO 201",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology II",
+     "code": "PSIO 202",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Solid State Chemistry",
+     "code": "MSE 110",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Calculus II",
+     "code": "MATH 129",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introduction to Statistics and Biostatistics",
+     "code": "MATH 263",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Foundations of Data Science",
+     "code": "DATA 201",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Capstone for Data Science",
+     "code": "DATA 498D",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d18",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d19",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d20",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d22",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d23",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d24",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "First Semester General Chemis…",
+     "list": "pool14",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "First Semester General Chemis…",
+     "list": "pool14",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "Second Semester General Chemi…",
+     "list": "pool15",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "Second Semester General Chemi…",
+     "list": "pool15",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Geosciences",
+     "list": "pool18",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Introductory Mechanics or Phy…",
+     "list": "pool24",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Introductory Mechanics or Phy…",
+     "list": "pool24",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Intro Optics and Thermodynami…",
+     "list": "pool25",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Introductory Electricity and …",
+     "list": "pool26",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "Introductory Electricity and …",
+     "list": "pool26",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Python Programming Course",
+     "list": "pool28",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Programming Course II",
+     "list": "pool29",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d40",
+     "type": "te",
+     "label": "Calculus I",
+     "list": "pool30",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d41",
+     "type": "te",
+     "label": "Linear Algebra",
+     "list": "pool33",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d42",
+     "type": "te",
+     "label": "Applied Statistics Core",
+     "list": "pool36",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d43",
+     "type": "te",
+     "label": "Applied Statistics Core",
+     "list": "pool36",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Applied Statistics Core",
+     "list": "pool36",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Applied Statistics Core",
+     "list": "pool36",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Colloquia/Career Exploration",
+     "list": "pool37",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "SQL/Databases",
+     "list": "pool38",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Electives",
+     "list": "pool39",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "Electives",
+     "list": "pool39",
+     "col": 7,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r15",
+     "name": "Soil Sciences",
+     "units": 4,
+     "list": "ENVS 200,ENVS 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "Geosciences",
+     "units": 3,
+     "list": "GEOS 251",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Hydrology",
+     "units": 3,
+     "list": "HWRS 350",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Introductory Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "Introductory Biology II",
+     "units": 4,
+     "list": "ECOL 182L,ECOL 182R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r21",
+     "name": "Human Anatomy and Physiology I",
+     "units": 4,
+     "list": "PSIO 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r22",
+     "name": "Human Anatomy and Physiology II",
+     "units": 4,
+     "list": "PSIO 202",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r26",
+     "name": "Materials Science",
+     "units": 4,
+     "list": "MSE 110",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r30",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r31",
+     "name": "Stat & Biostatistics",
+     "units": 3,
+     "list": "MATH 263",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r33",
+     "name": "Foundations of Data Science",
+     "units": 3,
+     "list": "DATA 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r39",
+     "name": "Capstone",
+     "units": 3,
+     "list": "DATA 498D",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "First Semester General Chemistry",
+     "units": 4,
+     "list": "@pool14",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Second Semester General Chemistry",
+     "units": 4,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p17",
+     "name": "Geosciences",
+     "units": 3,
+     "list": "@pool18",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p23",
+     "name": "Introductory Mechanics or Physics I with Lab",
+     "units": 4,
+     "list": "@pool24",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p24",
+     "name": "Intro Optics and Thermodynamics",
+     "units": 3,
+     "list": "@pool25",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p25",
+     "name": "Introductory Electricity and Magnetism or Physics II with Lab",
+     "units": 4,
+     "list": "@pool26",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p27",
+     "name": "Python Programming Course",
+     "units": 3,
+     "list": "@pool28",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p28",
+     "name": "Programming Course II",
+     "units": 3,
+     "list": "@pool29",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p29",
+     "name": "Calculus I",
+     "units": 3,
+     "list": "@pool30",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p32",
+     "name": "Linear Algebra",
+     "units": 3,
+     "list": "@pool33",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p35",
+     "name": "Applied Statistics Core",
+     "units": 12,
+     "list": "@pool36",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p36",
+     "name": "Colloquia/Career Exploration",
+     "units": 1,
+     "list": "@pool37",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p37",
+     "name": "SQL/Databases",
+     "units": 3,
+     "list": "@pool38",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p38",
+     "name": "Electives",
+     "units": 12,
+     "list": "@pool39",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T2": {
+   "name": "Comprehensive Statistics",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-DSCBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 54 units in the major, 26 upper-division units."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Introduction to Soil Science",
+     "code": "ENVS 200",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Soils Laboratory",
+     "code": "ENVS 201",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Physical Geology",
+     "code": "GEOS 251",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Principles of Hydrology",
+     "code": "HWRS 350",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Introductory Biology II Lab",
+     "code": "ECOL 182L",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Introductory Biology II",
+     "code": "ECOL 182R",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology I",
+     "code": "PSIO 201",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology II",
+     "code": "PSIO 202",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Solid State Chemistry",
+     "code": "MSE 110",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Calculus II",
+     "code": "MATH 129",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introduction to Statistics and Biostatistics",
+     "code": "MATH 263",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Foundations of Data Science",
+     "code": "DATA 201",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d17",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d18",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d19",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d20",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d21",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d22",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d23",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "First Semester General Chemis…",
+     "list": "pool14",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "First Semester General Chemis…",
+     "list": "pool14",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "Second Semester General Chemi…",
+     "list": "pool15",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "Second Semester General Chemi…",
+     "list": "pool15",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "Geosciences",
+     "list": "pool18",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Introductory Mechanics or Phy…",
+     "list": "pool24",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Introductory Mechanics or Phy…",
+     "list": "pool24",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Intro Optics and Thermodynami…",
+     "list": "pool25",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Introductory Electricity and …",
+     "list": "pool26",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Introductory Electricity and …",
+     "list": "pool26",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "Python Programming Course",
+     "list": "pool28",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Programming Course II",
+     "list": "pool29",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Calculus I",
+     "list": "pool30",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d40",
+     "type": "te",
+     "label": "Linear Algebra",
+     "list": "pool33",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d41",
+     "type": "te",
+     "label": "Comprehensive Statistics Core",
+     "list": "pool45",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d42",
+     "type": "te",
+     "label": "Comprehensive Statistics Core",
+     "list": "pool45",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d43",
+     "type": "te",
+     "label": "Comprehensive Statistics Core",
+     "list": "pool45",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Comprehensive Statistics Core",
+     "list": "pool45",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Comprehensive Statistics Core",
+     "list": "pool45",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Comprehensive Statistics Core",
+     "list": "pool45",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "Comprehensive Statistics Core",
+     "list": "pool45",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Comprehensive Statistics Core",
+     "list": "pool45",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "SQL/Databases",
+     "list": "pool46",
+     "col": 7,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r15",
+     "name": "Soil Sciences",
+     "units": 4,
+     "list": "ENVS 200,ENVS 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "Geosciences",
+     "units": 3,
+     "list": "GEOS 251",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Hydrology",
+     "units": 3,
+     "list": "HWRS 350",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Introductory Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "Introductory Biology II",
+     "units": 4,
+     "list": "ECOL 182L,ECOL 182R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r21",
+     "name": "Human Anatomy and Physiology I",
+     "units": 4,
+     "list": "PSIO 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r22",
+     "name": "Human Anatomy and Physiology II",
+     "units": 4,
+     "list": "PSIO 202",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r26",
+     "name": "Materials Science",
+     "units": 4,
+     "list": "MSE 110",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r30",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r31",
+     "name": "Stat & Biostatistics",
+     "units": 3,
+     "list": "MATH 263",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r33",
+     "name": "Foundations of Data Science",
+     "units": 3,
+     "list": "DATA 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "First Semester General Chemistry",
+     "units": 4,
+     "list": "@pool14",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Second Semester General Chemistry",
+     "units": 4,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p17",
+     "name": "Geosciences",
+     "units": 3,
+     "list": "@pool18",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p23",
+     "name": "Introductory Mechanics or Physics I with Lab",
+     "units": 4,
+     "list": "@pool24",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p24",
+     "name": "Intro Optics and Thermodynamics",
+     "units": 3,
+     "list": "@pool25",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p25",
+     "name": "Introductory Electricity and Magnetism or Physics II with Lab",
+     "units": 4,
+     "list": "@pool26",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p27",
+     "name": "Python Programming Course",
+     "units": 3,
+     "list": "@pool28",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p28",
+     "name": "Programming Course II",
+     "units": 3,
+     "list": "@pool29",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p29",
+     "name": "Calculus I",
+     "units": 3,
+     "list": "@pool30",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p32",
+     "name": "Linear Algebra",
+     "units": 3,
+     "list": "@pool33",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p44",
+     "name": "Comprehensive Statistics Core",
+     "units": 24,
+     "list": "@pool45",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p45",
+     "name": "SQL/Databases",
+     "units": 3,
+     "list": "@pool46",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p46",
+     "name": "Elective",
+     "units": 3,
+     "list": "@pool47",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T3": {
+   "name": "Computing",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-DSCBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 54 units in the major, 26 upper-division units."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Introduction to Soil Science",
+     "code": "ENVS 200",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Soils Laboratory",
+     "code": "ENVS 201",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Physical Geology",
+     "code": "GEOS 251",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Principles of Hydrology",
+     "code": "HWRS 350",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Introductory Biology II Lab",
+     "code": "ECOL 182L",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Introductory Biology II",
+     "code": "ECOL 182R",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology I",
+     "code": "PSIO 201",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology II",
+     "code": "PSIO 202",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Solid State Chemistry",
+     "code": "MSE 110",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Calculus II",
+     "code": "MATH 129",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introduction to Statistics and Biostatistics",
+     "code": "MATH 263",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Foundations of Data Science",
+     "code": "DATA 201",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Software Development",
+     "code": "CSC 210",
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Discrete Mathematics for Computer Science II",
+     "code": "CSC 244",
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Object-Oriented Programming and Design",
+     "code": "CSC 335",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Analysis of Discrete Structures",
+     "code": "CSC 345",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Database Design",
+     "code": "CSC 460",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "Principles of Machine Learning",
+     "code": "CSC 480",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d23",
+     "type": "fixed",
+     "label": "Introduction to Statistical Computing",
+     "code": "DATA 375",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d24",
+     "type": "fixed",
+     "label": "Capstone for Data Science",
+     "code": "DATA 498D",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d25",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d26",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d27",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d28",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d29",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d30",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "d31",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 5
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "First Semester General Chemis…",
+     "list": "pool14",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "First Semester General Chemis…",
+     "list": "pool14",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "Second Semester General Chemi…",
+     "list": "pool15",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Second Semester General Chemi…",
+     "list": "pool15",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Geosciences",
+     "list": "pool18",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d40",
+     "type": "te",
+     "label": "Introductory Mechanics or Phy…",
+     "list": "pool24",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d41",
+     "type": "te",
+     "label": "Introductory Mechanics or Phy…",
+     "list": "pool24",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d42",
+     "type": "te",
+     "label": "Intro Optics and Thermodynami…",
+     "list": "pool25",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d43",
+     "type": "te",
+     "label": "Introductory Electricity and …",
+     "list": "pool26",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Introductory Electricity and …",
+     "list": "pool26",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Python Programming Course",
+     "list": "pool28",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Programming Course II",
+     "list": "pool29",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "Calculus I",
+     "list": "pool30",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Linear Algebra",
+     "list": "pool33",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "Discrete Mathematics",
+     "list": "pool52",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d50",
+     "type": "te",
+     "label": "Data Science or Statistical M…",
+     "list": "pool54",
+     "col": 7,
+     "row": 5
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r15",
+     "name": "Soil Sciences",
+     "units": 4,
+     "list": "ENVS 200,ENVS 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "Geosciences",
+     "units": 3,
+     "list": "GEOS 251",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Hydrology",
+     "units": 3,
+     "list": "HWRS 350",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Introductory Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "Introductory Biology II",
+     "units": 4,
+     "list": "ECOL 182L,ECOL 182R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r21",
+     "name": "Human Anatomy and Physiology I",
+     "units": 4,
+     "list": "PSIO 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r22",
+     "name": "Human Anatomy and Physiology II",
+     "units": 4,
+     "list": "PSIO 202",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r26",
+     "name": "Materials Science",
+     "units": 4,
+     "list": "MSE 110",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r30",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r31",
+     "name": "Stat & Biostatistics",
+     "units": 3,
+     "list": "MATH 263",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r33",
+     "name": "Foundations of Data Science",
+     "units": 3,
+     "list": "DATA 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r52",
+     "name": "Computing Core",
+     "units": 21,
+     "list": "CSC 210,CSC 244,CSC 335,CSC 345,CSC 460,CSC 480,DATA 375",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r54",
+     "name": "Capstone",
+     "units": 3,
+     "list": "DATA 498D",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "First Semester General Chemistry",
+     "units": 4,
+     "list": "@pool14",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Second Semester General Chemistry",
+     "units": 4,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p17",
+     "name": "Geosciences",
+     "units": 3,
+     "list": "@pool18",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p23",
+     "name": "Introductory Mechanics or Physics I with Lab",
+     "units": 4,
+     "list": "@pool24",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p24",
+     "name": "Intro Optics and Thermodynamics",
+     "units": 3,
+     "list": "@pool25",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p25",
+     "name": "Introductory Electricity and Magnetism or Physics II with Lab",
+     "units": 4,
+     "list": "@pool26",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p27",
+     "name": "Python Programming Course",
+     "units": 3,
+     "list": "@pool28",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p28",
+     "name": "Programming Course II",
+     "units": 3,
+     "list": "@pool29",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p29",
+     "name": "Calculus I",
+     "units": 3,
+     "list": "@pool30",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p32",
+     "name": "Linear Algebra",
+     "units": 3,
+     "list": "@pool33",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p51",
+     "name": "Discrete Mathematics",
+     "units": 3,
+     "list": "@pool52",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p53",
+     "name": "Data Science or Statistical Methods",
+     "units": 3,
+     "list": "@pool54",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T4": {
+   "name": "Global",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-DSCBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 54 units in the major, 26 upper-division units."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Introduction to Soil Science",
+     "code": "ENVS 200",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Soils Laboratory",
+     "code": "ENVS 201",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Physical Geology",
+     "code": "GEOS 251",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Principles of Hydrology",
+     "code": "HWRS 350",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Introductory Biology II Lab",
+     "code": "ECOL 182L",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Introductory Biology II",
+     "code": "ECOL 182R",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology I",
+     "code": "PSIO 201",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology II",
+     "code": "PSIO 202",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Solid State Chemistry",
+     "code": "MSE 110",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Calculus II",
+     "code": "MATH 129",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introduction to Statistics and Biostatistics",
+     "code": "MATH 263",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Foundations of Data Science",
+     "code": "DATA 201",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Independent Study",
+     "code": "DATA 499",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Data Engineering",
+     "code": "ISTA 322",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d19",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d22",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d23",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d24",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d25",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "First Semester General Chemis…",
+     "list": "pool14",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "First Semester General Chemis…",
+     "list": "pool14",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "Second Semester General Chemi…",
+     "list": "pool15",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Second Semester General Chemi…",
+     "list": "pool15",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Geosciences",
+     "list": "pool18",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Introductory Mechanics or Phy…",
+     "list": "pool24",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Introductory Mechanics or Phy…",
+     "list": "pool24",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Intro Optics and Thermodynami…",
+     "list": "pool25",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "Introductory Electricity and …",
+     "list": "pool26",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Introductory Electricity and …",
+     "list": "pool26",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Python Programming Course",
+     "list": "pool28",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d40",
+     "type": "te",
+     "label": "Programming Course II",
+     "list": "pool29",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d41",
+     "type": "te",
+     "label": "Calculus I",
+     "list": "pool30",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d42",
+     "type": "te",
+     "label": "Linear Algebra",
+     "list": "pool33",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d43",
+     "type": "te",
+     "label": "Global Core",
+     "list": "pool60",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Global Core",
+     "list": "pool60",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Global Core",
+     "list": "pool60",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Global Core",
+     "list": "pool60",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "Global Core",
+     "list": "pool60",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Global Core",
+     "list": "pool60",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "Global Core",
+     "list": "pool60",
+     "col": 7,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r15",
+     "name": "Soil Sciences",
+     "units": 4,
+     "list": "ENVS 200,ENVS 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "Geosciences",
+     "units": 3,
+     "list": "GEOS 251",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Hydrology",
+     "units": 3,
+     "list": "HWRS 350",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Introductory Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "Introductory Biology II",
+     "units": 4,
+     "list": "ECOL 182L,ECOL 182R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r21",
+     "name": "Human Anatomy and Physiology I",
+     "units": 4,
+     "list": "PSIO 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r22",
+     "name": "Human Anatomy and Physiology II",
+     "units": 4,
+     "list": "PSIO 202",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r26",
+     "name": "Materials Science",
+     "units": 4,
+     "list": "MSE 110",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r30",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r31",
+     "name": "Stat & Biostatistics",
+     "units": 3,
+     "list": "MATH 263",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r33",
+     "name": "Foundations of Data Science",
+     "units": 3,
+     "list": "DATA 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r60",
+     "name": "Global Thesis",
+     "units": 3,
+     "list": "DATA 499",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r61",
+     "name": "SQL/Databases",
+     "units": 3,
+     "list": "ISTA 322",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "First Semester General Chemistry",
+     "units": 4,
+     "list": "@pool14",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Second Semester General Chemistry",
+     "units": 4,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p17",
+     "name": "Geosciences",
+     "units": 3,
+     "list": "@pool18",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p23",
+     "name": "Introductory Mechanics or Physics I with Lab",
+     "units": 4,
+     "list": "@pool24",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p24",
+     "name": "Intro Optics and Thermodynamics",
+     "units": 3,
+     "list": "@pool25",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p25",
+     "name": "Introductory Electricity and Magnetism or Physics II with Lab",
+     "units": 4,
+     "list": "@pool26",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p27",
+     "name": "Python Programming Course",
+     "units": 3,
+     "list": "@pool28",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p28",
+     "name": "Programming Course II",
+     "units": 3,
+     "list": "@pool29",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p29",
+     "name": "Calculus I",
+     "units": 3,
+     "list": "@pool30",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p32",
+     "name": "Linear Algebra",
+     "units": 3,
+     "list": "@pool33",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p59",
+     "name": "Global Core",
+     "units": 24,
+     "list": "@pool60",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T5": {
+   "name": "Molecular and Cellular Biology",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-DSCBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 54 units in the major, 26 upper-division units."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Introduction to Soil Science",
+     "code": "ENVS 200",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Soils Laboratory",
+     "code": "ENVS 201",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Physical Geology",
+     "code": "GEOS 251",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Principles of Hydrology",
+     "code": "HWRS 350",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Introductory Biology II Lab",
+     "code": "ECOL 182L",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Introductory Biology II",
+     "code": "ECOL 182R",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology I",
+     "code": "PSIO 201",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology II",
+     "code": "PSIO 202",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Solid State Chemistry",
+     "code": "MSE 110",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Calculus II",
+     "code": "MATH 129",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introduction to Statistics and Biostatistics",
+     "code": "MATH 263",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Foundations of Data Science",
+     "code": "DATA 201",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Capstone for Data Science",
+     "code": "DATA 498D",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "code": "MCB 498",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d19",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d22",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d23",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d24",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d25",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "First Semester General Chemis…",
+     "list": "pool14",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "First Semester General Chemis…",
+     "list": "pool14",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "Second Semester General Chemi…",
+     "list": "pool15",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Second Semester General Chemi…",
+     "list": "pool15",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Geosciences",
+     "list": "pool18",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Introductory Mechanics or Phy…",
+     "list": "pool24",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Introductory Mechanics or Phy…",
+     "list": "pool24",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Intro Optics and Thermodynami…",
+     "list": "pool25",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "Introductory Electricity and …",
+     "list": "pool26",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Introductory Electricity and …",
+     "list": "pool26",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Python Programming Course",
+     "list": "pool28",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d40",
+     "type": "te",
+     "label": "Programming Course II",
+     "list": "pool29",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d41",
+     "type": "te",
+     "label": "Calculus I",
+     "list": "pool30",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d42",
+     "type": "te",
+     "label": "Linear Algebra",
+     "list": "pool33",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d43",
+     "type": "te",
+     "label": "Molecular and Cellular Core",
+     "list": "pool68",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Molecular and Cellular Core",
+     "list": "pool68",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Molecular and Cellular Core",
+     "list": "pool68",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Molecular and Cellular Core",
+     "list": "pool68",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "Molecular and Cellular Core",
+     "list": "pool68",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Molecular and Cellular Core",
+     "list": "pool68",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "Cell Biology or Molecular Bio…",
+     "list": "pool69",
+     "col": 7,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r15",
+     "name": "Soil Sciences",
+     "units": 4,
+     "list": "ENVS 200,ENVS 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "Geosciences",
+     "units": 3,
+     "list": "GEOS 251",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Hydrology",
+     "units": 3,
+     "list": "HWRS 350",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Introductory Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "Introductory Biology II",
+     "units": 4,
+     "list": "ECOL 182L,ECOL 182R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r21",
+     "name": "Human Anatomy and Physiology I",
+     "units": 4,
+     "list": "PSIO 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r22",
+     "name": "Human Anatomy and Physiology II",
+     "units": 4,
+     "list": "PSIO 202",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r26",
+     "name": "Materials Science",
+     "units": 4,
+     "list": "MSE 110",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r30",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r31",
+     "name": "Stat & Biostatistics",
+     "units": 3,
+     "list": "MATH 263",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r33",
+     "name": "Foundations of Data Science",
+     "units": 3,
+     "list": "DATA 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r66",
+     "name": "Introduction to Biology I",
+     "units": 3,
+     "list": "MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r71",
+     "name": "Capstone",
+     "units": 3,
+     "list": "DATA 498D,MCB 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "First Semester General Chemistry",
+     "units": 4,
+     "list": "@pool14",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Second Semester General Chemistry",
+     "units": 4,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p17",
+     "name": "Geosciences",
+     "units": 3,
+     "list": "@pool18",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p23",
+     "name": "Introductory Mechanics or Physics I with Lab",
+     "units": 4,
+     "list": "@pool24",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p24",
+     "name": "Intro Optics and Thermodynamics",
+     "units": 3,
+     "list": "@pool25",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p25",
+     "name": "Introductory Electricity and Magnetism or Physics II with Lab",
+     "units": 4,
+     "list": "@pool26",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p27",
+     "name": "Python Programming Course",
+     "units": 3,
+     "list": "@pool28",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p28",
+     "name": "Programming Course II",
+     "units": 3,
+     "list": "@pool29",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p29",
+     "name": "Calculus I",
+     "units": 3,
+     "list": "@pool30",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p32",
+     "name": "Linear Algebra",
+     "units": 3,
+     "list": "@pool33",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p67",
+     "name": "Molecular and Cellular Core",
+     "units": 18,
+     "list": "@pool68",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p68",
+     "name": "Cell Biology or Molecular Biology",
+     "units": 3,
+     "list": "@pool69",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p69",
+     "name": "Introduction to Systems Biology or Synthetic Biology",
+     "units": 3,
+     "list": "@pool70",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p70",
+     "name": "SQL/Databases",
+     "units": 3,
+     "list": "@pool71",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "ENVS 200": {
+   "t": "Introduction to Soil Science",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 141|CHEM 151|CHEM 161"
+   ]
+  },
+  "ENVS 201": {
+   "t": "Soils Laboratory",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "GEOS 251": {
+   "t": "Physical Geology",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HWRS 350": {
+   "t": "Principles of Hydrology",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 124|MATH 125|MATH 122B"
+   ]
+  },
+  "MCB 181L": {
+   "t": "Introductory Biology Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 181R": {
+   "t": "Introduction to Molecular and Cellular Biology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECOL 182L": {
+   "t": "Introductory Biology II Lab",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECOL 182R": {
+   "t": "Introductory Biology II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 201": {
+   "t": "Human Anatomy and Physiology I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 202": {
+   "t": "Human Anatomy and Physiology II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PSIO 201"
+   ]
+  },
+  "MSE 110": {
+   "t": "Solid State Chemistry",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 125"
+   ]
+  },
+  "MATH 263": {
+   "t": "Introduction to Statistics and Biostatistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "DATA 201": {
+   "t": "Foundations of Data Science",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "DATA 498D": {
+   "t": "Capstone for Data Science",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "DATA 375",
+    "DATA 467|CSC 480|MCB 447"
+   ],
+   "co": [
+    "DATA 467",
+    "CSC 480",
+    "MCB 447"
+   ]
+  },
+  "ENGL 1EIB": {
+   "t": "International Baccalaureate (IB) English Elective",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101A": {
+   "t": "First-Year Composition with Discussion",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "EMENT 100"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 106": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "OF 106"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 108": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 141": {
+   "t": "General Chemistry Lecture I: Quantitative",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 143": {
+   "t": "General Chemistry Lab 1: Quantitative",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 145": {
+   "t": "Quantitative Chemistry Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 151": {
+   "t": "Chemical Thinking I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 161": {
+   "t": "Honors Chemical Thinking I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 163": {
+   "t": "Honors Fundamental Techniques of Chemistry I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 161"
+   ],
+   "co": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 181": {
+   "t": "Majors General Chemistry I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 142": {
+   "t": "General Chemistry Lecture II: Quantitative Approach",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 144": {
+   "t": "General Chemistry Lab II: Quantitative",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 151|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 146": {
+   "t": "Quantitative Chemistry Laboratory II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 151|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 162": {
+   "t": "Honors Chemical Thinking II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 164": {
+   "t": "Honors Fundamental Techniques of Chemistry II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 182": {
+   "t": "Majors General Chemistry II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142",
+    "CHEM 152",
+    "CHEM 162"
+   ]
+  },
+  "GEOS 255": {
+   "t": "Historical Geology",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "GEOS 251"
+   ]
+  },
+  "GEOS 302": {
+   "t": "Principles of Stratigraphy and Sedimentation",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "GEOS 304": {
+   "t": "Structural Geology",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "GEOS 251",
+    "PHYS 102|PHYS 110|PHYS 141|PHYS 161H"
+   ]
+  },
+  "GEOS 308": {
+   "t": "Paleontology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "GEOS 322": {
+   "t": "Introduction to Geophysics",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "GEOS 251",
+    "MATH 122B|MATH 125"
+   ]
+  },
+  "PHYS 141": {
+   "t": "Introductory Mechanics",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ],
+   "co": [
+    "MATH 122B",
+    "MATH 124",
+    "MATH 125"
+   ]
+  },
+  "PHYS 102": {
+   "t": "Introductory Physics I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 110": {
+   "t": "Introductory Studio Physics I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 139": {
+   "t": "Calculus-based Introductory Mechanics",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 140": {
+   "t": "Introductory Mechanics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ],
+   "co": [
+    "MATH 122B",
+    "MATH 124",
+    "MATH 125"
+   ]
+  },
+  "PHYS 161H": {
+   "t": "Accelerated Introductory Mechanics",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ],
+   "co": [
+    "MATH 122B",
+    "MATH 124",
+    "MATH 125"
+   ]
+  },
+  "PHYS 181": {
+   "t": "Introductory Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 142": {
+   "t": "Introductory Optics and Thermodynamics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
+   ]
+  },
+  "PHYS 162H": {
+   "t": "Accelerated Introductory Optics and Thermodynamics",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
+   ]
+  },
+  "PHYS 241": {
+   "t": "Introductory Electricity and Magnetism",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
+   ]
+  },
+  "PHYS 103": {
+   "t": "Introductory Physics II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 102|PHYS 140|PHYS 141|PHYS 110"
+   ]
+  },
+  "PHYS 111": {
+   "t": "Introductory Studio Physics 2",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 182": {
+   "t": "Introductory Laboratory II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 239": {
+   "t": "Calculus-based Introductory Electromagnetism Lab",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 240": {
+   "t": "Introductory Electricity and Magnetism",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
+   ]
+  },
+  "PHYS 261H": {
+   "t": "Accelerated Introductory Electricity and Magnetism",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
+   ]
+  },
+  "CSC 110": {
+   "t": "Introduction to Computer Programming I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ISTA 130": {
+   "t": "Computational Thinking and Doing",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CSC 120": {
+   "t": "Introduction to Computer Programming II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ISTA 131": {
+   "t": "Dealing with Data",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "ISTA 130|CSC 110|DATA 375|ECE 175|PHYS 105A"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 215": {
+   "t": "Introduction to Linear Algebra",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 313": {
+   "t": "Introduction to Linear Algebra",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "DATA 363": {
+   "t": "Introduction to Statistical Methods",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "DATA 375": {
+   "t": "Introduction to Statistical Computing",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "DATA 363|CSC 380",
+    "MATH 313|DATA 412"
+   ]
+  },
+  "DATA 467": {
+   "t": "Introduction to Applied Regression and Generalized Linear Models",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 363",
+    "MATH 313|MATH 215"
+   ]
+  },
+  "DATA 474": {
+   "t": "Introduction to Statistical Machine Learning",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 363",
+    "MATH 313|MATH 215"
+   ]
+  },
+  "MATH 363": {
+   "t": "Introduction to Statistical Methods",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "DATA 195M": {
+   "t": "Math and SDS Major Colloquium",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "DATA 391": {
+   "t": "Preceptorship",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "DATA 393": {
+   "t": "Internship",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "DATA 395M": {
+   "t": "Career Exploration in Mathematics and Data Science",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 323|MATH 355|DATA 363"
+   ]
+  },
+  "DATA 491": {
+   "t": "Preceptorship",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "DATA 493": {
+   "t": "Internship",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 195M": {
+   "t": "Math and SDS Major Colloquium",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 395M": {
+   "t": "Career Exploration in Mathematics and Data Science",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 323|MATH 355|DATA 363"
+   ]
+  },
+  "CSC 460": {
+   "t": "Database Design",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CSC 335",
+    "CSC 345"
+   ]
+  },
+  "ISTA 322": {
+   "t": "Data Engineering",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "ISTA 130|CSC 110|DATA 375|ECE 175|PHYS 105A"
+   ]
+  },
+  "MATH 223": {
+   "t": "Vector Calculus",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 129"
+   ]
+  },
+  "MATH 464": {
+   "t": "Theory of Probability",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 466": {
+   "t": "Theory of Statistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 464"
+   ]
+  },
+  "DATA 367": {
+   "t": "Statistical Methods in Sports Analytics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "DATA 396T": {
+   "t": "Topics in Undergraduate Statistics & Data Science",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "DATA 412": {
+   "t": "Linear Algebra for Data Science",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 313"
+   ]
+  },
+  "DATA 462": {
+   "t": "Financial Math",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "DATA 468": {
+   "t": "Applied Stochastic Processes",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 464"
+   ]
+  },
+  "DATA 496T": {
+   "t": "Advanced Topics in Undergraduate Statistics & Data Science",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "DATA 498H": {
+   "t": "Honors Thesis",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 323": {
+   "t": "Formal Mathematical Reasoning and Writing",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 412": {
+   "t": "Linear Algebra for Data Science",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 313"
+   ]
+  },
+  "MATH 462": {
+   "t": "Financial Math",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 468": {
+   "t": "Applied Stochastic Processes",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 464"
+   ]
+  },
+  "SIE 440": {
+   "t": "Survey of Optimization Methods",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "SIE 340"
+   ]
+  },
+  "CSC 210": {
+   "t": "Software Development",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CSC 120"
+   ]
+  },
+  "CSC 244": {
+   "t": "Discrete Mathematics for Computer Science II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CSC 335": {
+   "t": "Object-Oriented Programming and Design",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CSC 210"
+   ]
+  },
+  "CSC 345": {
+   "t": "Analysis of Discrete Structures",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CSC 210",
+    "CSC 244"
+   ]
+  },
+  "CSC 480": {
+   "t": "Principles of Machine Learning",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CSC 380|MATH 363",
+    "MATH 313"
+   ]
+  },
+  "CSC 144": {
+   "t": "Discrete Mathematics for Computer Science I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 243": {
+   "t": "Discrete Mathematics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125|MATH 129"
+   ]
+  },
+  "CSC 380": {
+   "t": "Principles of Data Science",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CSC 210",
+    "CSC 244",
+    "MATH 122B|MATH 125|MATH 129"
+   ]
+  },
+  "DATA 499": {
+   "t": "Independent Study",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 498": {
+   "t": "Senior Capstone",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 330": {
+   "t": "Critical Reasoning and Problem Solving in Biomedicine",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MCB 181R"
+   ]
+  },
+  "MCB 404": {
+   "t": "Bioethics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 416A": {
+   "t": "Bioinformatics and Functional Genomic Analysis",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 447": {
+   "t": "Big Data in Molecular Biology and Biomedicine",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 410": {
+   "t": "Cell Biology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MCB 181R",
+    "MCB 181L",
+    "ECOL 182R",
+    "ECOL 182L"
+   ]
+  },
+  "MCB 411": {
+   "t": "Molecular Biology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MCB 181R",
+    "MCB 181L"
+   ]
+  },
+  "MCB 480": {
+   "t": "Introduction to Systems Biology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 489": {
+   "t": "Foundations of Synthetic Biology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  }
+ }
+}

@@ -1,0 +1,1300 @@
+{
+ "format": "degree-pack/1",
+ "id": "uarizona/science/biochemistry/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "draft": true,
+ "program": {
+  "name": "Biochemistry",
+  "college": "College of Science",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C",
+  "majorUnits": 36,
+  "majorGpa": 2
+ },
+ "meta": {
+  "srcKind": "catalog",
+  "srcDate": "2026-08-01",
+  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
+ },
+ "lists": {
+  "pool1": [
+   "ENGL 1EIB",
+   "WRIT 101",
+   "WRIT 101A",
+   "WRIT 102",
+   "WRIT 106",
+   "WRIT 107",
+   "WRIT 108"
+  ],
+  "pool13": [
+   "HIST 150C3",
+   "POL 201"
+  ],
+  "pool18": [
+   "MATH 122B",
+   "MATH 125"
+  ],
+  "pool20": [
+   "MATH 263",
+   "BIOS 376",
+   "CHEM 380",
+   "MATH 223",
+   "MATH 254"
+  ],
+  "pool21": [
+   "PHYS 140",
+   "PHYS 141",
+   "PHYS 161H"
+  ],
+  "pool22": [
+   "PHYS 240",
+   "PHYS 241",
+   "PHYS 261H"
+  ],
+  "pool23": [
+   "CHEM 246",
+   "CHEM 241A",
+   "CHEM 241B"
+  ],
+  "pool27": [],
+  "pool31": [
+   "CHEM 227",
+   "CHEM 310",
+   "CHEM 346"
+  ]
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Biochemistry",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-BIOCBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 36 units in the major, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "General Chemistry Lecture I: Quantitative",
+     "code": "CHEM 141",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "General Chemistry Lab 1: Quantitative",
+     "code": "CHEM 143",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Chemical Thinking I",
+     "code": "CHEM 151",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Honors Chemical Thinking I",
+     "code": "CHEM 161",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Honors Fundamental Techniques of Chemistry I",
+     "code": "CHEM 163",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Majors General Chemistry I",
+     "code": "CHEM 181",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "General Chemistry Lecture II: Quantitative Approach",
+     "code": "CHEM 142",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "General Chemistry Lab II: Quantitative",
+     "code": "CHEM 144",
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Chemical Thinking II",
+     "code": "CHEM 152",
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Honors Chemical Thinking II",
+     "code": "CHEM 162",
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Honors Fundamental Techniques of Chemistry II",
+     "code": "CHEM 164",
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Majors General Chemistry II",
+     "code": "CHEM 182",
+     "col": 0,
+     "row": 6
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 6
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Introductory Biology II Lab",
+     "code": "ECOL 182L",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Introductory Biology II",
+     "code": "ECOL 182R",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Calculus II",
+     "code": "MATH 129",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Synthesis Laboratory",
+     "code": "CHEM 256L",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Chemistry & Biochemistry First-Year Colloquium I",
+     "code": "CHEM 195A",
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "Biochemistry",
+     "code": "BIOC 462A",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d23",
+     "type": "fixed",
+     "label": "Biochemistry",
+     "code": "BIOC 462B",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d24",
+     "type": "fixed",
+     "label": "Biochemical Laboratory Techniques",
+     "code": "BIOC 463A",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d25",
+     "type": "fixed",
+     "label": "Introduction to Biochemical Research",
+     "code": "BIOC 296B",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d26",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "code": "BIOC 498",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "fixed",
+     "label": "Honors Thesis",
+     "code": "BIOC 498H",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d28",
+     "type": "fixed",
+     "label": "Advisor Approved Course",
+     "code": "ADVR 101",
+     "col": 2,
+     "row": 5
+    },
+    {
+     "id": "d29",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 2,
+     "row": 6
+    },
+    {
+     "id": "d30",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d31",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d32",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "d33",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 5
+    },
+    {
+     "id": "d34",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 6
+    },
+    {
+     "id": "d35",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Calculus",
+     "list": "pool18",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d40",
+     "type": "te",
+     "label": "Statistics",
+     "list": "pool20",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d41",
+     "type": "te",
+     "label": "Physics I",
+     "list": "pool21",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d42",
+     "type": "te",
+     "label": "Physics II",
+     "list": "pool22",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d43",
+     "type": "te",
+     "label": "First Semester Organic Chemis…",
+     "list": "pool23",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Science Electives",
+     "list": "pool27",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Science Electives",
+     "list": "pool27",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Other Chemistry Discipline",
+     "list": "pool31",
+     "col": 4,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r13",
+     "name": "First Semester General Chemistry",
+     "units": 4,
+     "list": "CHEM 141,CHEM 143,CHEM 151,CHEM 161,CHEM 163,CHEM 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r14",
+     "name": "Second Semester General Chemistry",
+     "units": 4,
+     "list": "CHEM 142,CHEM 144,CHEM 152,CHEM 162,CHEM 164,CHEM 182",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r15",
+     "name": "Introductory Biology I",
+     "units": 6,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "Introductory Biology II",
+     "units": 6,
+     "list": "ECOL 182L,ECOL 182R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Calculus II",
+     "units": 3,
+     "list": "MATH 129",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r23",
+     "name": "First Semester Majors Organic Chemistry Lab",
+     "units": 2,
+     "list": "CHEM 256L",
+     "claim": false,
+     "unique": false,
+     "minC": true
+    },
+    {
+     "id": "r24",
+     "name": "First-Year Colloquium",
+     "units": 3,
+     "list": "CHEM 195A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r25",
+     "name": "Biochemistry",
+     "units": 9,
+     "list": "BIOC 462A,BIOC 462B,BIOC 463A",
+     "claim": false,
+     "unique": false,
+     "minC": true
+    },
+    {
+     "id": "r27",
+     "name": "Introduction to Biochemical Research",
+     "units": 3,
+     "list": "BIOC 296B",
+     "claim": false,
+     "unique": false,
+     "minC": true
+    },
+    {
+     "id": "r28",
+     "name": "Capstone/Thesis",
+     "units": 6,
+     "list": "BIOC 498,BIOC 498H",
+     "claim": false,
+     "unique": false,
+     "minC": true
+    },
+    {
+     "id": "r29",
+     "name": "Physical Chemistry",
+     "units": 3,
+     "list": "ADVR 101",
+     "claim": false,
+     "unique": false,
+     "minC": true
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p17",
+     "name": "Calculus",
+     "units": 3,
+     "list": "@pool18",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p19",
+     "name": "Statistics",
+     "units": 3,
+     "list": "@pool20",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p20",
+     "name": "Physics I",
+     "units": 3,
+     "list": "@pool21",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "Physics II",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "First Semester Organic Chemistry Lecture",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": true
+    },
+    {
+     "id": "p26",
+     "name": "Science Electives",
+     "units": 6,
+     "list": "@pool27",
+     "claim": true,
+     "unique": true,
+     "minC": true
+    },
+    {
+     "id": "p30",
+     "name": "Other Chemistry Discipline",
+     "units": 3,
+     "list": "@pool31",
+     "claim": true,
+     "unique": true,
+     "minC": true
+    }
+   ]
+  }
+ },
+ "courses": {
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "CHEM 141": {
+   "t": "General Chemistry Lecture I: Quantitative",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 143": {
+   "t": "General Chemistry Lab 1: Quantitative",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 151": {
+   "t": "Chemical Thinking I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 161": {
+   "t": "Honors Chemical Thinking I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 163": {
+   "t": "Honors Fundamental Techniques of Chemistry I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 161"
+   ],
+   "co": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 181": {
+   "t": "Majors General Chemistry I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 142": {
+   "t": "General Chemistry Lecture II: Quantitative Approach",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 144": {
+   "t": "General Chemistry Lab II: Quantitative",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 151|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 162": {
+   "t": "Honors Chemical Thinking II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 164": {
+   "t": "Honors Fundamental Techniques of Chemistry II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 182": {
+   "t": "Majors General Chemistry II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142",
+    "CHEM 152",
+    "CHEM 162"
+   ]
+  },
+  "MCB 181L": {
+   "t": "Introductory Biology Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 181R": {
+   "t": "Introduction to Molecular and Cellular Biology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECOL 182L": {
+   "t": "Introductory Biology II Lab",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECOL 182R": {
+   "t": "Introductory Biology II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 125"
+   ]
+  },
+  "CHEM 256L": {
+   "t": "Synthesis Laboratory",
+   "u": 2,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 195A": {
+   "t": "Chemistry & Biochemistry First-Year Colloquium I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BIOC 462A": {
+   "t": "Biochemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BIOC 462B": {
+   "t": "Biochemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "BIOC 462A"
+   ]
+  },
+  "BIOC 463A": {
+   "t": "Biochemical Laboratory Techniques",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BIOC 296B": {
+   "t": "Introduction to Biochemical Research",
+   "u": 2,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BIOC 498": {
+   "t": "Senior Capstone",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "BIOC 463A"
+   ]
+  },
+  "BIOC 498H": {
+   "t": "Honors Thesis",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "BIOC 463A"
+   ]
+  },
+  "ADVR 101": {
+   "t": "Advisor Approved Course",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ENGL 1EIB": {
+   "t": "International Baccalaureate (IB) English Elective",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101A": {
+   "t": "First-Year Composition with Discussion",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "EMENT 100"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 106": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "OF 106"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 108": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 263": {
+   "t": "Introduction to Statistics and Biostatistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "BIOS 376": {
+   "t": "Introduction to Biostatistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 108|MATH 112"
+   ]
+  },
+  "CHEM 380": {
+   "t": "Mathematical Physics for Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 129|MATH 223",
+    "PHYS 141|PHYS 140|PHYS 102|PHYS 161H"
+   ]
+  },
+  "MATH 223": {
+   "t": "Vector Calculus",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 129"
+   ]
+  },
+  "MATH 254": {
+   "t": "Introduction to Ordinary Differential Equations",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 129|MATH 223"
+   ]
+  },
+  "PHYS 140": {
+   "t": "Introductory Mechanics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ],
+   "co": [
+    "MATH 122B",
+    "MATH 124",
+    "MATH 125"
+   ]
+  },
+  "PHYS 141": {
+   "t": "Introductory Mechanics",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ],
+   "co": [
+    "MATH 122B",
+    "MATH 124",
+    "MATH 125"
+   ]
+  },
+  "PHYS 161H": {
+   "t": "Accelerated Introductory Mechanics",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ],
+   "co": [
+    "MATH 122B",
+    "MATH 124",
+    "MATH 125"
+   ]
+  },
+  "PHYS 240": {
+   "t": "Introductory Electricity and Magnetism",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
+   ]
+  },
+  "PHYS 241": {
+   "t": "Introductory Electricity and Magnetism",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
+   ]
+  },
+  "PHYS 261H": {
+   "t": "Accelerated Introductory Electricity and Magnetism",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
+   ]
+  },
+  "CHEM 246": {
+   "t": "Principles Of Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182"
+   ]
+  },
+  "CHEM 241A": {
+   "t": "Lectures in Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182"
+   ]
+  },
+  "CHEM 241B": {
+   "t": "Lectures in Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 241A|CHEM 242A|CHEM 246A"
+   ]
+  },
+  "CHEM 227": {
+   "t": "Foundations of Analytical Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 182|CHEM 152|CHEM 162"
+   ]
+  },
+  "CHEM 310": {
+   "t": "Principles of Inorganic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 346": {
+   "t": "Advanced Principles of Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 241B|CHEM 242B|CHEM 246"
+   ]
+  }
+ }
+}

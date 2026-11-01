@@ -1,0 +1,647 @@
+{
+ "format": "degree-pack/1",
+ "id": "uarizona/business/economics/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "draft": true,
+ "program": {
+  "name": "Economics",
+  "college": "Eller College of Management",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Arts"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C",
+  "majorUpper": 24,
+  "majorGpa": 2
+ },
+ "meta": {
+  "srcKind": "catalog",
+  "srcDate": "2026-08-01",
+  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
+ },
+ "lists": {
+  "pool4": [],
+  "pool7": [
+   "ARB 401",
+   "ARB 424B"
+  ],
+  "pool16": [
+   "HIST 150C3",
+   "POL 201"
+  ],
+  "pool19": [
+   "MATH 113",
+   "MATH 116",
+   "MATH 122B",
+   "MATH 125"
+  ],
+  "pool20": [
+   "BNAN 276",
+   "ECON 339",
+   "AAE 339"
+  ],
+  "pool22": [
+   "ECON 200"
+  ],
+  "pool24": [
+   "ECON 361",
+   "MATH 113",
+   "ECON 332"
+  ],
+  "pool25": []
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Economics",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-ECONBA-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 24 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Advanced First-Year Composition",
+     "code": "WRIT 109H",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Computers and Internetworked Society",
+     "code": "MIS 111",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Computers & Internetworked Society - Lab",
+     "code": "MIS 112",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Communication for Economists",
+     "code": "BCOM 312",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "ECON 201A",
+     "code": "ECON 201A",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "ECON 201B",
+     "code": "ECON 201B",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d9",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d10",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d11",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d12",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d13",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d14",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d15",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool4",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d16",
+     "type": "te",
+     "label": "Arabic Language",
+     "list": "pool7",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d17",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool16",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d18",
+     "type": "te",
+     "label": "3. Calculus",
+     "list": "pool19",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "te",
+     "label": "4. Statistics",
+     "list": "pool20",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d20",
+     "type": "te",
+     "label": "Lower-Division Core",
+     "list": "pool22",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d21",
+     "type": "te",
+     "label": "All: Upper-Division Core",
+     "list": "pool24",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d22",
+     "type": "te",
+     "label": "All: Upper-Division Core",
+     "list": "pool24",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d23",
+     "type": "te",
+     "label": "3. 400-Level Economics Electi…",
+     "list": "pool25",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "3. 400-Level Economics Electi…",
+     "list": "pool25",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "3. 400-Level Economics Electi…",
+     "list": "pool25",
+     "col": 5,
+     "row": 5
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r2",
+     "name": "Honors Composition",
+     "units": 3,
+     "list": "WRIT 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r8",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r9",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "1. Management Information Systems",
+     "units": 3,
+     "list": "MIS 111",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "2. Management Information Systems Lab",
+     "units": 3,
+     "list": "MIS 112",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "5. Communication in Economics",
+     "units": 3,
+     "list": "BCOM 312",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r25",
+     "name": "4. Additional Economics Electives",
+     "units": 12,
+     "list": "ECON 201A,ECON 201B",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p3",
+     "name": "Foundations Writing",
+     "units": 3,
+     "list": "@pool4",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p6",
+     "name": "Arabic Language",
+     "units": 3,
+     "list": "@pool7",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p18",
+     "name": "3. Calculus",
+     "units": 3,
+     "list": "@pool19",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p19",
+     "name": "4. Statistics",
+     "units": 3,
+     "list": "@pool20",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "Lower-Division Core",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p23",
+     "name": "All: Upper-Division Core",
+     "units": 6,
+     "list": "@pool24",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p24",
+     "name": "3. 400-Level Economics Electives",
+     "units": 9,
+     "list": "@pool25",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "WRIT 109H": {
+   "t": "Advanced First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "MIS 111": {
+   "t": "Computers and Internetworked Society",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MIS 112": {
+   "t": "Computers & Internetworked Society - Lab",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BCOM 312": {
+   "t": "Communication for Economists",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "ECON 200",
+    "WRIT 102|WRIT 108|WRIT 109H"
+   ]
+  },
+  "ECON 201A": {
+   "t": "ECON 201A",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECON 201B": {
+   "t": "ECON 201B",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ARB 401": {
+   "t": "Intermediate Arabic I",
+   "u": 5,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "ARB 102"
+   ]
+  },
+  "ARB 424B": {
+   "t": "Levantine Arabic",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 113": {
+   "t": "Elements of Calculus",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 116": {
+   "t": "Calculus Concepts for Business",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MIS 111|BE 120",
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BNAN 276": {
+   "t": "Statistical Inference in Management",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 113|MATH 116|MATH 122B|MATH 125"
+   ]
+  },
+  "ECON 339": {
+   "t": "Economic Statistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "AAE 217|ECON 200|ECON 201A",
+    "MATH 113|MATH 116|MATH 122B|MATH 124|MATH 125|AAE 197C"
+   ]
+  },
+  "AAE 339": {
+   "t": "Economic Statistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "AAE 217|ECON 200|ECON 201A",
+    "MATH 113|MATH 116|MATH 122B|MATH 124|MATH 125|AAE 197C"
+   ]
+  },
+  "ECON 200": {
+   "t": "Basic Economic Issues",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECON 361": {
+   "t": "Intermediate Microeconomics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECON 332": {
+   "t": "Intermediate Macroeconomics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  }
+ }
+}

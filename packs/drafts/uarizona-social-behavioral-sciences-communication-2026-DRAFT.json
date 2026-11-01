@@ -1,0 +1,632 @@
+{
+ "format": "degree-pack/1",
+ "id": "uarizona/social-behavioral-sciences/communication/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "draft": true,
+ "program": {
+  "name": "Communication",
+  "college": "College of Social & Behavioral Sciences",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Arts"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C"
+ },
+ "meta": {
+  "srcKind": "catalog",
+  "srcDate": "2026-08-01",
+  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
+ },
+ "lists": {
+  "pool1": [
+   "ENGL 1EIB",
+   "WRIT 101",
+   "WRIT 101A",
+   "WRIT 102",
+   "WRIT 106",
+   "WRIT 107",
+   "WRIT 108"
+  ],
+  "pool6": [
+   "ARB 401",
+   "ARB 424B"
+  ],
+  "pool15": [
+   "HIST 150C3",
+   "POL 201"
+  ],
+  "pool23": [
+   "COMM 113",
+   "COMM 114",
+   "COMM 117",
+   "COMM 119",
+   "COMM 209",
+   "COMM 280",
+   "COMM 310",
+   "COMM 312",
+   "COMM 314",
+   "COMM 319",
+   "COMM 325",
+   "COMM 411",
+   "COMM 493L"
+  ]
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Communication",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-COMMBA-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Introduction to the Study of Communication",
+     "code": "COMM 101",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Introduction to Research Methods in Communication",
+     "code": "COMM 228",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Introduction to Communication Theory",
+     "code": "COMM 300",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Introduction to Statistics for the Social Sciences",
+     "code": "SBS 200",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Internship",
+     "code": "COMM 393",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Internship",
+     "code": "COMM 493",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d9",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d11",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d12",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d13",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d14",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d15",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d16",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d17",
+     "type": "te",
+     "label": "Arabic Language",
+     "list": "pool6",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d18",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool15",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "te",
+     "label": "Skill Elective",
+     "list": "pool23",
+     "col": 4,
+     "row": 3
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r7",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r8",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Communication Core I",
+     "units": 3,
+     "list": "COMM 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Communication Core II",
+     "units": 3,
+     "list": "COMM 228",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "Communication Core III",
+     "units": 3,
+     "list": "COMM 300",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r21",
+     "name": "Core IV Statistics",
+     "units": 3,
+     "list": "SBS 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r24",
+     "name": "Additional Communication Coursework",
+     "units": 9,
+     "list": "COMM 393,COMM 493",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p5",
+     "name": "Arabic Language",
+     "units": 3,
+     "list": "@pool6",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "Skill Elective",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "COMM 101": {
+   "t": "Introduction to the Study of Communication",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 228": {
+   "t": "Introduction to Research Methods in Communication",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 300": {
+   "t": "Introduction to Communication Theory",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SBS 200": {
+   "t": "Introduction to Statistics for the Social Sciences",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 393": {
+   "t": "Internship",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 493": {
+   "t": "Internship",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ENGL 1EIB": {
+   "t": "International Baccalaureate (IB) English Elective",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101A": {
+   "t": "First-Year Composition with Discussion",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "EMENT 100"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 106": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "OF 106"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 108": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "ARB 401": {
+   "t": "Intermediate Arabic I",
+   "u": 5,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "ARB 102"
+   ]
+  },
+  "ARB 424B": {
+   "t": "Levantine Arabic",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 113": {
+   "t": "Introduction to Small Group Communication",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 114": {
+   "t": "Introduction to Interpersonal Communication",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 117": {
+   "t": "Culture and Communication",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 119": {
+   "t": "Public Speaking",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 209": {
+   "t": "Introduction to Communication Technology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 280": {
+   "t": "Intimate & Sexual Communication",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 310": {
+   "t": "Introduction to Organizational Communication",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 312": {
+   "t": "Applied Organizational Communication",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 314": {
+   "t": "Creative Professional Communication",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 319": {
+   "t": "Advanced Public Speaking",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 325": {
+   "t": "Argumentation",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 411": {
+   "t": "Communication and Conflict Management",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "COMM 493L": {
+   "t": "Legislative Internship",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  }
+ }
+}

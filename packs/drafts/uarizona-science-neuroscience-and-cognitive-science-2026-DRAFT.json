@@ -1,0 +1,4247 @@
+{
+ "format": "degree-pack/1",
+ "id": "uarizona/science/neuroscience-and-cognitive-science/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "draft": true,
+ "program": {
+  "name": "Neuroscience and Cognitive Science",
+  "college": "College of Science",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C",
+  "majorUnits": 35,
+  "majorUpper": 32,
+  "majorGpa": 2
+ },
+ "meta": {
+  "srcKind": "catalog",
+  "srcDate": "2026-08-01",
+  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
+ },
+ "lists": {
+  "pool1": [
+   "ENGL 1EIB",
+   "WRIT 101",
+   "WRIT 101A",
+   "WRIT 102",
+   "WRIT 106",
+   "WRIT 107",
+   "WRIT 108"
+  ],
+  "pool13": [
+   "HIST 150C3",
+   "POL 201"
+  ],
+  "pool15": [
+   "CHEM 141",
+   "CHEM 143",
+   "CHEM 145",
+   "CHEM 151",
+   "CHEM 161",
+   "CHEM 163",
+   "CHEM 181"
+  ],
+  "pool16": [
+   "CHEM 142",
+   "CHEM 144",
+   "CHEM 146",
+   "CHEM 152",
+   "CHEM 162",
+   "CHEM 164",
+   "CHEM 182"
+  ],
+  "pool21": [
+   "MATH 122B",
+   "MATH 125"
+  ],
+  "pool22": [
+   "MATH 263",
+   "PSY 230"
+  ],
+  "pool23": [
+   "HDFS 347",
+   "PHIL 241",
+   "PHIL 347"
+  ],
+  "pool27": [
+   "LING 201",
+   "LING 341",
+   "LING 432",
+   "LING 449A",
+   "PHIL 432",
+   "PHIL 449A",
+   "PSY 201",
+   "PSY 341",
+   "PSY 432",
+   "SLHS 341"
+  ],
+  "pool30": [
+   "NSCS 200",
+   "CGSC 320",
+   "CGSC 321",
+   "NROS 307",
+   "NROS 308"
+  ],
+  "pool35": [],
+  "pool40": [
+   "PHYS 141",
+   "PHYS 241"
+  ],
+  "pool42": [],
+  "pool47": [],
+  "pool52": [],
+  "pool57": []
+ },
+ "tracks": {
+  "T1": {
+   "name": "Cognition",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-NCSBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 35 units in the major, 32 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Lectures in Organic Chemistry",
+     "code": "CHEM 241A",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Honors Lectures in Organic Chemistry",
+     "code": "CHEM 242A",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Organic Chemistry Laboratory I",
+     "code": "CHEM 243A",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Principles Of Organic Chemistry",
+     "code": "CHEM 246",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Synthesis Laboratory",
+     "code": "CHEM 256L",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Introductory Physics I",
+     "code": "PHYS 102",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Introductory Studio Physics I",
+     "code": "PHYS 110",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Introductory Mechanics",
+     "code": "PHYS 141",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Accelerated Introductory Mechanics",
+     "code": "PHYS 161H",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Introductory Laboratory I",
+     "code": "PHYS 181",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introductory Physics II",
+     "code": "PHYS 103",
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Introductory Studio Physics 2",
+     "code": "PHYS 111",
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Introductory Laboratory II",
+     "code": "PHYS 182",
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Introductory Electricity and Magnetism",
+     "code": "PHYS 241",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Accelerated Introductory Electricity and Magnetism",
+     "code": "PHYS 261H",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Modeling the Mind: Computational Models of Cognition",
+     "code": "CGSC 344",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Fundamentals of Neuroscience & Cognitive Science",
+     "code": "NSCS 200",
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "The Bilingual Mind",
+     "code": "LING 440",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d23",
+     "type": "fixed",
+     "label": "Judgment and Decision-Making",
+     "code": "PSY 333",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d24",
+     "type": "fixed",
+     "label": "Introduction to Cognitive Development",
+     "code": "PSY 340",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d25",
+     "type": "fixed",
+     "label": "Advanced Human Memory",
+     "code": "PSY 426",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d26",
+     "type": "fixed",
+     "label": "Advanced Perception",
+     "code": "PSY 429",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "fixed",
+     "label": "The Bilingual Mind",
+     "code": "PSY 440",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d28",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "LING 202",
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d29",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "MATH 202",
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "d30",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "PHIL 202",
+     "col": 2,
+     "row": 5
+    },
+    {
+     "id": "d31",
+     "type": "fixed",
+     "label": "Minds, Brains and Computers",
+     "code": "PHIL 346",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d32",
+     "type": "fixed",
+     "label": "Knowledge and Cognition",
+     "code": "PHIL 442",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "fixed",
+     "label": "Philosophy of Mind",
+     "code": "PHIL 450",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d34",
+     "type": "fixed",
+     "label": "Scientific Programming",
+     "code": "NROS 311",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d35",
+     "type": "fixed",
+     "label": "Molecular and Cellular Biology of Neurons",
+     "code": "NROS 310",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d36",
+     "type": "fixed",
+     "label": "Fundamental Principles in Systems Neuroscience",
+     "code": "NROS 318",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d37",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d38",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 6
+    },
+    {
+     "id": "d39",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 6
+    },
+    {
+     "id": "d40",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 2,
+     "row": 6
+    },
+    {
+     "id": "d41",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 5
+    },
+    {
+     "id": "d42",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 6
+    },
+    {
+     "id": "d43",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "Chemistry I",
+     "list": "pool15",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Chemistry I",
+     "list": "pool15",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "Chemistry II",
+     "list": "pool16",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d50",
+     "type": "te",
+     "label": "Chemistry II",
+     "list": "pool16",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d51",
+     "type": "te",
+     "label": "Calculus",
+     "list": "pool21",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d52",
+     "type": "te",
+     "label": "Statistics",
+     "list": "pool22",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d53",
+     "type": "te",
+     "label": "Philosophy",
+     "list": "pool23",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d54",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d55",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d56",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "Chemistry III",
+     "units": 4,
+     "list": "CHEM 241A,CHEM 242A,CHEM 243A,CHEM 246,CHEM 256L",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "Introductory Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Introductory Physics I",
+     "units": 4,
+     "list": "PHYS 102,PHYS 110,PHYS 141,PHYS 161H,PHYS 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Introductory Physics II",
+     "units": 4,
+     "list": "PHYS 103,PHYS 111,PHYS 182,PHYS 241,PHYS 261H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r23",
+     "name": "Modeling the Mind",
+     "units": 3,
+     "list": "CGSC 344",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r24",
+     "name": "Gateway Course",
+     "units": 3,
+     "list": "NSCS 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r25",
+     "name": "Cognitive Psychology",
+     "units": 18,
+     "list": "LING 440,PSY 333,PSY 340,PSY 426,PSY 429,PSY 440",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r27",
+     "name": "Philosophy",
+     "units": 18,
+     "list": "LING 202,MATH 202,PHIL 202,PHIL 346,PHIL 442,PHIL 450",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r30",
+     "name": "Programming",
+     "units": 3,
+     "list": "NROS 311",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r31",
+     "name": "Additional Core Courses - Neuroscience Focus",
+     "units": 6,
+     "list": "NROS 310,NROS 318",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Chemistry I",
+     "units": 4,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "Chemistry II",
+     "units": 4,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p20",
+     "name": "Calculus",
+     "units": 3,
+     "list": "@pool21",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "Statistics",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "Philosophy",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p26",
+     "name": "Linguistics",
+     "units": 9,
+     "list": "@pool27",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p29",
+     "name": "Core Courses",
+     "units": 12,
+     "list": "@pool30",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p34",
+     "name": "Emphasis in Cognition",
+     "units": 15,
+     "list": "@pool35",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T2": {
+   "name": "Computation",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-NCSBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 35 units in the major, 32 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Lectures in Organic Chemistry",
+     "code": "CHEM 241A",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Honors Lectures in Organic Chemistry",
+     "code": "CHEM 242A",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Organic Chemistry Laboratory I",
+     "code": "CHEM 243A",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Principles Of Organic Chemistry",
+     "code": "CHEM 246",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Synthesis Laboratory",
+     "code": "CHEM 256L",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Introductory Physics I",
+     "code": "PHYS 102",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Introductory Studio Physics I",
+     "code": "PHYS 110",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Introductory Mechanics",
+     "code": "PHYS 141",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Accelerated Introductory Mechanics",
+     "code": "PHYS 161H",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Introductory Laboratory I",
+     "code": "PHYS 181",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introductory Physics II",
+     "code": "PHYS 103",
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Introductory Studio Physics 2",
+     "code": "PHYS 111",
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Introductory Laboratory II",
+     "code": "PHYS 182",
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Introductory Electricity and Magnetism",
+     "code": "PHYS 241",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Accelerated Introductory Electricity and Magnetism",
+     "code": "PHYS 261H",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Modeling the Mind: Computational Models of Cognition",
+     "code": "CGSC 344",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Fundamentals of Neuroscience & Cognitive Science",
+     "code": "NSCS 200",
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "The Bilingual Mind",
+     "code": "LING 440",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d23",
+     "type": "fixed",
+     "label": "Judgment and Decision-Making",
+     "code": "PSY 333",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d24",
+     "type": "fixed",
+     "label": "Introduction to Cognitive Development",
+     "code": "PSY 340",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d25",
+     "type": "fixed",
+     "label": "Advanced Human Memory",
+     "code": "PSY 426",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d26",
+     "type": "fixed",
+     "label": "Advanced Perception",
+     "code": "PSY 429",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "fixed",
+     "label": "The Bilingual Mind",
+     "code": "PSY 440",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d28",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "LING 202",
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d29",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "MATH 202",
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "d30",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "PHIL 202",
+     "col": 2,
+     "row": 5
+    },
+    {
+     "id": "d31",
+     "type": "fixed",
+     "label": "Minds, Brains and Computers",
+     "code": "PHIL 346",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d32",
+     "type": "fixed",
+     "label": "Knowledge and Cognition",
+     "code": "PHIL 442",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "fixed",
+     "label": "Philosophy of Mind",
+     "code": "PHIL 450",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d34",
+     "type": "fixed",
+     "label": "Scientific Programming",
+     "code": "NROS 311",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d35",
+     "type": "fixed",
+     "label": "Molecular and Cellular Biology of Neurons",
+     "code": "NROS 310",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d36",
+     "type": "fixed",
+     "label": "Fundamental Principles in Systems Neuroscience",
+     "code": "NROS 318",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d37",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d38",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 6
+    },
+    {
+     "id": "d39",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 6
+    },
+    {
+     "id": "d40",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 2,
+     "row": 6
+    },
+    {
+     "id": "d41",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 5
+    },
+    {
+     "id": "d42",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 6
+    },
+    {
+     "id": "d43",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "Chemistry I",
+     "list": "pool15",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Chemistry I",
+     "list": "pool15",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "Chemistry II",
+     "list": "pool16",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d50",
+     "type": "te",
+     "label": "Chemistry II",
+     "list": "pool16",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d51",
+     "type": "te",
+     "label": "Calculus",
+     "list": "pool21",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d52",
+     "type": "te",
+     "label": "Statistics",
+     "list": "pool22",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d53",
+     "type": "te",
+     "label": "Philosophy",
+     "list": "pool23",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d54",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d55",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d56",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "Chemistry III",
+     "units": 4,
+     "list": "CHEM 241A,CHEM 242A,CHEM 243A,CHEM 246,CHEM 256L",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "Introductory Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Introductory Physics I",
+     "units": 4,
+     "list": "PHYS 102,PHYS 110,PHYS 141,PHYS 161H,PHYS 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Introductory Physics II",
+     "units": 4,
+     "list": "PHYS 103,PHYS 111,PHYS 182,PHYS 241,PHYS 261H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r23",
+     "name": "Modeling the Mind",
+     "units": 3,
+     "list": "CGSC 344",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r24",
+     "name": "Gateway Course",
+     "units": 3,
+     "list": "NSCS 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r25",
+     "name": "Cognitive Psychology",
+     "units": 18,
+     "list": "LING 440,PSY 333,PSY 340,PSY 426,PSY 429,PSY 440",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r27",
+     "name": "Philosophy",
+     "units": 18,
+     "list": "LING 202,MATH 202,PHIL 202,PHIL 346,PHIL 442,PHIL 450",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r30",
+     "name": "Programming",
+     "units": 3,
+     "list": "NROS 311",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r31",
+     "name": "Additional Core Courses - Neuroscience Focus",
+     "units": 6,
+     "list": "NROS 310,NROS 318",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Chemistry I",
+     "units": 4,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "Chemistry II",
+     "units": 4,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p20",
+     "name": "Calculus",
+     "units": 3,
+     "list": "@pool21",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "Statistics",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "Philosophy",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p26",
+     "name": "Linguistics",
+     "units": 9,
+     "list": "@pool27",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p29",
+     "name": "Core Courses",
+     "units": 12,
+     "list": "@pool30",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p39",
+     "name": "1. Option I: Quantitative Foundation",
+     "units": 6,
+     "list": "@pool40",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p41",
+     "name": "2. Computation Emphasis",
+     "units": 12,
+     "list": "@pool42",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T3": {
+   "name": "Language and Communication Science",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-NCSBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 35 units in the major, 32 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Lectures in Organic Chemistry",
+     "code": "CHEM 241A",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Honors Lectures in Organic Chemistry",
+     "code": "CHEM 242A",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Organic Chemistry Laboratory I",
+     "code": "CHEM 243A",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Principles Of Organic Chemistry",
+     "code": "CHEM 246",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Synthesis Laboratory",
+     "code": "CHEM 256L",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Introductory Physics I",
+     "code": "PHYS 102",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Introductory Studio Physics I",
+     "code": "PHYS 110",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Introductory Mechanics",
+     "code": "PHYS 141",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Accelerated Introductory Mechanics",
+     "code": "PHYS 161H",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Introductory Laboratory I",
+     "code": "PHYS 181",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introductory Physics II",
+     "code": "PHYS 103",
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Introductory Studio Physics 2",
+     "code": "PHYS 111",
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Introductory Laboratory II",
+     "code": "PHYS 182",
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Introductory Electricity and Magnetism",
+     "code": "PHYS 241",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Accelerated Introductory Electricity and Magnetism",
+     "code": "PHYS 261H",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Modeling the Mind: Computational Models of Cognition",
+     "code": "CGSC 344",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Fundamentals of Neuroscience & Cognitive Science",
+     "code": "NSCS 200",
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "The Bilingual Mind",
+     "code": "LING 440",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d23",
+     "type": "fixed",
+     "label": "Judgment and Decision-Making",
+     "code": "PSY 333",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d24",
+     "type": "fixed",
+     "label": "Introduction to Cognitive Development",
+     "code": "PSY 340",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d25",
+     "type": "fixed",
+     "label": "Advanced Human Memory",
+     "code": "PSY 426",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d26",
+     "type": "fixed",
+     "label": "Advanced Perception",
+     "code": "PSY 429",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "fixed",
+     "label": "The Bilingual Mind",
+     "code": "PSY 440",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d28",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "LING 202",
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d29",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "MATH 202",
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "d30",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "PHIL 202",
+     "col": 2,
+     "row": 5
+    },
+    {
+     "id": "d31",
+     "type": "fixed",
+     "label": "Minds, Brains and Computers",
+     "code": "PHIL 346",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d32",
+     "type": "fixed",
+     "label": "Knowledge and Cognition",
+     "code": "PHIL 442",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "fixed",
+     "label": "Philosophy of Mind",
+     "code": "PHIL 450",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d34",
+     "type": "fixed",
+     "label": "Scientific Programming",
+     "code": "NROS 311",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d35",
+     "type": "fixed",
+     "label": "Molecular and Cellular Biology of Neurons",
+     "code": "NROS 310",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d36",
+     "type": "fixed",
+     "label": "Fundamental Principles in Systems Neuroscience",
+     "code": "NROS 318",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d37",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d38",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 6
+    },
+    {
+     "id": "d39",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 6
+    },
+    {
+     "id": "d40",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 2,
+     "row": 6
+    },
+    {
+     "id": "d41",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 5
+    },
+    {
+     "id": "d42",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 6
+    },
+    {
+     "id": "d43",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "Chemistry I",
+     "list": "pool15",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Chemistry I",
+     "list": "pool15",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "Chemistry II",
+     "list": "pool16",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d50",
+     "type": "te",
+     "label": "Chemistry II",
+     "list": "pool16",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d51",
+     "type": "te",
+     "label": "Calculus",
+     "list": "pool21",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d52",
+     "type": "te",
+     "label": "Statistics",
+     "list": "pool22",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d53",
+     "type": "te",
+     "label": "Philosophy",
+     "list": "pool23",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d54",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d55",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d56",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "Chemistry III",
+     "units": 4,
+     "list": "CHEM 241A,CHEM 242A,CHEM 243A,CHEM 246,CHEM 256L",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "Introductory Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Introductory Physics I",
+     "units": 4,
+     "list": "PHYS 102,PHYS 110,PHYS 141,PHYS 161H,PHYS 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Introductory Physics II",
+     "units": 4,
+     "list": "PHYS 103,PHYS 111,PHYS 182,PHYS 241,PHYS 261H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r23",
+     "name": "Modeling the Mind",
+     "units": 3,
+     "list": "CGSC 344",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r24",
+     "name": "Gateway Course",
+     "units": 3,
+     "list": "NSCS 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r25",
+     "name": "Cognitive Psychology",
+     "units": 18,
+     "list": "LING 440,PSY 333,PSY 340,PSY 426,PSY 429,PSY 440",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r27",
+     "name": "Philosophy",
+     "units": 18,
+     "list": "LING 202,MATH 202,PHIL 202,PHIL 346,PHIL 442,PHIL 450",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r30",
+     "name": "Programming",
+     "units": 3,
+     "list": "NROS 311",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r31",
+     "name": "Additional Core Courses - Neuroscience Focus",
+     "units": 6,
+     "list": "NROS 310,NROS 318",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Chemistry I",
+     "units": 4,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "Chemistry II",
+     "units": 4,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p20",
+     "name": "Calculus",
+     "units": 3,
+     "list": "@pool21",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "Statistics",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "Philosophy",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p26",
+     "name": "Linguistics",
+     "units": 9,
+     "list": "@pool27",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p29",
+     "name": "Core Courses",
+     "units": 12,
+     "list": "@pool30",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p46",
+     "name": "Emphasis in Language and Communication Science",
+     "units": 15,
+     "list": "@pool47",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T4": {
+   "name": "Neurobiology",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-NCSBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 35 units in the major, 32 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Lectures in Organic Chemistry",
+     "code": "CHEM 241A",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Honors Lectures in Organic Chemistry",
+     "code": "CHEM 242A",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Organic Chemistry Laboratory I",
+     "code": "CHEM 243A",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Principles Of Organic Chemistry",
+     "code": "CHEM 246",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Synthesis Laboratory",
+     "code": "CHEM 256L",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Introductory Physics I",
+     "code": "PHYS 102",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Introductory Studio Physics I",
+     "code": "PHYS 110",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Introductory Mechanics",
+     "code": "PHYS 141",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Accelerated Introductory Mechanics",
+     "code": "PHYS 161H",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Introductory Laboratory I",
+     "code": "PHYS 181",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introductory Physics II",
+     "code": "PHYS 103",
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Introductory Studio Physics 2",
+     "code": "PHYS 111",
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Introductory Laboratory II",
+     "code": "PHYS 182",
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Introductory Electricity and Magnetism",
+     "code": "PHYS 241",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Accelerated Introductory Electricity and Magnetism",
+     "code": "PHYS 261H",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Modeling the Mind: Computational Models of Cognition",
+     "code": "CGSC 344",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Fundamentals of Neuroscience & Cognitive Science",
+     "code": "NSCS 200",
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "The Bilingual Mind",
+     "code": "LING 440",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d23",
+     "type": "fixed",
+     "label": "Judgment and Decision-Making",
+     "code": "PSY 333",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d24",
+     "type": "fixed",
+     "label": "Introduction to Cognitive Development",
+     "code": "PSY 340",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d25",
+     "type": "fixed",
+     "label": "Advanced Human Memory",
+     "code": "PSY 426",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d26",
+     "type": "fixed",
+     "label": "Advanced Perception",
+     "code": "PSY 429",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "fixed",
+     "label": "The Bilingual Mind",
+     "code": "PSY 440",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d28",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "LING 202",
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d29",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "MATH 202",
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "d30",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "PHIL 202",
+     "col": 2,
+     "row": 5
+    },
+    {
+     "id": "d31",
+     "type": "fixed",
+     "label": "Minds, Brains and Computers",
+     "code": "PHIL 346",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d32",
+     "type": "fixed",
+     "label": "Knowledge and Cognition",
+     "code": "PHIL 442",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "fixed",
+     "label": "Philosophy of Mind",
+     "code": "PHIL 450",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d34",
+     "type": "fixed",
+     "label": "Scientific Programming",
+     "code": "NROS 311",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d35",
+     "type": "fixed",
+     "label": "Molecular and Cellular Biology of Neurons",
+     "code": "NROS 310",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d36",
+     "type": "fixed",
+     "label": "Fundamental Principles in Systems Neuroscience",
+     "code": "NROS 318",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d37",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d38",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 6
+    },
+    {
+     "id": "d39",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 6
+    },
+    {
+     "id": "d40",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 2,
+     "row": 6
+    },
+    {
+     "id": "d41",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 5
+    },
+    {
+     "id": "d42",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 6
+    },
+    {
+     "id": "d43",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "Chemistry I",
+     "list": "pool15",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Chemistry I",
+     "list": "pool15",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "Chemistry II",
+     "list": "pool16",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d50",
+     "type": "te",
+     "label": "Chemistry II",
+     "list": "pool16",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d51",
+     "type": "te",
+     "label": "Calculus",
+     "list": "pool21",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d52",
+     "type": "te",
+     "label": "Statistics",
+     "list": "pool22",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d53",
+     "type": "te",
+     "label": "Philosophy",
+     "list": "pool23",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d54",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d55",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d56",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "Chemistry III",
+     "units": 4,
+     "list": "CHEM 241A,CHEM 242A,CHEM 243A,CHEM 246,CHEM 256L",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "Introductory Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Introductory Physics I",
+     "units": 4,
+     "list": "PHYS 102,PHYS 110,PHYS 141,PHYS 161H,PHYS 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Introductory Physics II",
+     "units": 4,
+     "list": "PHYS 103,PHYS 111,PHYS 182,PHYS 241,PHYS 261H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r23",
+     "name": "Modeling the Mind",
+     "units": 3,
+     "list": "CGSC 344",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r24",
+     "name": "Gateway Course",
+     "units": 3,
+     "list": "NSCS 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r25",
+     "name": "Cognitive Psychology",
+     "units": 18,
+     "list": "LING 440,PSY 333,PSY 340,PSY 426,PSY 429,PSY 440",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r27",
+     "name": "Philosophy",
+     "units": 18,
+     "list": "LING 202,MATH 202,PHIL 202,PHIL 346,PHIL 442,PHIL 450",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r30",
+     "name": "Programming",
+     "units": 3,
+     "list": "NROS 311",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r31",
+     "name": "Additional Core Courses - Neuroscience Focus",
+     "units": 6,
+     "list": "NROS 310,NROS 318",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Chemistry I",
+     "units": 4,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "Chemistry II",
+     "units": 4,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p20",
+     "name": "Calculus",
+     "units": 3,
+     "list": "@pool21",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "Statistics",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "Philosophy",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p26",
+     "name": "Linguistics",
+     "units": 9,
+     "list": "@pool27",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p29",
+     "name": "Core Courses",
+     "units": 12,
+     "list": "@pool30",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p51",
+     "name": "Emphasis in Neurobiology",
+     "units": 15,
+     "list": "@pool52",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T5": {
+   "name": "Thematic",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-NCSBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 35 units in the major, 32 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Lectures in Organic Chemistry",
+     "code": "CHEM 241A",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Honors Lectures in Organic Chemistry",
+     "code": "CHEM 242A",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Organic Chemistry Laboratory I",
+     "code": "CHEM 243A",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Principles Of Organic Chemistry",
+     "code": "CHEM 246",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Synthesis Laboratory",
+     "code": "CHEM 256L",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Introductory Physics I",
+     "code": "PHYS 102",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Introductory Studio Physics I",
+     "code": "PHYS 110",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Introductory Mechanics",
+     "code": "PHYS 141",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Accelerated Introductory Mechanics",
+     "code": "PHYS 161H",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Introductory Laboratory I",
+     "code": "PHYS 181",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introductory Physics II",
+     "code": "PHYS 103",
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Introductory Studio Physics 2",
+     "code": "PHYS 111",
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Introductory Laboratory II",
+     "code": "PHYS 182",
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Introductory Electricity and Magnetism",
+     "code": "PHYS 241",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Accelerated Introductory Electricity and Magnetism",
+     "code": "PHYS 261H",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Modeling the Mind: Computational Models of Cognition",
+     "code": "CGSC 344",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Fundamentals of Neuroscience & Cognitive Science",
+     "code": "NSCS 200",
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "The Bilingual Mind",
+     "code": "LING 440",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d23",
+     "type": "fixed",
+     "label": "Judgment and Decision-Making",
+     "code": "PSY 333",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d24",
+     "type": "fixed",
+     "label": "Introduction to Cognitive Development",
+     "code": "PSY 340",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d25",
+     "type": "fixed",
+     "label": "Advanced Human Memory",
+     "code": "PSY 426",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d26",
+     "type": "fixed",
+     "label": "Advanced Perception",
+     "code": "PSY 429",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "fixed",
+     "label": "The Bilingual Mind",
+     "code": "PSY 440",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d28",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "LING 202",
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d29",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "MATH 202",
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "d30",
+     "type": "fixed",
+     "label": "Introduction to Symbolic Logic",
+     "code": "PHIL 202",
+     "col": 2,
+     "row": 5
+    },
+    {
+     "id": "d31",
+     "type": "fixed",
+     "label": "Minds, Brains and Computers",
+     "code": "PHIL 346",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d32",
+     "type": "fixed",
+     "label": "Knowledge and Cognition",
+     "code": "PHIL 442",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "fixed",
+     "label": "Philosophy of Mind",
+     "code": "PHIL 450",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d34",
+     "type": "fixed",
+     "label": "Scientific Programming",
+     "code": "NROS 311",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d35",
+     "type": "fixed",
+     "label": "Molecular and Cellular Biology of Neurons",
+     "code": "NROS 310",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d36",
+     "type": "fixed",
+     "label": "Fundamental Principles in Systems Neuroscience",
+     "code": "NROS 318",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d37",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d38",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 6
+    },
+    {
+     "id": "d39",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 6
+    },
+    {
+     "id": "d40",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 2,
+     "row": 6
+    },
+    {
+     "id": "d41",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 5
+    },
+    {
+     "id": "d42",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 6
+    },
+    {
+     "id": "d43",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "Chemistry I",
+     "list": "pool15",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Chemistry I",
+     "list": "pool15",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "Chemistry II",
+     "list": "pool16",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d50",
+     "type": "te",
+     "label": "Chemistry II",
+     "list": "pool16",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d51",
+     "type": "te",
+     "label": "Calculus",
+     "list": "pool21",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d52",
+     "type": "te",
+     "label": "Statistics",
+     "list": "pool22",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d53",
+     "type": "te",
+     "label": "Philosophy",
+     "list": "pool23",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d54",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d55",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d56",
+     "type": "te",
+     "label": "Linguistics",
+     "list": "pool27",
+     "col": 7,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "Chemistry III",
+     "units": 4,
+     "list": "CHEM 241A,CHEM 242A,CHEM 243A,CHEM 246,CHEM 256L",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "Introductory Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "Introductory Physics I",
+     "units": 4,
+     "list": "PHYS 102,PHYS 110,PHYS 141,PHYS 161H,PHYS 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Introductory Physics II",
+     "units": 4,
+     "list": "PHYS 103,PHYS 111,PHYS 182,PHYS 241,PHYS 261H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r23",
+     "name": "Modeling the Mind",
+     "units": 3,
+     "list": "CGSC 344",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r24",
+     "name": "Gateway Course",
+     "units": 3,
+     "list": "NSCS 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r25",
+     "name": "Cognitive Psychology",
+     "units": 18,
+     "list": "LING 440,PSY 333,PSY 340,PSY 426,PSY 429,PSY 440",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r27",
+     "name": "Philosophy",
+     "units": 18,
+     "list": "LING 202,MATH 202,PHIL 202,PHIL 346,PHIL 442,PHIL 450",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r30",
+     "name": "Programming",
+     "units": 3,
+     "list": "NROS 311",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r31",
+     "name": "Additional Core Courses - Neuroscience Focus",
+     "units": 6,
+     "list": "NROS 310,NROS 318",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Chemistry I",
+     "units": 4,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "Chemistry II",
+     "units": 4,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p20",
+     "name": "Calculus",
+     "units": 3,
+     "list": "@pool21",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "Statistics",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "Philosophy",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p26",
+     "name": "Linguistics",
+     "units": 9,
+     "list": "@pool27",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p29",
+     "name": "Core Courses",
+     "units": 12,
+     "list": "@pool30",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p56",
+     "name": "Thematic Emphasis",
+     "units": 15,
+     "list": "@pool57",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "CHEM 241A": {
+   "t": "Lectures in Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182"
+   ]
+  },
+  "CHEM 242A": {
+   "t": "Honors Lectures in Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182"
+   ]
+  },
+  "CHEM 243A": {
+   "t": "Organic Chemistry Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182|CHEM 241A|CHEM 242A|CHEM 246A"
+   ],
+   "co": [
+    "CHEM 142",
+    "CHEM 152",
+    "CHEM 162",
+    "CHEM 182",
+    "CHEM 241A",
+    "CHEM 242A",
+    "CHEM 246A"
+   ]
+  },
+  "CHEM 246": {
+   "t": "Principles Of Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182"
+   ]
+  },
+  "CHEM 256L": {
+   "t": "Synthesis Laboratory",
+   "u": 2,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 181L": {
+   "t": "Introductory Biology Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 181R": {
+   "t": "Introduction to Molecular and Cellular Biology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 102": {
+   "t": "Introductory Physics I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 110": {
+   "t": "Introductory Studio Physics I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 141": {
+   "t": "Introductory Mechanics",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ],
+   "co": [
+    "MATH 122B",
+    "MATH 124",
+    "MATH 125"
+   ]
+  },
+  "PHYS 161H": {
+   "t": "Accelerated Introductory Mechanics",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ],
+   "co": [
+    "MATH 122B",
+    "MATH 124",
+    "MATH 125"
+   ]
+  },
+  "PHYS 181": {
+   "t": "Introductory Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 103": {
+   "t": "Introductory Physics II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 102|PHYS 140|PHYS 141|PHYS 110"
+   ]
+  },
+  "PHYS 111": {
+   "t": "Introductory Studio Physics 2",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 182": {
+   "t": "Introductory Laboratory II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 241": {
+   "t": "Introductory Electricity and Magnetism",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
+   ]
+  },
+  "PHYS 261H": {
+   "t": "Accelerated Introductory Electricity and Magnetism",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
+   ]
+  },
+  "CGSC 344": {
+   "t": "Modeling the Mind: Computational Models of Cognition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NSCS 200": {
+   "t": "Fundamentals of Neuroscience & Cognitive Science",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "LING 440": {
+   "t": "The Bilingual Mind",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 333": {
+   "t": "Judgment and Decision-Making",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 340": {
+   "t": "Introduction to Cognitive Development",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 426": {
+   "t": "Advanced Human Memory",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PSY 290A|PSY 290B",
+    "PSY 325|PSY 326|PSY 300"
+   ]
+  },
+  "PSY 429": {
+   "t": "Advanced Perception",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 440": {
+   "t": "The Bilingual Mind",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "LING 202": {
+   "t": "Introduction to Symbolic Logic",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 202": {
+   "t": "Introduction to Symbolic Logic",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHIL 202": {
+   "t": "Introduction to Symbolic Logic",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHIL 346": {
+   "t": "Minds, Brains and Computers",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHIL 442": {
+   "t": "Knowledge and Cognition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHIL 450": {
+   "t": "Philosophy of Mind",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NROS 311": {
+   "t": "Scientific Programming",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NROS 310": {
+   "t": "Molecular and Cellular Biology of Neurons",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NROS 318": {
+   "t": "Fundamental Principles in Systems Neuroscience",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ENGL 1EIB": {
+   "t": "International Baccalaureate (IB) English Elective",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101A": {
+   "t": "First-Year Composition with Discussion",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "EMENT 100"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 106": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "OF 106"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 108": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 141": {
+   "t": "General Chemistry Lecture I: Quantitative",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 143": {
+   "t": "General Chemistry Lab 1: Quantitative",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 145": {
+   "t": "Quantitative Chemistry Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 151": {
+   "t": "Chemical Thinking I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 161": {
+   "t": "Honors Chemical Thinking I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 163": {
+   "t": "Honors Fundamental Techniques of Chemistry I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 161"
+   ],
+   "co": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 181": {
+   "t": "Majors General Chemistry I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 142": {
+   "t": "General Chemistry Lecture II: Quantitative Approach",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 144": {
+   "t": "General Chemistry Lab II: Quantitative",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 151|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 146": {
+   "t": "Quantitative Chemistry Laboratory II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 151|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 162": {
+   "t": "Honors Chemical Thinking II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 164": {
+   "t": "Honors Fundamental Techniques of Chemistry II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 182": {
+   "t": "Majors General Chemistry II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142",
+    "CHEM 152",
+    "CHEM 162"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 263": {
+   "t": "Introduction to Statistics and Biostatistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "PSY 230": {
+   "t": "Psychological Measurement and Statistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HDFS 347": {
+   "t": "Neuroethics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHIL 241": {
+   "t": "Consciousness and Cognition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHIL 347": {
+   "t": "Neuroethics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "LING 201": {
+   "t": "Introduction to Linguistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "LING 341": {
+   "t": "Language Development",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "LING 432": {
+   "t": "Psychology of Language",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "LING 449A": {
+   "t": "Biolinguistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHIL 432": {
+   "t": "Psychology of Language",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHIL 449A": {
+   "t": "Biolinguistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 201": {
+   "t": "Introduction to Linguistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 341": {
+   "t": "Language Development",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 432": {
+   "t": "Psychology of Language",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SLHS 341": {
+   "t": "Language Development",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CGSC 320": {
+   "t": "Issues and Themes in Cognitive Science",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CGSC 321": {
+   "t": "Methods in Cognitive Science",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NROS 307": {
+   "t": "Cellular Neurophysiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NROS 308": {
+   "t": "Methods in Neuroscience",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "NROS 307"
+   ],
+   "co": [
+    "NROS 307"
+   ]
+  }
+ }
+}

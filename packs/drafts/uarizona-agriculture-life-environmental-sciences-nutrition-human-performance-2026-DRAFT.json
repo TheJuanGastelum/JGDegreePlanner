@@ -1,0 +1,562 @@
+{
+ "format": "degree-pack/1",
+ "id": "uarizona/agriculture-life-environmental-sciences/nutrition-human-performance/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "draft": true,
+ "program": {
+  "name": "Nutrition & Human Performance",
+  "college": "College of Agriculture, Life & Environmental Sciences",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C",
+  "majorUnits": 60,
+  "majorUpper": 38,
+  "majorGpa": 2
+ },
+ "meta": {
+  "srcKind": "catalog",
+  "srcDate": "2026-08-01",
+  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
+ },
+ "lists": {
+  "pool1": [
+   "ENGL 1EIB",
+   "WRIT 101",
+   "WRIT 101A",
+   "WRIT 102",
+   "WRIT 106",
+   "WRIT 107",
+   "WRIT 108"
+  ],
+  "pool13": [
+   "HIST 150C3",
+   "POL 201"
+  ],
+  "pool19": [
+   "PSIO 201",
+   "PSIO 202"
+  ],
+  "pool21": [
+   "PSY 101",
+   "PSY 150A1"
+  ]
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Nutrition & Human Performance",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-NHPBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 60 units in the major, 38 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "College Algebra Concepts and Applications",
+     "code": "MATH 112",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Nutrition, Food, and You",
+     "code": "NSC 170C1",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Internship",
+     "code": "NSC 393",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Internship",
+     "code": "NSC 493",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Senior Capstone",
+     "code": "NSC 498",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d10",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d11",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d12",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d13",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d14",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d15",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d16",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d17",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d18",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d19",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d20",
+     "type": "te",
+     "label": "Anatomy and Physiology",
+     "list": "pool19",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d21",
+     "type": "te",
+     "label": "Anatomy and Physiology",
+     "list": "pool19",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d22",
+     "type": "te",
+     "label": "Introductory Psychology",
+     "list": "pool21",
+     "col": 5,
+     "row": 3
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r14",
+     "name": "College Algebra",
+     "units": 3,
+     "list": "MATH 112",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "Introduction to Biology",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "Introductory Nutrition",
+     "units": 3,
+     "list": "NSC 170C1",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r22",
+     "name": "Internship",
+     "units": 3,
+     "list": "NSC 393,NSC 493",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r23",
+     "name": "Capstone",
+     "units": 3,
+     "list": "NSC 498",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p18",
+     "name": "Anatomy and Physiology",
+     "units": 6,
+     "list": "@pool19",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p20",
+     "name": "Introductory Psychology",
+     "units": 3,
+     "list": "@pool21",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "MATH 112": {
+   "t": "College Algebra Concepts and Applications",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100"
+   ]
+  },
+  "MCB 181L": {
+   "t": "Introductory Biology Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 181R": {
+   "t": "Introduction to Molecular and Cellular Biology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NSC 170C1": {
+   "t": "Nutrition, Food, and You",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NSC 393": {
+   "t": "Internship",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NSC 493": {
+   "t": "Internship",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NSC 498": {
+   "t": "Senior Capstone",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ENGL 1EIB": {
+   "t": "International Baccalaureate (IB) English Elective",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101A": {
+   "t": "First-Year Composition with Discussion",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "EMENT 100"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 106": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "OF 106"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 108": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 201": {
+   "t": "Human Anatomy and Physiology I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 202": {
+   "t": "Human Anatomy and Physiology II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PSIO 201"
+   ]
+  },
+  "PSY 101": {
+   "t": "Introduction to Psychology",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 150A1": {
+   "t": "The Structure of Mind and Behavior",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  }
+ }
+}

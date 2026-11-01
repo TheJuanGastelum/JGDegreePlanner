@@ -1,0 +1,3484 @@
+{
+ "format": "degree-pack/1",
+ "id": "uarizona/medicine-tucson/physiology-and-medical-sciences/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "draft": true,
+ "program": {
+  "name": "Physiology and Medical Sciences",
+  "college": "College of Medicine - Tucson",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science in Health Sciences"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C",
+  "majorUnits": 36,
+  "majorUpper": 19,
+  "majorGpa": 2
+ },
+ "meta": {
+  "srcKind": "catalog",
+  "srcDate": "2026-08-01",
+  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
+ },
+ "lists": {
+  "pool1": [
+   "ENGL 1EIB",
+   "WRIT 101",
+   "WRIT 101A",
+   "WRIT 102",
+   "WRIT 106",
+   "WRIT 107",
+   "WRIT 108"
+  ],
+  "pool13": [
+   "HIST 150C3",
+   "POL 201"
+  ],
+  "pool16": [
+   "CHEM 241A",
+   "CHEM 241B",
+   "CHEM 242A",
+   "CHEM 242B",
+   "CHEM 246A",
+   "CHEM 246B"
+  ],
+  "pool17": [
+   "CHEM 243A",
+   "CHEM 243B",
+   "CHEM 244A",
+   "CHEM 244B",
+   "CHEM 247A",
+   "CHEM 247B"
+  ],
+  "pool22": [
+   "ACBS 445",
+   "BIOC 384",
+   "BIOC 385"
+  ],
+  "pool23": [
+   "MATH 119A",
+   "MATH 122B",
+   "MATH 125",
+   "MATH 129"
+  ],
+  "pool24": [
+   "BIOS 376",
+   "ECOL 379",
+   "MATH 129",
+   "MATH 263"
+  ],
+  "pool26": [
+   "PSIO 420",
+   "PSIO 441"
+  ],
+  "pool27": [
+   "PHCL 430",
+   "PSIO 420",
+   "PSIO 425",
+   "PSIO 426",
+   "PSIO 429",
+   "PSIO 441",
+   "PSIO 442",
+   "PSIO 465",
+   "PSIO 485",
+   "PSIO 487",
+   "PSIO 495M"
+  ],
+  "pool28": [],
+  "pool29": [],
+  "pool34": [],
+  "pool35": [
+   "CMM 401",
+   "CMM 410",
+   "IMB 401",
+   "PCOL 434",
+   "PHCL 412",
+   "PHCL 422",
+   "PHCL 430",
+   "PHCL 442"
+  ],
+  "pool36": [],
+  "pool37": [],
+  "pool43": [
+   "PSIO 295R",
+   "PSIO 496R"
+  ],
+  "pool45": [],
+  "pool46": [],
+  "pool47": [],
+  "pool52": [],
+  "pool53": [],
+  "pool54": []
+ },
+ "tracks": {
+  "T1": {
+   "name": "Exercise & Extreme Physiology",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-PSIOMBSHS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 36 units in the major, 19 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Chemical Thinking I",
+     "code": "CHEM 151",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Honors Chemical Thinking I",
+     "code": "CHEM 161",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Honors Fundamental Techniques of Chemistry I",
+     "code": "CHEM 163",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Majors General Chemistry I",
+     "code": "CHEM 181",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Chemical Thinking II",
+     "code": "CHEM 152",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Honors Chemical Thinking II",
+     "code": "CHEM 162",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Honors Fundamental Techniques of Chemistry II",
+     "code": "CHEM 164",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Majors General Chemistry II",
+     "code": "CHEM 182",
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Introductory Biology II Lab",
+     "code": "ECOL 182L",
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Introductory Biology II",
+     "code": "ECOL 182R",
+     "col": 0,
+     "row": 6
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introductory Physics I",
+     "code": "PHYS 102",
+     "col": 1,
+     "row": 6
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Introductory Studio Physics I",
+     "code": "PHYS 110",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Introductory Mechanics",
+     "code": "PHYS 141",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Introductory Laboratory I",
+     "code": "PHYS 181",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Introductory Physics II",
+     "code": "PHYS 103",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Introductory Studio Physics 2",
+     "code": "PHYS 111",
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Introductory Laboratory II",
+     "code": "PHYS 182",
+     "col": 2,
+     "row": 5
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "Introductory Electricity and Magnetism",
+     "code": "PHYS 241",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d23",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology I",
+     "code": "PSIO 201",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d24",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology II",
+     "code": "PSIO 202",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d25",
+     "type": "fixed",
+     "label": "Integrative Cellular Physiology",
+     "code": "PSIO 303",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d26",
+     "type": "fixed",
+     "label": "Integrative Systems Physiology",
+     "code": "PSIO 305",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 2,
+     "row": 6
+    },
+    {
+     "id": "d28",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d29",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "d30",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 5
+    },
+    {
+     "id": "d31",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 6
+    },
+    {
+     "id": "d32",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "3. Organic Chemistry Lectures",
+     "list": "pool16",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "3. Organic Chemistry Lectures",
+     "list": "pool16",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "4. Organic Chemistry Labs",
+     "list": "pool17",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d40",
+     "type": "te",
+     "label": "4. Organic Chemistry Labs",
+     "list": "pool17",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d41",
+     "type": "te",
+     "label": "8. Biochemistry",
+     "list": "pool22",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d42",
+     "type": "te",
+     "label": "9. Calculus I or Mathematics …",
+     "list": "pool23",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d43",
+     "type": "te",
+     "label": "10. Calculus II or Biostatist…",
+     "list": "pool24",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Required Core Course",
+     "list": "pool26",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Exercise and Extreme Physiolo…",
+     "list": "pool27",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Exercise and Extreme Physiolo…",
+     "list": "pool27",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "Exercise and Extreme Physiolo…",
+     "list": "pool27",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Elective Courses",
+     "list": "pool28",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "Elective Courses",
+     "list": "pool28",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d50",
+     "type": "te",
+     "label": "Additional Elective Courses",
+     "list": "pool29",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d51",
+     "type": "te",
+     "label": "Additional Elective Courses",
+     "list": "pool29",
+     "col": 6,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r13",
+     "name": "1. Chemistry I",
+     "units": 4,
+     "list": "CHEM 151,CHEM 161,CHEM 163,CHEM 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r14",
+     "name": "2. Chemistry II",
+     "units": 4,
+     "list": "CHEM 152,CHEM 162,CHEM 164,CHEM 182",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "4. Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "5. Biology II",
+     "units": 4,
+     "list": "ECOL 182L,ECOL 182R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "6. Physics I",
+     "units": 4,
+     "list": "PHYS 102,PHYS 110,PHYS 141,PHYS 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "7. Physics II",
+     "units": 4,
+     "list": "PHYS 103,PHYS 111,PHYS 182,PHYS 241",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r24",
+     "name": "1. Core Courses",
+     "units": 12,
+     "list": "PSIO 201,PSIO 202,PSIO 303,PSIO 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "3. Organic Chemistry Lectures",
+     "units": 6,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p16",
+     "name": "4. Organic Chemistry Labs",
+     "units": 6,
+     "list": "@pool17",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "8. Biochemistry",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "9. Calculus I or Mathematics of Biological Systems",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p23",
+     "name": "10. Calculus II or Biostatistics",
+     "units": 3,
+     "list": "@pool24",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p25",
+     "name": "Required Core Course",
+     "units": 3,
+     "list": "@pool26",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p26",
+     "name": "Exercise and Extreme Physiology Courses",
+     "units": 9,
+     "list": "@pool27",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p27",
+     "name": "Elective Courses",
+     "units": 6,
+     "list": "@pool28",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p28",
+     "name": "Additional Elective Courses",
+     "units": 4,
+     "list": "@pool29",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T2": {
+   "name": "Medical Sciences",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-PSIOMBSHS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 36 units in the major, 19 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Chemical Thinking I",
+     "code": "CHEM 151",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Honors Chemical Thinking I",
+     "code": "CHEM 161",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Honors Fundamental Techniques of Chemistry I",
+     "code": "CHEM 163",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Majors General Chemistry I",
+     "code": "CHEM 181",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Chemical Thinking II",
+     "code": "CHEM 152",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Honors Chemical Thinking II",
+     "code": "CHEM 162",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Honors Fundamental Techniques of Chemistry II",
+     "code": "CHEM 164",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Majors General Chemistry II",
+     "code": "CHEM 182",
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Introductory Biology II Lab",
+     "code": "ECOL 182L",
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Introductory Biology II",
+     "code": "ECOL 182R",
+     "col": 0,
+     "row": 6
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introductory Physics I",
+     "code": "PHYS 102",
+     "col": 1,
+     "row": 6
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Introductory Studio Physics I",
+     "code": "PHYS 110",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Introductory Mechanics",
+     "code": "PHYS 141",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Introductory Laboratory I",
+     "code": "PHYS 181",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Introductory Physics II",
+     "code": "PHYS 103",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Introductory Studio Physics 2",
+     "code": "PHYS 111",
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Introductory Laboratory II",
+     "code": "PHYS 182",
+     "col": 2,
+     "row": 5
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "Introductory Electricity and Magnetism",
+     "code": "PHYS 241",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d23",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology I",
+     "code": "PSIO 201",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d24",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology II",
+     "code": "PSIO 202",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d25",
+     "type": "fixed",
+     "label": "Integrative Cellular Physiology",
+     "code": "PSIO 303",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d26",
+     "type": "fixed",
+     "label": "Integrative Systems Physiology",
+     "code": "PSIO 305",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 2,
+     "row": 6
+    },
+    {
+     "id": "d28",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d29",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "d30",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 5
+    },
+    {
+     "id": "d31",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 6
+    },
+    {
+     "id": "d32",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "3. Organic Chemistry Lectures",
+     "list": "pool16",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "3. Organic Chemistry Lectures",
+     "list": "pool16",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "4. Organic Chemistry Labs",
+     "list": "pool17",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d40",
+     "type": "te",
+     "label": "4. Organic Chemistry Labs",
+     "list": "pool17",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d41",
+     "type": "te",
+     "label": "8. Biochemistry",
+     "list": "pool22",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d42",
+     "type": "te",
+     "label": "9. Calculus I or Mathematics …",
+     "list": "pool23",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d43",
+     "type": "te",
+     "label": "10. Calculus II or Biostatist…",
+     "list": "pool24",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Medical Sciences Courses I",
+     "list": "pool34",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Medical Sciences Courses I",
+     "list": "pool34",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Medical Sciences Courses II",
+     "list": "pool35",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "Medical Sciences Courses II",
+     "list": "pool35",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Elective Courses",
+     "list": "pool36",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "Elective Courses",
+     "list": "pool36",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d50",
+     "type": "te",
+     "label": "Additional Elective Courses",
+     "list": "pool37",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d51",
+     "type": "te",
+     "label": "Additional Elective Courses",
+     "list": "pool37",
+     "col": 6,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r13",
+     "name": "1. Chemistry I",
+     "units": 4,
+     "list": "CHEM 151,CHEM 161,CHEM 163,CHEM 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r14",
+     "name": "2. Chemistry II",
+     "units": 4,
+     "list": "CHEM 152,CHEM 162,CHEM 164,CHEM 182",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "4. Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "5. Biology II",
+     "units": 4,
+     "list": "ECOL 182L,ECOL 182R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "6. Physics I",
+     "units": 4,
+     "list": "PHYS 102,PHYS 110,PHYS 141,PHYS 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "7. Physics II",
+     "units": 4,
+     "list": "PHYS 103,PHYS 111,PHYS 182,PHYS 241",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r24",
+     "name": "1. Core Courses",
+     "units": 12,
+     "list": "PSIO 201,PSIO 202,PSIO 303,PSIO 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "3. Organic Chemistry Lectures",
+     "units": 6,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p16",
+     "name": "4. Organic Chemistry Labs",
+     "units": 6,
+     "list": "@pool17",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "8. Biochemistry",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "9. Calculus I or Mathematics of Biological Systems",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p23",
+     "name": "10. Calculus II or Biostatistics",
+     "units": 3,
+     "list": "@pool24",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p33",
+     "name": "Medical Sciences Courses I",
+     "units": 6,
+     "list": "@pool34",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p34",
+     "name": "Medical Sciences Courses II",
+     "units": 6,
+     "list": "@pool35",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p35",
+     "name": "Elective Courses",
+     "units": 6,
+     "list": "@pool36",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p36",
+     "name": "Additional Elective Courses",
+     "units": 4,
+     "list": "@pool37",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T3": {
+   "name": "Physiological Research & Innovation",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-PSIOMBSHS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 36 units in the major, 19 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Chemical Thinking I",
+     "code": "CHEM 151",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Honors Chemical Thinking I",
+     "code": "CHEM 161",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Honors Fundamental Techniques of Chemistry I",
+     "code": "CHEM 163",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Majors General Chemistry I",
+     "code": "CHEM 181",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Chemical Thinking II",
+     "code": "CHEM 152",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Honors Chemical Thinking II",
+     "code": "CHEM 162",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Honors Fundamental Techniques of Chemistry II",
+     "code": "CHEM 164",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Majors General Chemistry II",
+     "code": "CHEM 182",
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Introductory Biology II Lab",
+     "code": "ECOL 182L",
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Introductory Biology II",
+     "code": "ECOL 182R",
+     "col": 0,
+     "row": 6
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introductory Physics I",
+     "code": "PHYS 102",
+     "col": 1,
+     "row": 6
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Introductory Studio Physics I",
+     "code": "PHYS 110",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Introductory Mechanics",
+     "code": "PHYS 141",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Introductory Laboratory I",
+     "code": "PHYS 181",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Introductory Physics II",
+     "code": "PHYS 103",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Introductory Studio Physics 2",
+     "code": "PHYS 111",
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Introductory Laboratory II",
+     "code": "PHYS 182",
+     "col": 2,
+     "row": 5
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "Introductory Electricity and Magnetism",
+     "code": "PHYS 241",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d23",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology I",
+     "code": "PSIO 201",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d24",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology II",
+     "code": "PSIO 202",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d25",
+     "type": "fixed",
+     "label": "Integrative Cellular Physiology",
+     "code": "PSIO 303",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d26",
+     "type": "fixed",
+     "label": "Integrative Systems Physiology",
+     "code": "PSIO 305",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "fixed",
+     "label": "Scientific Methods and Professional Ethics",
+     "code": "PSIO 411",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d28",
+     "type": "fixed",
+     "label": "Independent Study",
+     "code": "PSIO 399",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d29",
+     "type": "fixed",
+     "label": "Honors Independent Study",
+     "code": "PSIO 399H",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d30",
+     "type": "fixed",
+     "label": "Directed Research",
+     "code": "PSIO 492",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d31",
+     "type": "fixed",
+     "label": "Independent Study",
+     "code": "PSIO 499",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d32",
+     "type": "fixed",
+     "label": "Honors Independent Study",
+     "code": "PSIO 499H",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d33",
+     "type": "fixed",
+     "label": "Honors Thesis",
+     "code": "PSIO 498H",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d34",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 2,
+     "row": 6
+    },
+    {
+     "id": "d35",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d36",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "d37",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 5
+    },
+    {
+     "id": "d38",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 6
+    },
+    {
+     "id": "d39",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d40",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d41",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d42",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d43",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "3. Organic Chemistry Lectures",
+     "list": "pool16",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "3. Organic Chemistry Lectures",
+     "list": "pool16",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "4. Organic Chemistry Labs",
+     "list": "pool17",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "4. Organic Chemistry Labs",
+     "list": "pool17",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "8. Biochemistry",
+     "list": "pool22",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "9. Calculus I or Mathematics …",
+     "list": "pool23",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d50",
+     "type": "te",
+     "label": "10. Calculus II or Biostatist…",
+     "list": "pool24",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d51",
+     "type": "te",
+     "label": "Required Core II",
+     "list": "pool43",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d52",
+     "type": "te",
+     "label": "Physiological Research & Inno…",
+     "list": "pool45",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d53",
+     "type": "te",
+     "label": "Elective Courses",
+     "list": "pool46",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d54",
+     "type": "te",
+     "label": "Elective Courses",
+     "list": "pool46",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d55",
+     "type": "te",
+     "label": "Additional Elective Courses",
+     "list": "pool47",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d56",
+     "type": "te",
+     "label": "Additional Elective Courses",
+     "list": "pool47",
+     "col": 7,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r13",
+     "name": "1. Chemistry I",
+     "units": 4,
+     "list": "CHEM 151,CHEM 161,CHEM 163,CHEM 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r14",
+     "name": "2. Chemistry II",
+     "units": 4,
+     "list": "CHEM 152,CHEM 162,CHEM 164,CHEM 182",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "4. Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "5. Biology II",
+     "units": 4,
+     "list": "ECOL 182L,ECOL 182R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "6. Physics I",
+     "units": 4,
+     "list": "PHYS 102,PHYS 110,PHYS 141,PHYS 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "7. Physics II",
+     "units": 4,
+     "list": "PHYS 103,PHYS 111,PHYS 182,PHYS 241",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r24",
+     "name": "1. Core Courses",
+     "units": 12,
+     "list": "PSIO 201,PSIO 202,PSIO 303,PSIO 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r41",
+     "name": "Required Core I",
+     "units": 3,
+     "list": "PSIO 411",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r43",
+     "name": "Independent Study Research",
+     "units": 3,
+     "list": "PSIO 399,PSIO 399H,PSIO 492,PSIO 499,PSIO 499H,PSIO 498H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "3. Organic Chemistry Lectures",
+     "units": 6,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p16",
+     "name": "4. Organic Chemistry Labs",
+     "units": 6,
+     "list": "@pool17",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "8. Biochemistry",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "9. Calculus I or Mathematics of Biological Systems",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p23",
+     "name": "10. Calculus II or Biostatistics",
+     "units": 3,
+     "list": "@pool24",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p42",
+     "name": "Required Core II",
+     "units": 3,
+     "list": "@pool43",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p44",
+     "name": "Physiological Research & Innov Courses",
+     "units": 3,
+     "list": "@pool45",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p45",
+     "name": "Elective Courses",
+     "units": 6,
+     "list": "@pool46",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p46",
+     "name": "Additional Elective Courses",
+     "units": 4,
+     "list": "@pool47",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T4": {
+   "name": "Physiology",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-PSIOMBSHS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 36 units in the major, 19 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Chemical Thinking I",
+     "code": "CHEM 151",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Honors Chemical Thinking I",
+     "code": "CHEM 161",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Honors Fundamental Techniques of Chemistry I",
+     "code": "CHEM 163",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Majors General Chemistry I",
+     "code": "CHEM 181",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Chemical Thinking II",
+     "code": "CHEM 152",
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Honors Chemical Thinking II",
+     "code": "CHEM 162",
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Honors Fundamental Techniques of Chemistry II",
+     "code": "CHEM 164",
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Majors General Chemistry II",
+     "code": "CHEM 182",
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Introductory Biology II Lab",
+     "code": "ECOL 182L",
+     "col": 1,
+     "row": 5
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Introductory Biology II",
+     "code": "ECOL 182R",
+     "col": 0,
+     "row": 6
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introductory Physics I",
+     "code": "PHYS 102",
+     "col": 1,
+     "row": 6
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Introductory Studio Physics I",
+     "code": "PHYS 110",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Introductory Mechanics",
+     "code": "PHYS 141",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Introductory Laboratory I",
+     "code": "PHYS 181",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Introductory Physics II",
+     "code": "PHYS 103",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Introductory Studio Physics 2",
+     "code": "PHYS 111",
+     "col": 2,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Introductory Laboratory II",
+     "code": "PHYS 182",
+     "col": 2,
+     "row": 5
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "Introductory Electricity and Magnetism",
+     "code": "PHYS 241",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d23",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology I",
+     "code": "PSIO 201",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d24",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology II",
+     "code": "PSIO 202",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d25",
+     "type": "fixed",
+     "label": "Integrative Cellular Physiology",
+     "code": "PSIO 303",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d26",
+     "type": "fixed",
+     "label": "Integrative Systems Physiology",
+     "code": "PSIO 305",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 2,
+     "row": 6
+    },
+    {
+     "id": "d28",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d29",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 3,
+     "row": 4
+    },
+    {
+     "id": "d30",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 5
+    },
+    {
+     "id": "d31",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 3,
+     "row": 6
+    },
+    {
+     "id": "d32",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "3. Organic Chemistry Lectures",
+     "list": "pool16",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "3. Organic Chemistry Lectures",
+     "list": "pool16",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "4. Organic Chemistry Labs",
+     "list": "pool17",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d40",
+     "type": "te",
+     "label": "4. Organic Chemistry Labs",
+     "list": "pool17",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d41",
+     "type": "te",
+     "label": "8. Biochemistry",
+     "list": "pool22",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d42",
+     "type": "te",
+     "label": "9. Calculus I or Mathematics …",
+     "list": "pool23",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d43",
+     "type": "te",
+     "label": "10. Calculus II or Biostatist…",
+     "list": "pool24",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d44",
+     "type": "te",
+     "label": "Physiology Emphasis Courses",
+     "list": "pool52",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d45",
+     "type": "te",
+     "label": "Physiology Emphasis Courses",
+     "list": "pool52",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d46",
+     "type": "te",
+     "label": "Physiology Emphasis Courses",
+     "list": "pool52",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d47",
+     "type": "te",
+     "label": "Physiology Emphasis Courses",
+     "list": "pool52",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d48",
+     "type": "te",
+     "label": "Elective Courses",
+     "list": "pool53",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d49",
+     "type": "te",
+     "label": "Elective Courses",
+     "list": "pool53",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d50",
+     "type": "te",
+     "label": "Additional Elective Courses",
+     "list": "pool54",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d51",
+     "type": "te",
+     "label": "Additional Elective Courses",
+     "list": "pool54",
+     "col": 7,
+     "row": 1
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r13",
+     "name": "1. Chemistry I",
+     "units": 4,
+     "list": "CHEM 151,CHEM 161,CHEM 163,CHEM 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r14",
+     "name": "2. Chemistry II",
+     "units": 4,
+     "list": "CHEM 152,CHEM 162,CHEM 164,CHEM 182",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "4. Biology I",
+     "units": 4,
+     "list": "MCB 181L,MCB 181R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "5. Biology II",
+     "units": 4,
+     "list": "ECOL 182L,ECOL 182R",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "6. Physics I",
+     "units": 4,
+     "list": "PHYS 102,PHYS 110,PHYS 141,PHYS 181",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "7. Physics II",
+     "units": 4,
+     "list": "PHYS 103,PHYS 111,PHYS 182,PHYS 241",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r24",
+     "name": "1. Core Courses",
+     "units": 12,
+     "list": "PSIO 201,PSIO 202,PSIO 303,PSIO 305",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "3. Organic Chemistry Lectures",
+     "units": 6,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p16",
+     "name": "4. Organic Chemistry Labs",
+     "units": 6,
+     "list": "@pool17",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "8. Biochemistry",
+     "units": 3,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "9. Calculus I or Mathematics of Biological Systems",
+     "units": 3,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p23",
+     "name": "10. Calculus II or Biostatistics",
+     "units": 3,
+     "list": "@pool24",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p51",
+     "name": "Physiology Emphasis Courses",
+     "units": 12,
+     "list": "@pool52",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p52",
+     "name": "Elective Courses",
+     "units": 6,
+     "list": "@pool53",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p53",
+     "name": "Additional Elective Courses",
+     "units": 4,
+     "list": "@pool54",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "CHEM 151": {
+   "t": "Chemical Thinking I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 161": {
+   "t": "Honors Chemical Thinking I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 163": {
+   "t": "Honors Fundamental Techniques of Chemistry I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 161"
+   ],
+   "co": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 181": {
+   "t": "Majors General Chemistry I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 162": {
+   "t": "Honors Chemical Thinking II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 164": {
+   "t": "Honors Fundamental Techniques of Chemistry II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 182": {
+   "t": "Majors General Chemistry II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142",
+    "CHEM 152",
+    "CHEM 162"
+   ]
+  },
+  "MCB 181L": {
+   "t": "Introductory Biology Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 181R": {
+   "t": "Introduction to Molecular and Cellular Biology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECOL 182L": {
+   "t": "Introductory Biology II Lab",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECOL 182R": {
+   "t": "Introductory Biology II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 102": {
+   "t": "Introductory Physics I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 110": {
+   "t": "Introductory Studio Physics I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 141": {
+   "t": "Introductory Mechanics",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 124|MATH 125"
+   ],
+   "co": [
+    "MATH 122B",
+    "MATH 124",
+    "MATH 125"
+   ]
+  },
+  "PHYS 181": {
+   "t": "Introductory Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 103": {
+   "t": "Introductory Physics II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 102|PHYS 140|PHYS 141|PHYS 110"
+   ]
+  },
+  "PHYS 111": {
+   "t": "Introductory Studio Physics 2",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 182": {
+   "t": "Introductory Laboratory II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 241": {
+   "t": "Introductory Electricity and Magnetism",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PHYS 141|PHYS 140|PHYS 161H",
+    "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
+   ]
+  },
+  "PSIO 201": {
+   "t": "Human Anatomy and Physiology I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 202": {
+   "t": "Human Anatomy and Physiology II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PSIO 201"
+   ]
+  },
+  "PSIO 303": {
+   "t": "Integrative Cellular Physiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 305": {
+   "t": "Integrative Systems Physiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ENGL 1EIB": {
+   "t": "International Baccalaureate (IB) English Elective",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101A": {
+   "t": "First-Year Composition with Discussion",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "EMENT 100"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 106": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "OF 106"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 108": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 241A": {
+   "t": "Lectures in Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182"
+   ]
+  },
+  "CHEM 241B": {
+   "t": "Lectures in Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 241A|CHEM 242A|CHEM 246A"
+   ]
+  },
+  "CHEM 242A": {
+   "t": "Honors Lectures in Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182"
+   ]
+  },
+  "CHEM 242B": {
+   "t": "Honors Lectures in Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 242A"
+   ]
+  },
+  "CHEM 246A": {
+   "t": "Lectures in Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182"
+   ]
+  },
+  "CHEM 246B": {
+   "t": "Lectures in Organic Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 241A|CHEM 242A|CHEM 246A"
+   ]
+  },
+  "CHEM 243A": {
+   "t": "Organic Chemistry Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182|CHEM 241A|CHEM 242A|CHEM 246A"
+   ],
+   "co": [
+    "CHEM 142",
+    "CHEM 152",
+    "CHEM 162",
+    "CHEM 182",
+    "CHEM 241A",
+    "CHEM 242A",
+    "CHEM 246A"
+   ]
+  },
+  "CHEM 243B": {
+   "t": "Organic Chemistry Laboratory II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 244A": {
+   "t": "Honors Organic Chemistry Laboratory",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182|CHEM 241A|CHEM 242A|CHEM 246A"
+   ],
+   "co": [
+    "CHEM 142",
+    "CHEM 152",
+    "CHEM 162",
+    "CHEM 182",
+    "CHEM 241A",
+    "CHEM 242A",
+    "CHEM 246A"
+   ]
+  },
+  "CHEM 244B": {
+   "t": "Honors Organic Chemistry Laboratory",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 247A": {
+   "t": "Organic Chemistry Laboratory",
+   "u": 2,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182|CHEM 241A|CHEM 242A|CHEM 246A"
+   ],
+   "co": [
+    "CHEM 142",
+    "CHEM 152",
+    "CHEM 162",
+    "CHEM 182",
+    "CHEM 241A",
+    "CHEM 242A",
+    "CHEM 246A"
+   ]
+  },
+  "CHEM 247B": {
+   "t": "Organic Chemistry Laboratory",
+   "u": 2,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 243A|CHEM 247A|CHEM 244A"
+   ]
+  },
+  "ACBS 445": {
+   "t": "Nutritional Physiology and Metabolic Biochemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BIOC 384": {
+   "t": "Foundations in Biochemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MCB 181R",
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182",
+    "CHEM 241A|CHEM 242A|CHEM 246A|CHEM 246"
+   ]
+  },
+  "BIOC 385": {
+   "t": "Metabolic Biochemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MCB 181R",
+    "CHEM 142|CHEM 152|CHEM 162|CHEM 182",
+    "CHEM 241A|CHEM 242A|CHEM 246A|CHEM 246"
+   ]
+  },
+  "MATH 119A": {
+   "t": "Mathematics of Biological Systems: a calculus based approach",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 125"
+   ]
+  },
+  "BIOS 376": {
+   "t": "Introduction to Biostatistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 108|MATH 112"
+   ]
+  },
+  "ECOL 379": {
+   "t": "Evidence-based Medicine",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 263": {
+   "t": "Introduction to Statistics and Biostatistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "PSIO 420": {
+   "t": "Exercise and Environmental Physiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 441": {
+   "t": "Musculoskeletal Kinesiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHCL 430": {
+   "t": "Pain/Neuropharmacology",
+   "u": 2,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 425": {
+   "t": "Measurement and Evaluation of Physiological Function",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 426": {
+   "t": "Extreme Physiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 429": {
+   "t": "Muscle Physiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 442": {
+   "t": "Biomechanics of Human Movement",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 465": {
+   "t": "Neurophysiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 485": {
+   "t": "Cardiovascular Physiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 487": {
+   "t": "Physiology of Aging",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 495M": {
+   "t": "Musculoskeletal Physiology Colloquium",
+   "u": 2,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CMM 401": {
+   "t": "Human Gross Anatomy",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CMM 410": {
+   "t": "Human Histology: An Introduction to Pathology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "IMB 401": {
+   "t": "Medical Microbiology and Immunology",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PCOL 434": {
+   "t": "Pharmacology of Sex",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PSIO 202|PSIO 380",
+    "CHEM 241A|CHEM 242A|AOR 246"
+   ]
+  },
+  "PHCL 412": {
+   "t": "Introduction to Pharmacology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHCL 422": {
+   "t": "Introduction to Toxicology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHCL 442": {
+   "t": "Human Performance Pharmacology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 411": {
+   "t": "Scientific Methods and Professional Ethics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 399": {
+   "t": "Independent Study",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 399H": {
+   "t": "Honors Independent Study",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 492": {
+   "t": "Directed Research",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 499": {
+   "t": "Independent Study",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 499H": {
+   "t": "Honors Independent Study",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 498H": {
+   "t": "Honors Thesis",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 295R": {
+   "t": "Introduction to the Scientific Methods and Research",
+   "u": 2,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 496R": {
+   "t": "Current Research in Physiology and Biomedical Sciences",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PSIO 303|PSIO 305",
+    "PSIO 201|PSIO 202"
+   ]
+  }
+ }
+}

@@ -1,0 +1,1496 @@
+{
+ "format": "degree-pack/1",
+ "id": "uarizona/social-behavioral-sciences/political-science/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "draft": true,
+ "program": {
+  "name": "Political Science",
+  "college": "College of Social & Behavioral Sciences",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Arts"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C",
+  "majorGpa": 2
+ },
+ "meta": {
+  "srcKind": "catalog",
+  "srcDate": "2026-08-01",
+  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
+ },
+ "lists": {
+  "pool1": [
+   "ENGL 1EIB",
+   "WRIT 101",
+   "WRIT 101A",
+   "WRIT 102",
+   "WRIT 106",
+   "WRIT 107",
+   "WRIT 108"
+  ],
+  "pool6": [
+   "ARB 401",
+   "ARB 424B"
+  ],
+  "pool15": [
+   "HIST 150C3",
+   "POL 201"
+  ],
+  "pool22": [
+   "LAS 204",
+   "PA 206",
+   "POL 202",
+   "POL 203",
+   "POL 204",
+   "POL 206",
+   "POL 209"
+  ],
+  "pool23": [],
+  "pool24": [],
+  "pool30": [],
+  "pool31": [],
+  "pool37": [],
+  "pool38": [],
+  "pool47": []
+ },
+ "tracks": {
+  "T1": {
+   "name": "American Politics",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-POLBA-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Basic Economic Issues",
+     "code": "ECON 200",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Introduction to Statistics for the Social Sciences",
+     "code": "SBS 200",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "American National Government",
+     "code": "POL 201",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d7",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d8",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d9",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d10",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d11",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d12",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d13",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d14",
+     "type": "te",
+     "label": "Arabic Language",
+     "list": "pool6",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d15",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool15",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d16",
+     "type": "te",
+     "label": "3. Core Courses III",
+     "list": "pool22",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d17",
+     "type": "te",
+     "label": "3. Core Courses III",
+     "list": "pool22",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d18",
+     "type": "te",
+     "label": "1. American Politics Speciali…",
+     "list": "pool23",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d19",
+     "type": "te",
+     "label": "1. American Politics Speciali…",
+     "list": "pool23",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "te",
+     "label": "1. American Politics Speciali…",
+     "list": "pool23",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "te",
+     "label": "1. American Politics Speciali…",
+     "list": "pool23",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d22",
+     "type": "te",
+     "label": "1. American Politics Speciali…",
+     "list": "pool23",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d23",
+     "type": "te",
+     "label": "2. Additional Electives",
+     "list": "pool24",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "2. Additional Electives",
+     "list": "pool24",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "2. Additional Electives",
+     "list": "pool24",
+     "col": 5,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r7",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r8",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "1. Economics",
+     "units": 3,
+     "list": "ECON 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "2. Core Course I",
+     "units": 3,
+     "list": "SBS 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "3. Core Course II",
+     "units": 3,
+     "list": "POL 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p5",
+     "name": "Arabic Language",
+     "units": 3,
+     "list": "@pool6",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "3. Core Courses III",
+     "units": 6,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p22",
+     "name": "1. American Politics Specialization Courses",
+     "units": 15,
+     "list": "@pool23",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p23",
+     "name": "2. Additional Electives",
+     "units": 9,
+     "list": "@pool24",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T2": {
+   "name": "International Affairs",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-POLBA-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Basic Economic Issues",
+     "code": "ECON 200",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Introduction to Statistics for the Social Sciences",
+     "code": "SBS 200",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "American National Government",
+     "code": "POL 201",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d7",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d8",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d9",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d10",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d11",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d12",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d13",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d14",
+     "type": "te",
+     "label": "Arabic Language",
+     "list": "pool6",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d15",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool15",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d16",
+     "type": "te",
+     "label": "3. Core Courses III",
+     "list": "pool22",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d17",
+     "type": "te",
+     "label": "3. Core Courses III",
+     "list": "pool22",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d18",
+     "type": "te",
+     "label": "International Affairs Concent…",
+     "list": "pool30",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d19",
+     "type": "te",
+     "label": "International Affairs Concent…",
+     "list": "pool30",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "te",
+     "label": "International Affairs Concent…",
+     "list": "pool30",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "te",
+     "label": "International Affairs Concent…",
+     "list": "pool30",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d22",
+     "type": "te",
+     "label": "International Affairs Concent…",
+     "list": "pool30",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d23",
+     "type": "te",
+     "label": "Additional Electives",
+     "list": "pool31",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "Additional Electives",
+     "list": "pool31",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "Additional Electives",
+     "list": "pool31",
+     "col": 5,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r7",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r8",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "1. Economics",
+     "units": 3,
+     "list": "ECON 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "2. Core Course I",
+     "units": 3,
+     "list": "SBS 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "3. Core Course II",
+     "units": 3,
+     "list": "POL 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p5",
+     "name": "Arabic Language",
+     "units": 3,
+     "list": "@pool6",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "3. Core Courses III",
+     "units": 6,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p29",
+     "name": "International Affairs Concentration Courses",
+     "units": 15,
+     "list": "@pool30",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p30",
+     "name": "Additional Electives",
+     "units": 9,
+     "list": "@pool31",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T3": {
+   "name": "Law & Public Policy",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-POLBA-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Basic Economic Issues",
+     "code": "ECON 200",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Introduction to Statistics for the Social Sciences",
+     "code": "SBS 200",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "American National Government",
+     "code": "POL 201",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d7",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d8",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d9",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d10",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d11",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d12",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d13",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d14",
+     "type": "te",
+     "label": "Arabic Language",
+     "list": "pool6",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d15",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool15",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d16",
+     "type": "te",
+     "label": "3. Core Courses III",
+     "list": "pool22",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d17",
+     "type": "te",
+     "label": "3. Core Courses III",
+     "list": "pool22",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d18",
+     "type": "te",
+     "label": "1. Law & Public Policy Specia…",
+     "list": "pool37",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d19",
+     "type": "te",
+     "label": "1. Law & Public Policy Specia…",
+     "list": "pool37",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "te",
+     "label": "1. Law & Public Policy Specia…",
+     "list": "pool37",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "te",
+     "label": "1. Law & Public Policy Specia…",
+     "list": "pool37",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d22",
+     "type": "te",
+     "label": "1. Law & Public Policy Specia…",
+     "list": "pool37",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d23",
+     "type": "te",
+     "label": "2. Additional Electives",
+     "list": "pool38",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "2. Additional Electives",
+     "list": "pool38",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "2. Additional Electives",
+     "list": "pool38",
+     "col": 5,
+     "row": 6
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r7",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r8",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "1. Economics",
+     "units": 3,
+     "list": "ECON 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "2. Core Course I",
+     "units": 3,
+     "list": "SBS 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "3. Core Course II",
+     "units": 3,
+     "list": "POL 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p5",
+     "name": "Arabic Language",
+     "units": 3,
+     "list": "@pool6",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "3. Core Courses III",
+     "units": 6,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p36",
+     "name": "1. Law & Public Policy Specialization Courses",
+     "units": 15,
+     "list": "@pool37",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p37",
+     "name": "2. Additional Electives",
+     "units": 9,
+     "list": "@pool38",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  },
+  "T4": {
+   "name": "Political Science, General",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-POLBA-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Basic Economic Issues",
+     "code": "ECON 200",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Introduction to Statistics for the Social Sciences",
+     "code": "SBS 200",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "American National Government",
+     "code": "POL 201",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d7",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d8",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d9",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d10",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d11",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d12",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d13",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d14",
+     "type": "te",
+     "label": "Arabic Language",
+     "list": "pool6",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d15",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool15",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d16",
+     "type": "te",
+     "label": "3. Core Courses III",
+     "list": "pool22",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d17",
+     "type": "te",
+     "label": "3. Core Courses III",
+     "list": "pool22",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d18",
+     "type": "te",
+     "label": "Additional Units",
+     "list": "pool47",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d19",
+     "type": "te",
+     "label": "Additional Units",
+     "list": "pool47",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "te",
+     "label": "Additional Units",
+     "list": "pool47",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "te",
+     "label": "Additional Units",
+     "list": "pool47",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d22",
+     "type": "te",
+     "label": "Additional Units",
+     "list": "pool47",
+     "col": 4,
+     "row": 5
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r7",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r8",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "1. Economics",
+     "units": 3,
+     "list": "ECON 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r19",
+     "name": "2. Core Course I",
+     "units": 3,
+     "list": "SBS 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "3. Core Course II",
+     "units": 3,
+     "list": "POL 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p5",
+     "name": "Arabic Language",
+     "units": 3,
+     "list": "@pool6",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p21",
+     "name": "3. Core Courses III",
+     "units": 6,
+     "list": "@pool22",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p46",
+     "name": "Additional Units",
+     "units": 15,
+     "list": "@pool47",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "ECON 200": {
+   "t": "Basic Economic Issues",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SBS 200": {
+   "t": "Introduction to Statistics for the Social Sciences",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ENGL 1EIB": {
+   "t": "International Baccalaureate (IB) English Elective",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101A": {
+   "t": "First-Year Composition with Discussion",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "EMENT 100"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 106": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "OF 106"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 108": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "ARB 401": {
+   "t": "Intermediate Arabic I",
+   "u": 5,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "ARB 102"
+   ]
+  },
+  "ARB 424B": {
+   "t": "Levantine Arabic",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "LAS 204": {
+   "t": "Comparative Politics in the Age of Globalization",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PA 206": {
+   "t": "Public Policy and Administration",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 202": {
+   "t": "Introduction to International Relations",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 203": {
+   "t": "Political Ideas",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 204": {
+   "t": "Comparative Politics in the Age of Globalization",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 206": {
+   "t": "Public Policy and Administration",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 209": {
+   "t": "Diversity and Politics in a Changing World",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  }
+ }
+}

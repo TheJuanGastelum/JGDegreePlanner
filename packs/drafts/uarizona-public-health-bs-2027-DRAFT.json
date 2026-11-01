@@ -1,10 +1,10 @@
 {
  "format": "degree-pack/1",
- "createdWith": "Degree Flowchart Builder v5.2 by Juan Gastelum (build 21c1378a62)",
  "id": "uarizona/public-health/bs/2027",
  "version": "0.1.0-draft",
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "owner": "",
+ "draft": true,
  "program": {
   "name": "Public Health",
   "college": "Mel & Enid Zuckerman College of Public Health",
@@ -15,17 +15,33 @@
   "upper": 42,
   "total": 128,
   "maxLoad": 17,
-  "minGrade": "C"
+  "minGrade": "C",
+  "majorUnits": 57,
+  "majorUpper": 54,
+  "majorGpa": 2
  },
  "meta": {
-  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2027-01-01",
-  "audit": "unverified",
-  "courses": "prerequisites and offerings unverified",
   "srcKind": "catalog",
   "srcDate": "2027-01-01",
-  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2027-01-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it."
+  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2027-01-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2027-01-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
  },
  "lists": {
+  "pool1": [
+   "ENGL 1EIB",
+   "WRIT 101",
+   "WRIT 101A",
+   "WRIT 102",
+   "WRIT 106",
+   "WRIT 107",
+   "WRIT 108"
+  ],
+  "pool13": [
+   "HIST 150C3",
+   "POL 201"
+  ],
   "pool14": [
    "ENGL 1EIB",
    "WRIT 101",
@@ -33,9 +49,6 @@
    "WRIT 102",
    "WRIT 107",
    "WRIT 108"
-  ],
-  "pool15": [
-   "WRIT 109H"
   ],
   "pool16": [
    "MATH 108",
@@ -51,17 +64,6 @@
   "pool18": [
    "CHEM 130",
    "CHEM 130L"
-  ],
-  "pool19": [
-   "CHEM 141",
-   "CHEM 143",
-   "CHEM 145",
-   "CHEM 151",
-   "CHEM 181"
-  ],
-  "pool20": [
-   "CHEM 161",
-   "CHEM 163"
   ],
   "pool21": [
    "ANTH 265",
@@ -79,14 +81,6 @@
    "PSIO 201",
    "PSIO 380",
    "PSY 300"
-  ],
-  "pool22": [
-   "MCB 181L",
-   "MCB 181R"
-  ],
-  "pool23": [
-   "ECOL 182L",
-   "ECOL 182R"
   ],
   "pool26": [
    "HPS 307",
@@ -159,195 +153,342 @@
    "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
    "rev": "",
    "bullets": [
-    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it."
+    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 57 units in the major, 54 upper-division units, GPA 2.0 in the major."
    ],
    "blocks": [
     {
      "id": "d1",
      "type": "fixed",
-     "label": "Personal Health and Wellness",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
      "col": 0,
-     "row": 0,
-     "code": "HPS 178"
+     "row": 0
     },
     {
      "id": "d2",
      "type": "fixed",
-     "label": "Introduction to Public Health",
-     "col": 2,
-     "row": 0,
-     "code": "HPS 200"
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
     },
     {
      "id": "d3",
      "type": "fixed",
-     "label": "Nutrition, Food, and You",
+     "label": "Personal Health and Wellness",
+     "code": "HPS 178",
      "col": 1,
-     "row": 0,
-     "code": "NSC 170C1"
+     "row": 0
     },
     {
      "id": "d4",
      "type": "fixed",
-     "label": "Introduction to Biostatistics",
-     "col": 4,
-     "row": 0,
-     "code": "BIOS 376"
+     "label": "Introduction to Public Health",
+     "code": "HPS 200",
+     "col": 2,
+     "row": 0
     },
     {
      "id": "d5",
      "type": "fixed",
-     "label": "Introduction to Environmental and Occupational Health",
-     "col": 5,
-     "row": 0,
-     "code": "EHS 375"
+     "label": "Nutrition, Food, and You",
+     "code": "NSC 170C1",
+     "col": 0,
+     "row": 1
     },
     {
      "id": "d6",
      "type": "fixed",
-     "label": "Introduction to Epidemiology",
-     "col": 4,
-     "row": 1,
-     "code": "EPID 309"
+     "label": "Introduction to Biostatistics",
+     "code": "BIOS 376",
+     "col": 5,
+     "row": 0
     },
     {
      "id": "d7",
      "type": "fixed",
-     "label": "Principles of Health Education and Health Promotion",
-     "col": 5,
-     "row": 1,
-     "code": "HPS 350"
+     "label": "Introduction to Environmental and Occupational Health",
+     "code": "EHS 375",
+     "col": 4,
+     "row": 1
     },
     {
      "id": "d8",
      "type": "fixed",
-     "label": "Health Disparities & Minority Health",
-     "col": 4,
-     "row": 2,
-     "code": "HPS 387"
+     "label": "Introduction to Epidemiology",
+     "code": "EPID 309",
+     "col": 5,
+     "row": 1
     },
     {
      "id": "d9",
      "type": "fixed",
-     "label": "Health Care in the U.S.",
-     "col": 5,
-     "row": 2,
-     "code": "PHPM 310"
+     "label": "Principles of Health Education and Health Promotion",
+     "code": "HPS 350",
+     "col": 4,
+     "row": 2
     },
     {
      "id": "d10",
      "type": "fixed",
-     "label": "Field Work in Public Health",
-     "col": 6,
-     "row": 0,
-     "code": "HPS 493A"
+     "label": "Health Disparities & Minority Health",
+     "code": "HPS 387",
+     "col": 5,
+     "row": 2
     },
     {
      "id": "d11",
      "type": "fixed",
-     "label": "Honors Internship",
-     "col": 7,
-     "row": 0,
-     "code": "HPS 493H"
+     "label": "Health Care in the U.S.",
+     "code": "PHPM 310",
+     "col": 4,
+     "row": 3
     },
     {
      "id": "d12",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 4,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Field Work in Public Health",
+     "code": "HPS 493A",
+     "col": 6,
+     "row": 0
     },
     {
      "id": "d13",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 5,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Honors Internship",
+     "code": "HPS 493H",
+     "col": 7,
+     "row": 0
     },
     {
      "id": "d14",
-     "type": "te",
-     "label": "Honors English Composition",
-     "col": 4,
-     "row": 4,
-     "list": "pool15"
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 1
     },
     {
      "id": "d15",
-     "type": "te",
-     "label": "College Algebra",
-     "col": 5,
-     "row": 4,
-     "list": "pool16"
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 2
     },
     {
      "id": "d16",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 1,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 2
     },
     {
      "id": "d17",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 2,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 3
     },
     {
      "id": "d18",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 3,
-     "list": "pool19"
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 3
     },
     {
      "id": "d19",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 4,
-     "list": "pool19"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 0
     },
     {
      "id": "d20",
-     "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 1,
-     "list": "pool20"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 1
     },
     {
      "id": "d21",
      "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 2,
-     "list": "pool20"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 3
     },
     {
      "id": "d22",
      "type": "te",
-     "label": "Selective Science",
-     "col": 7,
-     "row": 3,
-     "list": "pool21"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 4
     },
     {
      "id": "d23",
      "type": "te",
-     "label": "Introductory Biology",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "College Algebra",
+     "list": "pool16",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "Selective Science",
+     "list": "pool21",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "Core Advanced Writing",
+     "list": "pool26",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
      "col": 7,
-     "row": 4,
-     "list": "pool22"
+     "row": 1
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "AI Innovation in Population H…",
+     "list": "pool29",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "AI Innovation in Population H…",
+     "list": "pool29",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "AI Innovation in Population H…",
+     "list": "pool29",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "AI Innovation in Population H…",
+     "list": "pool29",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool30",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool30",
+     "col": 7,
+     "row": 6
     }
    ],
    "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
     {
      "id": "r16",
      "name": "Core Major Coursework",
@@ -385,19 +526,28 @@
      "minC": false
     },
     {
-     "id": "p13",
-     "name": "First and Second Semester English Composition",
+     "id": "p0",
+     "name": "Foundations Writing",
      "units": 6,
-     "list": "@pool14",
+     "list": "@pool1",
      "claim": true,
      "unique": true,
      "minC": false
     },
     {
-     "id": "p14",
-     "name": "Honors English Composition",
-     "units": 3,
-     "list": "@pool15",
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "First and Second Semester English Composition",
+     "units": 6,
+     "list": "@pool14",
      "claim": true,
      "unique": true,
      "minC": false
@@ -421,46 +571,10 @@
      "minC": false
     },
     {
-     "id": "p18",
-     "name": "General Chemistry",
-     "units": 4,
-     "list": "@pool19",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p19",
-     "name": "Honors General Chemistry",
-     "units": 4,
-     "list": "@pool20",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
      "id": "p20",
      "name": "Selective Science",
      "units": 3,
      "list": "@pool21",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p21",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool22",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p22",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool23",
      "claim": true,
      "unique": true,
      "minC": false
@@ -508,195 +622,342 @@
    "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
    "rev": "",
    "bullets": [
-    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it."
+    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 57 units in the major, 54 upper-division units, GPA 2.0 in the major."
    ],
    "blocks": [
     {
      "id": "d1",
      "type": "fixed",
-     "label": "Personal Health and Wellness",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
      "col": 0,
-     "row": 0,
-     "code": "HPS 178"
+     "row": 0
     },
     {
      "id": "d2",
      "type": "fixed",
-     "label": "Introduction to Public Health",
-     "col": 2,
-     "row": 0,
-     "code": "HPS 200"
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
     },
     {
      "id": "d3",
      "type": "fixed",
-     "label": "Nutrition, Food, and You",
+     "label": "Personal Health and Wellness",
+     "code": "HPS 178",
      "col": 1,
-     "row": 0,
-     "code": "NSC 170C1"
+     "row": 0
     },
     {
      "id": "d4",
      "type": "fixed",
-     "label": "Introduction to Biostatistics",
-     "col": 4,
-     "row": 0,
-     "code": "BIOS 376"
+     "label": "Introduction to Public Health",
+     "code": "HPS 200",
+     "col": 2,
+     "row": 0
     },
     {
      "id": "d5",
      "type": "fixed",
-     "label": "Introduction to Environmental and Occupational Health",
-     "col": 5,
-     "row": 0,
-     "code": "EHS 375"
+     "label": "Nutrition, Food, and You",
+     "code": "NSC 170C1",
+     "col": 0,
+     "row": 1
     },
     {
      "id": "d6",
      "type": "fixed",
-     "label": "Introduction to Epidemiology",
-     "col": 4,
-     "row": 1,
-     "code": "EPID 309"
+     "label": "Introduction to Biostatistics",
+     "code": "BIOS 376",
+     "col": 5,
+     "row": 0
     },
     {
      "id": "d7",
      "type": "fixed",
-     "label": "Principles of Health Education and Health Promotion",
-     "col": 5,
-     "row": 1,
-     "code": "HPS 350"
+     "label": "Introduction to Environmental and Occupational Health",
+     "code": "EHS 375",
+     "col": 4,
+     "row": 1
     },
     {
      "id": "d8",
      "type": "fixed",
-     "label": "Health Disparities & Minority Health",
-     "col": 4,
-     "row": 2,
-     "code": "HPS 387"
+     "label": "Introduction to Epidemiology",
+     "code": "EPID 309",
+     "col": 5,
+     "row": 1
     },
     {
      "id": "d9",
      "type": "fixed",
-     "label": "Health Care in the U.S.",
-     "col": 5,
-     "row": 2,
-     "code": "PHPM 310"
+     "label": "Principles of Health Education and Health Promotion",
+     "code": "HPS 350",
+     "col": 4,
+     "row": 2
     },
     {
      "id": "d10",
      "type": "fixed",
-     "label": "Field Work in Public Health",
-     "col": 6,
-     "row": 0,
-     "code": "HPS 493A"
+     "label": "Health Disparities & Minority Health",
+     "code": "HPS 387",
+     "col": 5,
+     "row": 2
     },
     {
      "id": "d11",
      "type": "fixed",
-     "label": "Honors Internship",
-     "col": 7,
-     "row": 0,
-     "code": "HPS 493H"
+     "label": "Health Care in the U.S.",
+     "code": "PHPM 310",
+     "col": 4,
+     "row": 3
     },
     {
      "id": "d12",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 4,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Field Work in Public Health",
+     "code": "HPS 493A",
+     "col": 6,
+     "row": 0
     },
     {
      "id": "d13",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 5,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Honors Internship",
+     "code": "HPS 493H",
+     "col": 7,
+     "row": 0
     },
     {
      "id": "d14",
-     "type": "te",
-     "label": "Honors English Composition",
-     "col": 4,
-     "row": 4,
-     "list": "pool15"
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 1
     },
     {
      "id": "d15",
-     "type": "te",
-     "label": "College Algebra",
-     "col": 5,
-     "row": 4,
-     "list": "pool16"
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 2
     },
     {
      "id": "d16",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 1,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 2
     },
     {
      "id": "d17",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 2,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 3
     },
     {
      "id": "d18",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 3,
-     "list": "pool19"
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 3
     },
     {
      "id": "d19",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 4,
-     "list": "pool19"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 0
     },
     {
      "id": "d20",
-     "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 1,
-     "list": "pool20"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 1
     },
     {
      "id": "d21",
      "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 2,
-     "list": "pool20"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 3
     },
     {
      "id": "d22",
      "type": "te",
-     "label": "Selective Science",
-     "col": 7,
-     "row": 3,
-     "list": "pool21"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 4
     },
     {
      "id": "d23",
      "type": "te",
-     "label": "Introductory Biology",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "College Algebra",
+     "list": "pool16",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "Selective Science",
+     "list": "pool21",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "Core Advanced Writing",
+     "list": "pool26",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
      "col": 7,
-     "row": 4,
-     "list": "pool22"
+     "row": 1
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Environmental & Occupational …",
+     "list": "pool35",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Environmental & Occupational …",
+     "list": "pool36",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Environmental & Occupational …",
+     "list": "pool36",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "Environmental & Occupational …",
+     "list": "pool36",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool37",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool37",
+     "col": 7,
+     "row": 6
     }
    ],
    "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
     {
      "id": "r16",
      "name": "Core Major Coursework",
@@ -734,19 +995,28 @@
      "minC": false
     },
     {
-     "id": "p13",
-     "name": "First and Second Semester English Composition",
+     "id": "p0",
+     "name": "Foundations Writing",
      "units": 6,
-     "list": "@pool14",
+     "list": "@pool1",
      "claim": true,
      "unique": true,
      "minC": false
     },
     {
-     "id": "p14",
-     "name": "Honors English Composition",
-     "units": 3,
-     "list": "@pool15",
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "First and Second Semester English Composition",
+     "units": 6,
+     "list": "@pool14",
      "claim": true,
      "unique": true,
      "minC": false
@@ -770,46 +1040,10 @@
      "minC": false
     },
     {
-     "id": "p18",
-     "name": "General Chemistry",
-     "units": 4,
-     "list": "@pool19",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p19",
-     "name": "Honors General Chemistry",
-     "units": 4,
-     "list": "@pool20",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
      "id": "p20",
      "name": "Selective Science",
      "units": 3,
      "list": "@pool21",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p21",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool22",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p22",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool23",
      "claim": true,
      "unique": true,
      "minC": false
@@ -866,195 +1100,342 @@
    "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
    "rev": "",
    "bullets": [
-    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it."
+    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 57 units in the major, 54 upper-division units, GPA 2.0 in the major."
    ],
    "blocks": [
     {
      "id": "d1",
      "type": "fixed",
-     "label": "Personal Health and Wellness",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
      "col": 0,
-     "row": 0,
-     "code": "HPS 178"
+     "row": 0
     },
     {
      "id": "d2",
      "type": "fixed",
-     "label": "Introduction to Public Health",
-     "col": 2,
-     "row": 0,
-     "code": "HPS 200"
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
     },
     {
      "id": "d3",
      "type": "fixed",
-     "label": "Nutrition, Food, and You",
+     "label": "Personal Health and Wellness",
+     "code": "HPS 178",
      "col": 1,
-     "row": 0,
-     "code": "NSC 170C1"
+     "row": 0
     },
     {
      "id": "d4",
      "type": "fixed",
-     "label": "Introduction to Biostatistics",
-     "col": 4,
-     "row": 0,
-     "code": "BIOS 376"
+     "label": "Introduction to Public Health",
+     "code": "HPS 200",
+     "col": 2,
+     "row": 0
     },
     {
      "id": "d5",
      "type": "fixed",
-     "label": "Introduction to Environmental and Occupational Health",
-     "col": 5,
-     "row": 0,
-     "code": "EHS 375"
+     "label": "Nutrition, Food, and You",
+     "code": "NSC 170C1",
+     "col": 0,
+     "row": 1
     },
     {
      "id": "d6",
      "type": "fixed",
-     "label": "Introduction to Epidemiology",
-     "col": 4,
-     "row": 1,
-     "code": "EPID 309"
+     "label": "Introduction to Biostatistics",
+     "code": "BIOS 376",
+     "col": 5,
+     "row": 0
     },
     {
      "id": "d7",
      "type": "fixed",
-     "label": "Principles of Health Education and Health Promotion",
-     "col": 5,
-     "row": 1,
-     "code": "HPS 350"
+     "label": "Introduction to Environmental and Occupational Health",
+     "code": "EHS 375",
+     "col": 4,
+     "row": 1
     },
     {
      "id": "d8",
      "type": "fixed",
-     "label": "Health Disparities & Minority Health",
-     "col": 4,
-     "row": 2,
-     "code": "HPS 387"
+     "label": "Introduction to Epidemiology",
+     "code": "EPID 309",
+     "col": 5,
+     "row": 1
     },
     {
      "id": "d9",
      "type": "fixed",
-     "label": "Health Care in the U.S.",
-     "col": 5,
-     "row": 2,
-     "code": "PHPM 310"
+     "label": "Principles of Health Education and Health Promotion",
+     "code": "HPS 350",
+     "col": 4,
+     "row": 2
     },
     {
      "id": "d10",
      "type": "fixed",
-     "label": "Field Work in Public Health",
-     "col": 6,
-     "row": 0,
-     "code": "HPS 493A"
+     "label": "Health Disparities & Minority Health",
+     "code": "HPS 387",
+     "col": 5,
+     "row": 2
     },
     {
      "id": "d11",
      "type": "fixed",
-     "label": "Honors Internship",
-     "col": 7,
-     "row": 0,
-     "code": "HPS 493H"
+     "label": "Health Care in the U.S.",
+     "code": "PHPM 310",
+     "col": 4,
+     "row": 3
     },
     {
      "id": "d12",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 4,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Field Work in Public Health",
+     "code": "HPS 493A",
+     "col": 6,
+     "row": 0
     },
     {
      "id": "d13",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 5,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Honors Internship",
+     "code": "HPS 493H",
+     "col": 7,
+     "row": 0
     },
     {
      "id": "d14",
-     "type": "te",
-     "label": "Honors English Composition",
-     "col": 4,
-     "row": 4,
-     "list": "pool15"
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 1
     },
     {
      "id": "d15",
-     "type": "te",
-     "label": "College Algebra",
-     "col": 5,
-     "row": 4,
-     "list": "pool16"
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 2
     },
     {
      "id": "d16",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 1,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 2
     },
     {
      "id": "d17",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 2,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 3
     },
     {
      "id": "d18",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 3,
-     "list": "pool19"
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 3
     },
     {
      "id": "d19",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 4,
-     "list": "pool19"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 0
     },
     {
      "id": "d20",
-     "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 1,
-     "list": "pool20"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 1
     },
     {
      "id": "d21",
      "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 2,
-     "list": "pool20"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 3
     },
     {
      "id": "d22",
      "type": "te",
-     "label": "Selective Science",
-     "col": 7,
-     "row": 3,
-     "list": "pool21"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 4
     },
     {
      "id": "d23",
      "type": "te",
-     "label": "Introductory Biology",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "College Algebra",
+     "list": "pool16",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "Selective Science",
+     "list": "pool21",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "Core Advanced Writing",
+     "list": "pool26",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
      "col": 7,
-     "row": 4,
-     "list": "pool22"
+     "row": 1
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Global Health Emphasis Courses",
+     "list": "pool42",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Global Health Emphasis Courses",
+     "list": "pool42",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Global Health Emphasis Courses",
+     "list": "pool42",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "Global Health Emphasis Courses",
+     "list": "pool42",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool43",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool43",
+     "col": 7,
+     "row": 6
     }
    ],
    "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
     {
      "id": "r16",
      "name": "Core Major Coursework",
@@ -1092,19 +1473,28 @@
      "minC": false
     },
     {
-     "id": "p13",
-     "name": "First and Second Semester English Composition",
+     "id": "p0",
+     "name": "Foundations Writing",
      "units": 6,
-     "list": "@pool14",
+     "list": "@pool1",
      "claim": true,
      "unique": true,
      "minC": false
     },
     {
-     "id": "p14",
-     "name": "Honors English Composition",
-     "units": 3,
-     "list": "@pool15",
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "First and Second Semester English Composition",
+     "units": 6,
+     "list": "@pool14",
      "claim": true,
      "unique": true,
      "minC": false
@@ -1128,46 +1518,10 @@
      "minC": false
     },
     {
-     "id": "p18",
-     "name": "General Chemistry",
-     "units": 4,
-     "list": "@pool19",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p19",
-     "name": "Honors General Chemistry",
-     "units": 4,
-     "list": "@pool20",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
      "id": "p20",
      "name": "Selective Science",
      "units": 3,
      "list": "@pool21",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p21",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool22",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p22",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool23",
      "claim": true,
      "unique": true,
      "minC": false
@@ -1215,195 +1569,342 @@
    "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
    "rev": "",
    "bullets": [
-    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it."
+    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 57 units in the major, 54 upper-division units, GPA 2.0 in the major."
    ],
    "blocks": [
     {
      "id": "d1",
      "type": "fixed",
-     "label": "Personal Health and Wellness",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
      "col": 0,
-     "row": 0,
-     "code": "HPS 178"
+     "row": 0
     },
     {
      "id": "d2",
      "type": "fixed",
-     "label": "Introduction to Public Health",
-     "col": 2,
-     "row": 0,
-     "code": "HPS 200"
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
     },
     {
      "id": "d3",
      "type": "fixed",
-     "label": "Nutrition, Food, and You",
+     "label": "Personal Health and Wellness",
+     "code": "HPS 178",
      "col": 1,
-     "row": 0,
-     "code": "NSC 170C1"
+     "row": 0
     },
     {
      "id": "d4",
      "type": "fixed",
-     "label": "Introduction to Biostatistics",
-     "col": 4,
-     "row": 0,
-     "code": "BIOS 376"
+     "label": "Introduction to Public Health",
+     "code": "HPS 200",
+     "col": 2,
+     "row": 0
     },
     {
      "id": "d5",
      "type": "fixed",
-     "label": "Introduction to Environmental and Occupational Health",
-     "col": 5,
-     "row": 0,
-     "code": "EHS 375"
+     "label": "Nutrition, Food, and You",
+     "code": "NSC 170C1",
+     "col": 0,
+     "row": 1
     },
     {
      "id": "d6",
      "type": "fixed",
-     "label": "Introduction to Epidemiology",
-     "col": 4,
-     "row": 1,
-     "code": "EPID 309"
+     "label": "Introduction to Biostatistics",
+     "code": "BIOS 376",
+     "col": 5,
+     "row": 0
     },
     {
      "id": "d7",
      "type": "fixed",
-     "label": "Principles of Health Education and Health Promotion",
-     "col": 5,
-     "row": 1,
-     "code": "HPS 350"
+     "label": "Introduction to Environmental and Occupational Health",
+     "code": "EHS 375",
+     "col": 4,
+     "row": 1
     },
     {
      "id": "d8",
      "type": "fixed",
-     "label": "Health Disparities & Minority Health",
-     "col": 4,
-     "row": 2,
-     "code": "HPS 387"
+     "label": "Introduction to Epidemiology",
+     "code": "EPID 309",
+     "col": 5,
+     "row": 1
     },
     {
      "id": "d9",
      "type": "fixed",
-     "label": "Health Care in the U.S.",
-     "col": 5,
-     "row": 2,
-     "code": "PHPM 310"
+     "label": "Principles of Health Education and Health Promotion",
+     "code": "HPS 350",
+     "col": 4,
+     "row": 2
     },
     {
      "id": "d10",
      "type": "fixed",
-     "label": "Field Work in Public Health",
-     "col": 6,
-     "row": 0,
-     "code": "HPS 493A"
+     "label": "Health Disparities & Minority Health",
+     "code": "HPS 387",
+     "col": 5,
+     "row": 2
     },
     {
      "id": "d11",
      "type": "fixed",
-     "label": "Honors Internship",
-     "col": 7,
-     "row": 0,
-     "code": "HPS 493H"
+     "label": "Health Care in the U.S.",
+     "code": "PHPM 310",
+     "col": 4,
+     "row": 3
     },
     {
      "id": "d12",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 4,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Field Work in Public Health",
+     "code": "HPS 493A",
+     "col": 6,
+     "row": 0
     },
     {
      "id": "d13",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 5,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Honors Internship",
+     "code": "HPS 493H",
+     "col": 7,
+     "row": 0
     },
     {
      "id": "d14",
-     "type": "te",
-     "label": "Honors English Composition",
-     "col": 4,
-     "row": 4,
-     "list": "pool15"
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 1
     },
     {
      "id": "d15",
-     "type": "te",
-     "label": "College Algebra",
-     "col": 5,
-     "row": 4,
-     "list": "pool16"
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 2
     },
     {
      "id": "d16",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 1,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 2
     },
     {
      "id": "d17",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 2,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 3
     },
     {
      "id": "d18",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 3,
-     "list": "pool19"
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 3
     },
     {
      "id": "d19",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 4,
-     "list": "pool19"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 0
     },
     {
      "id": "d20",
-     "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 1,
-     "list": "pool20"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 1
     },
     {
      "id": "d21",
      "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 2,
-     "list": "pool20"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 3
     },
     {
      "id": "d22",
      "type": "te",
-     "label": "Selective Science",
-     "col": 7,
-     "row": 3,
-     "list": "pool21"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 4
     },
     {
      "id": "d23",
      "type": "te",
-     "label": "Introductory Biology",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "College Algebra",
+     "list": "pool16",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "Selective Science",
+     "list": "pool21",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "Core Advanced Writing",
+     "list": "pool26",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
      "col": 7,
-     "row": 4,
-     "list": "pool22"
+     "row": 1
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Health Promotion Emphasis Cou…",
+     "list": "pool48",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Health Promotion Emphasis Cou…",
+     "list": "pool48",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Health Promotion Emphasis Cou…",
+     "list": "pool48",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "Health Promotion Emphasis Cou…",
+     "list": "pool48",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool49",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool49",
+     "col": 7,
+     "row": 6
     }
    ],
    "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
     {
      "id": "r16",
      "name": "Core Major Coursework",
@@ -1441,19 +1942,28 @@
      "minC": false
     },
     {
-     "id": "p13",
-     "name": "First and Second Semester English Composition",
+     "id": "p0",
+     "name": "Foundations Writing",
      "units": 6,
-     "list": "@pool14",
+     "list": "@pool1",
      "claim": true,
      "unique": true,
      "minC": false
     },
     {
-     "id": "p14",
-     "name": "Honors English Composition",
-     "units": 3,
-     "list": "@pool15",
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "First and Second Semester English Composition",
+     "units": 6,
+     "list": "@pool14",
      "claim": true,
      "unique": true,
      "minC": false
@@ -1477,46 +1987,10 @@
      "minC": false
     },
     {
-     "id": "p18",
-     "name": "General Chemistry",
-     "units": 4,
-     "list": "@pool19",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p19",
-     "name": "Honors General Chemistry",
-     "units": 4,
-     "list": "@pool20",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
      "id": "p20",
      "name": "Selective Science",
      "units": 3,
      "list": "@pool21",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p21",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool22",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p22",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool23",
      "claim": true,
      "unique": true,
      "minC": false
@@ -1564,195 +2038,342 @@
    "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
    "rev": "",
    "bullets": [
-    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it."
+    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 57 units in the major, 54 upper-division units, GPA 2.0 in the major."
    ],
    "blocks": [
     {
      "id": "d1",
      "type": "fixed",
-     "label": "Personal Health and Wellness",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
      "col": 0,
-     "row": 0,
-     "code": "HPS 178"
+     "row": 0
     },
     {
      "id": "d2",
      "type": "fixed",
-     "label": "Introduction to Public Health",
-     "col": 2,
-     "row": 0,
-     "code": "HPS 200"
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
     },
     {
      "id": "d3",
      "type": "fixed",
-     "label": "Nutrition, Food, and You",
+     "label": "Personal Health and Wellness",
+     "code": "HPS 178",
      "col": 1,
-     "row": 0,
-     "code": "NSC 170C1"
+     "row": 0
     },
     {
      "id": "d4",
      "type": "fixed",
-     "label": "Introduction to Biostatistics",
-     "col": 4,
-     "row": 0,
-     "code": "BIOS 376"
+     "label": "Introduction to Public Health",
+     "code": "HPS 200",
+     "col": 2,
+     "row": 0
     },
     {
      "id": "d5",
      "type": "fixed",
-     "label": "Introduction to Environmental and Occupational Health",
-     "col": 5,
-     "row": 0,
-     "code": "EHS 375"
+     "label": "Nutrition, Food, and You",
+     "code": "NSC 170C1",
+     "col": 0,
+     "row": 1
     },
     {
      "id": "d6",
      "type": "fixed",
-     "label": "Introduction to Epidemiology",
-     "col": 4,
-     "row": 1,
-     "code": "EPID 309"
+     "label": "Introduction to Biostatistics",
+     "code": "BIOS 376",
+     "col": 5,
+     "row": 0
     },
     {
      "id": "d7",
      "type": "fixed",
-     "label": "Principles of Health Education and Health Promotion",
-     "col": 5,
-     "row": 1,
-     "code": "HPS 350"
+     "label": "Introduction to Environmental and Occupational Health",
+     "code": "EHS 375",
+     "col": 4,
+     "row": 1
     },
     {
      "id": "d8",
      "type": "fixed",
-     "label": "Health Disparities & Minority Health",
-     "col": 4,
-     "row": 2,
-     "code": "HPS 387"
+     "label": "Introduction to Epidemiology",
+     "code": "EPID 309",
+     "col": 5,
+     "row": 1
     },
     {
      "id": "d9",
      "type": "fixed",
-     "label": "Health Care in the U.S.",
-     "col": 5,
-     "row": 2,
-     "code": "PHPM 310"
+     "label": "Principles of Health Education and Health Promotion",
+     "code": "HPS 350",
+     "col": 4,
+     "row": 2
     },
     {
      "id": "d10",
      "type": "fixed",
-     "label": "Field Work in Public Health",
-     "col": 6,
-     "row": 0,
-     "code": "HPS 493A"
+     "label": "Health Disparities & Minority Health",
+     "code": "HPS 387",
+     "col": 5,
+     "row": 2
     },
     {
      "id": "d11",
      "type": "fixed",
-     "label": "Honors Internship",
-     "col": 7,
-     "row": 0,
-     "code": "HPS 493H"
+     "label": "Health Care in the U.S.",
+     "code": "PHPM 310",
+     "col": 4,
+     "row": 3
     },
     {
      "id": "d12",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 4,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Field Work in Public Health",
+     "code": "HPS 493A",
+     "col": 6,
+     "row": 0
     },
     {
      "id": "d13",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 5,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Honors Internship",
+     "code": "HPS 493H",
+     "col": 7,
+     "row": 0
     },
     {
      "id": "d14",
-     "type": "te",
-     "label": "Honors English Composition",
-     "col": 4,
-     "row": 4,
-     "list": "pool15"
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 1
     },
     {
      "id": "d15",
-     "type": "te",
-     "label": "College Algebra",
-     "col": 5,
-     "row": 4,
-     "list": "pool16"
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 2
     },
     {
      "id": "d16",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 1,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 2
     },
     {
      "id": "d17",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 2,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 3
     },
     {
      "id": "d18",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 3,
-     "list": "pool19"
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 3
     },
     {
      "id": "d19",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 4,
-     "list": "pool19"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 0
     },
     {
      "id": "d20",
-     "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 1,
-     "list": "pool20"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 1
     },
     {
      "id": "d21",
      "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 2,
-     "list": "pool20"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 3
     },
     {
      "id": "d22",
      "type": "te",
-     "label": "Selective Science",
-     "col": 7,
-     "row": 3,
-     "list": "pool21"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 4
     },
     {
      "id": "d23",
      "type": "te",
-     "label": "Introductory Biology",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "College Algebra",
+     "list": "pool16",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "Selective Science",
+     "list": "pool21",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "Core Advanced Writing",
+     "list": "pool26",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
      "col": 7,
-     "row": 4,
-     "list": "pool22"
+     "row": 1
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Health Systems Theory & Pract…",
+     "list": "pool54",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Health Systems Theory & Pract…",
+     "list": "pool54",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Health Systems Theory & Pract…",
+     "list": "pool54",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "Health Systems Theory & Pract…",
+     "list": "pool54",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool55",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool55",
+     "col": 7,
+     "row": 6
     }
    ],
    "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
     {
      "id": "r16",
      "name": "Core Major Coursework",
@@ -1790,19 +2411,28 @@
      "minC": false
     },
     {
-     "id": "p13",
-     "name": "First and Second Semester English Composition",
+     "id": "p0",
+     "name": "Foundations Writing",
      "units": 6,
-     "list": "@pool14",
+     "list": "@pool1",
      "claim": true,
      "unique": true,
      "minC": false
     },
     {
-     "id": "p14",
-     "name": "Honors English Composition",
-     "units": 3,
-     "list": "@pool15",
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "First and Second Semester English Composition",
+     "units": 6,
+     "list": "@pool14",
      "claim": true,
      "unique": true,
      "minC": false
@@ -1826,46 +2456,10 @@
      "minC": false
     },
     {
-     "id": "p18",
-     "name": "General Chemistry",
-     "units": 4,
-     "list": "@pool19",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p19",
-     "name": "Honors General Chemistry",
-     "units": 4,
-     "list": "@pool20",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
      "id": "p20",
      "name": "Selective Science",
      "units": 3,
      "list": "@pool21",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p21",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool22",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p22",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool23",
      "claim": true,
      "unique": true,
      "minC": false
@@ -1913,195 +2507,342 @@
    "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
    "rev": "",
    "bullets": [
-    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it."
+    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 57 units in the major, 54 upper-division units, GPA 2.0 in the major."
    ],
    "blocks": [
     {
      "id": "d1",
      "type": "fixed",
-     "label": "Personal Health and Wellness",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
      "col": 0,
-     "row": 0,
-     "code": "HPS 178"
+     "row": 0
     },
     {
      "id": "d2",
      "type": "fixed",
-     "label": "Introduction to Public Health",
-     "col": 2,
-     "row": 0,
-     "code": "HPS 200"
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
     },
     {
      "id": "d3",
      "type": "fixed",
-     "label": "Nutrition, Food, and You",
+     "label": "Personal Health and Wellness",
+     "code": "HPS 178",
      "col": 1,
-     "row": 0,
-     "code": "NSC 170C1"
+     "row": 0
     },
     {
      "id": "d4",
      "type": "fixed",
-     "label": "Introduction to Biostatistics",
-     "col": 4,
-     "row": 0,
-     "code": "BIOS 376"
+     "label": "Introduction to Public Health",
+     "code": "HPS 200",
+     "col": 2,
+     "row": 0
     },
     {
      "id": "d5",
      "type": "fixed",
-     "label": "Introduction to Environmental and Occupational Health",
-     "col": 5,
-     "row": 0,
-     "code": "EHS 375"
+     "label": "Nutrition, Food, and You",
+     "code": "NSC 170C1",
+     "col": 0,
+     "row": 1
     },
     {
      "id": "d6",
      "type": "fixed",
-     "label": "Introduction to Epidemiology",
-     "col": 4,
-     "row": 1,
-     "code": "EPID 309"
+     "label": "Introduction to Biostatistics",
+     "code": "BIOS 376",
+     "col": 5,
+     "row": 0
     },
     {
      "id": "d7",
      "type": "fixed",
-     "label": "Principles of Health Education and Health Promotion",
-     "col": 5,
-     "row": 1,
-     "code": "HPS 350"
+     "label": "Introduction to Environmental and Occupational Health",
+     "code": "EHS 375",
+     "col": 4,
+     "row": 1
     },
     {
      "id": "d8",
      "type": "fixed",
-     "label": "Health Disparities & Minority Health",
-     "col": 4,
-     "row": 2,
-     "code": "HPS 387"
+     "label": "Introduction to Epidemiology",
+     "code": "EPID 309",
+     "col": 5,
+     "row": 1
     },
     {
      "id": "d9",
      "type": "fixed",
-     "label": "Health Care in the U.S.",
-     "col": 5,
-     "row": 2,
-     "code": "PHPM 310"
+     "label": "Principles of Health Education and Health Promotion",
+     "code": "HPS 350",
+     "col": 4,
+     "row": 2
     },
     {
      "id": "d10",
      "type": "fixed",
-     "label": "Field Work in Public Health",
-     "col": 6,
-     "row": 0,
-     "code": "HPS 493A"
+     "label": "Health Disparities & Minority Health",
+     "code": "HPS 387",
+     "col": 5,
+     "row": 2
     },
     {
      "id": "d11",
      "type": "fixed",
-     "label": "Honors Internship",
-     "col": 7,
-     "row": 0,
-     "code": "HPS 493H"
+     "label": "Health Care in the U.S.",
+     "code": "PHPM 310",
+     "col": 4,
+     "row": 3
     },
     {
      "id": "d12",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 4,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Field Work in Public Health",
+     "code": "HPS 493A",
+     "col": 6,
+     "row": 0
     },
     {
      "id": "d13",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 5,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Honors Internship",
+     "code": "HPS 493H",
+     "col": 7,
+     "row": 0
     },
     {
      "id": "d14",
-     "type": "te",
-     "label": "Honors English Composition",
-     "col": 4,
-     "row": 4,
-     "list": "pool15"
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 1
     },
     {
      "id": "d15",
-     "type": "te",
-     "label": "College Algebra",
-     "col": 5,
-     "row": 4,
-     "list": "pool16"
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 2
     },
     {
      "id": "d16",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 1,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 2
     },
     {
      "id": "d17",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 2,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 3
     },
     {
      "id": "d18",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 3,
-     "list": "pool19"
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 3
     },
     {
      "id": "d19",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 4,
-     "list": "pool19"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 0
     },
     {
      "id": "d20",
-     "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 1,
-     "list": "pool20"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 1
     },
     {
      "id": "d21",
      "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 2,
-     "list": "pool20"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 3
     },
     {
      "id": "d22",
      "type": "te",
-     "label": "Selective Science",
-     "col": 7,
-     "row": 3,
-     "list": "pool21"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 4
     },
     {
      "id": "d23",
      "type": "te",
-     "label": "Introductory Biology",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "College Algebra",
+     "list": "pool16",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "Selective Science",
+     "list": "pool21",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "Core Advanced Writing",
+     "list": "pool26",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
      "col": 7,
-     "row": 4,
-     "list": "pool22"
+     "row": 1
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "One Health Core Course",
+     "list": "pool60",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "One Health Core Course",
+     "list": "pool60",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "One Health Electives",
+     "list": "pool61",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "One Health Electives",
+     "list": "pool61",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool62",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool62",
+     "col": 7,
+     "row": 6
     }
    ],
    "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
     {
      "id": "r16",
      "name": "Core Major Coursework",
@@ -2139,19 +2880,28 @@
      "minC": false
     },
     {
-     "id": "p13",
-     "name": "First and Second Semester English Composition",
+     "id": "p0",
+     "name": "Foundations Writing",
      "units": 6,
-     "list": "@pool14",
+     "list": "@pool1",
      "claim": true,
      "unique": true,
      "minC": false
     },
     {
-     "id": "p14",
-     "name": "Honors English Composition",
-     "units": 3,
-     "list": "@pool15",
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "First and Second Semester English Composition",
+     "units": 6,
+     "list": "@pool14",
      "claim": true,
      "unique": true,
      "minC": false
@@ -2175,46 +2925,10 @@
      "minC": false
     },
     {
-     "id": "p18",
-     "name": "General Chemistry",
-     "units": 4,
-     "list": "@pool19",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p19",
-     "name": "Honors General Chemistry",
-     "units": 4,
-     "list": "@pool20",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
      "id": "p20",
      "name": "Selective Science",
      "units": 3,
      "list": "@pool21",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p21",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool22",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p22",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool23",
      "claim": true,
      "unique": true,
      "minC": false
@@ -2271,195 +2985,342 @@
    "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
    "rev": "",
    "bullets": [
-    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it."
+    "Source: public catalog.arizona.edu program printout (program-PHLBS-2027-01-01.pdf), NOT an approved pack. Catalog date: 2027-01-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 57 units in the major, 54 upper-division units, GPA 2.0 in the major."
    ],
    "blocks": [
     {
      "id": "d1",
      "type": "fixed",
-     "label": "Personal Health and Wellness",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
      "col": 0,
-     "row": 0,
-     "code": "HPS 178"
+     "row": 0
     },
     {
      "id": "d2",
      "type": "fixed",
-     "label": "Introduction to Public Health",
-     "col": 2,
-     "row": 0,
-     "code": "HPS 200"
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
     },
     {
      "id": "d3",
      "type": "fixed",
-     "label": "Nutrition, Food, and You",
+     "label": "Personal Health and Wellness",
+     "code": "HPS 178",
      "col": 1,
-     "row": 0,
-     "code": "NSC 170C1"
+     "row": 0
     },
     {
      "id": "d4",
      "type": "fixed",
-     "label": "Introduction to Biostatistics",
-     "col": 4,
-     "row": 0,
-     "code": "BIOS 376"
+     "label": "Introduction to Public Health",
+     "code": "HPS 200",
+     "col": 2,
+     "row": 0
     },
     {
      "id": "d5",
      "type": "fixed",
-     "label": "Introduction to Environmental and Occupational Health",
-     "col": 5,
-     "row": 0,
-     "code": "EHS 375"
+     "label": "Nutrition, Food, and You",
+     "code": "NSC 170C1",
+     "col": 0,
+     "row": 1
     },
     {
      "id": "d6",
      "type": "fixed",
-     "label": "Introduction to Epidemiology",
-     "col": 4,
-     "row": 1,
-     "code": "EPID 309"
+     "label": "Introduction to Biostatistics",
+     "code": "BIOS 376",
+     "col": 5,
+     "row": 0
     },
     {
      "id": "d7",
      "type": "fixed",
-     "label": "Principles of Health Education and Health Promotion",
-     "col": 5,
-     "row": 1,
-     "code": "HPS 350"
+     "label": "Introduction to Environmental and Occupational Health",
+     "code": "EHS 375",
+     "col": 4,
+     "row": 1
     },
     {
      "id": "d8",
      "type": "fixed",
-     "label": "Health Disparities & Minority Health",
-     "col": 4,
-     "row": 2,
-     "code": "HPS 387"
+     "label": "Introduction to Epidemiology",
+     "code": "EPID 309",
+     "col": 5,
+     "row": 1
     },
     {
      "id": "d9",
      "type": "fixed",
-     "label": "Health Care in the U.S.",
-     "col": 5,
-     "row": 2,
-     "code": "PHPM 310"
+     "label": "Principles of Health Education and Health Promotion",
+     "code": "HPS 350",
+     "col": 4,
+     "row": 2
     },
     {
      "id": "d10",
      "type": "fixed",
-     "label": "Field Work in Public Health",
-     "col": 6,
-     "row": 0,
-     "code": "HPS 493A"
+     "label": "Health Disparities & Minority Health",
+     "code": "HPS 387",
+     "col": 5,
+     "row": 2
     },
     {
      "id": "d11",
      "type": "fixed",
-     "label": "Honors Internship",
-     "col": 7,
-     "row": 0,
-     "code": "HPS 493H"
+     "label": "Health Care in the U.S.",
+     "code": "PHPM 310",
+     "col": 4,
+     "row": 3
     },
     {
      "id": "d12",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 4,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Field Work in Public Health",
+     "code": "HPS 493A",
+     "col": 6,
+     "row": 0
     },
     {
      "id": "d13",
-     "type": "te",
-     "label": "First and Second Semester Eng…",
-     "col": 5,
-     "row": 3,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Honors Internship",
+     "code": "HPS 493H",
+     "col": 7,
+     "row": 0
     },
     {
      "id": "d14",
-     "type": "te",
-     "label": "Honors English Composition",
-     "col": 4,
-     "row": 4,
-     "list": "pool15"
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 1
     },
     {
      "id": "d15",
-     "type": "te",
-     "label": "College Algebra",
-     "col": 5,
-     "row": 4,
-     "list": "pool16"
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 2
     },
     {
      "id": "d16",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 1,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 2
     },
     {
      "id": "d17",
-     "type": "te",
-     "label": "Chemistry for Public Health a…",
-     "col": 6,
-     "row": 2,
-     "list": "pool18"
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 3
     },
     {
      "id": "d18",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 3,
-     "list": "pool19"
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 3
     },
     {
      "id": "d19",
-     "type": "te",
-     "label": "General Chemistry",
-     "col": 6,
-     "row": 4,
-     "list": "pool19"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 0
     },
     {
      "id": "d20",
-     "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 1,
-     "list": "pool20"
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 1
     },
     {
      "id": "d21",
      "type": "te",
-     "label": "Honors General Chemistry",
-     "col": 7,
-     "row": 2,
-     "list": "pool20"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 3
     },
     {
      "id": "d22",
      "type": "te",
-     "label": "Selective Science",
-     "col": 7,
-     "row": 3,
-     "list": "pool21"
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 4
     },
     {
      "id": "d23",
      "type": "te",
-     "label": "Introductory Biology",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "First and Second Semester Eng…",
+     "list": "pool14",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "College Algebra",
+     "list": "pool16",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "Chemistry for Public Health a…",
+     "list": "pool18",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "Selective Science",
+     "list": "pool21",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "Core Advanced Writing",
+     "list": "pool26",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
      "col": 7,
-     "row": 4,
-     "list": "pool22"
+     "row": 1
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Core Two",
+     "list": "pool27",
+     "col": 7,
+     "row": 3
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Quantitative Methods in Publi…",
+     "list": "pool67",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Quantitative Methods in Publi…",
+     "list": "pool67",
+     "col": 7,
+     "row": 4
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Quantitative Methods in Publi…",
+     "list": "pool67",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "Quantitative Methods in Publi…",
+     "list": "pool67",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool68",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Core Public Health Electives",
+     "list": "pool68",
+     "col": 7,
+     "row": 6
     }
    ],
    "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
     {
      "id": "r16",
      "name": "Core Major Coursework",
@@ -2497,19 +3358,28 @@
      "minC": false
     },
     {
-     "id": "p13",
-     "name": "First and Second Semester English Composition",
+     "id": "p0",
+     "name": "Foundations Writing",
      "units": 6,
-     "list": "@pool14",
+     "list": "@pool1",
      "claim": true,
      "unique": true,
      "minC": false
     },
     {
-     "id": "p14",
-     "name": "Honors English Composition",
-     "units": 3,
-     "list": "@pool15",
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "First and Second Semester English Composition",
+     "units": 6,
+     "list": "@pool14",
      "claim": true,
      "unique": true,
      "minC": false
@@ -2533,46 +3403,10 @@
      "minC": false
     },
     {
-     "id": "p18",
-     "name": "General Chemistry",
-     "units": 4,
-     "list": "@pool19",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p19",
-     "name": "Honors General Chemistry",
-     "units": 4,
-     "list": "@pool20",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
      "id": "p20",
      "name": "Selective Science",
      "units": 3,
      "list": "@pool21",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p21",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool22",
-     "claim": true,
-     "unique": true,
-     "minC": false
-    },
-    {
-     "id": "p22",
-     "name": "Introductory Biology",
-     "units": 6,
-     "list": "@pool23",
      "claim": true,
      "unique": true,
      "minC": false
@@ -2617,805 +3451,761 @@
   }
  },
  "courses": {
-  "ANTH 265": {
-   "t": "Introduction to Biological Anthropology",
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
-  "ANTH 307": {
-   "t": "Ecological Anthropology",
+  "UNIV 301": {
+   "t": "General Education Portfolio",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
-  },
-  "ANTH 322": {
-   "t": "Human Nutritional Ecology",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "ANTH 401": {
-   "t": "Health and Disease Across Time and the World",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "ANTH 444": {
-   "t": "Advanced Medical Anthropology",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "BIOS 376": {
-   "t": "Introduction to Biostatistics",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "BIOS 450": {
-   "t": "Health Data Acquisition, Assessment and Integration",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "BIOS 451": {
-   "t": "Health Data Management and Visualization",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "BIOS 452": {
-   "t": "Health Data Analysis and Communication Methods",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "BIOS 453": {
-   "t": "Health Data Science Practice",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "BIOS 552": {
-   "t": "Health Data Analysis and Communication Methods",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "BSM 441": {
-   "t": "Diagnostic Technologies and Their Role in Healthcare",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 130": {
-   "t": "Chemistry for Allied & Public Health",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 130L": {
-   "t": "Laboratory in General Chemistry",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 141": {
-   "t": "General Chemistry Lecture I: Quantitative",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 142": {
-   "t": "General Chemistry Lecture II: Quantitative Approach",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 143": {
-   "t": "General Chemistry Lab 1: Quantitative",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 145": {
-   "t": "Quantitative Chemistry Laboratory I",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 151": {
-   "t": "Chemical Thinking I",
-   "u": 4
-  },
-  "CHEM 152": {
-   "t": "Chemical Thinking II",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 161": {
-   "t": "Honors Chemical Thinking I",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 162": {
-   "t": "Honors Chemical Thinking II",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 163": {
-   "t": "Honors Fundamental Techniques of Chemistry I",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 181": {
-   "t": "Majors General Chemistry I",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "ECOL 182L": {
-   "t": "Introductory Biology II Lab",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "ECOL 182R": {
-   "t": "Introductory Biology II",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EHS 375": {
-   "t": "Introduction to Environmental and Occupational Health",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EHS 445": {
-   "t": "One Health Foundations",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EHS 446": {
-   "t": "One Health Approach and Cases Studies",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EHS 484": {
-   "t": "Fundamentals of Industrial and Environmental Health",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "ENGL 1EIB": {
-   "t": "International Baccalaureate (IB) English Elective",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EPID 309": {
-   "t": "Introduction to Epidemiology",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EPID 401": {
-   "t": "Health and Disease Across Time and the World",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EPID 430": {
-   "t": "Infection Prevention in Healthcare and Congregate Settings",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EPID 445": {
-   "t": "One Health Foundations",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EPID 450": {
-   "t": "Health Data Acquisition, Assessment and Integration",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EPID 451": {
-   "t": "Health Data Management and Visualization",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EPID 452": {
-   "t": "Health Data Analysis and Communication Methods",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EPID 453": {
-   "t": "Health Data Science Practice",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EPID 479": {
-   "t": "Infections and Epidemics",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EPID 552": {
-   "t": "Health Data Analysis and Communication Methods",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "GHI 463": {
-   "t": "Foundations of Public Health Applications of Artificial Intelligence",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
   "HPS 178": {
    "t": "Personal Health and Wellness",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
   "HPS 200": {
    "t": "Introduction to Public Health",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
-  },
-  "HPS 307": {
-   "t": "Public Health Narratives",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HPS 350": {
-   "t": "Principles of Health Education and Health Promotion",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HPS 387": {
-   "t": "Health Disparities & Minority Health",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HPS 401": {
-   "t": "Introduction to Mapping for Public Health",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HPS 405": {
-   "t": "Biology in Public Health",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HPS 433": {
-   "t": "Global Health",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HPS 478": {
-   "t": "Public Health Nutrition",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HPS 493A": {
-   "t": "Field Work in Public Health",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HPS 493H": {
-   "t": "Honors Internship",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HSD 415": {
-   "t": "Design Visualization Practices for Health: From Speculations to Resolutions",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HSD 420": {
-   "t": "Makerspaces, Design Practices, and Community Impacts",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "INFO 402": {
-   "t": "Data Ethics",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 108": {
-   "t": "Modeling with Algebraic and Trigonometric Functions",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 112": {
-   "t": "College Algebra Concepts and Applications",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 113": {
-   "t": "Elements of Calculus",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 116": {
-   "t": "Calculus Concepts for Business",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 119A": {
-   "t": "Mathematics of Biological Systems: a calculus based approach",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 120R": {
-   "t": "Calculus Preparation",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 122B": {
-   "t": "Calculus I (B)",
-   "u": 2,
-   "src": "chart"
-  },
-  "MATH 125": {
-   "t": "Calculus I",
-   "u": 3,
-   "src": "chart"
-  },
-  "MATH 129": {
-   "t": "Calculus II",
-   "u": 3,
-   "pre": [
-    "MATH 122B|MATH 125"
    ],
-   "src": "chart"
-  },
-  "MCB 181L": {
-   "t": "Introductory Biology Laboratory I",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MCB 181R": {
-   "t": "Introduction to Molecular and Cellular Biology",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MIC 205A": {
-   "t": "General Microbiology",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MNE 484": {
-   "t": "Fundamentals of Industrial and Environmental Health",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
+   "src": "draft from catalog printout"
   },
   "NSC 170C1": {
    "t": "Nutrition, Food, and You",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
-  "NSC 478": {
-   "t": "Public Health Nutrition",
+  "BIOS 376": {
+   "t": "Introduction to Biostatistics",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
-  "NSC 484": {
-   "t": "Fundamentals of Industrial and Environmental Health",
+  "EHS 375": {
+   "t": "Introduction to Environmental and Occupational Health",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
-  "PCOL 484": {
-   "t": "Fundamentals of Industrial and Environmental Health",
+  "EPID 309": {
+   "t": "Introduction to Epidemiology",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
-  "PHP 465": {
-   "t": "Leadership and Strategy for Population Health Using Generative AI",
+  "HPS 350": {
+   "t": "Principles of Health Education and Health Promotion",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HPS 387": {
+   "t": "Health Disparities & Minority Health",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
   },
   "PHPM 310": {
    "t": "Health Care in the U.S.",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
-  },
-  "PHYS 102": {
-   "t": "Introductory Physics I",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "PHYS 141": {
-   "t": "Introductory Mechanics",
-   "u": 4,
-   "pre": [
-    "MATH 122B|MATH 125"
    ],
-   "co": [
-    "MATH 122B|MATH 125"
+   "src": "draft from catalog printout"
+  },
+  "HPS 493A": {
+   "t": "Field Work in Public Health",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
    ],
-   "src": "chart"
+   "src": "draft from catalog printout"
   },
-  "PLS 240": {
-   "t": "Plant Biology",
+  "HPS 493H": {
+   "t": "Honors Internship",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
-  "PSIO 201": {
-   "t": "Human Anatomy and Physiology I",
+  "ENGL 1EIB": {
+   "t": "International Baccalaureate (IB) English Elective",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
-  },
-  "PSIO 380": {
-   "t": "Fundamentals of Human Physiology",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "PSY 300": {
-   "t": "Cognitive Neuroscience: A Guide to Mind and Brain",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "SOC 301A": {
-   "t": "Introduction to Computational Social Science",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
   "WRIT 101": {
    "t": "First-Year Composition",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
   "WRIT 101A": {
    "t": "First-Year Composition with Discussion",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
   "WRIT 102": {
    "t": "First-Year Composition",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 106": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
   },
   "WRIT 107": {
    "t": "Foundations Writing for English as an Additional Language Students",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
   "WRIT 108": {
    "t": "Foundations Writing for English as an Additional Language Students",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
-  "WRIT 109H": {
-   "t": "Advanced First-Year Composition",
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 108": {
+   "t": "Modeling with Algebraic and Trigonometric Functions",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 112": {
+   "t": "College Algebra Concepts and Applications",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 113": {
+   "t": "Elements of Calculus",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 116": {
+   "t": "Calculus Concepts for Business",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 119A": {
+   "t": "Mathematics of Biological Systems: a calculus based approach",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 120R": {
+   "t": "Calculus Preparation",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 125": {
+   "t": "Calculus I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 130": {
+   "t": "Chemistry for Allied & Public Health",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 130L": {
+   "t": "Laboratory in General Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ANTH 265": {
+   "t": "Introduction to Biological Anthropology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ANTH 307": {
+   "t": "Ecological Anthropology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ANTH 322": {
+   "t": "Human Nutritional Ecology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ANTH 444": {
+   "t": "Advanced Medical Anthropology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 142": {
+   "t": "General Chemistry Lecture II: Quantitative Approach",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 162": {
+   "t": "Honors Chemical Thinking II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECOL 182R": {
+   "t": "Introductory Biology II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MIC 205A": {
+   "t": "General Microbiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 102": {
+   "t": "Introductory Physics I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 141": {
+   "t": "Introductory Mechanics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PLS 240": {
+   "t": "Plant Biology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 201": {
+   "t": "Human Anatomy and Physiology I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 380": {
+   "t": "Fundamentals of Human Physiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 300": {
+   "t": "Cognitive Neuroscience: A Guide to Mind and Brain",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HPS 307": {
+   "t": "Public Health Narratives",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
   },
   "WRIT 307": {
    "t": "Business Writing",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
   "WRIT 308": {
    "t": "Technical Writing",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HPS 405": {
+   "t": "Biology in Public Health",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HPS 433": {
+   "t": "Global Health",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HPS 478": {
+   "t": "Public Health Nutrition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NSC 478": {
+   "t": "Public Health Nutrition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BIOS 452": {
+   "t": "Health Data Analysis and Communication Methods",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BIOS 453": {
+   "t": "Health Data Science Practice",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BIOS 552": {
+   "t": "Health Data Analysis and Communication Methods",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BSM 441": {
+   "t": "Diagnostic Technologies and Their Role in Healthcare",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EPID 452": {
+   "t": "Health Data Analysis and Communication Methods",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EPID 453": {
+   "t": "Health Data Science Practice",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EPID 552": {
+   "t": "Health Data Analysis and Communication Methods",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "GHI 463": {
+   "t": "Foundations of Public Health Applications of Artificial Intelligence",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HSD 415": {
+   "t": "Design Visualization Practices for Health: From Speculations to Resolutions",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HSD 420": {
+   "t": "Makerspaces, Design Practices, and Community Impacts",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "INFO 402": {
+   "t": "Data Ethics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHP 465": {
+   "t": "Leadership and Strategy for Population Health Using Generative AI",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SOC 301A": {
+   "t": "Introduction to Computational Social Science",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EHS 484": {
+   "t": "Fundamentals of Industrial and Environmental Health",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MNE 484": {
+   "t": "Fundamentals of Industrial and Environmental Health",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NSC 484": {
+   "t": "Fundamentals of Industrial and Environmental Health",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PCOL 484": {
+   "t": "Fundamentals of Industrial and Environmental Health",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EHS 445": {
+   "t": "One Health Foundations",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EHS 446": {
+   "t": "One Health Approach and Cases Studies",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EPID 445": {
+   "t": "One Health Foundations",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ANTH 401": {
+   "t": "Health and Disease Across Time and the World",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BIOS 450": {
+   "t": "Health Data Acquisition, Assessment and Integration",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BIOS 451": {
+   "t": "Health Data Management and Visualization",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EPID 401": {
+   "t": "Health and Disease Across Time and the World",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EPID 430": {
+   "t": "Infection Prevention in Healthcare and Congregate Settings",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EPID 450": {
+   "t": "Health Data Acquisition, Assessment and Integration",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EPID 451": {
+   "t": "Health Data Management and Visualization",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EPID 479": {
+   "t": "Infections and Epidemics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HPS 401": {
+   "t": "Introduction to Mapping for Public Health",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
   }
- },
- "draft": true,
- "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2027-01-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it."
+ }
 }

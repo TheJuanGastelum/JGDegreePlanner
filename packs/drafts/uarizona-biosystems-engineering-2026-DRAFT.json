@@ -29,10 +29,11 @@
  "tracks": {
   "MAIN": {
    "name": "Biosystems Engineering",
-   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026-2027). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "sub": "UNVERIFIED DRAFT from the college four-year plan (2026-2027).",
    "rev": "",
    "bullets": [
-    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it.",
+    "Semesters, units and class names are as printed. Prerequisites come from the plan and the catalog text and are unverified. Elective lists are empty until you add or load them."
    ],
    "blocks": [
     {
@@ -1102,14 +1103,10 @@
   "CHEM 151": {
    "t": "Chemical Thinking I",
    "u": 4,
-   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "src": "draft from the college four-year plan",
    "uv": [
     "pre",
     "off"
-   ],
-   "pre": [
-    "MSS 610|MATH 108|MATH 112|MATH 113|MATH 119A|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223",
-    "CHEM 105A|CHEM 141|CHEM 161"
    ]
   },
   "CHEM 152": {
@@ -1124,14 +1121,10 @@
   "CHEM 161": {
    "t": "Honors Chemical Thinking I",
    "u": 3,
-   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "src": "draft from the college four-year plan",
    "uv": [
     "pre",
     "off"
-   ],
-   "pre": [
-    "MSS 730",
-    "CHEM 141|CHEM 151"
    ]
   },
   "CHEM 162": {
@@ -1155,8 +1148,7 @@
     "off"
    ],
    "pre": [
-    "CHEM 161",
-    "CHEM 141|CHEM 151"
+    "CHEM 161"
    ],
    "co": [
     "CHEM 161"
@@ -1199,8 +1191,7 @@
     "off"
    ],
    "pre": [
-    "MATH 112|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223|MATH 254",
-    "ENGR 102"
+    "MATH 112|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223|MATH 254"
    ],
    "co": [
     "MATH 112",
@@ -1221,8 +1212,7 @@
     "off"
    ],
    "pre": [
-    "MATH 112|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223|MATH 254",
-    "ENGR 102"
+    "MATH 112|MATH 120R|MATH 122B|MATH 125|MATH 129|MATH 223|MATH 254"
    ],
    "co": [
     "MATH 112",
@@ -1276,7 +1266,6 @@
     "off"
    ],
    "pre": [
-    "MSS 660|MATH 120R",
     "MATH 100",
     "MATH 112",
     "MATH 120R"
@@ -1300,13 +1289,10 @@
   "MATH 125": {
    "t": "Calculus I with Applications",
    "u": 3,
-   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "src": "draft from the college four-year plan",
    "uv": [
     "pre",
     "off"
-   ],
-   "pre": [
-    "MSS 730"
    ]
   },
   "MATH 129": {
@@ -1355,6 +1341,11 @@
    ],
    "pre": [
     "MATH 122B|MATH 124|MATH 125"
+   ],
+   "co": [
+    "MATH 122B",
+    "MATH 124",
+    "MATH 125"
    ]
   },
   "PHYS 161H": {
@@ -1367,6 +1358,11 @@
    ],
    "pre": [
     "MATH 122B|MATH 124|MATH 125"
+   ],
+   "co": [
+    "MATH 122B",
+    "MATH 124",
+    "MATH 125"
    ]
   },
   "PHYS 241": {
@@ -1380,6 +1376,13 @@
    "pre": [
     "PHYS 141|PHYS 140|PHYS 161H",
     "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
    ]
   },
   "PHYS 261H": {
@@ -1393,6 +1396,13 @@
    "pre": [
     "PHYS 141|PHYS 140|PHYS 161H",
     "MATH 129|MATH 250A"
+   ],
+   "co": [
+    "PHYS 141",
+    "PHYS 140",
+    "PHYS 161H",
+    "MATH 129",
+    "MATH 250A"
    ]
   },
   "SIE 265": {
@@ -1443,13 +1453,10 @@
   "WRIT 101": {
    "t": "First-Year Composition",
    "u": 3,
-   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "src": "draft from the college four-year plan",
    "uv": [
     "pre",
     "off"
-   ],
-   "pre": [
-    "OF 101"
    ]
   },
   "WRIT 102": {
@@ -1464,13 +1471,10 @@
   "WRIT 107": {
    "t": "Foundations Writing for English as an Additional Language Students",
    "u": 3,
-   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "src": "draft from the college four-year plan",
    "uv": [
     "pre",
     "off"
-   ],
-   "pre": [
-    "WRIT 107"
    ]
   },
   "WRIT 109H": {

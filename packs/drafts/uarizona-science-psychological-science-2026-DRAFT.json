@@ -1,0 +1,1151 @@
+{
+ "format": "degree-pack/1",
+ "id": "uarizona/science/psychological-science/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "draft": true,
+ "program": {
+  "name": "Psychological Science",
+  "college": "College of Science",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C",
+  "majorUnits": 42,
+  "majorUpper": 33,
+  "majorGpa": 2
+ },
+ "meta": {
+  "srcKind": "catalog",
+  "srcDate": "2026-08-01",
+  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
+ },
+ "lists": {
+  "pool1": [
+   "ENGL 1EIB",
+   "WRIT 101",
+   "WRIT 101A",
+   "WRIT 102",
+   "WRIT 106",
+   "WRIT 107",
+   "WRIT 108"
+  ],
+  "pool13": [
+   "HIST 150C3",
+   "POL 201"
+  ],
+  "pool14": [
+   "MATH 113",
+   "MATH 119A",
+   "MATH 122B",
+   "MATH 125",
+   "MATH 129"
+  ],
+  "pool15": [
+   "CHEM 151",
+   "CHEM 152",
+   "CHEM 181",
+   "CHEM 182",
+   "CHEM 141",
+   "CHEM 142",
+   "CHEM 143",
+   "CHEM 144",
+   "CHEM 145",
+   "CHEM 146",
+   "CHEM 161",
+   "CHEM 162",
+   "CHEM 163",
+   "CHEM 164"
+  ],
+  "pool20": [
+   "ECOL 182R",
+   "ECOL 182",
+   "MCB 181R",
+   "MCB 184",
+   "ECOL 182L",
+   "MCB 181L",
+   "PSIO 201",
+   "PSIO 202"
+  ],
+  "pool21": [
+   "PSY 101",
+   "PSY 150A1"
+  ],
+  "pool24": [
+   "PSY 381",
+   "PSY 383"
+  ],
+  "pool25": [
+   "PSY 352",
+   "PSY 360"
+  ],
+  "pool28": [],
+  "pool29": [
+   "PSY 405",
+   "PSY 422",
+   "PSY 425",
+   "PSY 459",
+   "PSY 478",
+   "PSY 498",
+   "PSY 498H",
+   "PSYS 392",
+   "PSYS 392H",
+   "PSYS 404",
+   "PSYS 407",
+   "PSYS 408",
+   "PSYS 418",
+   "PSYS 492",
+   "PSYS 492H"
+  ]
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Psychological Science",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-PSYSBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 42 units in the major, 33 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Psychological Measurement and Statistics",
+     "code": "PSY 230",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Research Methods",
+     "code": "PSY 290A",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Cognitive Neuroscience: A Guide to Mind and Brain",
+     "code": "PSY 300",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Advanced Methods in Psychological Research",
+     "code": "PSY 389",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d7",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d8",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d9",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d11",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d12",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d13",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d14",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d15",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d16",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d17",
+     "type": "te",
+     "label": "Math",
+     "list": "pool14",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d18",
+     "type": "te",
+     "label": "Introductory Chemistry",
+     "list": "pool15",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d19",
+     "type": "te",
+     "label": "Introductory Chemistry",
+     "list": "pool15",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d20",
+     "type": "te",
+     "label": "Biological Sciences",
+     "list": "pool20",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "te",
+     "label": "Biological Sciences",
+     "list": "pool20",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d22",
+     "type": "te",
+     "label": "Biological Sciences",
+     "list": "pool20",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d23",
+     "type": "te",
+     "label": "1. Introduction to Psychology",
+     "list": "pool21",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "4. Clinical Science",
+     "list": "pool24",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "5. Social-Personality Science",
+     "list": "pool25",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "8. Advanced Content",
+     "list": "pool28",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "8. Advanced Content",
+     "list": "pool28",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "8. Advanced Content",
+     "list": "pool28",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "8. Advanced Content",
+     "list": "pool28",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "8. Advanced Content",
+     "list": "pool28",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "10. Research",
+     "list": "pool29",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "10. Research",
+     "list": "pool29",
+     "col": 7,
+     "row": 1
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r21",
+     "name": "2. Psychological Measurement & Statistics",
+     "units": 3,
+     "list": "PSY 230",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r22",
+     "name": "3. Research Methods",
+     "units": 3,
+     "list": "PSY 290A",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r25",
+     "name": "6. Cognitive Neuroscience",
+     "units": 3,
+     "list": "PSY 300",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r26",
+     "name": "7. Advanced Methods",
+     "units": 3,
+     "list": "PSY 389",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "Math",
+     "units": 3,
+     "list": "@pool14",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Introductory Chemistry",
+     "units": 6,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p19",
+     "name": "Biological Sciences",
+     "units": 8,
+     "list": "@pool20",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p20",
+     "name": "1. Introduction to Psychology",
+     "units": 3,
+     "list": "@pool21",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p23",
+     "name": "4. Clinical Science",
+     "units": 3,
+     "list": "@pool24",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p24",
+     "name": "5. Social-Personality Science",
+     "units": 3,
+     "list": "@pool25",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p27",
+     "name": "8. Advanced Content",
+     "units": 15,
+     "list": "@pool28",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p28",
+     "name": "10. Research",
+     "units": 6,
+     "list": "@pool29",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "PSY 230": {
+   "t": "Psychological Measurement and Statistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 290A": {
+   "t": "Research Methods",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 300": {
+   "t": "Cognitive Neuroscience: A Guide to Mind and Brain",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 389": {
+   "t": "Advanced Methods in Psychological Research",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PSY 290A"
+   ]
+  },
+  "ENGL 1EIB": {
+   "t": "International Baccalaureate (IB) English Elective",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101A": {
+   "t": "First-Year Composition with Discussion",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "EMENT 100"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 106": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "OF 106"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 108": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 113": {
+   "t": "Elements of Calculus",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 119A": {
+   "t": "Mathematics of Biological Systems: a calculus based approach",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 125"
+   ]
+  },
+  "CHEM 151": {
+   "t": "Chemical Thinking I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 181": {
+   "t": "Majors General Chemistry I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 182": {
+   "t": "Majors General Chemistry II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142",
+    "CHEM 152",
+    "CHEM 162"
+   ]
+  },
+  "CHEM 141": {
+   "t": "General Chemistry Lecture I: Quantitative",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 142": {
+   "t": "General Chemistry Lecture II: Quantitative Approach",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 143": {
+   "t": "General Chemistry Lab 1: Quantitative",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 144": {
+   "t": "General Chemistry Lab II: Quantitative",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 151|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 145": {
+   "t": "Quantitative Chemistry Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 146": {
+   "t": "Quantitative Chemistry Laboratory II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 151|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 161": {
+   "t": "Honors Chemical Thinking I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 162": {
+   "t": "Honors Chemical Thinking II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 163": {
+   "t": "Honors Fundamental Techniques of Chemistry I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 161"
+   ],
+   "co": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 164": {
+   "t": "Honors Fundamental Techniques of Chemistry II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECOL 182R": {
+   "t": "Introductory Biology II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECOL 182": {
+   "t": "ECOL 182",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 181R": {
+   "t": "Introduction to Molecular and Cellular Biology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 184": {
+   "t": "MCB 184",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECOL 182L": {
+   "t": "Introductory Biology II Lab",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 181L": {
+   "t": "Introductory Biology Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 201": {
+   "t": "Human Anatomy and Physiology I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 202": {
+   "t": "Human Anatomy and Physiology II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PSIO 201"
+   ]
+  },
+  "PSY 101": {
+   "t": "Introduction to Psychology",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 150A1": {
+   "t": "The Structure of Mind and Behavior",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 381": {
+   "t": "Abnormal Psychology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 383": {
+   "t": "Health Psychology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 352": {
+   "t": "Personality",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 360": {
+   "t": "Social Psychology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 405": {
+   "t": "Developmental Cognitive Neuroscience",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 422": {
+   "t": "Introduction to Brain Connectivity",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PSY 290A|PSY 290B"
+   ]
+  },
+  "PSY 425": {
+   "t": "Get Real: Cognition Applied to You and Current Topics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 459": {
+   "t": "Adult Development and Aging",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 478": {
+   "t": "Sleep and Sleep Disorders",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 498": {
+   "t": "Senior Capstone",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 498H": {
+   "t": "Honors Thesis",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSYS 392": {
+   "t": "Directed Research",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSYS 392H": {
+   "t": "Honors Directed Research",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSYS 404": {
+   "t": "Spatial navigation: The neural and computational foundations",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSYS 407": {
+   "t": "Language and Thought: A Cognitive Psychology/Neuroscience Perspective",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSYS 408": {
+   "t": "Imagination and the Brain",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSYS 418": {
+   "t": "Social Neuroscience of Grief",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSYS 492": {
+   "t": "Directed Research",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSYS 492H": {
+   "t": "Honors Directed Research",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  }
+ }
+}

@@ -34,10 +34,11 @@
  "tracks": {
   "OPERATIONALI": {
    "name": "Operational Intelligence",
-   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026–27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "sub": "UNVERIFIED DRAFT from the college four-year plan.",
    "rev": "",
    "bullets": [
-    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it.",
+    "Semesters, units and class names are as printed. Prerequisites come from the plan and the catalog text and are unverified. Elective lists are empty until you add or load them."
    ],
    "blocks": [
     {
@@ -600,10 +601,11 @@
   },
   "INFORMATIONW": {
    "name": "Information Warfare",
-   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026–27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "sub": "UNVERIFIED DRAFT from the college four-year plan.",
    "rev": "",
    "bullets": [
-    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it.",
+    "Semesters, units and class names are as printed. Prerequisites come from the plan and the catalog text and are unverified. Elective lists are empty until you add or load them."
    ],
    "blocks": [
     {
@@ -1166,10 +1168,11 @@
   },
   "LAWENFORCEME": {
    "name": "Law Enforcement Intelligence",
-   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026–27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "sub": "UNVERIFIED DRAFT from the college four-year plan.",
    "rev": "",
    "bullets": [
-    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it.",
+    "Semesters, units and class names are as printed. Prerequisites come from the plan and the catalog text and are unverified. Elective lists are empty until you add or load them."
    ],
    "blocks": [
     {
@@ -1732,10 +1735,11 @@
   },
   "SIGNALSINTEL": {
    "name": "Signals Intelligence & Electronic Warfare",
-   "sub": "UNVERIFIED DRAFT read from the college four-year plan (2026–27). Semesters, units and class names are as printed; prerequisites are only those the plan prints; elective lists are empty until you add or load them.",
+   "sub": "UNVERIFIED DRAFT from the college four-year plan.",
    "rev": "",
    "bullets": [
-    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it."
+    "Draft built from a college four-year plan. Not checked against the catalog. An advisor must verify every box before you rely on it.",
+    "Semesters, units and class names are as printed. Prerequisites come from the plan and the catalog text and are unverified. Elective lists are empty until you add or load them."
    ],
    "blocks": [
     {
@@ -2418,13 +2422,10 @@
   "WRIT 101": {
    "t": "First-Year Composition",
    "u": 3,
-   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "src": "draft from the college four-year plan",
    "uv": [
     "pre",
     "off"
-   ],
-   "pre": [
-    "OF 101"
    ]
   },
   "WRIT 102": {
@@ -2439,13 +2440,10 @@
   "WRIT 107": {
    "t": "Foundations Writing for English as an Additional Language Students",
    "u": 3,
-   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "src": "draft from the college four-year plan",
    "uv": [
     "pre",
     "off"
-   ],
-   "pre": [
-    "WRIT 107"
    ]
   },
   "WRIT 108": {

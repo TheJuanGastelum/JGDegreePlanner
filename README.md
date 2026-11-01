@@ -5,13 +5,13 @@
 > **Unofficial.** JGDegreePlanner is an unofficial planning aid made by Juan Gastelum for students and advisors. It is not an official tool, and it is not made, endorsed or approved by any university. Always confirm your plan with your academic advisor and your advisement report.
 
 <p align="center"><img src="docs/chart.png" alt="The chart with an example student" width="860"></p>
-<p align="center"><sub>The chart, shown with a made-up example student (John Doe).</sub></p>
+<p align="center"><sub>The chart, shown with a made-up example student (Alex Doe).</sub></p>
 
 ## Get started in 1 minute
 
 1. **Download** [`JGDegreePlanner.html`](https://github.com/TheJuanGastelum/JGDegreePlanner/releases/latest) (open the latest Release and download the file).
 2. **Double-click it.** It opens in your browser (Chrome or Edge work best).
-3. A short **guided tour** starts the first time. You can replay it any time from the gear menu.
+3. A short **guided tour** starts the first time. You can replay it any time from the gear, App tab.
 
 Keep the file name exactly `JGDegreePlanner.html`. A copy with another name still works but shows a notice at the top (see the FAQ).
 
@@ -23,15 +23,15 @@ Keep the file name exactly `JGDegreePlanner.html`. A copy with another name stil
 <summary><b>First 5 minutes</b></summary>
 
 1. **Start here.** The app opens empty: faded stand-in boxes (Class A, Class B, made-up codes) show the layout. Load your advisement report (step 2) and the chart is built from it. Or pick a ready-made major at the top (University, College / School, Major, Track); Electrical & Computer Engineering is one.
-2. **Load your plan:** gear menu, **Load file** (an advisement report PDF or a saved student file), or just drag the file onto the page. Need the report? UAccess, Advising, Advisement Report, View Report as PDF, Download (details below).
+2. **Load your plan:** the **Load** button (an advisement report PDF or a saved student file), or just drag the file onto the page. Need the report? UAccess, Advising, Advisement Report, View Report as PDF, Download (details below).
 3. **Look at the chart.** Each column is a semester and each box is a class.
 4. **Drag classes** to other semesters. Click a class to see its details and its prerequisite arrows.
-5. Open **Tools**, then **Checks**, to see problems: a class before its prerequisite, a class in a semester it may not be offered, a heavy semester.
+5. Open the **gear**, then **Requirements** (the Checks are at the top), to see problems: a class before its prerequisite, a class in a semester it may not be offered, a heavy semester.
 6. **Print & Export** (top right) to save a PDF or Excel file, or **Save my plan** (also in Print & Export) to keep your plan for next time.
 
 **Your plan is not saved automatically.** Use **Print & Export, Save my plan** to download a student file, and Load file to open it again.
 
-Want to look around first? Gear menu, **Load example plan (John Doe)** loads a made-up student.
+Want to look around first? Gear menu, **Load example plan (Alex Doe)** loads a made-up student.
 </details>
 
 <details>
@@ -40,7 +40,7 @@ Want to look around first? Gear menu, **Load example plan (John Doe)** loads a m
 1. Sign in to **UAccess** (Student Center).
 2. Open the **Advising** menu, then **Advisement Report**.
 3. Choose **View Report as PDF**, then **Download**.
-4. In JGDegreePlanner: gear menu, **Load file**, and pick that PDF (or drag it onto the page).
+4. In JGDegreePlanner: the **Load** button, and pick that PDF (or drag it onto the page).
 
 **Major not built in?** Loading your report builds a temporary draft plan from it. You can also get the official requirements yourself: go to [catalog.arizona.edu/programs](https://catalog.arizona.edu/programs), find your major, open it, and download or print it as a PDF. Load that PDF the same way and a draft pack is built, with no student needed. Drafts show an UNVERIFIED banner until an advisor approves them.
 </details>
@@ -50,7 +50,7 @@ Want to look around first? Gear menu, **Load example plan (John Doe)** loads a m
 
 Colleges publish a four-year plan (an advised sequence of classes). The College of Engineering has one PDF per major and catalog year at [engineering.arizona.edu/current/4-year-degree](https://engineering.arizona.edu/current/4-year-degree).
 
-1. Download your major's PDF and load it (gear menu, **Load file**). It must be the PDF: the app reads each column by its position on the page.
+1. Download your major's PDF and load it (the **Load** button). It must be the PDF: the app reads each column by its position on the page.
 2. The app checks every semester against the printed "Semester Total". A semester that does not add up gets a warning with the numbers. Nothing is guessed.
 3. You get a draft chart: semesters, units, UNIV 101 and 301, general education boxes, electives, Fall only / Spring only, and options as tracks.
 4. Prerequisites are only the ones the plan prints. Click a class to type the rest, or press **Paste a course description** and paste the text from catalog.arizona.edu.
@@ -67,8 +67,8 @@ Checking one major once gives every student after that a trusted chart.
 
 1. Pick the major, or load its four-year plan PDF.
 2. Compare each box with the official catalog: class, units, semester, prerequisites, offering.
-3. Fix boxes in **Rules, Boxes**, or click a class to edit its prerequisites.
-4. In **Rules, Advisor approval**, enter your approval code, tick the box and press **Approve**. The banner clears and printouts show your advisor ID and the date.
+3. Fix boxes in **Major editing**, or click a class to edit its prerequisites.
+4. In **Major editing, Advisor approval**, enter your approval code, tick the box and press **Approve**. The banner clears and printouts show your advisor ID and the date.
 5. Save the pack and share the pack file.
 
 To get a code, email jgasteluminc@gmail.com with the subject "JGDegreePlanner advisor code request" and be ready to show your role. Nothing is sent from the app and nothing is stored about students.
@@ -77,7 +77,7 @@ To get a code, email jgasteluminc@gmail.com with the subject "JGDegreePlanner ad
 <details>
 <summary><b>Loading files</b></summary>
 
-Use the gear menu, **Load file**, or drag files onto the page (several at once is fine). The app works out what each file is:
+Use the the **Load** button, or drag files onto the page (several at once is fine). The app works out what each file is:
 
 | File | What happens |
 |---|---|
@@ -139,7 +139,7 @@ Open **Print & Export** and use **Save my plan**:
 
 <p align="center"><img src="docs/reset.png" alt="Reset layout confirmation" width="620"></p>
 
-**Start over** (gear menu): clears the whole plan and asks to confirm. You can save a copy first. There is no undo, so save your student file before big changes.
+**Start over** (gear, App tab): clears the whole plan and asks to confirm. You can save a copy first. There is no undo, so save your student file before big changes.
 </details>
 
 <details>
@@ -173,25 +173,25 @@ The same rule runs when you load a report. A class from a report keeps the semes
 </details>
 
 <details>
-<summary><b>Print & Export, and the Tools tabs</b></summary>
+<summary><b>Top buttons, Print & Export, and the gear panel</b></summary>
 
-Two buttons at the top right open the side panel:
+Three buttons sit at the top right:
 
-- **Print & Export** opens it on the print and export tab. Sections: *Print* (layout, color, the "needs" line, PDF paper size, Save PDF), *Pictures* (PNG, SVG), *Save my plan* (student file or Excel) and *Preview*.
-- **Tools** opens it on the tab you used last (Checks the first time). A dot on **Tools** means there are problems to look at.
+- **Load** opens your file picker: an advisement report PDF, a college four-year plan PDF, a saved student file or an Excel file. You can also drag a file onto the page.
+- **Print & Export** opens the print panel. It shows the *Preview* first, then a list of every file type with what it is for (PDF, PNG, SVG, Excel, student file, major pack), then the print options (layout, color, the "needs" line, PDF paper size).
+- **The gear** opens the settings panel on the tab you used last. A dot on the gear means there are problems to look at.
 
-| Tab | What it is for |
+| Gear tab | What it is for |
 |---|---|
-| **Print & Export** | Printing, pictures, and saving your plan (see above). |
-| **Requirements** | GPA, units and major requirements, from a loaded report or estimated from your chart. |
-| **Checks** | A list of problems and notes. Click one to jump to the class. |
-| **Student** | Name, student ID, catalog year, current semester, first semester (Year 1), the AGEC box, pasting report text and transfer credit. |
-| **Rules** | Majors (packs), the packs folder, the optional pack library, the course catalog (edit prerequisites, offerings, units), advisor approval and the draft builder. |
+| **Requirements** | The **Checks** at the top (Done, Planned or Missing for each requirement, and problems to fix), then GPA, units and major requirements. Only finished classes count as done. |
+| **Student** | Name, student ID, catalog year, current semester, first semester (Year 1), **Auto-detect AGEC** (on by default; turn it off to choose yourself), manual paste of report text, and transfer credit. |
+| **Major editing** | (Step-by-step guide: [MAJOR-EDITING.md](MAJOR-EDITING.md).) A plain editor for one major, one step at a time (Classes, Class details, Requirements, Track, Save & share, Advanced). Add or move required classes, add elective boxes, edit prerequisites (type them or paste the catalog description), and add extra requirements. **Keep my edits** saves a copy in this browser, **Save major pack file** exports it. Technical settings (packs folder, advisor approval, course catalog, draft builder) are under **Advanced** at the bottom. |
 | **Help** | The guide, FAQ and contact links inside the app. |
+| **App** | Load a file, the example plan, the guided tour, start over, and the theme. |
 
-**Every section in the side panels folds up** when you click its title. Every section starts folded, and the app remembers what you open or close.
+**Every section in the side panels folds up** when you click its title. Sections start folded, except the Checks, the Preview, the file list and the first Major editing section.
 
-<p align="center"><img src="docs/print-tab.png" alt="The Print & Export tab" width="420"> <img src="docs/checks.png" alt="The Checks tab" width="420"></p>
+<p align="center"><img src="docs/print-tab.png" alt="The Print & Export panel" width="420"> <img src="docs/checks.png" alt="The Requirements tab with Checks" width="420"></p>
 </details>
 
 <details>
@@ -201,7 +201,7 @@ Two buttons at the top right open the side panel:
 
 - The app starts **blank** on "Choose a degree". **Electrical & Computer Engineering** is built in and was checked against the ECSE courses page.
 - **Ready-made drafts** (Nursing, Public Health, more over time) are in the major list marked "draft". They were made from public catalog pages and have **not been reviewed by an advisor**. Use them to get started and confirm everything.
-- **Make your own draft:** load your advisement report or a catalog program printout, review it in **Rules, Build a draft pack**, then **Save pack**.
+- **Make your own draft:** load your advisement report or a catalog program printout, review it in **Major editing, Advanced, Build a draft pack**, then **Save pack**.
 - **Packs:** import and export packs in Rules. Imported packs stay in this browser, so export the ones you want to keep, or connect a **packs folder** (Chrome or Edge) and they load and save there automatically.
 - **Advisor approval:** an advisor can approve a pack with a code the author issued (request one with the Contact links below). The app then shows the advisor's ID code (never a name) and the date, and printouts say "Major requirements updated: DDMMMYY (ID)". This is a check the author runs on who reviewed the pack. It is **not** an official approval by any university. Before an approval, printouts say "not advisor reviewed". If a pack is edited after approval, the approval stops counting.
 - **Try another major (what-if):** the **Try another major** button above the chart copies your classes into another loaded major to try it, and keeps your real plan. Printouts are marked WHAT-IF. Use Back to return.
@@ -225,12 +225,12 @@ Every printout says it is unofficial and shows the app version, the major's vers
 </details>
 
 <details>
-<summary><b>Settings (the gear menu)</b></summary>
+<summary><b>The App tab (gear)</b></summary>
 
-<p align="center"><img src="docs/menu.png" alt="The gear menu" width="520"></p>
+<p align="center"><img src="docs/menu.png" alt="The App tab" width="520"></p>
 
 - **Load file / Replace loaded file:** open a report, student file, Excel file, pack or catalog.
-- **Load example plan (John Doe):** a made-up student to explore with.
+- **Load example plan (Alex Doe):** a made-up student to explore with.
 - **Guided tour:** replay the walkthrough.
 - **Start over (clear plan):** clear the plan (asks first).
 - **Theme:** Auto, Light or Dark. Exports are always white.
@@ -242,7 +242,7 @@ Every printout says it is unofficial and shows the app version, the major's vers
 
 <p align="center"><img src="docs/tour.png" alt="The guided tour" width="460"> <img src="docs/help.png" alt="The Help page" width="460"></p>
 
-The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow keys work too). It starts the first time you open the app and any time from **gear menu, Guided tour**. The gear menu is for files and the app; the other tabs are under **Tools**. **Help** is the same guide as collapsible sections, plus a FAQ.
+The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow keys work too). It starts the first time you open the app and any time from **gear, App, Guided tour**. **Help** is the same guide as collapsible sections, plus a FAQ.
 </details>
 
 <details>
@@ -250,11 +250,11 @@ The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow 
 
 **A pack** is one major at one school, as a JSON file: an id (like `uarizona/engineering/ece/2025`), version, date, owner, tracks, boxes, requirement buckets and option lists. A student file stores only the pack id and version. Packs never overwrite each other: a different id or version is a different pack. Course data lives in one **catalog** per school.
 
-- **Import / export:** Rules, *Import pack* / *Export pack*, or drag the `.json` file onto the page. Same id and version already installed: it asks before replacing. The built-in pack is never replaced.
-- **Packs folder (Chrome / Edge):** Rules, Packs folder, *Choose packs folder*. Every pack in it loads when you open the page, and packs you save or import are written into it. After reopening, the browser may ask you to allow the folder again: press *Reconnect*. Firefox and Safari cannot connect a folder; use Export and Import there (or *Load all packs from a folder*).
-- **Make a pack:** Rules, *Add degree* (start empty or from a copy), edit boxes, requirements, lists and the catalog in the same tab; or build a draft from a report or catalog printout.
-- **Course catalogs:** Rules, Course catalog, Export / Import CSV or JSON. CSV columns: `code,title,units,prereqs,offered,needs_c,concurrent_ok,source,unverified`. Prereqs separated with `;`, `|` means "either" (`MATH 122B|MATH 125`). Offered: `fall`, `spring`, `springOdd`, `springEven`, `summer`, `winter`.
-- **Pack library (optional):** put pack files and an `index.json` in any web folder and type its address in Rules, Pack library address. The page then downloads from it; nothing is uploaded. Leave it empty and the app never connects.
+- **Import / export:** Major editing, Advanced, *Import pack* / *Export pack*, or drag the `.json` file onto the page. Same id and version already installed: it asks before replacing. The built-in pack is never replaced.
+- **Packs folder (Chrome / Edge):** Major editing, Advanced, Packs folder, *Choose packs folder*. Every pack in it loads when you open the page, and packs you save or import are written into it. After reopening, the browser may ask you to allow the folder again: press *Reconnect*. Firefox and Safari cannot connect a folder; use Export and Import there (or *Load all packs from a folder*).
+- **Make a pack:** Major editing, Advanced, *Add degree* (start empty or from a copy), edit boxes, requirements, lists and the catalog in the same tab; or build a draft from a report or catalog printout.
+- **Course catalogs:** Major editing, Advanced, Course catalog, Export / Import CSV or JSON. CSV columns: `code,title,units,prereqs,offered,needs_c,concurrent_ok,source,unverified`. Prereqs separated with `;`, `|` means "either" (`MATH 122B|MATH 125`). Offered: `fall`, `spring`, `springOdd`, `springEven`, `summer`, `winter`.
+- **Pack library (optional):** put pack files and an `index.json` in any web folder and type its address in Major editing, Advanced, Pack library address. The page then downloads from it; nothing is uploaded. Leave it empty and the app never connects.
   ```json
   { "packs": [ { "id": "uarizona/engineering/ece/2025", "version": "1.0.0",
                  "date": "2026-10-28", "owner": "Name", "file": "ece-2025-1.0.0.json" } ] }
@@ -269,15 +269,15 @@ The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow 
 
 **Where is my plan kept? I closed the tab.** Your plan lives only in the open page and is not saved automatically. Use *Print & Export, Save my plan* to download a file and *Load file* to open it again. Majors you import, the course catalog and your print choices are kept in this browser.
 
-**How do I put classes back where they started?** Press **Reset layout** above the chart and confirm. To clear everything, use **Start over** in the gear menu.
+**How do I put classes back where they started?** Press **Reset layout** above the chart and confirm. To clear everything, use **Start over** (gear, App tab).
 
 **Why does a class say "Fall only #"?** The pack lists that class as offered only that term. The `#` means the offering has not been verified. Check the schedule of classes.
 
 **Why is a class flagged in Checks?** It sits before its prerequisite, it is in a semester where it may not be offered, or a semester is heavy. Click the line to jump to it.
 
-**Can I change prerequisites or offerings?** Yes: Rules, Course catalog. Changes stay in this browser. Export the catalog or pack to share it.
+**Can I change prerequisites or offerings?** Yes: Major editing, Advanced, Course catalog. Changes stay in this browser. Export the catalog or pack to share it.
 
-**My report did not fit my major. What happened?** A temporary draft plan was built from the report, with boxes laid out by course level and a draft note. Review it in Rules, Build a draft pack, or pick another major.
+**My report did not fit my major. What happened?** A temporary draft plan was built from the report, with boxes laid out by course level and a draft note. Review it in Major editing, Advanced, Build a draft pack, or pick another major.
 
 **The PDF text is tiny.** The whole chart has to fit one page. Choose Tabloid (11 x 17) under *PDF paper*, or print the *My order* semester sheet.
 
@@ -302,7 +302,7 @@ The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow 
 <details>
 <summary><b>Updates</b></summary>
 
-Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.19"); the gear menu and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
+Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.20"); the App tab and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
 </details>
 
 <details>

@@ -1,10 +1,10 @@
 {
  "format": "degree-pack/1",
- "createdWith": "Degree Flowchart Builder v5.2 by Juan Gastelum (build 21c1378a62)",
  "id": "uarizona/nursing/bsn/2026",
  "version": "0.1.0-draft",
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "owner": "",
+ "draft": true,
  "program": {
   "name": "Nursing",
   "college": "College of Nursing",
@@ -15,17 +15,33 @@
   "upper": 42,
   "total": 120,
   "maxLoad": 17,
-  "minGrade": "C"
+  "minGrade": "C",
+  "majorUnits": 60,
+  "majorUpper": 60,
+  "majorGpa": 2
  },
  "meta": {
-  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
-  "audit": "unverified",
-  "courses": "prerequisites and offerings unverified",
   "srcKind": "catalog",
   "srcDate": "2026-08-01",
-  "note": "Made from the public catalog.arizona.edu program printout and a college program guide (BSN-CONV 2025-2026), not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it."
+  "note": "Made from the public catalog.arizona.edu program printout and a college program guide (BSN-CONV 2025-2026), not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
  },
  "lists": {
+  "pool1": [
+   "ENGL 1EIB",
+   "WRIT 101",
+   "WRIT 101A",
+   "WRIT 102",
+   "WRIT 106",
+   "WRIT 107",
+   "WRIT 108"
+  ],
+  "pool13": [
+   "HIST 150C3",
+   "POL 201"
+  ],
   "pool14": [
    "MATH 112",
    "MATH 113",
@@ -77,211 +93,326 @@
    "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box columns follow the sample program guide BSN-CONV 2025-2026 where a class is named in it; the rest is a guess from course levels.",
    "rev": "",
    "bullets": [
-    "Source: public catalog.arizona.edu program printout (program-NURSBSN-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it."
+    "Source: public catalog.arizona.edu program printout (program-NURSBSN-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 60 units in the major, 60 upper-division units, GPA 2.0 in the major."
    ],
    "blocks": [
     {
      "id": "d1",
      "type": "fixed",
-     "label": "Introduction to Molecular and Cellular Biology",
-     "col": 1,
-     "row": 0,
-     "code": "MCB 181R"
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
     },
     {
      "id": "d2",
      "type": "fixed",
-     "label": "General Microbiology",
-     "col": 3,
-     "row": 0,
-     "code": "MIC 205A"
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 0,
+     "row": 1
     },
     {
      "id": "d3",
      "type": "fixed",
-     "label": "Human Anatomy and Physiology I                             AND",
-     "col": 2,
-     "row": 0,
-     "code": "PSIO 201"
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 1,
+     "row": 0
     },
     {
      "id": "d4",
      "type": "fixed",
-     "label": "Human Anatomy and Physiology II",
+     "label": "General Microbiology",
+     "code": "MIC 205A",
      "col": 3,
-     "row": 1,
-     "code": "PSIO 202"
+     "row": 0
     },
     {
      "id": "d5",
      "type": "fixed",
-     "label": "NURS 475C",
-     "col": 6,
-     "row": 0,
-     "code": "NURS 475C"
+     "label": "Human Anatomy and Physiology I",
+     "code": "PSIO 201",
+     "col": 2,
+     "row": 0
     },
     {
      "id": "d6",
      "type": "fixed",
-     "label": "NURS 362",
-     "col": 4,
-     "row": 0,
-     "code": "NURS 362"
+     "label": "Human Anatomy and Physiology II",
+     "code": "PSIO 202",
+     "col": 3,
+     "row": 1
     },
     {
      "id": "d7",
      "type": "fixed",
-     "label": "NURS 474",
-     "col": 7,
-     "row": 0,
-     "code": "NURS 474"
+     "label": "Pharmacology III",
+     "code": "NURS 475C",
+     "col": 6,
+     "row": 0
     },
     {
      "id": "d8",
      "type": "fixed",
-     "label": "NURS 481",
-     "col": 6,
-     "row": 1,
-     "code": "NURS 481"
+     "label": "Medical-Surgical Nursing Concepts and Clinical Practice",
+     "code": "NURS 362",
+     "col": 4,
+     "row": 0
     },
     {
      "id": "d9",
      "type": "fixed",
-     "label": "NURS 482",
+     "label": "Behavioral Health and Palliative Care Across the Lifespan",
+     "code": "NURS 474",
      "col": 7,
-     "row": 1,
-     "code": "NURS 482"
+     "row": 0
     },
     {
      "id": "d10",
      "type": "fixed",
-     "label": "Pharmacology I",
+     "label": "NURS 481",
+     "code": "NURS 481",
      "col": 6,
-     "row": 2,
-     "code": "NURS 475A"
+     "row": 1
     },
     {
      "id": "d11",
      "type": "fixed",
-     "label": "Pharmacology II",
+     "label": "NURS 482",
+     "code": "NURS 482",
      "col": 7,
-     "row": 2,
-     "code": "NURS 475B"
+     "row": 1
     },
     {
      "id": "d12",
      "type": "fixed",
-     "label": "NURS 363",
-     "col": 5,
-     "row": 0,
-     "code": "NURS 363"
+     "label": "Pharmacology I",
+     "code": "NURS 475A",
+     "col": 6,
+     "row": 2
     },
     {
      "id": "d13",
      "type": "fixed",
-     "label": "NURS 364",
-     "col": 4,
-     "row": 1,
-     "code": "NURS 364"
+     "label": "Pharmacology II",
+     "code": "NURS 475B",
+     "col": 7,
+     "row": 2
     },
     {
      "id": "d14",
      "type": "fixed",
-     "label": "NURS 472",
-     "col": 6,
-     "row": 3,
-     "code": "NURS 472"
+     "label": "Maternal-Newborn Nursing",
+     "code": "NURS 363",
+     "col": 5,
+     "row": 0
     },
     {
      "id": "d15",
      "type": "fixed",
-     "label": "NURS 484",
-     "col": 7,
-     "row": 3,
-     "code": "NURS 484"
+     "label": "Pediatric Nursing",
+     "code": "NURS 364",
+     "col": 4,
+     "row": 1
     },
     {
      "id": "d16",
      "type": "fixed",
-     "label": "Pathophysiology",
-     "col": 5,
-     "row": 1,
-     "code": "NURS 352"
+     "label": "NURS 472",
+     "code": "NURS 472",
+     "col": 6,
+     "row": 3
     },
     {
      "id": "d17",
      "type": "fixed",
-     "label": "Foundations of Nursing Care",
-     "col": 4,
-     "row": 2,
-     "code": "NURS 353"
+     "label": "NURS 484",
+     "code": "NURS 484",
+     "col": 7,
+     "row": 3
     },
     {
      "id": "d18",
      "type": "fixed",
-     "label": "Introduction to Professional Nursing Competencies",
+     "label": "Pathophysiology",
+     "code": "NURS 352",
      "col": 5,
-     "row": 2,
-     "code": "NURS 354"
+     "row": 1
     },
     {
      "id": "d19",
      "type": "fixed",
-     "label": "Scholarly Inquiry in Evidence-Based Practice",
+     "label": "Foundations of Nursing Care",
+     "code": "NURS 353",
      "col": 4,
-     "row": 3,
-     "code": "NURS 355"
+     "row": 2
     },
     {
      "id": "d20",
-     "type": "te",
-     "label": "Supporting Math",
-     "col": 0,
-     "row": 0,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Introduction to Professional Nursing Competencies",
+     "code": "NURS 354",
+     "col": 5,
+     "row": 2
     },
     {
      "id": "d21",
-     "type": "te",
-     "label": "Chemistry Lecture",
-     "col": 0,
-     "row": 1,
-     "list": "pool15"
+     "type": "fixed",
+     "label": "Scholarly Inquiry in Evidence-Based Practice",
+     "code": "NURS 355",
+     "col": 4,
+     "row": 3
     },
     {
      "id": "d22",
-     "type": "te",
-     "label": "Chemistry Lab",
-     "col": 0,
-     "row": 2,
-     "list": "pool16"
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 1
     },
     {
      "id": "d23",
-     "type": "te",
-     "label": "Nutrition",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
      "col": 0,
-     "row": 3,
-     "list": "pool21"
+     "row": 2
     },
     {
      "id": "d24",
-     "type": "te",
-     "label": "Statistics",
-     "col": 2,
-     "row": 1,
-     "list": "pool22"
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 2
     },
     {
      "id": "d25",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d26",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d27",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d28",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 0,
+     "row": 5
+    },
+    {
+     "id": "d31",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Supporting Math",
+     "list": "pool14",
+     "col": 0,
+     "row": 6
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Chemistry Lecture",
+     "list": "pool15",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Chemistry Lab",
+     "list": "pool16",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Nutrition",
+     "list": "pool21",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Statistics",
+     "list": "pool22",
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d37",
      "type": "te",
      "label": "Human Development",
+     "list": "pool23",
      "col": 1,
-     "row": 1,
-     "list": "pool23"
+     "row": 4
     }
    ],
    "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
     {
      "id": "r16",
      "name": "Introductory Biology",
@@ -334,6 +465,24 @@
      "list": "NURS 363,NURS 364,NURS 472,NURS 484,NURS 352,NURS 353,NURS 354,NURS 355",
      "claim": false,
      "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
      "minC": false
     },
     {
@@ -397,203 +546,350 @@
    "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
    "rev": "",
    "bullets": [
-    "Source: public catalog.arizona.edu program printout (program-NURSBSN-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it."
+    "Source: public catalog.arizona.edu program printout (program-NURSBSN-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 60 units in the major, 60 upper-division units, GPA 2.0 in the major."
    ],
    "blocks": [
     {
      "id": "d1",
      "type": "fixed",
-     "label": "Introduction to Molecular and Cellular Biology",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
      "col": 0,
-     "row": 0,
-     "code": "MCB 181R"
+     "row": 0
     },
     {
      "id": "d2",
      "type": "fixed",
-     "label": "General Microbiology",
-     "col": 2,
-     "row": 0,
-     "code": "MIC 205A"
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
     },
     {
      "id": "d3",
      "type": "fixed",
-     "label": "Human Anatomy and Physiology I                             AND",
-     "col": 3,
-     "row": 0,
-     "code": "PSIO 201"
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 1,
+     "row": 0
     },
     {
      "id": "d4",
      "type": "fixed",
-     "label": "Human Anatomy and Physiology II",
+     "label": "General Microbiology",
+     "code": "MIC 205A",
      "col": 2,
-     "row": 1,
-     "code": "PSIO 202"
+     "row": 0
     },
     {
      "id": "d5",
      "type": "fixed",
-     "label": "NURS 475C",
-     "col": 6,
-     "row": 0,
-     "code": "NURS 475C"
+     "label": "Human Anatomy and Physiology I",
+     "code": "PSIO 201",
+     "col": 3,
+     "row": 0
     },
     {
      "id": "d6",
      "type": "fixed",
-     "label": "NURS 362",
-     "col": 4,
-     "row": 0,
-     "code": "NURS 362"
+     "label": "Human Anatomy and Physiology II",
+     "code": "PSIO 202",
+     "col": 2,
+     "row": 1
     },
     {
      "id": "d7",
      "type": "fixed",
-     "label": "NURS 474",
-     "col": 7,
-     "row": 0,
-     "code": "NURS 474"
+     "label": "Pharmacology III",
+     "code": "NURS 475C",
+     "col": 6,
+     "row": 0
     },
     {
      "id": "d8",
      "type": "fixed",
-     "label": "NURS 481",
-     "col": 6,
-     "row": 1,
-     "code": "NURS 481"
+     "label": "Medical-Surgical Nursing Concepts and Clinical Practice",
+     "code": "NURS 362",
+     "col": 5,
+     "row": 0
     },
     {
      "id": "d9",
      "type": "fixed",
-     "label": "NURS 482",
+     "label": "Behavioral Health and Palliative Care Across the Lifespan",
+     "code": "NURS 474",
      "col": 7,
-     "row": 1,
-     "code": "NURS 482"
+     "row": 0
     },
     {
      "id": "d10",
      "type": "fixed",
-     "label": "Pharmacology I",
+     "label": "NURS 481",
+     "code": "NURS 481",
      "col": 6,
-     "row": 2,
-     "code": "NURS 475A"
+     "row": 1
     },
     {
      "id": "d11",
      "type": "fixed",
-     "label": "Pharmacology II",
+     "label": "NURS 482",
+     "code": "NURS 482",
      "col": 7,
-     "row": 2,
-     "code": "NURS 475B"
+     "row": 1
     },
     {
      "id": "d12",
      "type": "fixed",
-     "label": "NURS 352B",
-     "col": 5,
-     "row": 0,
-     "code": "NURS 352B"
+     "label": "Pharmacology I",
+     "code": "NURS 475A",
+     "col": 6,
+     "row": 2
     },
     {
      "id": "d13",
      "type": "fixed",
-     "label": "NURS 352C",
-     "col": 4,
-     "row": 1,
-     "code": "NURS 352C"
+     "label": "Pharmacology II",
+     "code": "NURS 475B",
+     "col": 7,
+     "row": 2
     },
     {
      "id": "d14",
      "type": "fixed",
-     "label": "NURS 475",
-     "col": 6,
-     "row": 3,
-     "code": "NURS 475"
+     "label": "Nursing Pathophysiology II",
+     "code": "NURS 352B",
+     "col": 4,
+     "row": 1
     },
     {
      "id": "d15",
      "type": "fixed",
-     "label": "NURS 476",
-     "col": 7,
-     "row": 3,
-     "code": "NURS 476"
+     "label": "NURS 352C",
+     "code": "NURS 352C",
+     "col": 5,
+     "row": 1
     },
     {
      "id": "d16",
      "type": "fixed",
-     "label": "NURS 477",
+     "label": "NURS 475",
+     "code": "NURS 475",
      "col": 6,
-     "row": 4,
-     "code": "NURS 477"
+     "row": 3
     },
     {
      "id": "d17",
      "type": "fixed",
-     "label": "NURS 484",
+     "label": "NURS 476",
+     "code": "NURS 476",
      "col": 7,
-     "row": 4,
-     "code": "NURS 484"
+     "row": 3
     },
     {
      "id": "d18",
      "type": "fixed",
-     "label": "Foundational Integrative Health Assessment",
-     "col": 5,
-     "row": 1,
-     "code": "NURS 351"
+     "label": "NURS 477",
+     "code": "NURS 477",
+     "col": 6,
+     "row": 4
     },
     {
      "id": "d19",
      "type": "fixed",
-     "label": "Nursing Pathophysiology I",
-     "col": 4,
-     "row": 2,
-     "code": "NURS 352A"
+     "label": "NURS 484",
+     "code": "NURS 484",
+     "col": 7,
+     "row": 4
     },
     {
      "id": "d20",
      "type": "fixed",
-     "label": "Foundations of Nursing Care I",
-     "col": 5,
-     "row": 2,
-     "code": "NURS 357"
+     "label": "Foundational Integrative Health Assessment",
+     "code": "NURS 351",
+     "col": 4,
+     "row": 2
     },
     {
      "id": "d21",
      "type": "fixed",
-     "label": "Foundations of Integrative Inquiry in Evidence-Based Practice",
-     "col": 4,
-     "row": 3,
-     "code": "NURS 358"
+     "label": "Nursing Pathophysiology I",
+     "code": "NURS 352A",
+     "col": 5,
+     "row": 2
     },
     {
      "id": "d22",
      "type": "fixed",
-     "label": "Well Child/Well Adult in the Community",
-     "col": 5,
-     "row": 3,
-     "code": "NURS 360"
+     "label": "Foundations of Nursing Care I",
+     "code": "NURS 357",
+     "col": 4,
+     "row": 3
     },
     {
      "id": "d23",
-     "type": "te",
-     "label": "Supporting Math",
-     "col": 4,
-     "row": 4,
-     "list": "pool14"
+     "type": "fixed",
+     "label": "Foundations of Integrative Inquiry in Evidence-Based Practice",
+     "code": "NURS 358",
+     "col": 5,
+     "row": 3
     },
     {
      "id": "d24",
+     "type": "fixed",
+     "label": "Well Child/Well Adult in the Community",
+     "code": "NURS 360",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d25",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d26",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d27",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d28",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d29",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d30",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d31",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d32",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d33",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d34",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Supporting Math",
+     "list": "pool14",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d36",
      "type": "te",
      "label": "Chemistry Lecture",
+     "list": "pool15",
      "col": 5,
-     "row": 4,
-     "list": "pool15"
+     "row": 6
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "Chemistry Lab",
+     "list": "pool16",
+     "col": 6,
+     "row": 5
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "Nutrition",
+     "list": "pool21",
+     "col": 6,
+     "row": 6
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "Statistics",
+     "list": "pool22",
+     "col": 7,
+     "row": 5
+    },
+    {
+     "id": "d40",
+     "type": "te",
+     "label": "Human Development",
+     "list": "pool23",
+     "col": 7,
+     "row": 6
     }
    ],
    "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
     {
      "id": "r16",
      "name": "Introductory Biology",
@@ -646,6 +942,24 @@
      "list": "NURS 352B,NURS 352C,NURS 475,NURS 476,NURS 477,NURS 484,NURS 351,NURS 352A,NURS 357,NURS 358,NURS 360",
      "claim": false,
      "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
      "minC": false
     },
     {
@@ -706,529 +1020,714 @@
   }
  },
  "courses": {
-  "AAE 239": {
-   "t": "Introduction to Statistics and Data Analysis",
-   "u": 3,
-   "src": "draft from catalog printout",
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
    "uv": [
     "pre",
     "off"
-   ]
-  },
-  "BIOS 376": {
-   "t": "Introduction to Biostatistics",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 130": {
-   "t": "Chemistry for Allied & Public Health",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 130L": {
-   "t": "Laboratory in General Chemistry",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 142": {
-   "t": "General Chemistry Lecture II: Quantitative Approach",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 146": {
-   "t": "Quantitative Chemistry Laboratory II",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 152": {
-   "t": "Chemical Thinking II",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 162": {
-   "t": "Honors Chemical Thinking II",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 164": {
-   "t": "Honors Fundamental Techniques of Chemistry II",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "CHEM 182": {
-   "t": "Majors General Chemistry II",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "EDP 200": {
-   "t": "Evolution and Human Development",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HDFS 117": {
-   "t": "Lifespan Human Development",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HDFS 200": {
-   "t": "Evolution and Human Development",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "HECL 201": {
-   "t": "Introduction to Statistics",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "ISTA 116": {
-   "t": "Statistical Foundations for the Information Age",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 112": {
-   "t": "College Algebra Concepts and Applications",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 113": {
-   "t": "Elements of Calculus",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 116": {
-   "t": "Calculus Concepts for Business",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 119A": {
-   "t": "Mathematics of Biological Systems: a calculus based approach",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 120R": {
-   "t": "Calculus Preparation",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "MATH 122B": {
-   "t": "Calculus I (B)",
-   "u": 2,
-   "src": "chart"
-  },
-  "MATH 125": {
-   "t": "Calculus I",
-   "u": 3,
-   "src": "chart"
-  },
-  "MATH 129": {
-   "t": "Calculus II",
-   "u": 3,
-   "pre": [
-    "MATH 122B|MATH 125"
    ],
-   "src": "chart"
+   "src": "draft from catalog printout"
   },
-  "MATH 163": {
-   "t": "Basic Statistics",
-   "u": 3,
-   "src": "draft from catalog printout",
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
    "uv": [
     "pre",
     "off"
-   ]
-  },
-  "MATH 263": {
-   "t": "Introduction to Statistics and Biostatistics",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "UNIV 101"
    ]
   },
   "MCB 181R": {
    "t": "Introduction to Molecular and Cellular Biology",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
   "MIC 205A": {
    "t": "General Microbiology",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
-  "NSC 170C1": {
-   "t": "Nutrition, Food, and You",
-   "u": 3,
-   "src": "draft from catalog printout",
+  "PSIO 201": {
+   "t": "Human Anatomy and Physiology I",
+   "u": 4,
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
-  "NSC 310": {
-   "t": "Human Nutrition in the Prevention and Treatment of Disease",
-   "u": 3,
-   "src": "draft from catalog printout",
+  "PSIO 202": {
+   "t": "Human Anatomy and Physiology II",
+   "u": 4,
    "uv": [
     "pre",
     "off"
-   ]
-  },
-  "NURS 351": {
-   "t": "Foundational Integrative Health Assessment",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 352": {
-   "t": "Pathophysiology",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 352A": {
-   "t": "Nursing Pathophysiology I",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 352B": {
-   "t": "NURS 352B",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 352C": {
-   "t": "NURS 352C",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 353": {
-   "t": "Foundations of Nursing Care",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 354": {
-   "t": "Introduction to Professional Nursing Competencies",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 355": {
-   "t": "Scholarly Inquiry in Evidence-Based Practice",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 357": {
-   "t": "Foundations of Nursing Care I",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 358": {
-   "t": "Foundations of Integrative Inquiry in Evidence-Based Practice",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 360": {
-   "t": "Well Child/Well Adult in the Community",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 362": {
-   "t": "NURS 362",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 363": {
-   "t": "NURS 363",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 364": {
-   "t": "NURS 364",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 472": {
-   "t": "NURS 472",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 474": {
-   "t": "NURS 474",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 475": {
-   "t": "NURS 475",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 475A": {
-   "t": "Pharmacology I",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
-   ]
-  },
-  "NURS 475B": {
-   "t": "Pharmacology II",
-   "u": 3,
-   "src": "draft from catalog printout",
-   "uv": [
-    "pre",
-    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "PSIO 201"
    ]
   },
   "NURS 475C": {
-   "t": "NURS 475C",
-   "u": 3,
-   "src": "draft from catalog printout",
+   "t": "Pharmacology III",
+   "u": 1,
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
-  "NURS 476": {
-   "t": "NURS 476",
-   "u": 3,
-   "src": "draft from catalog printout",
+  "NURS 362": {
+   "t": "Medical-Surgical Nursing Concepts and Clinical Practice",
+   "u": 6,
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
-  "NURS 477": {
-   "t": "NURS 477",
-   "u": 3,
-   "src": "draft from catalog printout",
+  "NURS 474": {
+   "t": "Behavioral Health and Palliative Care Across the Lifespan",
+   "u": 5,
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
   "NURS 481": {
    "t": "NURS 481",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
   "NURS 482": {
    "t": "NURS 482",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 475A": {
+   "t": "Pharmacology I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 475B": {
+   "t": "Pharmacology II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "NURS 475A"
    ]
+  },
+  "NURS 363": {
+   "t": "Maternal-Newborn Nursing",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 364": {
+   "t": "Pediatric Nursing",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 472": {
+   "t": "NURS 472",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
   },
   "NURS 484": {
    "t": "NURS 484",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 352": {
+   "t": "Pathophysiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 353": {
+   "t": "Foundations of Nursing Care",
+   "u": 7,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 354": {
+   "t": "Introduction to Professional Nursing Competencies",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 355": {
+   "t": "Scholarly Inquiry in Evidence-Based Practice",
+   "u": 2,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ENGL 1EIB": {
+   "t": "International Baccalaureate (IB) English Elective",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101A": {
+   "t": "First-Year Composition with Discussion",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "EMENT 100"
    ]
   },
-  "PSIO 201": {
-   "t": "Human Anatomy and Physiology I                             AND",
+  "WRIT 102": {
+   "t": "First-Year Composition",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 106": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "OF 106"
    ]
   },
-  "PSIO 202": {
-   "t": "Human Anatomy and Physiology II",
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 108": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "WRIT 107|EMENT 108"
    ]
   },
-  "PSY 200": {
-   "t": "Evolution and Human Development",
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 112": {
+   "t": "College Algebra Concepts and Applications",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100"
+   ]
+  },
+  "MATH 113": {
+   "t": "Elements of Calculus",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 116": {
+   "t": "Calculus Concepts for Business",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MIS 111|BE 120",
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 119A": {
+   "t": "Mathematics of Biological Systems: a calculus based approach",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 120R": {
+   "t": "Calculus Preparation",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 125"
+   ]
+  },
+  "CHEM 130": {
+   "t": "Chemistry for Allied & Public Health",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 142": {
+   "t": "General Chemistry Lecture II: Quantitative Approach",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 152": {
+   "t": "Chemical Thinking II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 162": {
+   "t": "Honors Chemical Thinking II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 161"
+   ]
+  },
+  "CHEM 182": {
+   "t": "Majors General Chemistry II",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 142",
+    "CHEM 152",
+    "CHEM 162"
+   ]
+  },
+  "CHEM 130L": {
+   "t": "Laboratory in General Chemistry",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 130"
+   ],
+   "co": [
+    "CHEM 130"
+   ]
+  },
+  "CHEM 146": {
+   "t": "Quantitative Chemistry Laboratory II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 151|CHEM 141|CHEM 161"
+   ]
+  },
+  "CHEM 164": {
+   "t": "Honors Fundamental Techniques of Chemistry II",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NSC 170C1": {
+   "t": "Nutrition, Food, and You",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NSC 310": {
+   "t": "Human Nutrition in the Prevention and Treatment of Disease",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "AAE 239": {
+   "t": "Introduction to Statistics and Data Analysis",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "BIOS 376": {
+   "t": "Introduction to Biostatistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 108|MATH 112"
+   ]
+  },
+  "HECL 201": {
+   "t": "Introduction to Statistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ISTA 116": {
+   "t": "Statistical Foundations for the Information Age",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 163": {
+   "t": "Basic Statistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 263": {
+   "t": "Introduction to Statistics and Biostatistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
    ]
   },
   "PSY 230": {
    "t": "Psychological Measurement and Statistics",
    "u": 3,
-   "src": "draft from catalog printout",
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
   },
   "SBS 200": {
    "t": "Introduction to Statistics for the Social Sciences",
-   "u": 3,
-   "src": "draft from catalog printout",
+   "u": 4,
    "uv": [
     "pre",
     "off"
-   ]
+   ],
+   "src": "draft from catalog printout"
+  },
+  "EDP 200": {
+   "t": "Evolution and Human Development",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HDFS 117": {
+   "t": "Lifespan Human Development",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HDFS 200": {
+   "t": "Evolution and Human Development",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSY 200": {
+   "t": "Evolution and Human Development",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 352B": {
+   "t": "Nursing Pathophysiology II",
+   "u": 2,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 352C": {
+   "t": "NURS 352C",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 475": {
+   "t": "NURS 475",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 476": {
+   "t": "NURS 476",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 477": {
+   "t": "NURS 477",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 351": {
+   "t": "Foundational Integrative Health Assessment",
+   "u": 2,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 352A": {
+   "t": "Nursing Pathophysiology I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 357": {
+   "t": "Foundations of Nursing Care I",
+   "u": 5,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 358": {
+   "t": "Foundations of Integrative Inquiry in Evidence-Based Practice",
+   "u": 2,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "NURS 360": {
+   "t": "Well Child/Well Adult in the Community",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
   }
- },
- "draft": true,
- "note": "Made from the public catalog.arizona.edu program printout and a college program guide (BSN-CONV 2025-2026), not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it."
+ }
 }

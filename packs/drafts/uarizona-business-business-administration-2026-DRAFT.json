@@ -1,0 +1,935 @@
+{
+ "format": "degree-pack/1",
+ "id": "uarizona/business/business-administration/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "draft": true,
+ "program": {
+  "name": "Business Administration",
+  "college": "Eller College of Management",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science in Business Administration"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C",
+  "majorUpper": 18
+ },
+ "meta": {
+  "srcKind": "catalog",
+  "srcDate": "2026-08-01",
+  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
+ },
+ "lists": {
+  "pool4": [],
+  "pool14": [
+   "HIST 150C3",
+   "POL 201"
+  ],
+  "pool15": [
+   "WRIT 106",
+   "WRIT 101",
+   "WRIT 102",
+   "ENGL 1EIB",
+   "WRIT 101A",
+   "WRIT 107",
+   "WRIT 108"
+  ],
+  "pool20": [
+   "MATH 116",
+   "MATH 113",
+   "MATH 122B",
+   "MATH 125"
+  ]
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Business Administration",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-BNADBSBA-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 18 upper-division units."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Advanced First-Year Composition",
+     "code": "WRIT 109H",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Introduction to Financial Accounting",
+     "code": "ACCT 200",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Introduction to Managerial Accounting",
+     "code": "ACCT 210",
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Statistical Inference in Management",
+     "code": "BNAN 276",
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Analytical Methods for Business",
+     "code": "BNAN 277",
+     "col": 3,
+     "row": 1
+    },
+    {
+     "id": "d8",
+     "type": "fixed",
+     "label": "Computers and Internetworked Society",
+     "code": "MIS 111",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d9",
+     "type": "fixed",
+     "label": "Computers & Internetworked Society - Lab",
+     "code": "MIS 112",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d10",
+     "type": "fixed",
+     "label": "Basic Economic Issues",
+     "code": "ECON 200",
+     "col": 2,
+     "row": 2
+    },
+    {
+     "id": "d11",
+     "type": "fixed",
+     "label": "Fundamentals of Business Communication",
+     "code": "BCOM 214",
+     "col": 3,
+     "row": 2
+    },
+    {
+     "id": "d12",
+     "type": "fixed",
+     "label": "Business Communication",
+     "code": "BCOM 314R",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d13",
+     "type": "fixed",
+     "label": "Microeconomic Analysis for Business Decisions",
+     "code": "ECON 300",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d14",
+     "type": "fixed",
+     "label": "Macroeconomic and Global Institutions and Policy",
+     "code": "ECON 330",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d15",
+     "type": "fixed",
+     "label": "Introduction to Finance",
+     "code": "FIN 311",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d16",
+     "type": "fixed",
+     "label": "Organization Behavior and Management",
+     "code": "MGMT 310A",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d17",
+     "type": "fixed",
+     "label": "Integrating Business Fundamentals with Ethics and Law in Management",
+     "code": "MGMT 402",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d18",
+     "type": "fixed",
+     "label": "Using and Managing Information Systems",
+     "code": "MIS 304",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d19",
+     "type": "fixed",
+     "label": "Introduction to Marketing",
+     "code": "MKTG 361",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d20",
+     "type": "fixed",
+     "label": "Basic Operations Management",
+     "code": "OSCM 373",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d21",
+     "type": "fixed",
+     "label": "Innovating:Creating the Future",
+     "code": "ENTR 485",
+     "col": 7,
+     "row": 0
+    },
+    {
+     "id": "d22",
+     "type": "fixed",
+     "label": "Economic Strategy for Business Decisions",
+     "code": "ECON 400",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d23",
+     "type": "fixed",
+     "label": "Real Estate Finance and Investment",
+     "code": "FIN 460",
+     "col": 7,
+     "row": 1
+    },
+    {
+     "id": "d24",
+     "type": "fixed",
+     "label": "Introduction to Human Resources Management",
+     "code": "MGMT 330",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d25",
+     "type": "fixed",
+     "label": "Project Management",
+     "code": "MIS 478",
+     "col": 6,
+     "row": 2
+    },
+    {
+     "id": "d26",
+     "type": "fixed",
+     "label": "Marketing Analytics for Decision Making",
+     "code": "MKTG 376",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d27",
+     "type": "fixed",
+     "label": "Intermediate Accounting for Business Administration Majors",
+     "code": "ACCT 400E",
+     "col": 7,
+     "row": 2
+    },
+    {
+     "id": "d28",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d29",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d30",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d31",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d32",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d33",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 3
+    },
+    {
+     "id": "d34",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 3
+    },
+    {
+     "id": "d35",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool4",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d36",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool14",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d37",
+     "type": "te",
+     "label": "1. Option I: Foundation Compo…",
+     "list": "pool15",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d38",
+     "type": "te",
+     "label": "1. Option I: Foundation Compo…",
+     "list": "pool15",
+     "col": 6,
+     "row": 3
+    },
+    {
+     "id": "d39",
+     "type": "te",
+     "label": "1. Option I: Foundation Compo…",
+     "list": "pool15",
+     "col": 6,
+     "row": 4
+    },
+    {
+     "id": "d40",
+     "type": "te",
+     "label": "4. Business Calculus",
+     "list": "pool20",
+     "col": 6,
+     "row": 5
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r2",
+     "name": "Honors Composition",
+     "units": 3,
+     "list": "WRIT 109H",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r7",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r17",
+     "name": "2. Pre-Admission Core I",
+     "units": 15,
+     "list": "ACCT 200,ACCT 210,BNAN 276,BNAN 277,MIS 111",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r18",
+     "name": "3. Pre-Admission Core II",
+     "units": 3,
+     "list": "MIS 112",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r20",
+     "name": "5. Economics",
+     "units": 3,
+     "list": "ECON 200",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r22",
+     "name": "6. Fundamentals of Business Communication",
+     "units": 3,
+     "list": "BCOM 214",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r24",
+     "name": "Professional Core",
+     "units": 27,
+     "list": "BCOM 314R,ECON 300,ECON 330,FIN 311,MGMT 310A,MGMT 402,MIS 304,MKTG 361,OSCM 373",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r25",
+     "name": "Entrepreneurship and Innovation",
+     "units": 3,
+     "list": "ENTR 485",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r27",
+     "name": "1. Core",
+     "units": 15,
+     "list": "ECON 400,FIN 460,MGMT 330,MIS 478,MKTG 376",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r28",
+     "name": "2. Intermediate Accounting",
+     "units": 3,
+     "list": "ACCT 400E",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p3",
+     "name": "Foundations Writing",
+     "units": 3,
+     "list": "@pool4",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool14",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "1. Option I: Foundation Composition - 3 Course Sequence",
+     "units": 9,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p19",
+     "name": "4. Business Calculus",
+     "units": 3,
+     "list": "@pool20",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "WRIT 109H": {
+   "t": "Advanced First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "ACCT 200": {
+   "t": "Introduction to Financial Accounting",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ACCT 210": {
+   "t": "Introduction to Managerial Accounting",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "ACCT 200"
+   ]
+  },
+  "BNAN 276": {
+   "t": "Statistical Inference in Management",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 113|MATH 116|MATH 122B|MATH 125"
+   ]
+  },
+  "BNAN 277": {
+   "t": "Analytical Methods for Business",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "BNAN 276"
+   ]
+  },
+  "MIS 111": {
+   "t": "Computers and Internetworked Society",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MIS 112": {
+   "t": "Computers & Internetworked Society - Lab",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECON 200": {
+   "t": "Basic Economic Issues",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "BCOM 214": {
+   "t": "Fundamentals of Business Communication",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "ACCT 200",
+    "BNAN 276"
+   ]
+  },
+  "BCOM 314R": {
+   "t": "Business Communication",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECON 300": {
+   "t": "Microeconomic Analysis for Business Decisions",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECON 330": {
+   "t": "Macroeconomic and Global Institutions and Policy",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "FIN 311": {
+   "t": "Introduction to Finance",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MGMT 310A": {
+   "t": "Organization Behavior and Management",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MGMT 402": {
+   "t": "Integrating Business Fundamentals with Ethics and Law in Management",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "BCOM 314R",
+    "MGMT 310A",
+    "MKTG 361",
+    "MIS 304"
+   ]
+  },
+  "MIS 304": {
+   "t": "Using and Managing Information Systems",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MKTG 361": {
+   "t": "Introduction to Marketing",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "OSCM 373": {
+   "t": "Basic Operations Management",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ENTR 485": {
+   "t": "Innovating:Creating the Future",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "BCOM 314R",
+    "MKTG 361",
+    "MGMT 310A",
+    "MIS 304"
+   ]
+  },
+  "ECON 400": {
+   "t": "Economic Strategy for Business Decisions",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "FIN 460": {
+   "t": "Real Estate Finance and Investment",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MGMT 330": {
+   "t": "Introduction to Human Resources Management",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MIS 478": {
+   "t": "Project Management",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MKTG 376": {
+   "t": "Marketing Analytics for Decision Making",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ACCT 400E": {
+   "t": "Intermediate Accounting for Business Administration Majors",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 106": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "OF 106"
+   ]
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ENGL 1EIB": {
+   "t": "International Baccalaureate (IB) English Elective",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101A": {
+   "t": "First-Year Composition with Discussion",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "EMENT 100"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 108": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "MATH 116": {
+   "t": "Calculus Concepts for Business",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MIS 111|BE 120",
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 113": {
+   "t": "Elements of Calculus",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  }
+ }
+}

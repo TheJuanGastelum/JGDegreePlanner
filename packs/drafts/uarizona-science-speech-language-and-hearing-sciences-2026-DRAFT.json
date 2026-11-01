@@ -1,0 +1,914 @@
+{
+ "format": "degree-pack/1",
+ "id": "uarizona/science/speech-language-and-hearing-sciences/2026",
+ "version": "0.1.0-draft",
+ "date": "2026-10-31",
+ "owner": "",
+ "draft": true,
+ "program": {
+  "name": "Speech, Language and Hearing Sciences",
+  "college": "College of Science",
+  "university": "University of Arizona",
+  "degree": "Bachelor of Science"
+ },
+ "limits": {
+  "upper": 42,
+  "total": 120,
+  "maxLoad": 17,
+  "minGrade": "C",
+  "majorUnits": 33,
+  "majorUpper": 15,
+  "majorGpa": 2
+ },
+ "meta": {
+  "srcKind": "catalog",
+  "srcDate": "2026-08-01",
+  "note": "Made from the public catalog.arizona.edu program printout, not from an approved pack. Catalog date: 2026-08-01. Prerequisites, offerings and most units are unknown (marked unverified). An advisor must review every box before anyone relies on it.",
+  "catalog": "DRAFT from a catalog.arizona.edu program printout (not an approved pack); catalog date: 2026-08-01",
+  "audit": "unverified",
+  "courses": "prerequisites and offerings unverified"
+ },
+ "lists": {
+  "pool1": [
+   "ENGL 1EIB",
+   "WRIT 101",
+   "WRIT 101A",
+   "WRIT 102",
+   "WRIT 106",
+   "WRIT 107",
+   "WRIT 108"
+  ],
+  "pool13": [
+   "HIST 150C3",
+   "POL 201"
+  ],
+  "pool14": [
+   "MATH 113",
+   "MATH 122B",
+   "MATH 125",
+   "MATH 129"
+  ],
+  "pool15": [
+   "MATH 163",
+   "MATH 263",
+   "PSY 230",
+   "SBS 200",
+   "SOC 375"
+  ],
+  "pool16": [
+   "CHEM 101B",
+   "CHEM 130",
+   "CHEM 130L",
+   "CHEM 141",
+   "CHEM 143",
+   "CHEM 151",
+   "CHEM 161",
+   "CHEM 163",
+   "PHYS 102",
+   "PHYS 181"
+  ],
+  "pool18": [],
+  "pool19": [
+   "SLHS 261",
+   "SLHS 267",
+   "SLHS 340",
+   "SLHS 362",
+   "SLHS 367",
+   "SLHS 380",
+   "SLHS 441",
+   "SLHS 473",
+   "SLHS 477",
+   "SLHS 483L",
+   "SLHS 483R"
+  ]
+ },
+ "tracks": {
+  "MAIN": {
+   "name": "Speech, Language and Hearing Sciences",
+   "sub": "UNVERIFIED DRAFT made from a catalog program printout. Box order is a guess from course levels.",
+   "rev": "",
+   "bullets": [
+    "Source: public catalog.arizona.edu program printout (program-SLHSBS-2026-08-01.pdf), NOT an approved pack. Catalog date: 2026-08-01 (taken from the file name; the file text gives no date). Box order is a guess from course levels; prerequisites and offerings are unknown. An advisor must verify every box before you rely on it.",
+    "Major minimums from the report: 33 units in the major, 15 upper-division units, GPA 2.0 in the major."
+   ],
+   "blocks": [
+    {
+     "id": "d1",
+     "type": "fixed",
+     "label": "Introduction to the General Education Experience",
+     "code": "UNIV 101",
+     "col": 0,
+     "row": 0
+    },
+    {
+     "id": "d2",
+     "type": "fixed",
+     "label": "General Education Portfolio",
+     "code": "UNIV 301",
+     "col": 4,
+     "row": 0
+    },
+    {
+     "id": "d3",
+     "type": "fixed",
+     "label": "Introductory Biology II Lab",
+     "code": "ECOL 182L",
+     "col": 1,
+     "row": 0
+    },
+    {
+     "id": "d4",
+     "type": "fixed",
+     "label": "Introductory Biology II",
+     "code": "ECOL 182R",
+     "col": 0,
+     "row": 1
+    },
+    {
+     "id": "d5",
+     "type": "fixed",
+     "label": "Introductory Biology Laboratory I",
+     "code": "MCB 181L",
+     "col": 1,
+     "row": 1
+    },
+    {
+     "id": "d6",
+     "type": "fixed",
+     "label": "Introduction to Molecular and Cellular Biology",
+     "code": "MCB 181R",
+     "col": 0,
+     "row": 2
+    },
+    {
+     "id": "d7",
+     "type": "fixed",
+     "label": "Human Anatomy and Physiology I",
+     "code": "PSIO 201",
+     "col": 2,
+     "row": 0
+    },
+    {
+     "id": "d8",
+     "type": "free",
+     "label": "Second language (2nd semester)",
+     "units": 3,
+     "col": 1,
+     "row": 2
+    },
+    {
+     "id": "d9",
+     "type": "free",
+     "label": "Exploring Perspective: Artist",
+     "units": 3,
+     "col": 0,
+     "row": 3
+    },
+    {
+     "id": "d10",
+     "type": "free",
+     "label": "Exploring Perspective: Humanist",
+     "units": 3,
+     "col": 1,
+     "row": 3
+    },
+    {
+     "id": "d11",
+     "type": "free",
+     "label": "Exploring Perspective: Natural Scientist",
+     "units": 3,
+     "col": 0,
+     "row": 4
+    },
+    {
+     "id": "d12",
+     "type": "free",
+     "label": "Exploring Perspective: Social Scientist",
+     "units": 3,
+     "col": 1,
+     "row": 4
+    },
+    {
+     "id": "d13",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 3,
+     "row": 0
+    },
+    {
+     "id": "d14",
+     "type": "free",
+     "label": "Building Connections",
+     "units": 3,
+     "col": 2,
+     "row": 1
+    },
+    {
+     "id": "d15",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 5,
+     "row": 0
+    },
+    {
+     "id": "d16",
+     "type": "te",
+     "label": "Foundations Writing",
+     "list": "pool1",
+     "col": 4,
+     "row": 1
+    },
+    {
+     "id": "d17",
+     "type": "te",
+     "label": "Civic Institutions",
+     "list": "pool13",
+     "col": 5,
+     "row": 1
+    },
+    {
+     "id": "d18",
+     "type": "te",
+     "label": "Math",
+     "list": "pool14",
+     "col": 4,
+     "row": 2
+    },
+    {
+     "id": "d19",
+     "type": "te",
+     "label": "Statistics",
+     "list": "pool15",
+     "col": 5,
+     "row": 2
+    },
+    {
+     "id": "d20",
+     "type": "te",
+     "label": "Physical Science",
+     "list": "pool16",
+     "col": 4,
+     "row": 3
+    },
+    {
+     "id": "d21",
+     "type": "te",
+     "label": "Physical Science",
+     "list": "pool16",
+     "col": 5,
+     "row": 3
+    },
+    {
+     "id": "d22",
+     "type": "te",
+     "label": "Social Science",
+     "list": "pool18",
+     "col": 4,
+     "row": 4
+    },
+    {
+     "id": "d23",
+     "type": "te",
+     "label": "Core",
+     "list": "pool19",
+     "col": 5,
+     "row": 4
+    },
+    {
+     "id": "d24",
+     "type": "te",
+     "label": "Core",
+     "list": "pool19",
+     "col": 4,
+     "row": 5
+    },
+    {
+     "id": "d25",
+     "type": "te",
+     "label": "Core",
+     "list": "pool19",
+     "col": 5,
+     "row": 5
+    },
+    {
+     "id": "d26",
+     "type": "te",
+     "label": "Core",
+     "list": "pool19",
+     "col": 4,
+     "row": 6
+    },
+    {
+     "id": "d27",
+     "type": "te",
+     "label": "Core",
+     "list": "pool19",
+     "col": 5,
+     "row": 6
+    },
+    {
+     "id": "d28",
+     "type": "te",
+     "label": "Core",
+     "list": "pool19",
+     "col": 6,
+     "row": 0
+    },
+    {
+     "id": "d29",
+     "type": "te",
+     "label": "Core",
+     "list": "pool19",
+     "col": 6,
+     "row": 1
+    },
+    {
+     "id": "d30",
+     "type": "te",
+     "label": "Core",
+     "list": "pool19",
+     "col": 6,
+     "row": 2
+    }
+   ],
+   "buckets": [
+    {
+     "id": "r5",
+     "name": "Introduction to General Education course",
+     "units": 1,
+     "list": "UNIV 101",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r6",
+     "name": "General Education Capstone course",
+     "units": 1,
+     "list": "UNIV 301",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "r16",
+     "name": "Biological Science",
+     "units": 4,
+     "list": "ECOL 182L,ECOL 182R,MCB 181L,MCB 181R,PSIO 201",
+     "claim": false,
+     "unique": false,
+     "minC": false
+    },
+    {
+     "id": "p0",
+     "name": "Foundations Writing",
+     "units": 6,
+     "list": "@pool1",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p12",
+     "name": "Civic Institutions",
+     "units": 2.67,
+     "list": "@pool13",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p13",
+     "name": "Math",
+     "units": 3,
+     "list": "@pool14",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p14",
+     "name": "Statistics",
+     "units": 3,
+     "list": "@pool15",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p15",
+     "name": "Physical Science",
+     "units": 4,
+     "list": "@pool16",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p17",
+     "name": "Social Science",
+     "units": 3,
+     "list": "@pool18",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    },
+    {
+     "id": "p18",
+     "name": "Core",
+     "units": 33,
+     "list": "@pool19",
+     "claim": true,
+     "unique": true,
+     "minC": false
+    }
+   ]
+  }
+ },
+ "courses": {
+  "UNIV 101": {
+   "t": "Introduction to the General Education Experience",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "UNIV 301": {
+   "t": "General Education Portfolio",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "UNIV 101"
+   ]
+  },
+  "ECOL 182L": {
+   "t": "Introductory Biology II Lab",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ECOL 182R": {
+   "t": "Introductory Biology II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 181L": {
+   "t": "Introductory Biology Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MCB 181R": {
+   "t": "Introduction to Molecular and Cellular Biology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PSIO 201": {
+   "t": "Human Anatomy and Physiology I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "ENGL 1EIB": {
+   "t": "International Baccalaureate (IB) English Elective",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 101A": {
+   "t": "First-Year Composition with Discussion",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "EMENT 100"
+   ]
+  },
+  "WRIT 102": {
+   "t": "First-Year Composition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 106": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "OF 106"
+   ]
+  },
+  "WRIT 107": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "WRIT 108": {
+   "t": "Foundations Writing for English as an Additional Language Students",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "WRIT 107|EMENT 108"
+   ]
+  },
+  "HIST 150C3": {
+   "t": "U.S. Society and Institutions Since 1877",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "POL 201": {
+   "t": "American National Government",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 113": {
+   "t": "Elements of Calculus",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 122B": {
+   "t": "First-Semester Calculus",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122A"
+   ],
+   "co": [
+    "MATH 122A"
+   ]
+  },
+  "MATH 125": {
+   "t": "Calculus I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "MATH 129": {
+   "t": "Calculus II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 122B|MATH 125"
+   ]
+  },
+  "MATH 163": {
+   "t": "Basic Statistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "MATH 263": {
+   "t": "Introduction to Statistics and Biostatistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "MATH 100",
+    "MATH 112"
+   ]
+  },
+  "PSY 230": {
+   "t": "Psychological Measurement and Statistics",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SBS 200": {
+   "t": "Introduction to Statistics for the Social Sciences",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SOC 375": {
+   "t": "Quantitative Reasoning in Sociology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 101B": {
+   "t": "Lectures in General Chemistry",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 101A|CHEM 151|CHEM 161|CHEM 141"
+   ]
+  },
+  "CHEM 130": {
+   "t": "Chemistry for Allied & Public Health",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 130L": {
+   "t": "Laboratory in General Chemistry",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 130"
+   ],
+   "co": [
+    "CHEM 130"
+   ]
+  },
+  "CHEM 141": {
+   "t": "General Chemistry Lecture I: Quantitative",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 143": {
+   "t": "General Chemistry Lab 1: Quantitative",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 151": {
+   "t": "Chemical Thinking I",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 161": {
+   "t": "Honors Chemical Thinking I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "CHEM 163": {
+   "t": "Honors Fundamental Techniques of Chemistry I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "CHEM 161"
+   ],
+   "co": [
+    "CHEM 161"
+   ]
+  },
+  "PHYS 102": {
+   "t": "Introductory Physics I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "PHYS 181": {
+   "t": "Introductory Laboratory I",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SLHS 261": {
+   "t": "Anatomy and Physiology of the Speech Mechanism",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SLHS 267": {
+   "t": "Acoustics for the Speech and Hearing Sciences",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SLHS 340": {
+   "t": "Language Science",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SLHS 362": {
+   "t": "Neurobiology of Communication",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SLHS 367": {
+   "t": "Phonetics for Clinical Practice",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SLHS 380": {
+   "t": "Hearing Science",
+   "u": 4,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "SLHS 267"
+   ]
+  },
+  "SLHS 441": {
+   "t": "Language Acquisition",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SLHS 473": {
+   "t": "Communication Disorders II",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "draft from catalog printout"
+  },
+  "SLHS 477": {
+   "t": "Communication Disorders I",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "SLHS 261"
+   ]
+  },
+  "SLHS 483L": {
+   "t": "Laboratory in Principles of Audiology",
+   "u": 1,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "SLHS 483R"
+   ],
+   "co": [
+    "SLHS 483R"
+   ]
+  },
+  "SLHS 483R": {
+   "t": "Principles of Audiology",
+   "u": 3,
+   "uv": [
+    "pre",
+    "off"
+   ],
+   "src": "UA catalog (Enrollment Requirements), read automatically",
+   "pre": [
+    "SLHS 267",
+    "SLHS 380",
+    "SLHS 483L"
+   ],
+   "co": [
+    "SLHS 483L"
+   ]
+  }
+ }
+}
