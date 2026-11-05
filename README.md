@@ -2,6 +2,8 @@
 
 **A free degree planner in one file. Plan a degree on a flowchart, check prerequisites and when classes are offered, and print it.** Nothing to install, no account, and nothing you enter ever leaves your computer.
 
+**Short link to share:** https://tinyurl.com/JGPlanner
+
 > **Unofficial.** JGDegreePlanner is an unofficial planning aid made by Juan Gastelum for students and advisors. It is not an official tool, and it is not made, endorsed or approved by any university. Always confirm your plan with your academic advisor and your advisement report.
 
 <p align="center"><img src="docs/chart.png" alt="The chart with an example student" width="860"></p>
@@ -9,11 +11,26 @@
 
 ## Get started in 1 minute
 
-1. **Download** [`JGDegreePlanner.html`](https://github.com/TheJuanGastelum/JGDegreePlanner/releases/latest) (open the latest Release and download the file).
+1. **Download** [`JGDegreePlanner.html`](https://github.com/TheJuanGastelum/JGDegreePlanner/releases/latest/download/JGDegreePlanner.html) (one click; it is also on the [Releases page](https://github.com/TheJuanGastelum/JGDegreePlanner/releases/latest)).
 2. **Double-click it.** It opens in your browser (Chrome or Edge work best).
 3. A short **guided tour** starts the first time. You can replay it any time from the gear, App tab.
 
 Keep the file name exactly `JGDegreePlanner.html`. A copy with another name still works but shows a notice at the top (see the FAQ).
+
+### What do I need to download?
+
+**Just that one file, `JGDegreePlanner.html`.** It is the whole app: the ready-made majors, the help and the example plan are inside it. You do not need to clone this page, unzip anything or install anything.
+
+Everything else in this repository is **optional**:
+
+| File or folder | Needed? | What it is |
+|---|---|---|
+| `JGDegreePlanner.html` | **Yes, this is the app** | Double-click it. Works offline. |
+| `README.md` | No | This guide. |
+| `MAJOR-EDITING.md` | No (advisors) | Step-by-step guide to editing or adding a major. |
+| `packs/` | No (advisors) | The ready-made major drafts as separate files. They are already inside the app. Only open these if you want to review a draft, share one, or load one from your own packs folder. |
+| `docs/` | No | Pictures used on this page. |
+| `LICENSE` | No | The license (free to use and share, with credit). |
 
 > Click any section below to open it. Every section is also in the app: **Tools**, then **Help**.
 
@@ -303,7 +320,7 @@ The tour highlights the real buttons, step by step (Next, Back, Skip; the arrow 
 <details>
 <summary><b>Updates</b></summary>
 
-Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.33"); the App tab and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
+Nothing updates by itself. To check for a newer version, open this page: the newest version is the **latest Release**. The version number is at the bottom of the app (for example "App v5.35"); the App tab and Help also show it. To update, replace your old file with the new one. Your saved student files are separate and keep working. The app's footer link, **Check for updates**, opens this page.
 </details>
 
 <details>
